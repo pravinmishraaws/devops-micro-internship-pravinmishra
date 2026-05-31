@@ -56,6 +56,20 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Badges unlock as I complete each week. To unlock: remove the `<!--` and `-->` around the badge line.*
 
+**Sample — this is what your stack looks like as it grows:**
+
+![AI](https://img.shields.io/badge/Agentic_AI-Claude_Code-purple?style=flat-square&logo=anthropic)
+![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange?style=flat-square&logo=linux)
+![Bash](https://img.shields.io/badge/Bash-Scripting-green?style=flat-square&logo=gnubash)
+![Git](https://img.shields.io/badge/Git-GitHub-black?style=flat-square&logo=github)
+![AWS](https://img.shields.io/badge/AWS-Cloud-FF9900?style=flat-square&logo=amazonaws)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square&logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat-square&logo=kubernetes)
+
+---
+
+**Your stack (uncomment each badge as you earn it):**
+
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- ![AI](https://img.shields.io/badge/Agentic_AI-Claude_Code-purple?style=flat-square&logo=anthropic) -->
 
