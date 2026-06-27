@@ -33,7 +33,17 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+### Comfort in Silence is the Longest Route to Stagnation
+
+Most people mistake agreement for harmony and silence for wisdom. But I've come to believe that staying quiet when you see a pattern pulling you or your team away from meaningful goals isn't peace-keeping; it's slow self-sabotage.
+
+Speaking up when something doesn't align with your purpose is not defiance or disruption. It's the most honest form of investment you can make in your own growth. The crowd moves by default; direction requires intention. And intention requires the courage to say, this isn't working — here's why.
+
+Yes, you risk being seen as difficult. You risk the discomfort of standing in contrast to the majority. But the alternative drifting along a path that leads nowhere you actually want to go costs far more in the long run. Time wasted following the wrong direction at full speed is still time wasted.
+
+The people around me often read speaking out as arrogance or impatience. I read it as self-respect. Growth doesn't come from fitting in; it comes from being honest enough with yourself and others — to say when something needs to change.
+
+Silence is comfortable. Purpose is not. And I'll take purpose.
 
 ---
 
@@ -55,11 +65,13 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Teaching others is the fastest path to mastery.
 
 ### Evidence from my life
 
-Add your answer here...
+Every time I've explained a concept to someone else, whether walking a colleague through a troubleshooting process or breaking down a technical idea, I noticed gaps in my own understanding I didn't know were there. 
+
+The act of teaching forced precision, and that precision became competence. I don't just remember what I taught; I own it.
 
 ---
 
@@ -67,11 +79,13 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Genuinely celebrating other people's wins creates a current that flows back to you.
 
 ### Evidence from my life
 
-Add your answer here...
+I am genuinely happy for people. it's just who I am. When someone wins, no matter how small, I feel it with them. And because that joy is real, not performed, life has always given me my own reasons to celebrate. Opportunities have found me. Relationships have grown deeper. 
+
+Cheering for others has never cost me anything, if anything, it keeps filling me back up.
 
 ---
 
@@ -79,11 +93,13 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Showing up consistently beats short bursts of hustle.
 
 ### Evidence from my life
 
-Add your answer here...
+There have been seasons where I pushed hard in short sprints, cramming, overworking, rushing to catch up and seasons where I showed up steadily, even imperfectly, day after day. The steady seasons always produced more.
+
+The skills I built gradually through daily practice in my technical work outlasted the ones I forced overnight. Doing a little, regularly, always took me further than doing a lot, once.
 
 ---
 
@@ -173,7 +189,13 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+There was a moment I stepped outside of who I am  and I felt it immediately. Not loud guilt at first, just numbness. A hollow stillness where my values used to speak clearly.
+
+Then the rest followed. Guilt that I no longer recognised myself. Shame, quiet and heavy. Stress that sat in the background of every moment. Regret for the person I had briefly become.
+
+I am grateful to God it was quickly redressed. The weight didn't get to settle. But I never forgot how it felt because stepping outside of who you truly are, even briefly, is a feeling you don't easily shake. 
+
+I don't belong in that web. And I never will again.
 
 ---
 
@@ -199,10 +221,10 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
+1. Change your thinking, Change your life - Brain Tracy
+2. Holy Spirit (Are we Flammable or Fireproof) - Reinhard Bonnke
+3. When God Speaks - Gbile Akanni
+4. The 5am Club - Robin Sharma
 5. Add your answer here...
 6. Add your answer here...
 7. Add your answer here...
