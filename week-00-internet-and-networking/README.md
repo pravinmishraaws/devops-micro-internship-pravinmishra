@@ -237,7 +237,7 @@ Paste your LinkedIn post URL here:
 
 ```text
 Add your URL here...
-```
+```https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477393811523014656-a2hh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0
 
 ---
 
@@ -247,7 +247,35 @@ Paste the full text of your LinkedIn post here:
 
 Add your post content here...
 
----
+🚀 Week 00 Complete — DevOps Micro Internship Cohort 3
+
+Here's what I covered this week:
+
+💬 ChatGPT as a Learning Tool
+Used AI to understand networking protocols with real-life examples — 
+a powerful way to accelerate learning.
+
+🌐 Internet & Networking
+Learned how packet switching, IP addresses, TCP/IP and HTTP/HTTPS 
+work together to deliver web pages globally.
+
+🏗️ Application Architecture
+Explored the difference between Two-Tier (Frontend + Database) and 
+Three-Tier (Frontend + Backend + Database) architectures and the 
+technologies used in each layer.
+
+🌍 DNS
+Understood how DNS translates domain names to IP addresses and why 
+an A Record is used to connect epicreads.com to its server IP.
+
+💻 VS Code Setup
+Configured my local development environment with VS Code and Git Bash 
+ready for the weeks ahead.
+Special thanks to my Mentor Pravin Mishra,co mentors Anjana Muthunayake Joy Ukpabi for your support and guidance
+ 
+P.S. This post is a part of DevOps Micro Internship with Agentic AI 
+Cohort-3 by Pravin Mishra. You can start your DevOps journey by 
+joining this Discord community: https://lnkd.in/eBSr4Bcs
 
 # Reflection – Week 0
 
