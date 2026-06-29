@@ -31,9 +31,10 @@ You will reuse this in later weeks. So do it properly once.
 
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
+
 ## Answer
 
-Add your answer here...
+I believe SUCCESS often comes from strategic quitting...knowing when to abandon a path that drains energy or offers diminishing returns. Most people glorify persistence, but walking away from the wrong pursuit can be the smartest move toward real achievement.
 
 ---
 
@@ -51,39 +52,31 @@ Write each truth in this format:
 
 ---
 
-## Truth #1
+Truth
 
-### Truth
+Consistent daily practice leads to measurable improvement.
 
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
+Evidence from my life
+When I committed to coding for at least 30 minutes every day, my debugging speed improved noticeably within two weeks. Problems that once took hours began to take minutes, proving consistency compounds results.
 
 ---
 
-## Truth #2
+Truth
 
-### Truth
+Sleep quality directly impacts productivity.
 
-Add your answer here...
-
-### Evidence from my life
-
-Add your answer here...
+Evidence from my life
+I experimented with sleeping 4–5 hours versus 7–8 hours. On shorter sleep, I struggled to focus and made frequent mistakes. With proper rest, I completed tasks faster and with fewer errors, showing rest is non-negotiable for peak performance.
 
 ---
 
-## Truth #3
+Truth
 
-### Truth
+Tracking progress accelerates growth.
 
-Add your answer here...
+Evidence from my life
 
-### Evidence from my life
-
-Add your answer here...
+I started journaling my daily goals and outcomes. Reviewing them weekly revealed patterns—like procrastination on complex tasks—that I could correct. This simple tracking system helped me achieve more in less time.
 
 ---
 
@@ -135,12 +128,28 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+My 2.0 Version
+By 2029, Abraham had established himself as a respected DevOps Engineer, known for blending technical mastery with leadership and community impact. After completing his DevOps training, he built a strong portfolio of projects that showcased automation pipelines, Kubernetes deployments, and cloud-native architectures across AWS and Azure.
+
+He shipped multiple enterprise-grade CI/CD pipelines that reduced deployment times from hours to minutes, earning recognition within his organization. His GitHub repositories became reference points for peers, featuring reusable Terraform modules and Ansible playbooks that simplified infrastructure management.
+
+He earned certifications in AWS Solutions Architect, Kubernetes Administration, and Azure DevOps, which validated his expertise and positioned him for senior roles. He led cross-functional teams in migrating legacy applications to containerized environments, improving scalability and reliability.
+
+Beyond his workplace, he contributed to the wider tech community. He published blogs on Medium detailing lessons learned from real-world DevOps challenges, and his articles on observability and automation were widely shared. He spoke at local tech meetups in Lagos, mentoring aspiring engineers and guiding them through hands-on projects.
+
+By 2028, he had relocated to a role where he managed global DevOps operations, overseeing distributed teams and ensuring seamless collaboration across continents. His leadership style was praised for balancing technical rigor with empathy, fostering environments where innovation thrived.
+
+He also launched a personal initiative: a micro-internship program inspired by his own journey, helping newcomers gain practical DevOps experience. Through this, he contributed to building the next generation of engineers, reinforcing his belief that success was not only about personal achievement but about lifting others along the way.
+
+Abraham's 2.0 version was defined by shipped projects, earned certifications, published insights, and community leadership—proof that his disciplined mindset and relentless execution transformed him into a recognized force in the DevOps world.
+
+ **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
 
 ### Public Link
 
 Paste your link here:
 
+https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 `__________________________`
 
 ---
@@ -165,7 +174,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+Yes
 
 If Yes:
 
@@ -173,7 +182,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+I once missed work simply to rest, even though I had deadlines to meet at the office. At the time, I felt overwhelmed and exhausted, so I chose recovery over responsibility. While the rest helped me regain energy, I didn’t feel good about the decision. I carried guilt knowing that my absence affected my commitments and possibly my team’s progress.
+
+The experience taught me that shortcuts, even when driven by self-care, can create mixed emotions—relief in the short term but discomfort in the long term. It reminded me that balance is essential: rest is necessary, but planning it responsibly ensures I don’t compromise integrity or professional obligations.
 
 ---
 
@@ -199,16 +210,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Deep Work – Cal Newport
+2. The 7 Habits of Highly Effective People – Stephen R. Covey
+3. Atomic Habits – James Clear
+4. Essentialism: The Disciplined Pursuit of Less – Greg McKeown
+5. Getting Things Done: The Art of Stress-Free Productivity – David Allen
+6. The Power of Full Engagement – Jim Loehr & Tony Schwartz
+7. Make Time: How to Focus on What Matters Every Day – Jake Knapp & John Zeratsky
+8. The Productivity Project – Chris Bailey
+9. Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time – Brian Tracy
+10. Indistractable: How to Control Your Attention and Choose Your Life – Nir Eyal
 
 ---
 
@@ -237,16 +248,14 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Focus time vs. distractions tracked
+* Deep work sessions per week
+* Energy levels during work sessions
+* Spending tracker (personal + career investments)
+* GitHub commits / portfolio updates
+* Certifications earned / skills added
+* Learning hours per week
+
 
 ---
 
@@ -270,10 +279,13 @@ Examples:
 
 **Yes / No**
 
-Answer:
+Answer: Yes
 
-Add your answer here...
-
+Complete Week 1–2 DevOps training modules.
+Establish daily health routine (sleep + workouts).
+Ship one containerized project using Docker + Kubernetes.
+Publish two more blogs (CI/CD + Infrastructure as Code).
+Review finances: savings, investments, career-related expenses.
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -298,11 +310,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Mondays or Wednesdays
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+3
 
 ---
 
@@ -324,27 +336,30 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realized that my productivity depends more on mindset and discipline than on tools. When I set clear focus blocks, I achieve more with less stress.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to overcommit and push myself until I feel overwhelmed, which leads to inconsistent output and missed deadlines.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will implement a daily 60-minute deep work block at 7:00 PM dedicated to DevOps practice and documentation, ensuring consistent progress without burnout.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
+https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 `__________________________`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: [**ADD LINK HERE**](https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)  
+
+
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
