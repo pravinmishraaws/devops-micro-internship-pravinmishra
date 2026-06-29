@@ -37,11 +37,11 @@ You will reuse this in later weeks. So do it properly once.
 
 Most people mistake agreement for harmony and silence for wisdom. But I've come to believe that staying quiet when you see a pattern pulling you or your team away from meaningful goals isn't peace-keeping; it's slow self-sabotage.
 
-Speaking up when something doesn't align with your purpose is not defiance or disruption. It's the most honest form of investment you can make in your own growth. The crowd moves by default; direction requires intention. And intention requires the courage to say, this isn't working — here's why.
+Speaking up when something doesn't align with your purpose is not defiance or disruption. It's the most honest form of investment you can make in your own growth. The crowd moves by default; direction requires intention. And intention requires the courage to say, this isn't working, here's why.
 
 Yes, you risk being seen as difficult. You risk the discomfort of standing in contrast to the majority. But the alternative drifting along a path that leads nowhere you actually want to go costs far more in the long run. Time wasted following the wrong direction at full speed is still time wasted.
 
-The people around me often read speaking out as arrogance or impatience. I read it as self-respect. Growth doesn't come from fitting in; it comes from being honest enough with yourself and others — to say when something needs to change.
+The people around me often read speaking out as arrogance or impatience. I read it as self-respect. Growth doesn't come from fitting in; it comes from being honest enough with yourself and others, to say when something needs to change.
 
 Silence is comfortable. Purpose is not. And I'll take purpose.
 
@@ -151,13 +151,55 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+### From support queue to production pipeline: how Oluwabunmi engineered her way into the cloud
+She started by resolving tickets for Microsoft Azure customers. A few years later, she was the one shipping infrastructure that thousands of workloads depended on — with monitors, runbooks, and published write-ups to prove every step.
+
+ ![Intro-Pix](screenshots/Intro-pix.png)
+
+
+Oluwabunmi Olowoyeye did not wait for permission. When she was still working as a technical support engineer, troubleshooting IaaS issues for Microsoft customers and digging into Azure IaaS at odd hours, she had already started building. Not just reading documentation, not just watching tutorials, building, committing, and shipping.
+
+By the time she transitioned fully into a DevOps engineering role, she had already proven the point most hiring managers want candidates to make she had done the work.
+
+![Projects done](screenshots/projects-pix.png)
+
+*“She didn’t just tell us what went wrong, she showed up to the next sprint with a working fix, a write-up, and an offer to walk the team through it.”*
+
+*— Engineering lead, a fintech platform in Amsterdam*
+
+That instinct, to document, to share, to make the path reusable became a throughline in Bunmi’s career. She published eighteen technical articles across Medium and dev.to covering Kubernetes disk management with KubeVirt, Git branch workflows for multi-environment deployments, and Azure infrastructure automation. Several were picked up by community newsletters. One became a pinned reference in a Microsoft Tech Community forum thread.
+
+Her GitHub profile told the same story. Clean commit histories, descriptive READMEs, reproducible environment setups. Not a portfolio assembled for a job application, it’s an actual record of work done across real projects, over time.
+
+![Certification](screenshots/Cert-pix.png)
+
+The certifications mattered, but they were confirmations, not foundations. Oluwabunmi had already been doing the work that AZ-400 tested, designing CI/CD pipelines, writing deployment strategies, governing Azure environments at scale. The credential named what she had built.
+
+Become a Medium member
+She also became someone others leaned on. She volunteered as a mentor through the Women in Cloud programme and an Amsterdam-based DevOps community group, working with over forty junior engineers across two years. She did not give generic advice. She reviewed their GitHub repositories, asked about their monitoring setups, pushed them to write up what they had shipped.
+
+In 2028, she co-organized a local DevOps meetup series that drew engineers from across the Netherlands. Three sessions, each centered on a live demo infrastructure automation, incident response, container security. No slides without working code.
+
+She received the Azure Community Champion award in 2029, recognized for her open-source contributions and the reach of her published technical writing. She accepted it, posted a short note on LinkedIn thanking the engineers who had pushed back on her pull requests over the years, and went back to work.
+
+*“To engineer reliable cloud solutions through automation.”*
+
+*— How she still describes her career goal, in exactly those words*
+
+That statement has not changed since she wrote it down years ago. What has changed is the evidence behind it: the production systems, the published articles, the mentees who shipped their own first projects, and the GitHub commit history that documents exactly how she got here.
+
+https://github.com/Bummieboaxyl https://bummie.name.ng https://linkedn.com/Bummie
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
+
+
+
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`https://medium.com/@bunmiolowoyeye20/from-support-queue-to-production-pipeline-how-oluwabunmi-engineered-her-way-into-the-cloud-3726bf46a342`
 
 ---
 
