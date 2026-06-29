@@ -34,9 +34,11 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+Protocols are agreed-upon rules that allow devices to communicate 
+over a network. Just like humans need a common language to 
+understand each other, computers need protocols like HTTP, TCP/IP 
+to exchange data reliably and consistently.
 
----
 
 # 🌐 Task 2: Internet and Networking
 
@@ -59,7 +61,17 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user types epicreads.com into their browser, the request 
+doesn't travel as one complete message. Instead, TCP/IP breaks it 
+into small units called packets. Each packet carries the destination 
+IP address of the server in Finland — a unique numerical label like 
+52.172.142.222 — that routers worldwide use to forward it through 
+the internet via packet switching. Different packets may travel 
+different routes but all arrive at the server and are reassembled 
+in the correct order by TCP. The browser and server then communicate 
+using HTTP or HTTPS — the protocol that defines how web pages are 
+requested and delivered. HTTPS adds encryption, keeping user data 
+like login details and payment information secure during transit.d your answer here...
 
 ---
 
@@ -102,18 +114,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+* HTML/CSS
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js/
+* Java (spring Boot)
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,9 +154,15 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
 
----
+
+DNS (Domain Name System) is the internet's phone book. It translates 
+human-friendly domain names like epicreads.com into machine-readable 
+IP addresses like 52.172.142.222, allowing browsers to locate the 
+correct server. To connect epicreads.com to that IP address, an 
+A Record should be used. An A Record maps a domain name directly 
+to an IPv4 address, making it the correct DNS record type for this 
+scenario.---
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
