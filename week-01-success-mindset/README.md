@@ -33,7 +33,13 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe the best DevOps engineers are not always the people who picked up Kubernetes first. They are often the people who spent years fixing broken processes, handling unhappy customers, and writing SOPs that teams actually follow.
+
+Most people around me still treat my ten-plus years in customer service, branch management, and sales operations as something I need to apologise for before anyone takes me seriously in cloud engineering. I disagree with that completely.
+
+When I managed support metrics at Invivo or coordinated branch operations at Bakangizo, I was already doing what DevOps asks for: watch the system, find where it fails, fix it, document it, and explain it clearly to people who depend on it. That is not a detour. That is the foundation.
+
+I think someone who has lived inside real operational pressure will handle production incidents with more calm and better judgement than someone who only knows the tools but has never been accountable when things go wrong.
 
 ---
 
