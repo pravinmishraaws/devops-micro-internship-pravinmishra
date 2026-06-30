@@ -33,7 +33,20 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe skills matter more than company loyalty, and that continuous 
+learning is the only real form of job security. Certificates without 
+real project experience carry little weight compared to demonstrated, 
+hands-on work. I also believe discipline and systems consistently 
+outperform motivation, which fades. Many people save aggressively 
+before they've built earning capacity, but I believe growing income 
+through valuable, in-demand skills matters more in the early stages 
+of a career. Health is not optional — it directly determines focus, 
+learning capacity, and long-term output. Titles and years of 
+experience mean very little without depth and measurable impact. 
+Comfort is actually risky, because it slows growth, while failure 
+and friction are often where real learning happens. In a fast-moving 
+industry like tech, staying adaptable, curious, and disciplined is 
+the only real form of career security.
 
 ---
 
@@ -55,11 +68,15 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistent practice converts weakness into strength faster than talent does.
 
 ### Evidence from my life
 
-Add your answer here...
+In secondary school I struggled badly with Further Mathematics, to the 
+point of dreading the subject and the teacher. My father hired a 
+private tutor who insisted on daily practice on every topic we 
+covered. Within a few months, the subject I once feared became my 
+strongest, and I ranked top of my class in Mathematics.
 
 ---
 
@@ -67,11 +84,16 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Income grows with the value you create, not with seniority or years served.
 
 ### Evidence from my life
 
-Add your answer here...
+Early in my telecom career as a Site Engineer, my salary plateaued 
+despite years of service. Rather than wait for recognition, I pursued 
+certifications and training to transition into a Technical Support 
+Engineer role. The shift in value I could deliver translated directly 
+into better compensation — proving that contribution, not tenure, 
+drives growth.
 
 ---
 
@@ -79,11 +101,14 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Feedback from reality is more reliable than opinions or assumptions.
 
 ### Evidence from my life
 
-Add your answer here...
+Across both my telecom and DevOps learning journeys, I've found that 
+testing an idea, measuring the outcome, and adjusting based on real 
+results consistently outperforms following advice or theory alone. 
+Assumptions without evidence stall progress; data and outcomes don't lie.
 
 ---
 
@@ -135,12 +160,55 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+Three years after stepping away from a long career in telecom 
+technical support, Ubani Onu Chukwu had fully rebuilt his professional 
+identity as a Cloud and DevOps Engineer — a transition he approached 
+not as a leap of faith, but as a deliberate, evidence-driven project.
+
+He began with structured learning under the DevOps Micro Internship 
+program led by Pravin Mishra, where he rebuilt his technical 
+foundation from first principles. Over the following months, he 
+shipped and published several end-to-end projects on GitHub: a 
+Dockerized Node.js application wired to a GitHub Actions CI/CD 
+pipeline, and a Terraform-provisioned AWS infrastructure project, 
+both documented publicly with clear records of the errors he hit 
+and how he resolved them. His commit history told the story before 
+his resume did — steady, visible, weekly progress.
+
+He earned the AWS Cloud Practitioner and Kubernetes Fundamentals 
+certifications, treating them as scaffolding rather than credentials 
+to display. Alongside the hands-on work, he published technical 
+write-ups on Linux fundamentals, cloud networking pitfalls, and the 
+mindset shift required to move from reactive telecom support into 
+automation-first thinking — choosing to document the messy middle 
+rather than only the polished wins.
+
+He landed his first DevOps-support role, where his fifteen years of 
+telecom experience became an unexpected advantage. Structured 
+troubleshooting, clear escalation discipline, and calm communication 
+under pressure — skills forged across thousands of live network 
+incidents — translated directly into how he handled deployment 
+failures and production alerts. He automated recurring health checks 
+with shell scripts and contributed to improving the team's incident 
+runbooks, reducing manual errors along the way.
+
+He also began freelance consulting on Upwork, applying his DevOps 
+skills to real client infrastructure while building a parallel 
+income stream and an independent portfolio.
+
+What carried him through wasn't talent or shortcuts — it was 
+consistency, public accountability, and a refusal to wait until he 
+felt "ready." His telecom background, once seen as a detour, became 
+the differentiator that set his DevOps profile apart.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI 
+Cohort-3 by Pravin Mishra. You can start your DevOps journey by 
+joining this Discord community: https://discord.pravinmishra.com/
 
 ### Public Link
 
 Paste your link here:
-
+https://www.linkedin.com/posts/onuchukwu-ubani-10004741_devops-cloud-cloudengineering-activity-7477746041337966592-eB-x?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0
 `__________________________`
 
 ---
@@ -173,7 +241,24 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes.
+
+During university, I was initially a disciplined and consistent 
+student. In my third year, I became part of a social circle that 
+prioritized social activities over academics, and many in that 
+group relied on cheating to pass exams. On one occasion, instead of 
+preparing properly, I joined them socially and attempted to cheat 
+during an exam. I was caught, and my exam paper was confiscated.
+
+The emotion that followed was sharp personal shame, compounded by 
+public embarrassment in front of peers and lecturers. There was also 
+a deep sense of regret — not just about the incident itself, but 
+about how far I had drifted from the standards I had set for myself. 
+That shame became a turning point rather than a setback. I 
+consciously distanced myself from that group, recommitted to 
+serious study, and finished my degree with strong results. The 
+discomfort of that moment taught me more about integrity and 
+long-term consequences than any success ever could.
 
 ---
 
@@ -199,16 +284,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Power of Habit — Charles Duhigg
+2. The Autobiography of Malcolm X — Malcolm X & Alex Haley
+3. Atomic Habits — James Clear
+4. Educated — Tara Westover
+5. The One Thing — Gary Keller & Jay Papasan
+6. The DevOps Career Handbook — O'Reilly Media
+7. The Art of Doing — Camille Sweeney & Josh Gosfield
+8. The Unicorn Project — Gene Kim
+9. Mindset: The New Psychology of Success — Carol S. Dweck
+10. Grit: The Power of Passion and Perseverance — Angela Duckworth
 
 ---
 
@@ -237,16 +322,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+- Learning hours and certifications in progress
+- Projects shipped and documented on GitHub
+- Deep work / focused study sessions per week
+- Sleep quality and physical activity
+- Mental wellness and energy levels
+- Time lost to distractions vs. high-value tasks
+- Income, savings, and freelance earnings
+- Networking and mentorship interactions
+- Blog posts / LinkedIn posts published
+- Upwork proposals sent and client conversations
 
 ---
 
@@ -272,7 +357,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,7 +375,11 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon–Fri: 1–2 hours of focused DMI coursework and hands-on labs after 
+work hours
+Wed evenings: Freelance/Upwork profile work and proposals
+Sat: DMI live session + review of the week's assignment
+Sun: Weekly review — what shipped, what's blocked, plan for next week
 
 ---
 
@@ -298,11 +387,12 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Weekday evenings (after work) and Saturday mornings, roughly 
+6:30–8:30 PM WAT on weekdays.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5–6 focused sessions per week, including the live Saturday session.
 
 ---
 
@@ -316,7 +406,10 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+- Phone on silent and out of reach during deep work blocks
+- No social media until after the day's DMI task is committed and pushed
+- Dedicated study space, separate from where I relax
+- One task open at a time — no multitasking between assignments and chat
 
 ---
 
@@ -324,21 +417,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I learned that I already have a track record of converting weakness 
+into strength through consistency — from struggling with mathematics 
+in school to switching technical disciplines mid-career. The same 
+pattern applies to this DevOps transition
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to delay starting until conditions feel "ready," even when 
+I have everything I need to begin. Waiting for the perfect moment 
+has cost me time in the past
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will commit to a fixed 6:30–8:30 PM WAT weekday block for DMI 
+work, with the rule that I start the timer the moment I sit down — 
+no warm-up scrolling first.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+__________________________`
 
 ---
 
