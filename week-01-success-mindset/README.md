@@ -436,15 +436,18 @@ no warm-up scrolling first.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+`https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477757720931151872-LKNQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0`
 
 __________________________`
-
+https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477757720931151872-LKNQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: **https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477757720931151872-LKNQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0**
+- Blog / Medium : **https://www.linkedin.com/posts/onuchukwu-ubani-10004741_devops-cloud-cloudengineering-activity-7477746041337966592-eB-x?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0**
+
+
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
