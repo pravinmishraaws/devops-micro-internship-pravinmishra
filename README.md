@@ -17,7 +17,7 @@
 | **LinkedIn** | [Abraham (DEV) Inwang](https://www.linkedin.com/in/abraham-inwang-695a67216/) |
 | **Location** | Lagos, Nigeria |
 | **Background** | DEVOPS|| IAM Engineer|| AWS/AZURE|
-| **Goal** | Become FREE to earn anywhere in the world, with tech skills |
+| **Goal** | Become FREE to earn anywhere in the world, with tech skills|
 
 ---
 
@@ -164,6 +164,6 @@ This is not a course. It is an internship-style program — real deployments, re
 If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
-- 🔗 Connect with me on [LinkedIn](#)
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/abraham-inwang-695a67216/)
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com
 - 💬 Join the community: https://discord.pravinmishra.com
