@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe building skills and real projects are more important/valuable than going after certifications , so many people around me like my brother,my friends from college always think getting certifications will get a good jobs.Yes they are usefull it will show you the path but wont give you destination that you need to reach, its part of the journey.Building projects showcasing the skills that you earned solving the problem and building a portfolio will get you a job(i don’t believe in going after certificate after certificate)
 
 ---
 
@@ -55,23 +55,22 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Being consistent create progress
 
 ### Evidence from my life
 
-Add your answer here...
-
+When I entered the tech/IT field, everything around me made me feel like I had chosen the wrong career. During my college years, I often doubted my decision to study Computer Engineering. But instead of giving up, I spent countless hours practicing, debugging errors in my code, and learning from my mistakes. Slowly, the same field that I once believed was not meant for me became the field I chose to build my career in
 ---
 
 ## Truth #2
 
 ### Truth
 
-Add your answer here...
+Watching Videos wont teach you anything
 
 ### Evidence from my life
 
-Add your answer here...
+Concepts became more clear when i actually tried them myself. Fixing problems, Troubleshooting errors helped me understand how this works easily instead of watching tutorials and memorizing it
 
 ---
 
@@ -79,11 +78,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Theory wont help
 
 ### Evidence from my life
 
-Add your answer here...
+Whenever i faced issues in code, I learned most by decoding what really happend and trying different solution to solve the cause 
 
 ---
 
@@ -135,11 +134,18 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+My journey from a beginner exploring Linux and cloud technologies turned into a strong DevOps engineering career.I built my foundation by learning new concepts, experimenting consistently, and creating real-world projects.Instead of just watching tutorials, I spent time practicing what I learned and understanding how things worked behind the scenes.I progressed from learning the basics to working as a DevOps Engineer who contributed to realworld systems.I worked with cloud platforms, automation tools, and modern DevOps practices. I built projects that proved my skills and created a portfolio that showed my journey and growth.Every project taught me something new, whether it was fixing deployment issues, writing automation scripts, or setting up cloud infrastructure.
+
+I was no longer the same person who only followed tutorials.I became an engineer who understood why systems worked the way they did and how they could be improved.Instead of looking for answers, I learned how to troubleshoot problems, find the root cause of issues, and build better solutions through practice.
+
+My GitHub portfolio reflected my practical experience through projects involving cloud automation, scripting, deployments, and infrastructure. I kept improving my skills by documenting what I learned, writing blogs, trying new technologies, and earning AWS and Azure certifications. Looking back at my portfolio, it clearly showed how much I had improved over the years.
+With three to four years of experience, I contributed to system design decisions and helped teams deliver software faster and more reliably.I worked closely with developers, shared my knowledge with team members, and helped beginners who were starting their DevOps journey. I believed that learning was even more valuable when it was shared with others.
+
+The biggest change? I became more disciplined, curious, and focused on solving real problems. The person who once doubted whether he belonged in technology had grown into a confident DevOps Engineer who enjoyed learning, building, and continuously improving every day.
 
 ### Public Link
 
-Paste your link here:
+https://medium.com/@abhinav1712003/the-future-2-0-152477599749
 
 `__________________________`
 
@@ -173,7 +179,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Felt uncomfortable, i knew i was choosing an easy path instead of the genuine,right path. That experience always reminded me that it will save you some time but it is temporary, Effected my confidence and trust in myself
 
 ---
 
@@ -199,16 +205,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits - James Clear
+2. Ikigai - Hector Garcia
+3. The Psycology of Money - Morgan Housel
+4. How to Stop Overthinking - Rithvik Singh
+5. Zero to One - Peter Theil
+6. Mindset - Carlo S Dwek
+7. Deep Work - James Clear
+8. The 7 Habits of Highly Effective People - Stephen R covey
+9. Why We Sleep - Matthew Walker
+10. Rich Dad Poor Dad - Robert Kiyosaki
 
 ---
 
@@ -237,16 +243,14 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning Hours
+* Projects Completed
+* Workout Routine
+* Sleep Quality
+* Time spent on Social Media
+* Distractions
+* Financial Tracking
+
 
 ---
 
@@ -272,7 +276,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,19 +294,20 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
-
+* Mon-Fri: Daily learning and pactice
+* Sat: DMI session + Weekly revison
+* Sun: Research,Planning,Project Work
 ---
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Mon-Fri 2-4 hour each
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+4-5 session
 
 ---
 
@@ -316,7 +321,10 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+No Social Media during learning time
+Keep the phone away during deep work
+Focused study session without interuptions
+
 
 ---
 
@@ -324,19 +332,19 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+Consistency and curiosity about what comes next
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+Managing time: need to improve managing time use it properly instead of wasting it
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Will maintain fixed learning routine and improve productivity
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+https://lnkd.in/p/ehyZ-Cka
 
 `__________________________`
 
@@ -344,8 +352,8 @@ Paste your LinkedIn post link here:
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **https://lnkd.in/p/ehyZ-Cka**  
+- Blog / Medium : **https://medium.com/@abhinav1712003/the-future-2-0-152477599749**  
 
 ---
 
