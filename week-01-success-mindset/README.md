@@ -61,11 +61,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Discipline beats motivation every single time, no exception.
 
 ### Evidence from my life
 
-Add your answer here...
+Building CiroLearn while still doing HR consulting and client social media work meant most mornings I did not feel like showing up. I stopped waiting to feel ready and just followed a fixed structure instead. The ten courses launched, testimonials came in, and the placement pipeline started moving, not because inspiration hit, but because I kept the schedule even on the low days.
 
 ---
 
@@ -73,11 +73,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+A written, followed process will outperform a talented person working purely from memory.
 
 ### Evidence from my life
 
-Add your answer here...
+Across my years in customer service and branch administration, the teams that hit targets consistently were not always the most naturally gifted, they were the ones executing an SOP I had documented and refined. At Bakangizo, once onboarding and cost-tracking steps were written down clearly, new hires ramped up faster and errors dropped, even though the people themselves had not changed.
 
 ---
 
@@ -85,11 +85,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Organic proof convinces people faster than paid promotion ever will.
 
 ### Evidence from my life
 
-Add your answer here...
+For CiroLearn, I deliberately chose to grow through real testimonials, flyers, and word of mouth instead of running ads. Applicants who came in through a friend's success story or a genuine review converted into serious, committed students far more often than anything I could have boosted with a budget. The results made the choice easy to repeat.
 
 ---
 
@@ -141,7 +141,21 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+**From Branch Offices to Build Pipelines: How Eze Favour Rebuilt Her Career Around Cloud**
+
+Five years ago, Eze Favour was running customer service metrics at a health and beauty company in Abuja, writing SOPs by hand and coaching staff through complaints. Today, she leads infrastructure reliability conversations from a very different seat, and the distance between those two points was closed one deliberate sprint at a time.
+
+Favour started the DevOps Micro Internship with Agentic AI in June 2026 while still running CiroLearn, the pan-African talent training platform she founded, and while managing social media accounts for three external clients. She did not pause her businesses to learn. She stacked the learning on top of the businesses and built her weeks around both.
+
+Within the first year, she shipped her first Terraform-provisioned AWS environment and documented it publicly, drawing comments from engineers who had never met her but respected the clarity of her writing. She earned her AWS certification eighteen months into the pivot, then contributed a CI/CD template to an open-source DevOps starter kit that other early-career engineers began forking for their own projects.
+
+CiroLearn, meanwhile, did not slow down. Under her leadership, the platform crossed its five-year milestone as one of the recognised talent placement pipelines on the continent, having placed graduates across cloud, cybersecurity, and product roles at a rate that outpaced the industry standard she had once written down as a goal on paper.
+
+She published a running blog series chronicling the switch from a decade in customer operations and sales into cloud engineering, and that series became required reading inside the DMI community for career-changers who doubted whether a "non-technical" background could hold up. Favour proved, in her own words and her own commits, that it could.
+
+She relocated her focus, if not always her city, toward remote-first cloud teams, and led onboarding documentation for two of them. The girl who once explained refund policies to frustrated customers now explains rollback strategies to engineering teams, and she will tell you plainly that both jobs asked for the same thing: stay calm, find the fault, fix it, write it down.
+
+> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
 
 ### Public Link
 
@@ -179,7 +193,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+**Yes.**
+
+Early in my career, under pressure to hit a deadline, I submitted a report without going back to double-check a few figures I was not fully confident in. It got approved and nothing blew up, but I carried a quiet unease for days afterward, not because anyone caught it, but because I knew I had let speed override accuracy. That discomfort taught me more than any lecture could have. Now, whatever role I am in, whether HR, client content, or a DevOps deployment, I build in a deliberate second check before anything goes out, precisely because I remember how that unease felt and I do not want to carry it again.
 
 ---
 
@@ -205,16 +221,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+2. Deep Work — Cal Newport
+3. The Phoenix Project — Gene Kim, Kevin Behr, George Spafford
+4. The Lean Startup — Eric Ries
+5. Rich Dad Poor Dad — Robert Kiyosaki
+6. Extreme Ownership — Jocko Willink and Leif Babin
+7. Crucial Conversations — Kerry Patterson, Joseph Grenny, Ron McMillan, Al Switzler
+8. The Effective Executive — Peter Drucker
+9. Show Your Work! — Austin Kleon
+10. The Culture Code — Daniel Coyle
 
 ---
 
@@ -243,16 +259,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* DMI learning hours per week
+* Hands-on projects shipped and documented (Git commits, write-ups)
+* CiroLearn student enrollments and placement rate
+* Client content delivered on schedule (Ifirika, Cosmo Cosmetics, Perfume Market Nigeria)
+* Deep work sessions completed per week
+* Sleep hours
+* Energy levels / days without burnout symptoms
+* Personal and business spending tracker
+* Certifications earned or in progress
+* Weekly review completion (did I actually sit down and reflect)
 
 ---
 
@@ -278,7 +294,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+**Yes.** I sat down with a notebook and emptied out everything I was carrying, from pending CiroLearn onboarding messages, to client content deadlines, to the DMI weekly assignments, to money I need to set aside, to the nagging worry that I am spreading myself too thin across HR, CiroLearn, client work, and this pivot. Getting it all out of my head and onto paper made it obvious that most of it was manageable once it was actually written down instead of just floating around in my mind.
 
 ---
 
@@ -296,7 +312,10 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon–Fri mornings: 60–90 min DMI deep work before client and CiroLearn tasks start
+* Mon–Fri: CiroLearn operations, HR consulting, and client social media work across the rest of the day
+* Sat: Longer DMI build session plus assignment submission
+* Sun: Weekly review, plus planning the week ahead for both DMI and CiroLearn
 
 ---
 
@@ -304,11 +323,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday to Friday, early morning (before the day's client and CiroLearn tasks begin), with a longer session on Saturday.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+6 sessions per week (5 short weekday sessions, 1 longer Saturday session).
 
 ---
 
@@ -322,7 +341,10 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Phone on silent and out of reach during DMI deep work blocks
+* No checking client social media accounts or CiroLearn messages during the morning DMI session, those get a fixed time slot later
+* One dedicated workspace for DMI work, separate from where I do client content, to keep the two from bleeding into each other
+* Notifications off during any timed task, whether it is a DMI assignment or a client deliverable
 
 ---
 
@@ -330,15 +352,15 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I realised I have already been operating like a DevOps engineer for years, just without the cloud tools. Watching systems, catching failures early, documenting fixes, and communicating clearly under pressure is exactly what I did in customer service and branch administration. The tools are new, the instinct is not.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I tend to let urgent client and CiroLearn requests eat into time I had blocked for deep, focused learning, then try to make it up late at night when I am already tired and less effective.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Starting Monday, my DMI deep work block (6:00 AM to 7:30 AM) becomes non-negotiable and happens before I open any client or CiroLearn messages, no exceptions.
 
 ### LinkedIn Post
 
