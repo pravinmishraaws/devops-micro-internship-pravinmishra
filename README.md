@@ -13,19 +13,19 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | George Epebifie |
+| **LinkedIn** | [George Epebifie](https://www.linkedin.com/in/wisgeorge1/) |
+| **Location** | Lagos, Nigeria |
+| **Background** | Cloud, DevOps, Infrastructure Administration & AI Enthusiast |
+| **Goal** | To Become a Highly Sought after DevOps professionals |
 
 ---
 
 ## About the Program
 
-**DevOps Micro Internship with Agentic AI** is a 15-week mentor-led cohort program by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) — Cloud, DevOps & AI consultant with 15+ years of experience, 5,000+ learners trained, and 20K+ LinkedIn followers.
+**DevOps Micro Internship with Agentic AI** is a 15 week mentor led cohort program by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) — Cloud, DevOps & AI consultant with 15+ years of experience, 5,000+ learners trained, and 20K+ LinkedIn followers.
 
-This is not a course. It is an internship-style program — real deployments, real pipelines, real evidence reviewed by mentors every week.
+This is not a course. It is an internship style program — real deployments, real pipelines, real evidence reviewed by mentors every week.
 
 - 🌐 Program Website: https://dmi.pravinmishra.com
 - 💬 Discord Community: https://discord.pravinmishra.com
@@ -56,7 +56,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/wisegeorge1/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -64,13 +64,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ---
 
-**Your stack (uncomment each badge as you earn it):**
+**Your stack :**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+Week 00 → Internet & Networking Basics 
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+Week 01 → Success Mindset
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -111,7 +111,7 @@ This is not a course. It is an internship-style program — real deployments, re
 <!-- Week 14 → Final Project / Capstone -->
 <!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
 
-*Complete a week → uncomment the badge → watch your stack grow.*
+
 
 ---
 
@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/wisgeorge1_pravin-mishra-the-cloudadvisory-linkedin-activity-7445137604108505088-mFgw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/pulse/what-5-years-consistency-did-devops-engineer-inspire-you-epebifie-oensf | https://cloudly.hashnode.dev/what-5-years-of-consistency-did-for-this-devops-engineer-will-inspire-you |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
