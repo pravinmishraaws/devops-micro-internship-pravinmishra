@@ -432,23 +432,7 @@ A daily one hour focus block dedicated to deep DevOps practice, no distractions.
 
 Paste your LinkedIn post link here:
 
-This week taught me something about myself I needed to hear: my dedication and consistency in pursuing a career in DevOps are not going unnoticed — at least not by me.
-
-I've shown up, learned, practiced, and kept going, even on the days motivation was nowhere to be found.
-
-But here's the honest part: imposter syndrome is still very much a companion on this journey. Even with visible progress, there's a quiet voice asking if I'm doing enough, learning fast enough, or truly capable enough.
-
-Instead of waiting for that voice to disappear, I'm starting a new system this week:
-
-→ A daily one hour deep focus block for hands-on DevOps practice
-
-→ A weekly review every to track what I've learned, built, and improved
-
-The goal isn't to silence imposter syndrome with positive thinking. It is to drown it out with evidence. Real, measurable proof of growth, one consistent day at a time.
-
-If you're on a similar journey into DevOps, cloud, or any technical career shift I'd love to hear how you're tracking your own growth.
-
-#DevOps #CloudEngineering #CareerGrowth #ConsistencyOverMotivation #ImposterSyndrome
+https://www.linkedin.com/posts/bummie_devops-cloudengineering-careergrowth-share-7477757210178232320-rrjt/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw
 
 ---
 

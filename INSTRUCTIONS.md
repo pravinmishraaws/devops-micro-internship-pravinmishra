@@ -87,7 +87,7 @@ When Pravin updates this repo (new weeks, corrections, new content), you can pul
 
 ```bash
 # Do this once to link the original repo
-git remote add upstream https://github.com/pravinmishraaws/devops-micro-internship-pravinmishra
+
 
 # Each time you want to sync
 git fetch upstream
