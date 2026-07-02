@@ -192,16 +192,17 @@ Choose books that improve:
 
 ## Book List
 
-1. 5am club
-2. 
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits - James Clear
+2. Deep Work - Cal Newport
+3. How to Win Friends and Influence People
+ - Dale Carnegie
+4. The Psychology of Money - Morgan Housel
+5. The 7 Habits of Highly Effective People - Stephen R. Covey
+6. Leaders Eat Last - Simon Sinek
+7. The First 90 Days - Michael D. Watkins
+8. The Effective Executive - Peter F. Drucker
+9. Outlive: The Science and Art of Longevity - Peter Attia (with Bill Gifford)
+10. So Good They Can't Ignore You - Cal Newport
 
 ---
 
@@ -230,16 +231,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* 2 hours learning per day
+* Deep work sessions per week
+* Project documentation
+* Little exercise
+* Relate with new people
+* Get a professional cerfificate
+* online research
+* 6 hours sleep per day
+* Minimize time for social media
+* Having saving plan
 
 ---
 
@@ -265,8 +266,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
-
+Yes
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -283,21 +283,22 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon–Fri: 8 hours deep work
+* Sat: DMI session
+* Sun: Weekly review
 
----
 
 ### Focus Blocks
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+DMI work wil be done between 3-4 days
 
 #### How Many Sessions Per Week?
 
 Add your answer here...
 
----
+--- 1 or more sessions per week
 
 ### Distraction Rules
 
@@ -311,7 +312,7 @@ Examples:
 
 Add your answer here...
 
----
+--- Phone rules: 1 hour on social media
 
 # Reflection – Week 1
 
