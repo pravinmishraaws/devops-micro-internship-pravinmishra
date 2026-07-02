@@ -171,8 +171,8 @@ Today George Epebifie is known for more than being good at cloud architecture. H
 ### Public Link
 
 [Paste your link here:]
-https://www.linkedin.com/pulse/what-5-years-consistency-did-devops-engineer-inspire-you-epebifie-oensf
-(https://cloudly.hashnode.dev/what-5-years-of-consistency-did-for-this-devops-engineer-will-inspire-you)
+https://www.linkedin.com/pulse/what-5-years-consistency-did-devops-engineer-inspire-you-epebifie-o7cpf
+https://cloudly.hashnode.dev/what-5-years-of-consistency-did-for-this-devops-engineer-will-inspire-you
 
 `__________________________`
 
@@ -395,7 +395,7 @@ Paste your LinkedIn post link here: https://www.linkedin.com/posts/wisgeorge1_jo
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **(https://www.linkedin.com/pulse/what-5-years-consistency-did-devops-engineer-inspire-you-epebifie-oensf)**  
+- LinkedIn Post URL: **https://www.linkedin.com/pulse/what-5-years-consistency-did-devops-engineer-inspire-you-epebifie-oensf**  
 - Blog / Medium : **https://cloudly.hashnode.dev/what-5-years-of-consistency-did-for-this-devops-engineer-will-inspire-you**  
 
 ---
