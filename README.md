@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Peace Offor Nwadinachi |
+| **LinkedIn** | [peace-offor-nwadinachi](https://www.linkedin.com/in/peace-offor-aa736a147?trk=contact-info) |
+| **Location** | Lagos, Nigeria |
+| **Background** | Aspiring Agentic DevOps Engineer |
+| **Goal** | Build expertise in DevOps, Cloud Engineering, and AI while creating impactful projects and contributing to open-source communities |
 
 ---
 
@@ -64,13 +64,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ---
 
-**Your stack (uncomment each badge as you earn it):**
+**Your stack**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+Week 00 → Internet & Networking Basics 
+ [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+ Week 01 → Success Mindset 
+ [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -132,8 +132,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed| ✅ Completed | https://www.linkedin.com/posts/peace-offor-aa736a147_join-the-dmi-devops-micro-internship-share-7477729743216361472-96WQ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-0-reflection-understanding-the-internet-changed-the-way-i-see-technology-985a4ee5b2f6 |
+| 01 | Success Mindset | ✅ Completed| ✅ Completed| https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-mindset-ugcPost-7478047889144029185-Cei8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ | https://medium.com/@poffor762/week-1-reflection-the-devops-success-mindset-that-changed-how-i-learn-61b6dd55ddf1 | 
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
