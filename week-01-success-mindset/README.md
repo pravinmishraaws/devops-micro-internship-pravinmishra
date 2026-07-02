@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-The truth I believed that most people around me will diasgree with is that you can only boldly defend and proof what you have done, tested and implemented. Most of the people don't want to pass through this proccess, they thought shortcut is the best way rather than passing through the proccess that required time for learning, testing and impelementing it.
+The truth I believed that most people around me would diasgree with is that, you can only defend and proof boldly of what you have done, tested and implemented. Most of the people don't want to pass through this proccess, they thought shortcuts is the best way rather than passing through the proccess that required time for learning, testing and impelementing it.
 ---
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
@@ -42,49 +42,25 @@ The truth I believed that most people around me will diasgree with is that you c
 
 Objective truths do not depend on opinions. They hold true regardless of how people feel.
 
-Write each truth in this format:
-
-**Truth:** (1 sentence)
-
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
-
---- 
 
 ## Truth #1
-
-### Do a deep search of knowlege
-
-Add your answer here...
+Do a deep search of knowlege
 
 ### Evidence from my life
 
-Add your answer here...
-
----
+The evidence from my experience is that no knoledge is a waste. Searching for knowledge every by learning new things every day is very helpfull in journey of life. Doing this with consistently will leads to successfull life
 
 ## Truth #2
-
-### Have a mentor
-
-Add your answer here...
+Have a mentor and good connection. Having a mentor is very important in career journey because it will make the journey be smooth and faster
 
 ### Evidence from my life
-
-Add your answer here...
-
----
+The evidence I have from my life is experience is that you almost become achieve what your mentor has achieved 
 
 ## Truth #3
-
-### Ready to say no 
-
-Add your answer here...
+Never Give Up
 
 ### Evidence from my life
-
-Add your answer here...
-
----
+The evidence in my life for me to say "Never Give Up" is that life is full of chanlenge. The only people that overcme the challenge is the winner and can be congratulated. Failure might be too chalenging some times, but been focused and eager to overcome the failure is the key to successful life.
 
 # Assignment 3. What does your 2.0 version look like?
 
@@ -134,7 +110,25 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+# What My 2.0 Version Looked Like
+
+When people spoke about Taiwo Olatunji a few years ago, they described him as a determined IT professional with a passion for technology. Today, that description had evolved into something much greater. He had established himself as a respected Cloud, Network, and Cybersecurity Engineer whose work created measurable impact across organizations and communities.
+
+Over the years, Taiwo built secure and scalable cloud infrastructures, deployed enterprise-grade networking solutions, and strengthened cybersecurity systems for businesses across multiple industries. He successfully shipped several cloud migration and automation projects that reduced operational costs, improved system availability, and enhanced business continuity. His technical expertise expanded across AWS, Microsoft Azure, Google Cloud, Linux administration, DevOps, Fiber Optics, and Data Center engineering.
+
+His professional portfolio became a reflection of continuous growth. He published technical articles and practical tutorials on cloud computing, cybersecurity, networking, and automation through his personal blog and LinkedIn, helping thousands of aspiring technology professionals understand complex concepts with ease. His GitHub repository showcased real-world projects, including cloud infrastructure deployments, network automation scripts, cybersecurity labs, Docker implementations, Kubernetes environments, and Infrastructure as Code solutions using Terraform.
+
+Taiwo earned globally recognized certifications, including AWS Solutions Architect, Cisco CCNP Enterprise, Microsoft Azure Administrator, Google Professional Cloud Engineer, CompTIA Security+, and Certified Ethical Hacker (CEH). These certifications complemented years of hands-on experience and positioned him as a trusted technical leader.
+
+Professionally, he progressed from IT Support Engineer to Network Engineer, then to Cloud Engineer and eventually assumed leadership responsibilities as a Senior Cloud Infrastructure and Security Engineer. He led cross-functional teams that designed resilient systems, mentored junior engineers, and implemented best practices that significantly improved service reliability and security compliance.
+
+Beyond his career, Taiwo contributed actively to the technology community. He volunteered as a mentor for aspiring IT professionals, organized free virtual training sessions on cloud computing and cybersecurity, and supported students preparing for professional certification exams. His mentorship helped many young professionals secure internships and full-time roles within the technology industry.
+
+His commitment to lifelong learning remained evident through continuous participation in bootcamps, hackathons, open-source contributions, and industry conferences. Rather than simply following technological trends, he consistently contributed solutions that addressed real-world business challenges.
+
+By this stage of his journey, Taiwo had also relocated to work on international technology projects, collaborating with global teams and delivering solutions that served organizations beyond Nigeria. His ability to combine technical excellence, effective communication, and servant leadership earned him recognition from employers, professional communities, and industry partners.
+
+Looking back, his transformation was never defined by a single achievement. It was built through consistent learning, disciplined execution, meaningful contributions, and an unwavering commitment to excellence. His story became a powerful reminder that sustained growth, practical experience, and a desire to empower others could transform a passionate IT professional into a globally recognized technology leader.
 
 ### Public Link
 
@@ -174,7 +168,7 @@ If Yes:
 
 Add your answer here...
 
----
+---No, I never cut coner
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
 
@@ -198,8 +192,8 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
+1. 5am club
+2. 
 3. Add your answer here...
 4. Add your answer here...
 5. Add your answer here...
