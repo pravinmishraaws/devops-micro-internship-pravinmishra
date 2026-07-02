@@ -161,8 +161,8 @@ Today, Peace is recognized not just for technical expertise but for leadership, 
 
 ### Public Link
 
-Paste your link here:
-`https://medium.com/@poffor762/the-journey-of-a-devops-engineer-who-built-solutions-with-purpose-e00242675a75`
+Paste your link here: https://medium.com/@poffor762the-journey-of-a-devops-engineer-who-built-solutions-with-purpose-e00242675a75
+
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -387,16 +387,15 @@ I noticed that I sometimes spend too much time trying to get every detail right 
 From Monday to Friday, I will dedicate 6:00 PM to 9:00 PM exclusively to the DevOps Micro Internship. During this time, I will complete lessons, practice hands-on exercises, update my GitHub repository, and document what I learned. Every Sunday from 2:00 PM to 5:30 PM, I will review my progress, identify improvement areas, and plan the following week's priorities.
 
 ### LinkedIn Post
-
-Paste your LinkedIn post link here:
-`https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-github-ugcPost-7478105946355924992-F3bN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
+ 
+Paste your LinkedIn post link here: https://www.linkedin.com/posts/peace-offor-aa736a147_devops-softwareengineering-github-ugcPost-7478105946355924992-F3bN/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ
 ---
 
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-ugcPost-7478434369045630976-89Kg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**  
-- Blog / Medium : **(https://medium.com/@poffor762/my-first-week-in-the-devops-micro-internship-cohort-3-lessons-beyond-git-and-github-a5df809422f6?sharedUserId=poffor762)**  
-- Blog / Twitter : **(https://x.com/girle_pea/status/2072700232249274869?s=46&t=GvsF1YPuhxtQba7dpNm_PQ)**  
+- Blog / Medium : **https://medium.com/@poffor762/my-first-week-in-the-devops-micro-internship-cohort-3-lessons-beyond-git-and-github-a5df809422f6?sharedUserId=poffor762**  
+- Self Written Blog / Twitter : **https://x.com/girle_pea/status/2072700232249274869?s=46&t=GvsF1YPuhxtQba7dpNm_PQ**  
 ---
 
 ## 📌 About DMI & CloudAdvisory
