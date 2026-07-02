@@ -213,16 +213,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. **Atomic Habits** — James Clear *(Habits & Productivity)*
+2. **The First 20 Hours** — Josh Kaufman *(Learning New Skills Faster)*
+3. **The Coaching Habit** — Michael Bungay Stanier *(Communication & Leadership)*
+4. **The Psychology of Money** — Morgan Housel *(Personal Finance)*
+5. **The Checklist Manifesto** — Atul Gawande *(Decision Making & Process Improvement)*
+6. **Essentialism** — Greg McKeown *(Focus & Prioritization)*
+7. **The One Thing** — Gary Keller & Jay Papasan *(Productivity & Time Management)*
+8. **Make Time** — Jake Knapp & John Zeratsky *(Focus & Daily Effectiveness)*
+9. **The Almanack of Naval Ravikant** — Eric Jorgenson *(Career, Wealth & Decision Making)*
+10. **The Effective Executive** — Peter F. Drucker *(Leadership & Professional Growth)*
 
 ---
 
@@ -282,6 +282,7 @@ Examples:
 Answer:
 
 Partially Yes.
+
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -298,9 +299,9 @@ Example:
 
 #### My Weekly Routine
 
-* Mon - Fri: 30-60 min deep work
-* Sat: DMI session
-* Sun: Weekly review
+* **Mon - Fri**: 30-60 min deep work
+* **Sat**: DMI session
+* **Sun**: Weekly review
 
 ---
 
@@ -349,7 +350,7 @@ One recurring pattern I observed is that I often set a high standard for my own 
 
 ### One system I will implement from this week (exact habit + time)
 
-🤞 Every Friday from 6:30 PM to 7:00 PM, I will review the week's progress, document key learnings, and plan the three most important priorities for the following week.
+🤞 Every Sunday from 6:30 PM to 7:00 PM, I will review the week's progress, document key learnings, and plan the three most important priorities for the following week.
 
 ### LinkedIn Post
 
