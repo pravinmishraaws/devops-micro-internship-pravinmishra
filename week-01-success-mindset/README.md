@@ -161,7 +161,7 @@ She relocated her focus, if not always her city, toward remote-first cloud teams
 
 Paste your link here:
 
-`__________________________`
+`_https://www.linkedin.com/posts/eze-favour-52732752_what-my-version-20-looks-like-five-years-share-7478466873852997632-WQ79/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAAsVGC8BeMs7INDCBrG_mYeb0V1cNjGv7_________________________`
 
 ---
 
@@ -294,7 +294,7 @@ Examples:
 
 Answer:
 
-**Yes.** I sat down with a notebook and emptied out everything I was carrying, from pending CiroLearn onboarding messages, to client content deadlines, to the DMI weekly assignments, to money I need to set aside, to the nagging worry that I am spreading myself too thin across HR, CiroLearn, client work, and this pivot. Getting it all out of my head and onto paper made it obvious that most of it was manageable once it was actually written down instead of just floating around in my mind.
+Yes. I sat down with a notebook and emptied out everything I was carrying, from pending CiroLearn onboarding messages, to client content deadlines, to the DMI weekly assignments, to money I need to set aside, to the nagging worry that I am spreading myself too thin across HR, CiroLearn, client work, and this pivot. Getting it all out of my head and onto paper made it obvious that most of it was manageable once it was actually written down instead of just floating around in my mind.
 
 ---
 
