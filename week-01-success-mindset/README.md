@@ -32,8 +32,16 @@ You will reuse this in later weeks. So do it properly once.
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
 ## Answer
+Your idea is strong, but it has several grammar, spelling, and clarity issues. Here's a polished, more natural version that preserves your original meaning while making it more compelling.
 
-The truth I believed that most people around me would diasgree with is that, you can only defend and proof boldly of what you have done, tested and implemented. Most of the people don't want to pass through this proccess, they thought shortcuts is the best way rather than passing through the proccess that required time for learning, testing and impelementing it.
+**My belief that most people around me would disagree with is this: you can only confidently defend and stand behind something you have personally done, tested, and implemented.**
+
+Many people prefer shortcuts because they believe they are the fastest way to achieve success. However, I believe that true confidence and expertise come from investing time in the learning process, experimenting, making mistakes, and applying knowledge in real-world situations.
+
+When you have personally built, tested, and implemented something, you gain a deeper understanding of how it works. That experience enables you to explain your decisions, solve unexpected problems, and defend your work with confidence. While shortcuts may produce quick results, they rarely provide the depth of knowledge and practical experience needed for long-term success.
+
+For me, the process of learning, testing, and implementing is far more valuable than simply arriving at the destination. It is the journey that builds competence, credibility, and the confidence to stand by your work.
+
 ---
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
@@ -44,23 +52,23 @@ Objective truths do not depend on opinions. They hold true regardless of how peo
 
 
 ## Truth #1
-Do a deep search of knowlege
+Doing a deep search of knowledge
 
 ### Evidence from my life
 
-The evidence from my experience is that no knoledge is a waste. Searching for knowledge every by learning new things every day is very helpfull in journey of life. Doing this with consistently will leads to successfull life
+The evidence from my life experience is that no knoledge is wasted. Searching deeply for knowledge by learning new things everyday is very helpfull in journey of life. Doing this consistently will leads to successfull life.
 
 ## Truth #2
-Have a mentor and good connection. Having a mentor is very important in career journey because it will make the journey be smooth and faster
+Have a Mentor and Build a Good Connection.
 
 ### Evidence from my life
-The evidence I have from my life is experience is that you almost become achieve what your mentor has achieved 
+The evidence I have from my life experience is that you almost become or achieve what your mentor has become or achieved.  Having a mentor is very important in career journey because it will make the journey smoother and faster. 
 
 ## Truth #3
 Never Give Up
 
 ### Evidence from my life
-The evidence in my life for me to say "Never Give Up" is that life is full of chanlenge. The only people that overcme the challenge is the winner and can be congratulated. Failure might be too chalenging some times, but been focused and eager to overcome the failure is the key to successful life.
+The evidence from my life that supports my belief to  "Never Give Up" is that life is full of chanlenges. The people who overcome those challenges are the winners and desrved to be congratulated. Failure may be very chalenging sometimes, but staying focused and eager to overcome the failure is the key to successful life.
 
 # Assignment 3. What does your 2.0 version look like?
 
@@ -130,6 +138,8 @@ By this stage of his journey, Taiwo had also relocated to work on international 
 
 Looking back, his transformation was never defined by a single achievement. It was built through consistent learning, disciplined execution, meaningful contributions, and an unwavering commitment to excellence. His story became a powerful reminder that sustained growth, practical experience, and a desire to empower others could transform a passionate IT professional into a globally recognized technology leader.
 
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).
+
 ### Public Link
 
 Paste your link here:
@@ -165,8 +175,6 @@ If Yes:
 **What emotion did you feel?** (minimum 50–100 words)
 
 ## Answer
-
-Add your answer here...
 
 ---No, I never cut coner
 
@@ -277,13 +285,13 @@ Create a simple plan you can realistically follow for the next 5 months.
 
 Example:
 
-* Mon–Thu: 60 min deep work
+* Mon–fr: 60 min deep work
 * Sat: DMI session
 * Sun: Weekly review
 
 #### My Weekly Routine
 
-Mon–Fri: 8 hours deep work
+Mon–Fri: 9 hours deep work
 * Sat: DMI session
 * Sun: Weekly review
 
@@ -295,8 +303,6 @@ Mon–Fri: 8 hours deep work
 DMI work wil be done between 3-4 days
 
 #### How Many Sessions Per Week?
-
-Add your answer here...
 
 --- 1 or more sessions per week
 
@@ -310,23 +316,23 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
-
---- Phone rules: 1 hour on social media
+--- Phone rules: 
+--- Social media rules: 20 minutes on social media daily
+--- Environment setup: The environment and resources will be setup 20 minutes ahead
 
 # Reflection – Week 1
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+The biggest insight I got about myself this week is that staying focus in learning and upskilling will lead to greater reward.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+The loop I noticed is inconsistency in learning and lack of mentor.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+One system I will implement from this week is that I will plan what to achieve daily and weekly. 5am to 6am daily will be schedule for learning and practicing.
 
 ### LinkedIn Post
 
