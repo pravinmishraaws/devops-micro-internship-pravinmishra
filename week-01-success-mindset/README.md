@@ -366,13 +366,13 @@ Starting Monday, my DMI deep work block (6:00 AM to 7:30 AM) becomes non-negotia
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`__https://www.linkedin.com/posts/eze-favour-52732752_what-my-version-20-looks-like-five-years-share-7478466873852997632-WQ79/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAAsVGC8BeMs7INDCBrG_mYeb0V1cNjGv7________________________`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: ****  https://www.linkedin.com/posts/eze-favour-52732752_what-my-version-20-looks-like-five-years-share-7478466873852997632-WQ79/?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAAsVGC8BeMs7INDCBrG_mYeb0V1cNjGv7
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
