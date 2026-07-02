@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that job security no longer comes from staying with one company for many years—it comes from continuously building valuable skills and maintaining proof of your abilities. Many people around me believe that loyalty alone leads to career stability. I disagree because technology changes too quickly. Someone who stops learning eventually becomes replaceable, regardless of how long they have been with an organization. Over the years, I've seen that certifications, hands-on projects, documentation, and adapting to new technologies create more opportunities than simply accumulating years of experience. That's why I believe every IT professional should always be learning and building, even when they already have a stable job.
 
 ---
 
