@@ -33,7 +33,9 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+One belief I hold that many people may disagree with is that being constantly busy is often mistaken for being productive. In many professional environments, long hours, back-to-back meetings, and always being available are viewed as signs of commitment. I believe that real value comes from focused thinking, continuous learning, and solving the right problems rather than simply staying occupied.
+
+Over time, I have found that investing effort in improving processes, learning new skills, and making thoughtful decisions usually creates better long-term outcomes than just working more hours. While hard work is essential, I don't think success should be measured by how busy someone appears. It is better reflected in the quality of the work, the impact it creates, and the ability to adapt and keep improving over time.
 
 ---
 
@@ -55,11 +57,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistency produces better long-term results than short bursts of intense effort.
 
 ### Evidence from my life
 
-Add your answer here...
+Whenever I committed to learning or improving a skill through regular, manageable practice, I made steady progress and retained the knowledge much better. In contrast, periods of trying to achieve everything in a short time usually led to fatigue and less sustainable results.
 
 ---
 
@@ -67,11 +69,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+The quality of questions asked has a direct impact on the quality of solutions found.
 
 ### Evidence from my life
 
-Add your answer here...
+In both technical work and learning, I noticed that spending more time understanding the problem before looking for solutions consistently reduced rework and led to better outcomes. Better questions almost always resulted in better decisions.
 
 ---
 
@@ -79,11 +81,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Continuous learning compounds over time, even when the progress is not immediately visible.
 
 ### Evidence from my life
 
-Add your answer here...
+Throughout my career, I regularly invested time in learning new technologies and strengthening existing knowledge. While the benefits were not always immediate, those small, consistent investments eventually made it easier to adapt to new challenges and take on more complex responsibilities.
 
 ---
 
@@ -135,7 +137,17 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+Five years from now, colleagues described Maneetta Antony as someone who continued to grow with technology while staying grounded in practical engineering. After building a career spanning more than two decades, Maneetta embraced new areas such as cloud, DevOps, and Generative AI, not by following trends, but by understanding how they could solve real business problems and create value.
+
+Throughout those years, Maneetta built and shipped practical projects that combined modern technologies with strong engineering principles. As experience grew, more of that work was documented through GitHub repositories, architecture notes, and occasional technical articles, gradually creating a portfolio that reflected practical problem-solving, thoughtful design, and continuous learning. Learning remained a consistent habit, with real-world application always taking priority over collecting credentials.
+
+Within the organization, Maneetta led architecture discussions, guided solution design, and introduced reusable design patterns that helped engineering teams deliver solutions more consistently. The focus was always on simplifying complex problems, improving collaboration, and helping teams make informed technical decisions. These efforts strengthened engineering practices and made it easier for teams to build reliable and scalable solutions.
+
+Knowledge sharing also became an important part of the journey. Internal learning sessions, mentoring, technical presentations, and contributions to engineering discussions became regular opportunities to share practical experiences. Rather than focusing on theory, Maneetta became known for explaining technical concepts in a clear and practical way that others could confidently apply in their own work.
+
+As responsibilities expanded, leadership became more about enabling people than directing them. Colleagues appreciated the ability to listen carefully, encourage different perspectives, and create an environment where ideas could be discussed openly. Through architecture reviews, mentoring, and collaborative problem-solving, many engineers grew in confidence and developed stronger technical decision-making skills.
+
+Looking back, the most meaningful achievement was not a single project, promotion, or milestone. It was building a career shaped by curiosity, continuous learning, and a willingness to adapt while helping others grow along the way. That approach earned the trust of colleagues and established a reputation as a technology leader who combined experience with humility, practical thinking, and a genuine commitment to lifelong learning.
 
 ### Public Link
 
@@ -173,7 +185,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+No
+
+I can't think of a situation where I knowingly chose an unethical or dishonest shortcut. There have been times when I made mistakes, underestimated the effort involved, or had to revise work after realizing it could be improved, but those were errors in judgment rather than intentional shortcuts. I generally find that doing things transparently and correctly gives me more confidence in the outcome, even if it takes longer.
 
 ---
 
@@ -237,16 +251,11 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning and continuous skill development
+* Practical application of new knowledge through projects
+* Knowledge sharing with colleagues and the community
+* Personal health and overall well-being
+* Financial discipline and long-term savings
 
 ---
 
@@ -272,8 +281,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
-
+Partially Yes.
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -290,7 +298,9 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon - Fri: 30-60 min deep work
+* Sat: DMI session
+* Sun: Weekly review
 
 ---
 
@@ -298,11 +308,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Wed/Thu (6.30-7.30 PM EST)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+1
 
 ---
 
@@ -316,7 +326,12 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Phone rules
+  Only emergency calls during the focus time
+* Social media rules
+  No Social media distractions during focus time
+* Environment setup
+    Calm and focused
 
 ---
 
@@ -324,15 +339,17 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+This week, I realized the importance of balancing continuous learning with periodic reflection. Acquiring new knowledge is valuable, but taking time to assess progress, refine priorities, and apply what has been learned is what ultimately leads to meaningful and sustained growth.
+
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+One recurring pattern I observed is that I often set a high standard for my own work. While that helps maintain quality, I have learned that balancing thoroughness with timely execution is equally important for making consistent progress.
+
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+🤞 Every Friday from 6:30 PM to 7:00 PM, I will review the week's progress, document key learnings, and plan the three most important priorities for the following week.
 
 ### LinkedIn Post
 
