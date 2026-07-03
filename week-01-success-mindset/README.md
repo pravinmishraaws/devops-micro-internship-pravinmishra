@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-test
+I believe career is my first priority because it’s both my passion and my identity. Money matters, but I always choose learning over short‑term earnings. I don’t believe in “learn first, do later”; modern life demands doing and learning simultaneously. I value discipline and planning, even though relationships sometimes suffer when I focus on growth. People say health comes first, but I often skip meals when I’m deeply engaged in work. Failure hits me hard because success genuinely matters to me. When everything is structured, life becomes smooth. And in today’s tech industry, competition and politics are unavoidable realities.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Doing Creates More Learning Than Planning Ever Will
 
 ### Evidence from my life
 
-Add your answer here...
+After spending nearly sixteen years in mainframe legacy systems, I repeatedly tried to learn other technologies by “studying first.” Every attempt failed within days. The breakthrough happened only when a migration project forced me to act first and learn alongside the work. That experience proved to me that real growth comes from doing, not from endless preparation
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+A Growing Network Is Essential for Career Progress
 
 ### Evidence from my life
 
-Add your answer here...
+I started my IT career as an introvert, and it held me back in ways I didn’t understand at the time. Over the years, I realised that building a strong professional network is not optional — it’s a core part of learning, collaboration, and career advancement. Once I began connecting with people, new opportunities appeared that I would never have reached alone.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Planning and Organisation Transform People Into High Performers
 
 ### Evidence from my life
 
-Add your answer here...
+I’ve mentored many freshers throughout my career, and one pattern was obvious: most struggled because they lacked structure. Teaching them how to plan, organise, and execute tasks properly turned them into excellent developers. That experience reinforced a truth I live by — discipline and organisation are not just habits; they are force multipliers for talent.
 
 ---
 
@@ -135,13 +135,27 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+Vivekanandan 2.0 — The Reinvention of a Legacy Engineer
+By 2031, industry writers frequently referenced Vivekanandan’s career as one of the most remarkable reinventions in modern enterprise engineering. For nearly nineteen years, he had worked exclusively on mainframe systems, mastering COBOL, JCL, CICS, and the stability‑driven world of legacy infrastructure. Until mid‑2026, he had never written a Terraform module, deployed a container, or touched a cloud console. That changed the moment he joined DMI Cohort 3 under Pravin Mishra — a decision that reshaped the trajectory of his entire professional life.
+
+Within months of joining the cohort, he built and shipped multiple hands‑on cloud and DevOps projects, documenting every step publicly. His GitHub, once filled with legacy utilities, transformed into a modern engineering portfolio: CI/CD pipelines built with GitHub Actions, Dockerised microservices, Kubernetes deployments, Terraform IaC templates, and automated monitoring dashboards. His “Mainframe‑to‑Cloud Migration Lab,” published as an open learning resource, became one of the most referenced beginner guides for legacy engineers entering cloud roles.
+
+By 2028, he had earned certifications including AWS Solutions Architect Associate, Azure Administrator, Docker & Kubernetes Practitioner, and DevOps Professional. These weren’t symbolic achievements — they were backed by real delivery. He led a migration initiative that moved a 30‑year‑old financial application from on‑premise mainframe infrastructure to a hybrid cloud model. The project reduced deployment time from eight hours to under fifteen minutes through a fully automated pipeline he architected end‑to‑end.
+
+His leadership extended beyond project delivery. He mentored dozens of engineers transitioning from legacy systems, creating structured learning paths, hands‑on labs, and weekly technical breakdowns published on Medium. His writing style — clear, practical, and experience‑driven — earned him recognition across the DMI community. He contributed regularly to open‑source repositories, focusing on reliability engineering patterns and automation scripts that improved developer productivity.
+
+By 2030, Vivekanandan had relocated into a senior DevOps and Cloud Engineering role, specialising in platform reliability and migration strategy. Colleagues described him as “the bridge between legacy stability and modern cloud innovation.” His transformation became a reference point for professionals who believed reinvention was impossible after a certain stage in their career.
+
+Vivekanandan 2.0 wasn’t just a career upgrade — it was a complete identity shift. Through discipline, public learning, and relentless execution, he proved that a mainframe engineer could rebuild his entire future and become a leader in cloud and DevOps engineering.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
+
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+`https://medium.com/p/667f645e4196?postPublishedType=initial`
 
 ---
 
@@ -173,7 +187,8 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes
+I often felt a quiet mix of guilt and discomfort during the year‑end appraisal process. While others spent months documenting every small achievement, I would rush through emails and chats at the last moment to prepare my presentation. Even though my manager understood my working style and I still received a good rating, there was a lingering sense of guilt — as if I hadn’t put in the same visible effort as everyone else. It created a subtle shame and uneasiness, like I had taken a shortcut in how I showcased my work, even though the work itself was genuine.
 
 ---
 
@@ -199,19 +214,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Atomic Habits
-
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-01.png)
-
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Meditations By Marcus Aurelius
+2. The Art of War By Sun Tzu
+3. Think and Grow Rich By Napoleon Hill
+4. The Science of Getting Rich By Wallace D. Wattles
+5. As a Man Thinketh By James Allen
+6. How to Win Friends and Influence People By Dale Carnegie
+7. Man’s Search for Meaning By Viktor E. Frankl
+8. Atomic Habits By James Clear
+9. The 7 Habits of Highly Effective People By Stephen R. Covey
+10. The Power of Now By Eckhart Tolle
 
 ---
 
@@ -240,16 +252,11 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning / Skill - Learning hours per week , New technology or tool explored, Certifications or courses completed, Blogs or tutorials written, GitHub commits or code reviews
+* Output / Proof - Projects shipped or documented, Migration tasks completed, Mentorship sessions delivered, Knowledge‑sharing posts published,Team improvements implemented
+* Health / Energy - Steps or workouts per day, Sleep hours tracked, Meal timing consistency, Screen‑free breaks, Stress‑management activities
+* Time / Focus - Deep‑work sessions per week, Distraction‑free hours, Task completion ratio, Planning and review sessions, Weekend learning or reflection time
+* Money / Finance - Monthly savings tracker, Investment or interest growth ,Expense categorisation, Emergency fund status, Charity or family support contributions
 
 ---
 
@@ -275,7 +282,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -293,7 +300,12 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon-Fri - 3-4 hours for DMI
+Sat- 8 hr DMI and 2 hr DMI practice
+Sun - DMI learning and weekly review
+
+Mon-Sun - Spend extra 1 hr daily to gather information for learning each week topic in deep.
+
 
 ---
 
@@ -301,11 +313,13 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Mon-Fri - 1 hr early morning and 2-3 hrs after office hour in night minimum
+Sat- 8 hr DMI and 2 hr after DMI session at night minimum
+Sun - Evening 3 hrs minimum
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+32 - 40 hrs in a week
 
 ---
 
@@ -319,7 +333,10 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Stop doing time pass chatting over phone and social media.
+No facebook, reels , telegram
+TV only for news on a daily basis. 
+Avoid unnecessary travels
 
 ---
 
@@ -327,28 +344,28 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+There are lots of time if we plan it properly. Time management is very important
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+Keeping things for later even though it is simple or hard
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Daily 1 hr exercise, early morning 1 hr learning time before getting ready for work
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`_https://www.linkedin.com/posts/vivek-satheeshbabu-454bb2408_join-the-dmi-devops-micro-internship-share-7478919372154224640-TsHT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgdzwABbNstL2kSo9lujHSi1sZJFd95mgQ `
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: https://www.linkedin.com/posts/vivek-satheeshbabu-454bb2408_join-the-dmi-devops-micro-internship-share-7478919372154224640-TsHT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgdzwABbNstL2kSo9lujHSi1sZJFd95mgQ  
+- Blog / Medium : https://medium.com/p/667f645e4196?postPublishedType=initial   
 
 ---
 

@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Anjana Muthunayake |
-| **LinkedIn** | [anjana-muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) |
-| **Location** | Sri Lanka |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | MAking positive impact in students |
+| **Name** | Vivekanandan Satheeshbabu |
+| **LinkedIn** | [Vivek Satheehbabu](www.linkedin.com/in/vivek-satheeshbabu-454bb2408) |
+| **Location** | United Kingdom |
+| **Background** | Mainframe |
+| **Goal** | Devops & Cloud Engineer |
 
 ---
 
@@ -132,7 +132,7 @@ Week 01 → Success Mindset
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/anjana-muthunayake_iam-roles-explained-with-thors-hammer-ugcPost-7345150630405054464-DyHV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfZ4q8BKp1Dptghjo7ucKUr-n4bgkwr7Kg| https://anjana-muthuanayake.medium.com/half-ready-pods-how-kubernetes-readiness-probes-save-you-f63f755dd959?sharedUserId=anjana-muthuanayake |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved |https://www.linkedin.com/posts/vivek-satheeshbabu-454bb2408_join-the-dmi-devops-micro-internship-share-7478919372154224640-TsHT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgdzwABbNstL2kSo9lujHSi1sZJFd95mgQ| https://medium.com/p/667f645e4196?postPublishedType=initial |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
