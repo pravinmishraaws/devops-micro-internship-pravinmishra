@@ -263,39 +263,39 @@ Choose books that improve:
 
 2. Deep Work: Rules for Focused Success in a Distracted World by Cal Newport
 
-![screenshot](screenshots/deep-work-taschenbuch-cal-newport-englisch.webp)
+![screenshot](screenshots/gideon-omole-deep-work-taschenbuch-cal-newport-englisch.webp)
 
 3. The Making of a Manager: What to Do When Everyone Looks to You
 
-![screenshot](screenshots/the-making-of-a-manager-taschenbuch-julie-zhuo-englisch.webp)
+![screenshot](screenshots/gideon-omole-the-making-of-a-manager-taschenbuch-julie-zhuo-englisch.webp)
 
 4. Psychology of Money
 
-![screenshot](./screenshots/the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-taschenbuch-morgan-housel-englisch.webp)
+![screenshot](./screenshots/gideon-omole-the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness-taschenbuch-morgan-housel-englisch.webp)
 
 5. Four Thousand Weeks
 
-![screenshot](./screenshots/four-thousand-weeks-taschenbuch-oliver-burkeman-englisch.jpeg)
+![screenshot](./screenshots/gideon-omole-four-thousand-weeks-taschenbuch-oliver-burkeman-englisch.jpeg)
 
 6. The Checklist Manifesto
 
-![screenshot](./screenshots/the-checklist-manifesto-taschenbuch-atul-gawande-englisch.webp)
+![screenshot](./screenshots/gideon-omole-the-checklist-manifesto-taschenbuch-atul-gawande-englisch.webp)
 
 7. How Not to Die
 
-![screenshot](./screenshots/1_How-Not-To-Die_Michael-Greger_Way-back-to-you-scaled.jpg)
+![screenshot](./screenshots/gideon-omole-1_How-Not-To-Die_Michael-Greger_Way-back-to-you-scaled.jpg)
 
 8. High Output Management
 
-![screenshot](./screenshots/High%20Outout%20management.jpg)
+![screenshot](./screenshots/gideon-omole-High%20Outout%20management.jpg)
 
 9. Mindset: The New Psychology of Success
 
-![screenshot](./screenshots/mindset-taschenbuch-carol-s-dweck-englisch.webp)
+![screenshot](./screenshots/gideon-omole-mindset-taschenbuch-carol-s-dweck-englisch.webp)
 
 10. How to Know a Person
 
-![screenshot](./screenshots/how-to-know-a-person.webp)
+![screenshot](./screenshots/gideon-omole-how-to-know-a-person.webp)
 
 ---
 
