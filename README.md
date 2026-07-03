@@ -5,7 +5,8 @@
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
 ![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F15-green?style=for-the-badge)
 
-> 👋 **New here?** Read the [submission instructions](./INSTRUCTIONS.md) first — how to fork, fill in, and submit your assignments.
+> 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
+> Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
 
 ---
 
@@ -64,13 +65,13 @@ This is not a course. It is an internship-style program — real deployments, re
 
 ---
 
-**Your stack:**
+**Your stack (uncomment each badge as you earn it):**
 
-Week 00 → Internet & Networking Basics
-[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
+<!-- Week 00 → Internet & Networking Basics -->
+<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
 
-Week 01 → Success Mindset
-[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
+<!-- Week 01 → Success Mindset -->
+<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -111,6 +112,7 @@ Week 01 → Success Mindset
 <!-- Week 14 → Final Project / Capstone -->
 <!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
 
+*Complete a week → uncomment the badge → watch your stack grow.*
 
 ---
 
