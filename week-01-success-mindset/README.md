@@ -321,9 +321,9 @@ Examples:
 
 **Yes / No**
 
-Answer:
+Yes
 
-Add your answer here...
+Yes. I completed a private brain dump in my notebook. It helped me organize my thoughts, identify my priorities, and clear the mental clutter I had built up from balancing my SIWES program, the DevOps Micro Internship, personal goals, and other responsibilities. I chose to keep the contents private, but the exercise gave me more clarity and made it easier to plan the next five months with focus.
 
 ---
 
@@ -415,14 +415,14 @@ From Monday to Friday, I will dedicate 2 hours every evening (7:00 PM – 9:00 P
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/tim-obi-40688a3a7_dmibypravinmishra-devops-agenticai-ugcPost-7478771476519649280-OcC5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: https://www.linkedin.com/posts/tim-obi-40688a3a7_dmibypravinmishra-devops-agenticai-ugcPost-7478771476519649280-OcC5/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs
+- Blog / Medium : https://medium.com/@timobi410/i-wrote-my-future-before-it-happened-efbeb03c9cc6?sharedUserId=timobi410  
 
 ---
 
