@@ -14,7 +14,7 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
+| **Name** | Gautam  |
 | **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
 | **Location** | Helsinki, Finland |
 | **Background** | Cloud, DevOps & AI Consultant |

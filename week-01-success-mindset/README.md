@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+First career, it is nice to have for stability. somehow people ignore it. So please at least have good education and career. It may take time to finish career but do not listen people who say give up. 
 
 ---
 
@@ -45,9 +45,13 @@ Objective truths do not depend on opinions. They hold true regardless of how peo
 
 Write each truth in this format:
 
-**Truth:** (1 sentence)
+**Truth:** failure is not final
 
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
+**Evidence from my life:** 
+
+**Truth:** 
+
+**Evidence from my life:** 
 
 ---
 
@@ -55,11 +59,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+failure is not final
 
 ### Evidence from my life
 
-Add your answer here...
+I got mutliple different disappoints during my result. but it never holds back. you get up, set up, fight it 
 
 ---
 
@@ -67,23 +71,22 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+people can judge fast
 
 ### Evidence from my life
 
-Add your answer here...
-
+I see poeple judge fast enough without knowing other persion sitution. sometime take breath and see how and what happend 
 ---
 
 ## Truth #3
 
 ### Truth
 
-Add your answer here...
+never give up
 
 ### Evidence from my life
 
-Add your answer here...
+hold the tight, fight till end. you will see beutiful moring after darkness.
 
 ---
 
@@ -135,7 +138,7 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+If I see last past few years fron now, I can say, it was amazing journey what I am today. I started my life completely production helper then work stduy, Intership and job. All jobs created/develped me better person each day. you picked up task, worked on it, found solution. Moved to another task, solved it. It helped me increase my confidence and knowledge in particular area. Some tragedy happend during life journey. some days past without any productive. Today's bad day should be not same for tomorrow. You pick up badge and bag and work on it. I met different person during my journey. Each person has taught me differnt things, thats what I greatful for. 
 
 ### Public Link
 
@@ -199,8 +202,8 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
+1. Atomic habits 
+2. Start with yourself 
 3. Add your answer here...
 4. Add your answer here...
 5. Add your answer here...
