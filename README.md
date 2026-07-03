@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Anjana Muthunayake |
-| **LinkedIn** | [anjana-muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) |
-| **Location** | Sri Lanka |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | MAking positive impact in students |
+| **Name** | Gideon Omole |
+| **LinkedIn** | [Gideon-Omole](https://www.linkedin.com/in/gideon-omole-5ba318180/) |
+| **Location** | Lagos, Nigeria |
+| **Background** | Cloud Support Engineer |
+| **Goal** | Becoming a highly skilled Devops engineer |
 
 ---
 
@@ -56,7 +56,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/Gideon-Omole/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -131,8 +131,8 @@ Week 01 → Success Mindset
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/anjana-muthunayake_iam-roles-explained-with-thors-hammer-ugcPost-7345150630405054464-DyHV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfZ4q8BKp1Dptghjo7ucKUr-n4bgkwr7Kg| https://anjana-muthuanayake.medium.com/half-ready-pods-how-kubernetes-readiness-probes-save-you-f63f755dd959?sharedUserId=anjana-muthuanayake |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | — | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | - | https://medium.com/@gideonomole9/the-engineer-who-turned-curiosity-into-a-career-in-devops-4186f84bf75a |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
