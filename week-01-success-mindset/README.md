@@ -33,7 +33,9 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+firstly, I am a christian, everything I am got at the moment be it laptop, phone, and my NYSC services in Lagos was miraculous, it came as a resut of god's mercy. let me put it this way most of the thing that are visible in my life i did not use my personal money for them. 
+
+when i tell people that do not believe easily. 
 
 ---
 
@@ -55,11 +57,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+**Truth:** In as much we need to focus on our career, we don't need to leave other area of our life to suffer, such as health and, relationhip.
 
 ### Evidence from my life
 
-Add your answer here...
+**Evidence from my life:** (As an undergraduate studying computer science, I was active participating in students unionism)
 
 ---
 
@@ -67,11 +69,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+**Truth:** Any postion you think you are not capable to perform in, don't go for it.
 
 ### Evidence from my life
 
-Add your answer here...
+**Evidence from my life:** (When i was an undergraduate, I was Honourable representing my department in faculty union but i saw a lot of leadership defficiency, they gave excuses to get things done as a leader, but for me I am always at the peak of them )
 
 ---
 
@@ -79,11 +81,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+**Truth:** Nothing is hard, it's because you did not give yourself to it.
 
 ### Evidence from my life
 
-Add your answer here...
+**Evidence from my life:** (My final year projects as an undergraduate was something I think I could not do, but when I gave myself to it i got "A")
 
 ---
 
@@ -135,13 +137,24 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+The Technocrat of the Sunshine State: How a DevOps Engineer Is Re-architecting Public Governance
+By Kunle Adebayo | Tech & Policy Review
+
+This is the DevOps engineer Nigeria’s public sector didn’t know it needed, and here’s how he did it. Seven years ago, the name of this young professional was mostly found in the git logs of enterprise software deployments and the archives of Lagos State University (LASU) student union leadership and the National Association of Ondo State Students National Body. Today, his profile represents a new blueprint for public administration in Nigeria. He relocated to the United Kingdom after securing the prestigious, fully funded scholarship. While there, he completed an MSc in Information Technology, focusing deeply on digital enterprise architecture and cloud-native systems. He did not just study the curriculum; he published a landmark comparative research paper on Google Scholar analyzing low-level container network interface (CNI) throughput bottlenecks under scaled distributed workloads. This academic authority instantly transformed him from a traditional infrastructure engineer into a globally recognized tech-governance architect.
+
+During his time abroad, he expanded his technical credentials, earning the AWS Certified Solutions Architect, Professional and the HashiCorp Certified: Terraform Authoritative Expert designations. His GitHub repository became a central open-source hub, hosting infrastructure-as-code (IaC) automation blueprints designed specifically to optimize data pipelines for public utility platforms. he later rose to princiapl DevOps/ Cloud Architech, Euro/Uk residence while working remotely. travelled in and out of Nigeria using technology to solve real world problem in Oil and gas industry and other fintech company.
+
+However, his long-term goal was never about staying in the Western corporate loop. He maintained a strong connection to his roots, contributing remote technical support to the Lagos diaspora chapters of the Ondo State Progressive Union and utilizing his background as the former student leader and Treasurer of the Ondo State Students’ Association to organize virtual development bootcamps.
+
+Upon returning to Nigeria about 3 years ago, he stepped directly into public service. He led the technical migration team at the Ondo State Information Technology Agency (SITA) in Akure, where he built and shipped an automated, encrypted cloud-native data plane that completely digitized the state’s internal revenue generation and civil service payroll registries. The framework eliminated manual configuration errors and configuration drift, successfully blocking structural leakages and saving the state millions in operational downtime.
+
+He later rose to Senior Cloud Solutions and, now operating as a consultant, the CTO/Director of Cloud Infrastructure, Multi-million Assets and a key tech-governance adviser, he has proven that a new generation of technologically fluent, financially independent leaders can return home to build transparent, world-class public infrastructure from the ground up. His Excellency, Dr. Sola Ibinuolapo, MCS, ##### is the name popularly known as Sola-Royal.
 
 ### Public Link
 
 Paste your link here:
 
-`__________________________`
+**[Medium post](https://hesolaroyal.medium.com/the-technocrat-of-the-sunshine-state-how-a-devops-engineer-is-re-architecting-public-governance-ace8ce8a66d5?sharedUserId=hesolaroyal)** 
 
 ---
 
@@ -165,7 +178,7 @@ This is about self-awareness, not judgment.
 
 ### Answer Format
 
-**Yes / No**
+**No**
 
 If Yes:
 
@@ -173,7 +186,9 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Right from my day one as a child i have the fear of God, I am always conscious of sin as a christian. because ofn that it eliminate me to do bad thing against human, it is people that do bad to me. I am an introvert person and I don't really like when people felt guilt in my presence even though they did bad at me i will still be pity them. 
+
+This days I am getting better in putting anybody in their position. I have so much empathy for people up till now. I just want to see people happy.
 
 ---
 
@@ -199,16 +214,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits – James Clear
+2. The versatile Leader - Msuega Tese
+3. Success System - David Oyedepo
+4. Purpose Driven Life - Rick Warren
+5. The psychology of money - Morgan Housel
+6. Leadership ideology - David Pyedepo
+7. The 7 Habits of Highly Effective People - Stephen R. Covey
+8. Mind management, not time management - David Kadavy
+9. Deep work - Cal Newport
+10. The compound effect - Darren Hardy 
 
 ---
 
@@ -237,16 +252,14 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning DevOps/Cloud - 7 ours a day
+* Finance/personal growth  3.5 hours per week
+* reading 2 hours per day
+* sleep hours 2 hours in a day and 3 hours night
+* documented 7 hours per week.
+* Reading bible 2 hours per day
+* online registration 1.5 hours per day
+* workout 30 mins per day
 
 ---
 
@@ -268,11 +281,12 @@ Examples:
 
 ### Did You Do It?
 
-**Yes / No**
+**Yes**
 
 Answer:
 
-Add your answer here...
+Every friday will be a reflection day. using about 1 hours to track all i did for the week. 
+the bills, was my goal achived?, pending whatsapp messages. and my clothes to watch
 
 ---
 
@@ -290,7 +304,10 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Mon-thu: 7 hours deep work
+fri: weekly review and other personal responsibilities
+sat: DMI Ssession plus sleep.
+sun: personal project
 
 ---
 
@@ -298,11 +315,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+mon-friday- 2 4 hours each
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+3 session
 
 ---
 
@@ -316,7 +333,9 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+i will archived all my whatsapp group
+no visiting social medial except to apply for work or document
+To rent new apartment with constant light
 
 ---
 
@@ -324,28 +343,29 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+The biggest insight I got about myself this week is that i can actully do more, but distraction are more than the real works. 
+learning to track every bit of day is a lot for me even though i have to do side hustle.
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+my biggest weekness is not stay through with the goal I set for the day. its always not completed but i am working towards it more than before.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+I will maker sure that nothing distract me again, and to make sure all task carried out successfully, accoding to the task DevOps learning and project 7 hours a day.
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+[Linkedin post](https://www.linkedin.com/posts/solaibinuolapo_techleadership-cloudcomputing-devops-share-7478728006358831104-gqAZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM)
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **[post](https://www.linkedin.com/posts/solaibinuolapo_techleadership-cloudcomputing-devops-share-7478728006358831104-gqAZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM)**  
+- Blog / Medium : **[Medium post](https://hesolaroyal.medium.com/the-technocrat-of-the-sunshine-state-how-a-devops-engineer-is-re-architecting-public-governance-ace8ce8a66d5?sharedUserId=hesolaroyal)**  
 
 ---
 
