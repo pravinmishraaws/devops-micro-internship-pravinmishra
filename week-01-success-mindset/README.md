@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+Many people around me think the more certifications you earn, the better your career prospects. I disagree. Certifications can help you get noticed, but they don't prove that you can solve real problems. Employers and clients ultimately care about what you have built, improved, or delivered. Someone with fewer certificates but a strong portfolio of practical work often has an advantage over someone with many credentials but little hands-on experience. That is why I focus on applying what I learn through projects, documenting my work, and continuously improving my practical skills rather than chasing every new certification.
 
 ---
 
@@ -51,15 +51,15 @@ Write each truth in this format:
 
 ---
 
-## Truth #1
+## Truth #1 
 
 ### Truth
 
-Add your answer here...
+Consistent practical experience creates more career opportunities than passive learning.
 
 ### Evidence from my life
 
-Add your answer here...
+I completed several courses and certifications, but interviews became much easier only after I started building cloud, networking, and automation projects. Demonstrating real implementations gave me more confidence and helped employers see my practical skills.
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Persistence eventually produces results, even after repeated setbacks.
 
 ### Evidence from my life
 
-Add your answer here...
+I experienced job loss, financial challenges, and many unsuccessful applications. Instead of giving up, I kept improving my skills, applying for roles, and preparing for interviews, which opened new opportunities that would not have existed if I had stopped.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Continuous learning is one of the best long-term investments.
 
 ### Evidence from my life
 
-Add your answer here...
+I expanded my knowledge from networking into cloud computing, cybersecurity, and DevOps. This broader skill set qualified me for more diverse roles and increased my ability to solve complex infrastructure and security problems.
 
 ---
 
@@ -135,11 +135,30 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+Three years ago, Timothy Olubiyi set out to rebuild his career.
+Today, he stands as one of Nigeria's emerging voices in cloud infrastructure and cybersecurity — not because the road was smooth, but because he stayed consistent through days and nights building his career.
+
+Here's what that consistency built:
+🔹 Technical delivery: He designed secure cloud environments, automated deployments with Infrastructure as Code, and shipped DevOps and cloud security projects with measurable gains in speed, reliability, and security. His portfolio wasn't a set of demos — it was a reference employers, students, and communities actually used, because every project solved a real infrastructure or security problem.
+🔹 Infrastructure leadership: He led modernization efforts that moved business workloads to the cloud — improving availability, cutting costs, and tightening security controls. His range across networking, cloud computing, DevSecOps, and cybersecurity lets him bridge traditional infrastructure with cloud-native practice.
+🔹 Community impact: He ran workshops, mentored junior engineers, and published implementation-first guides on networking, cloud architecture, automation, and cybersecurity — the kind of content that gets shared because it teaches, not just talks.
+🔹 Global reach: That growth opened international doors — an advanced engineering role working with global teams on secure, scalable, resilient cloud platforms. He finds delight in mentoring Nigerian professionals, contributing to open source, and running virtual trainings.
+
+The most remarkable part of Timothy's story isn't the certifications or the titles.
+It's how consistently he turned setbacks into fuel — every challenge sharpening his technical skill, his leadership, and his character. His career is proof that discipline and execution can reshape a future in just a few years.
+
+Today, Timothy isn't only a respected Cloud and DevSecOps Engineer. He's a mentor, a project leader, and a contributor to the wider tech ecosystem.
+
+This post is part of the DevOps Micro Internship with Agentic AI, Cohort 3, by #PravinMishra (https://lnkd.in/eg-CVMe8).
+Start your own DevOps journey — join the community: https://lnkd.in/eFsbcwnr
+
+#DevOps #CloudComputing #CyberSecurity #AWS #CareerGrowth #Mentorship
 
 ### Public Link
 
-Paste your link here:
+[Assignment-3](https://medium.com/@timothyolubiyi/the-making-of-a-cloud-devsecops-engineer-a-3-year-journey-c5e84230e8f3)
+
+[Assignment-3](https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_pravinmishra-devops-cloudcomputing-share-7478792094447382528-yDzR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw)
 
 `__________________________`
 
@@ -173,7 +192,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+No
 
 ---
 
@@ -199,17 +218,26 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
-
+1. The 7 Habits of Highly Effective People — Stephen R. Covey (Leadership & Personal Effectiveness)
+# ![book1](screenshots/The-7-Habits-of-Highly-Effective-People.jpg)
+2. How to Win Friends and Influence People — Dale Carnegie (Communication & Relationships)
+# ![book2](screenshots/How-to-Win-Friends-and-Influence-People.jpg)
+3. Deep Work — Cal Newport (Focus & Productivity)
+# ![book3](screenshots/Deep-Work.jpg)
+4. Atomic Habits — James Clear (Mindset & Productivity)
+# ![book4](screenshots/Atomic-Habits.jpg)
+5. Never Split the Difference — Chris Voss (Negotiation & Communication)
+# ![book5](screenshots/Never-Split-the-Difference.jpg)
+6. Why We Sleep — Matthew Walker (Health & Performance)
+# ![book6](screenshots/Why-We-Sleep.jpg)
+7. The First 90 Days — Michael D. Watkins (Career & Leadership)
+# ![book7](screenshots/The-First-90-Days.jpg)
+8. The Psychology of Money — Morgan Housel (Money & Wealth Building)
+# ![book8](screenshots/The-Psychology-of-Money.jpg)
+9. Essentialism — Greg McKeown (Mindset & Productivity)
+# ![book9](screenshots/Essentialism.jpg)
+10. The Manager's Path — Camille Fournier
+![book10](screenshots/The-Manager's-Path.jpg)
 ---
 
 # Assignment 6. What are the things you will measure regularly in your life and career?
@@ -237,16 +265,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Hands-on lab sessions
+* Learning hours per week and new skills acquired
+* Projects completed with documentation published
+* Sleep hours, Daily steps, Energy level, Stress level
+* Time spent on high-priority tasks
+* Distraction-free hours, goals achieved
+* Job applications submitted and interviews attended
+* Leadership responsibilities taken, and Mentoring
+* Performance feedback received
+* Family and relationship quality time
 
 ---
 
@@ -272,7 +300,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes
 
 ---
 
@@ -290,7 +318,32 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+Monday–Thursday
+
+- 60–90 min deep work (learning or project building)
+- 30 min certification study or reading
+- 20–30 min exercise or walk
+
+Friday
+
+- Review completed work
+- Update GitHub, portfolio, or LinkedIn
+- Apply for 2–5 relevant jobs
+- Network with one industry professional
+
+Saturday
+
+- Attend DMI session or complete a hands-on lab
+- Build or improve one cloud/DevOps/cybersecurity project
+- Read 30–60 minutes from a non-fiction book
+
+Sunday
+
+- Weekly review and planning
+- Organize notes and documentation
+- Prepare goals for the coming week
+- Spend quality time with family and rest
+
 
 ---
 
@@ -298,12 +351,11 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday - Friday (7:00PM WAT - 9:00PM WAT)
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
-
+3 Sessions Per Week
 ---
 
 ### Distraction Rules
@@ -316,7 +368,21 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Phone Rules:
+- Keep the phone on Do Not Disturb during deep work sessions.
+- Place the phone out of reach while studying or working.
+- Check messages only during scheduled breaks.
+
+Social Media Rules:
+- Use social media only after completing daily priorities.
+- Limit social media to 20–30 minutes per day.
+- Use social media intentionally for networking and learning, not mindless browsing.
+
+Environment Setup:
+- Keep your workspace clean and organized.
+- Close unnecessary browser tabs and applications.
+- Have a dedicated area for work and study whenever possible.
+- Keep a bottle of water and notebook nearby.
 
 ---
 
@@ -324,19 +390,30 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+**Biggest Insight I Got About Myself This Week**
+
+This week, I realized that consistency matters more than motivation. I perform at my best when I follow a clear routine and focus on one important task at a time instead of trying to do everything at once. Every small step—whether learning a new skill, building a project, reading, or applying for opportunities—moves me closer to my long-term goals.
+
+I also recognized that my greatest strength is my willingness to keep learning and adapting. Challenges don't stop my progress; they push me to improve. Going forward, I will focus on building momentum through daily discipline, protecting my time from distractions, and creating tangible proof of my growth through projects, certifications, and continuous learning.
+
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+One pattern I noticed is that I sometimes spend too much time planning, researching, or preparing instead of taking action. I can get caught in a cycle of wanting everything to be perfect before I start, which slows my progress.
+
+I also noticed that distractions, especially from my phone and social media, can interrupt my focus and make it harder to complete deep work. When this happens, I end the day feeling busy but without enough meaningful results.
+
+Going forward, I will focus on taking consistent action, even when things are not perfect. I will prioritize completing important tasks over refining them endlessly, protect my deep work time, and measure success by the projects I finish, the skills I build, and the progress I make each week.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Habit: Complete one 90-minute deep work session focused on my highest-priority task (cloud, DevOps, cybersecurity learning, project work, or job preparation) before checking social media.
+
+Time: Monday–Friday, 7:00 PM – 9:00 PM WAT
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_pravinmishra-devops-cloudcomputing-share-7478792094447382528-yDzR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw
 
 `__________________________`
 
@@ -345,7 +422,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- Blog / Medium : **[week-01](https://medium.com/@timothyolubiyi/what-does-my-2-0-version-look-like-ed099108850d)**  
 
 ---
 

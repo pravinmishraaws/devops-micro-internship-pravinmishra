@@ -25,8 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
-
+![Task 1 Screenshot](screenshots/image.png)
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
@@ -34,7 +33,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+A protocol is a set of communication rules that allows devices on a network to exchange information correctly and reliably, just like rules in a conversation between people.
 
 ---
 
@@ -59,7 +58,10 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+Here's a concise explanation within the requested 100–150 words:
+
+EpicReads' website is hosted in Finland, but users worldwide can access it because of the Internet's networking technologies. When a user visits the website, their browser sends a request using **HTTP** (or the more secure **HTTPS**) to communicate with the web server. The request is broken into small pieces through **packet switching**, allowing the data to travel efficiently across different network routes. Each packet contains the **IP address** of the sender and the EpicReads server, ensuring it reaches the correct destination. The **TCP/IP** protocol suite manages the communication by ensuring the packets are delivered accurately, in the correct order, and without errors. Once all the packets arrive, they are reassembled, and the web server sends the requested webpage back to the user's browser for display.
+
 
 ---
 
