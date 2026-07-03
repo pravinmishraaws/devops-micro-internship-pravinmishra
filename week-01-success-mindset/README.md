@@ -442,13 +442,13 @@ Every weekday evening at **7:00 PM**, I am going to shut down all communication 
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://lnkd.in/p/e9vdTuFa`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
+- LinkedIn Post URL: **https://lnkd.in/p/e9vdTuFa**  
 - Blog / Medium : **https://medium.com/@gideonomole9/the-engineer-who-turned-curiosity-into-a-career-in-devops-4186f84bf75a**  
 
 ---
