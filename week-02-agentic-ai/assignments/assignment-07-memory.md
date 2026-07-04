@@ -166,7 +166,7 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 6 required screenshots
 - Your GitHub repo URL
-
+- 
 ---
 
 ## 10. Solution Walkthrough
@@ -198,3 +198,4 @@ Before submission, verify:
 - [ ] Claude recalled hero colors in new session without prompting (Screenshot 5)
 - [ ] Claude refused JavaScript — memory rule enforced (Screenshot 6)
 - [ ] All 6 screenshots captured and updated in GitHub folder
+

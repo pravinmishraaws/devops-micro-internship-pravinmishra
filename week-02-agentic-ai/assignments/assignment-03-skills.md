@@ -202,4 +202,4 @@ Before submission, verify:
 - [ ] `terraform init` completed
 - [ ] `/tf-plan` was triggered and Claude analyzed the output
 - [ ] Skills committed and visible in GitHub repo
-
+.

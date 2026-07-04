@@ -34,6 +34,8 @@ On real engineering teams, every new team member reads the onboarding doc before
 
 ## 5. Important Instructions (Global Rules)
 
+Follow the Assignment Submission Guidelines — Click here
+
 **Key Rules:**
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (keys, passwords, account IDs)
@@ -192,5 +194,4 @@ Before submission, verify:
 - [ ] CLAUDE.md is committed and visible in your GitHub repo
 
 ---
-
 

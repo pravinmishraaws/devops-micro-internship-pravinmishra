@@ -71,7 +71,7 @@ Week-1 contains 7 assignments
 | 5 | Assignment-5: What are 10 non-fiction books you plan to read in the next 1 year? | 10 | — | 10 |
 | 6 | Assignment-6: What are the things you will measure regularly in your life and career? | 10 | 10 | 20 |
 | 7 | Assignment-7: Brain dump + 5-month system plan | 10 | — | 10 |
-| — | Self written Blog (Bonus) - Any topic of your choice | — | — | 30 |
+| — | Self written Blog - Any topic of your choice | — | — | 30 |
 | **Total** | | | | **120** |
 
 

@@ -220,4 +220,3 @@ Before submission, verify:
 - [ ] Live GitHub query returned real repository data
 - [ ] `.mcp.json` committed and visible in GitHub repo
 
----

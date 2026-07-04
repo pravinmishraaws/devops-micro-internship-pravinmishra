@@ -35,6 +35,8 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 
 ## 5. Important Instructions (Global Rules)
 
+Follow the Assignment Submission Guidelines — Click here
+
 **Key Rules:**
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (keys, passwords, account IDs)

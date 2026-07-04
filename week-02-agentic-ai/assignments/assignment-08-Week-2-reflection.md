@@ -240,9 +240,3 @@ Before submission, verify:
 * [ ] Required P.S. line is included in the LinkedIn post
 * [ ] LinkedIn post URL is added
 * [ ] Screenshot of LinkedIn post is added
-
----
-
-## 13. Final Submission
-
-Submit your assignment using the Google Form provided in the course.

@@ -239,3 +239,9 @@ Before submission, verify:
 - [ ] Destructive prompt test shows Claude was blocked (Screenshot 4)
 - [ ] Terraform destroy command test shows it was intercepted (Screenshot 5)
 - [ ] `settings.json` committed and visible in GitHub repo
+
+---
+
+## 13. Final Submission
+
+Submit your assignment using this google form.
