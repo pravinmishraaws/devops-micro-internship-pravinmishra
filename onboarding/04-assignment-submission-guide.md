@@ -105,35 +105,53 @@ Then click on the copy icon to copy the repository link.
 
 ---
 
-## 9. Open Git Bash or Terminal
+## 9. Create Your Working Directory (Create a folder where you want to **download (clone) the GitHub repository**.)
 
-Open **Git Bash** or any terminal on your computer.
+1. Create a folder named **DMI** (or any name you prefer) in any preferred location of your local machine.
 
-If you are using a **Windows machine**, it is recommended to use **Git Bash**, because it supports Unix-style commands which we will use in this assignment workflow.
+![Create folder](images/ss74_1.png)
 
-Git Bash makes it easier to run Git commands consistently across different systems.
+2. Right-click the folder and select **Copy as path**.
+
+![Create folder](images/ss74_2.png)
+
+
+## 10. Open Git Bash
+
+Open **Git Bash** terminal on your computer.
 
 ![Open Git Bash](images/ss74.png)
 
----
 
-## 10. Navigate to Your Working Directory
+Run:
 
-Move to the folder where you want to **download (clone) the GitHub repository**.
+ ```bash
+
+ cd "paste_copied_path_here"
+
+```
+
+Example:
 
 ```bash
-cd folder_path
+
+cd "D:\DMI"
+
 ```
 
 ![folder_path](images/ss75.png)
 
-To check your current location, run:
+
+Verify your location using:
 
 ```bash
+
 pwd
+
 ```
 
 ![folder_verification](images/ss76.png)
+
 
 ---
 
@@ -645,9 +663,21 @@ Once you add your own images, it is no longer needed.
 
 ### ⚠️ Important Note
 
-For **this week's assignment**, you do NOT need to add screenshots.
+For **this week's assignment**, you do **not** need to add any screenshots.
 
-This step is only to help you understand how images will be added in future assignments.
+This section is included to help you understand how screenshots should be added in future assignments when they are required.
+
+When naming screenshot files, avoid using spaces in the file name.
+
+**❌ Examples:**
+- Atomic Habits.jpg
+- My Screenshot.png
+
+**✅ Use hyphens (`-`) or underscores (`_`) instead:**
+- Atomic-Habits.jpg
+- Atomic_Habits.jpg
+- My-Screenshot.png
+- My_Screenshot.png
 
 ---
 
@@ -1187,7 +1217,6 @@ Before starting a new assignment (Every Saturday after the live session), run th
 ```bash
 git fetch upstream
 git merge upstream/main
-git push origin main
 ```
 
 ---
