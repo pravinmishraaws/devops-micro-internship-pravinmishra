@@ -18,9 +18,11 @@
 
 ---
 
-## IMPORTANT FOR LINKEDIN POSTS - Always add the below line
+## IMPORTANT FOR LINKEDIN POSTS - Always add the below line and he hashtags
 
 > **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
 
 ### Tag 'Pravin Mishra', 'Lead Co mentor' & your group's co comentors to your LinkedIn post.
@@ -71,3 +73,63 @@ Week-1 contains 7 assignments
 | 7 | Assignment-7: Brain dump + 5-month system plan | 10 | — | 10 |
 | — | Self written Blog - Any topic of your choice | — | — | 30 |
 | **Total** | | | | **120** |
+
+
+---
+
+<br> <br>
+
+## Week-2 — Agentic AI
+
+| S. No. | Item                                | Comments                                                                                         | Link                                                    |
+| ------ | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
+| 1 | Week-2 Class Recording | Watch the recording of the week-1 live class on YouTube | [YouTube](https://youtube.com/live/nxFy-HoDqu4?feature=share) |
+
+
+---
+
+### Week 2: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
+
+* **Deadline - Friday, 10th of July 11:59 PM (your local time)** 
+
+Week-2 contains 8 assignments
+
+| Assignment   | Name                                         | Correct Task Execution | Screenshots / Proof | LinkedIn Post | Total |
+| ------------ | -------------------------------------------- | ---------------------- | ------------------- | ------------- | ----- |
+| Assignment-1 | Your First Agentic Session                   | 10                     | 5                   | —             | 15    |
+| Assignment-2 | Teaching Claude Your Project (CLAUDE.md)     | 15                     | 5                   | —             | 20    |
+| Assignment-3 | Building Your Command Center (Skills)        | 20                     | 5                   | —             | 25    |
+| Assignment-4 | Building Your AI Team (Subagents)            | 15                     | 5                   | 20            | 40    |
+| Assignment-5 | Connecting Claude to the Outside World (MCP) | 20                     | 5                   | 20            | 45    |
+| Assignment-6 | Safety Rails for Your AI Agent         | 15                     | 5                   | 20            | 40    |
+| Assignment-7 | A Claude That Remembers (Memory)             | 10                     | 5                   | —             | 15    |
+| Assignment-8 | Week 2 Reflection Blog                       | 10                     | 5                   | 20            | 35    |
+| **Total** | | | | | **235** |
+
+---
+
+# 📌 Summary Rules
+
+### 📷 Screenshot Scoring
+
+* 5 marks = correct evidence (all required screenshots present, clear, valid)
+* Missing or incorrect proof = partial or zero marks
+
+---
+
+### 🔗 LinkedIn Post Scoring (ONLY where required)
+
+LinkedIn posts are evaluated separately:
+
+| Criteria                            | Marks  |
+| ----------------------------------- | ------ |
+| Post published with correct content | 10     |
+| Required P.S. line included         | 5      |
+| Screenshot of post included         | 5      |
+| **Total per LinkedIn post**         | **20** |
+
+---
+
+
+
+

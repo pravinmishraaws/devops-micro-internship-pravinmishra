@@ -35,8 +35,6 @@ On real infrastructure teams, no engineer gives AI unrestricted access to produc
 
 ## 5. Important Instructions (Global Rules)
 
-Follow the Assignment Submission Guidelines — Click here
-
 **Key Rules:**
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (keys, passwords, account IDs)
@@ -156,7 +154,7 @@ Each task must be completed sequentially.
 **Expected Output:** `settings.json` now has all three sections: `permissions`, `UserPromptSubmit` hook, and `PreToolUse` hook.
 
 **Screenshots Required:**
-- Screenshot 3 — Full `settings.json` showing all three sections complete
+- Screenshot 3 — Full `settings.json` showing all three sections complete 
 
 ---
 
@@ -217,15 +215,11 @@ Your submission must include:
 - All 5 required screenshots
 - Your GitHub repo URL (`settings.json` committed and visible)
 
-Submit only a Google Doc link.
-Follow the Assignment Submission Guidelines — (LINK)
-
 ---
 
 ## 10. Solution Walkthrough
 
-A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+A step-by-step solution and troubleshooting guide is available for reference will be provided. 
 
 ---
 
@@ -245,8 +239,4 @@ Before submission, verify:
 - [ ] Terraform destroy command test shows it was intercepted (Screenshot 5)
 - [ ] `settings.json` committed and visible in GitHub repo
 
----
 
-## 13. Final Submission
-
-Submit your assignment using this google form.
