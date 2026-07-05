@@ -77,11 +77,11 @@ What is this project and how should I deploy it?
 **Expected Output:** Claude gives a generic answer. It can see HTML and CSS but has no idea about S3, CloudFront, or Terraform.
 
 **Screenshots Required:**
-- Screenshot 1 — Claude's vague response to the question (no CLAUDE.md in place)
+- Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only index.html, style.css and images/)
 
 ---
 
-### Task 2 — Generate the First Draft with /init
+### Task 2 — Generate an initial CLAUDE.md using /init and review the auto-generated content in VS Code.
 
 **Goal:** Use the built-in `/init` command to create an auto-generated CLAUDE.md.
 
@@ -149,8 +149,8 @@ Add a React component to the homepage.
 - Test 2: Claude refuses or warns — citing the "No JavaScript" convention from CLAUDE.md
 
 **Screenshots Required:**
-- Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md
-- Screenshot 5 — Claude pushing back on the React request, citing the convention
+- Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
+- Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
 ---
 
@@ -167,9 +167,6 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 5 required screenshots
 - Your GitHub repo URL (CLAUDE.md should be committed)
-
-Submit only a Google Doc link.
-Follow the Assignment Submission Guidelines — (LINK)
 
 ---
 
@@ -198,6 +195,3 @@ Before submission, verify:
 
 ---
 
-## 13. Final Submission
-
-Submit your assignment using this google form.

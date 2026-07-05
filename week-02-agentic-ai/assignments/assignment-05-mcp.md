@@ -35,8 +35,6 @@ Without MCP, Claude works from training data — which can be months old and kno
 
 ## 5. Important Instructions (Global Rules)
 
-Follow the Assignment Submission Guidelines — Click here
-
 **Key Rules:**
 - Full name must be visible in required screenshots
 - Do **not** expose your GitHub token in any screenshot — blur or hide the token value
@@ -135,13 +133,13 @@ Each task must be completed sequentially.
 **Expected Output:** `settings.local.json` has the token in the `env` section and `github` listed in `enabledMcpjsonServers`.
 
 **Screenshots Required:**
-- Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual token value**
+- Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
 ---
 
 ### Task 4 — Verify the Connection with /mcp
 
-**Goal:** Confirm the GitHub MCP server is connected and ready.
+**Goal:** Confirm the GitHub MCP server is connected and ready. 
 
 **Steps:**
 1. Close Claude Code completely and reopen it (so it picks up the new `.mcp.json`)
@@ -196,15 +194,11 @@ Your submission must include:
 - A note confirming `settings.local.json` is in your `.gitignore`
 - Your GitHub repo URL (`.mcp.json` committed and visible, `settings.local.json` NOT committed)
 
-Submit only a Google Doc link.
-Follow the Assignment Submission Guidelines — (LINK)
-
 ---
 
 ## 10. Solution Walkthrough
 
-A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+A step-by-step solution and troubleshooting guide is available for reference will be updated.
 
 ---
 
@@ -225,8 +219,3 @@ Before submission, verify:
 - [ ] Live GitHub query returned real repository data
 - [ ] `.mcp.json` committed and visible in GitHub repo
 
----
-
-## 13. Final Submission
-
-Submit your assignment using this google form.
