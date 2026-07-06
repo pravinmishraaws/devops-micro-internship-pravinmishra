@@ -119,7 +119,7 @@ Audit my Terraform files for security issues.
 
 **Screenshots Required:**
 - Screenshot 4 — The delegation message showing Claude launched the security-auditor
-- Screenshot 5 — The full security audit report with findings visible
+- Screenshot 5 — Security audit report output
 
 ---
 

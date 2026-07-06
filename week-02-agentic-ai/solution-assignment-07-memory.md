@@ -32,13 +32,13 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 ### Evidence
 
-#### Screenshot 2 — Claude confirming memory was saved
+#### Screenshot 2 — Claude confirming the memory was saved
 
 Add your screenshot here.
 
 ---
 
-#### Screenshot 3 — MEMORY.md file showing saved content
+#### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
 Add your screenshot here.
 
@@ -52,7 +52,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 ### Evidence
 
-#### Screenshot 4 — Fresh Claude Code session after restart
+#### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
 Add your screenshot here.
 

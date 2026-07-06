@@ -101,7 +101,7 @@ cd REPO_NAME
 code .
 ```
 
-**Expected Output:** VS Code opens showing `index.html`, `style.css`, and the `images/` folder in the sidebar. No `.claude/` directory exists yet.
+**Expected Output:** VS Code opens showing `index.html`, `style.css`, and the `images/` folder in the sidebar. No `.claude/` directory exists yet. (Remove the .claude folder, CLAUDE.md, and .github folder if they exist.)
 
 **Screenshots Required:**
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
