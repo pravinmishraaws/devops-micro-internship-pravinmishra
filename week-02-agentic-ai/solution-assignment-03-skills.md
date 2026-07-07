@@ -76,7 +76,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 Add your screenshot here.
 
----
+![Tf plan](image-21.png)
 
 # Submission Instructions
 
@@ -90,13 +90,13 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/AIN0908/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/solution-assignment-03-skills.md____`
 
 ## LinkedIn post URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+[](https://github.com/AIN0908/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/solution-assignment-03-skills.md)
 ---
 
 # Completion Checklist
