@@ -33,7 +33,11 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
+<<<<<<< HEAD
 I believe career is my first priority because it’s both my passion and my identity. Money matters, but I always choose learning over short‑term earnings. I don’t believe in “learn first, do later”; modern life demands doing and learning simultaneously. I value discipline and planning, even though relationships sometimes suffer when I focus on growth. People say health comes first, but I often skip meals when I’m deeply engaged in work. Failure hits me hard because success genuinely matters to me. When everything is structured, life becomes smooth. And in today’s tech industry, competition and politics are unavoidable realities.
+=======
+Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
@@ -214,6 +218,7 @@ Choose books that improve:
 
 ## Book List
 
+<<<<<<< HEAD
 1. Meditations By Marcus Aurelius
 2. The Art of War By Sun Tzu
 3. Think and Grow Rich By Napoleon Hill
@@ -224,6 +229,18 @@ Choose books that improve:
 8. Atomic Habits By James Clear
 9. The 7 Habits of Highly Effective People By Stephen R. Covey
 10. The Power of Now By Eckhart Tolle
+=======
+1. Add your answer here...
+2. Add your answer here...
+3. Add your answer here...
+4. Add your answer here...
+5. Add your answer here...
+6. Add your answer here...
+7. Add your answer here...
+8. Add your answer here...
+9. Add your answer here...
+10. Add your answer here...
+>>>>>>> upstream/main
 
 ---
 
