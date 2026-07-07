@@ -54,13 +54,14 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
+![First question](image-2.png)
+![Question](image-3.png)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
+![CSS Lines](image-4.png)
 
 ---
 
@@ -77,7 +78,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+[Forked repository](https://github.com/AIN0908/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
 
