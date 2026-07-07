@@ -60,6 +60,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * You will get a diferent output if you haven't installed chocolatey before.
 * If you don't see any errors, you have installed chocolatey successfully.
 
+
 11. Verify coholatey is installed.
 
 - Run `choco`
@@ -67,6 +68,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * You will get the version of the chocolatey as the output.
 
 ![download](./images/ss115.png)
+
 
 12. Run this command to install terraform using chocolatey
 
@@ -77,6 +79,7 @@ choco install terraform
 ![download](./images/ss116.png)
 
 * You will get different output if you haven't installed terraform before.
+
 
 13. Verify the terraform installation
 
@@ -250,8 +253,6 @@ claude
 
 3. Claude reads the template specification and begins generating the Terraform files.
 
-![generation](./images/ss114.png)
-
 4. After completion, Claude displays a summary of the generated files.
 
 The generated files include:
@@ -268,6 +269,7 @@ terraform/
 ```
 
 ![summary](./images/ss136.png)
+
 
 5. Open the `terraform` folder in VS Code and verify that all files were created.
 
@@ -314,39 +316,27 @@ terraform init
 
 ![tf-plan](./images/ss141.png)
 
-3. Claude executes the Terraform plan command:
+3. Claude executes the tf-plan skill, runs terraform plan, and analyzes the output.
 
-```bash
-cd terraform && terraform plan -no-color
-```
+4. The output may vary depending on your environment and AWS configuration. The following screenshots are sample outputs. Your output does not need to match these exactly.
 
-![terraform plan](./images/ss142.png)
+**Scenario 1 — AWS credentials are not configured**
 
-4. Claude analyzes the Terraform output and explains the result.
+If you have not configured AWS credentials in your terminal, Terraform cannot authenticate with AWS.
 
-Depending on your environment, Terraform may:
+This is an expected outcome for this assignment.
 
-* Successfully generate a plan, or
-* Fail due to an AWS authentication issue, or
-* Fail due to a Terraform configuration issue (for example, a dependency cycle).
+![tf-plan](./images/ss163.png)
 
-All of these outcomes demonstrate that the skill was triggered correctly because Claude is able to analyze the Terraform output and explain the result.
+![tf-plan](./images/ss164.png)
 
-![analysis](./images/ss143.png)
+**Scenario 2 — AWS credentials are configured**
 
-5. If Claude suggests applying a fix by modifying Terraform files, do **not** approve the change.
+If AWS credentials are configured correctly and Terraform can communicate with AWS, the plan may succeed.
 
-Select:
+![tf-plan](./images/ss165.png)
 
-```
-No
-```
-
-and press `Enter`.
-
-![reject fix](./images/ss143.png)
-
-The purpose of this task is to observe the `/tf-plan` skill running Terraform and analyzing the output.
+![tf-plan](./images/ss166.png)
 
 ---
 
@@ -479,7 +469,18 @@ git push origin main
 
 ### Screenshot 6 — Claude's `/tf-plan` response showing Terraform output and Claude's analysis
 
-![analysis](./images/ss142.png)
+- Sample outputs added here.
 
-![analysis](./images/ss143.png)
+![analysis](./images/ss163.png)
+
+
+![analysis](./images/ss164.png)
+
+---
+
+![analysis](./images/ss165.png)
+
+
+![analysis](./images/ss166.png)
+
 
