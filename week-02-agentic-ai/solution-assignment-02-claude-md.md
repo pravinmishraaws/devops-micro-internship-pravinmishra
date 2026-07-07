@@ -84,7 +84,7 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 Paste your forked repository URL here:
 
- https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra.git 
+ **https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra.git**
 
 ---
 
