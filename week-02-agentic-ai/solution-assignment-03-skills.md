@@ -22,7 +22,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 Add your screenshot here.
 
----
+![Skills folder](image-15.png)
 
 # Task 2 — Add the Skill Files
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-Add your screenshot here.
+![Skill files](image-16.png)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![tf-plan skill](image-17.png)
 
 ---
 
@@ -54,14 +54,14 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-Add your screenshot here.
+![terraform scaffold](image-18.png)
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-Add your screenshot here.
-
+![TF](image-19.png)
+![TF scaffold](image-20.png)
 ---
 
 # Task 4 — Run terraform init and /tf-plan
