@@ -59,13 +59,12 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 Add your screenshot here.
 
----
+[Screenshot 4 - Agentic Loop Q1](screenshots/assignment01-screenshot4-agentic-loop-q1.png)
 
 #### Screenshot 5 â€” Claude's response to the second question, showing it ran a command and reported the line count
 
 Add your screenshot here.
-
----
+[Screenshot 5 - Agentic Loop Q2](screenshots/assignment01-screenshot5-agentic-loop-q2.png)
 
 # Submission Instructions
 
