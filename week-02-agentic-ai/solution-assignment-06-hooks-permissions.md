@@ -18,7 +18,7 @@ Create a team-level `settings.json` file with allow and deny rules for safe comm
 
 ### Evidence
 
-#### Screenshot 1 — settings.json permissions configuration
+#### Screenshot 1 — Screenshot 1 — `settings.json` open in VS Code showing the full permissions configuration
 
 Add your screenshot here.
 

@@ -123,7 +123,7 @@ Each task must be completed sequentially.
 **Expected Output:** `settings.json` now has both a `permissions` section and a `hooks` section containing the UserPromptSubmit hook.
 
 **Screenshots Required:**
-- Screenshot 2 — `settings.json` showing the hooks section with the UserPromptSubmit hook
+- Screenshot 2 — settings.json showing UserPromptSubmit hook
 
 ---
 
@@ -154,7 +154,7 @@ Each task must be completed sequentially.
 **Expected Output:** `settings.json` now has all three sections: `permissions`, `UserPromptSubmit` hook, and `PreToolUse` hook.
 
 **Screenshots Required:**
-- Screenshot 3 — Full `settings.json` showing all three sections complete 
+- Screenshot 3 — full settings.json with permissions and hooks
 
 ---
 
@@ -176,7 +176,7 @@ delete all files in the terraform folder
 **Expected Output:** Claude Code shows a hook error or blocked message. Claude does NOT begin reading files or executing any action.
 
 **Screenshots Required:**
-- Screenshot 4 — The blocked result showing the hook intercepted the destructive prompt
+- Screenshot 4 — blocked prompt due to UserPromptSubmit hook
 
 ---
 
@@ -197,7 +197,7 @@ Run terraform destroy in the terraform folder.
 **Expected Output:** Claude accepts and starts the task, but the hook intercepts the `terraform destroy` command before it runs. Claude reports the block.
 
 **Screenshots Required:**
-- Screenshot 5 — Claude's session showing the PreToolUse hook blocked the terraform destroy command
+- Screenshot 5 — PreToolUse hook blocking terraform destroy
 
 ---
 

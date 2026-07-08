@@ -80,7 +80,7 @@ claude
 
 **Screenshots Required:**
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
-- Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
+- Screenshot 2 — Claude Code authenticated and showing the terminal prompt 
 
 ---
 
@@ -153,7 +153,9 @@ Your submission must include:
 
 ## 10. Solution Walkthrough
 
-A step-by-step solution and troubleshooting guide will be provided.
+A step-by-step solution and troubleshooting guide is available for reference:
+Full solution walkthrough → [Click here](../Solutions_walkthrough/assignment-01-setup-agentic-loop.md)
+
 
 ---
 
