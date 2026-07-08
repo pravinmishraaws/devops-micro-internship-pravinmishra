@@ -30,7 +30,9 @@ Add your screenshot here.
 
 Add your screenshot here.
 
----
+### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
+
+[Claude Code authenticated](/screenshots/assignment01-screenshot2-claude-authenticated.png)
 
 # Task 2 — Fork and Clone the Starter Repository
 
