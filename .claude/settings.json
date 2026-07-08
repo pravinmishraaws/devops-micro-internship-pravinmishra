@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(terraform *)",
+      "Bash(aws s3 sync *)",
+      "Bash(npm *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(terraform destroy*)",
+      "Bash(aws s3 rm *)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import sys, json\\ndata = json.load(sys.stdin)\\nprompt = data.get('prompt', '').lower()\\ndangerous = ['delete all', 'nuke', 'rm -rf', 'destroy all', 'wipe']\\nif any(w in prompt for w in dangerous):\\n print('BLOCKED: Destructive intent detected', file=sys.stderr)\\n sys.exit(1)\\n\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -c \"import sys, json\\ndata = json.load(sys.stdin)\\ncmd = data.get('command', '').lower()\\nblocked = ['terraform destroy', 'aws s3 rm']\\nif any(b in cmd for b in blocked):\\n print('BLOCKED: Dangerous command intercepted', file=sys.stderr)\\n sys.exit(1)\\n\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -22,7 +22,7 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 Add your screenshot here.
 
----
+![settings.json](image-35.png)
 
 # Task 2 — Create the UserPromptSubmit Hook Script
 
@@ -34,7 +34,7 @@ Create a hook that checks user prompts before Claude processes them and blocks r
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+![UserPrompt](image-36.png)
 
 ---
 
@@ -48,7 +48,7 @@ Create a hook that runs before Claude executes Bash commands and blocks dangerou
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+![permissions](image-37.png)
 
 ---
 
@@ -80,50 +80,19 @@ Add your screenshot here.
 
 ---
 
-# Task 6 — Test the UserPromptSubmit Hook
-
-## Goal
-
-Prove the prompt-level hook works by typing a destructive prompt and verifying it is blocked before Claude processes the request.
-
-### Evidence
-
-#### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
-
----
-
-# Task 7 — Test the PreToolUse Hook
-
-## Goal
-
-Prove the tool-level hook works by asking Claude to execute a dangerous Bash command.
-
-### Evidence
-
-#### Screenshot 7 — PreToolUse hook blocking terraform destroy
-
----
-
-# Task 8 — Test the PostToolUse Logging Hook
-
-## Goal
-
-Prove the logging hook runs after a successful command execution and records Terraform operations.
-
-### Evidence
-
-#### Screenshot 8 — Claude running terraform validate successfully
-
-#### Screenshot 9 — `.claude/deploy.log` showing the logged command
-
----
-
 # Submission Instructions
 
-Complete all tasks in sequence.
+- Ensure `.claude/settings.json` is committed to your GitHub repository
+- Run both hook tests successfully and capture required screenshots
+- Push final changes to your forked repository
 
-Your submission must include:
-- All 9 required screenshots
+---
+
+## GitHub Repository URL
+
+Paste your forked repository URL here:
+
+`__________________________`
 
 ---
 
