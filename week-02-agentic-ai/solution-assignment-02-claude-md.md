@@ -22,7 +22,9 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 Add your screenshot here.
 
----
+### Screenshot 3 — VS Code with the project open, file tree visible
+
+![VS Code file tree](/screenshots/assignment01-screenshot3-vscode-filetree.png)
 
 # Task 2 — Generate the First Draft with /init
 
