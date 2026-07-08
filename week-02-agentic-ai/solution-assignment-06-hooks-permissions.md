@@ -22,7 +22,7 @@ Create a team-level `settings.json` file with allow and deny rules for safe comm
 
 Add your screenshot here.
 
----
+![settings.json](image-35.png)
 
 # Task 2 — Add the UserPromptSubmit Hook
 
@@ -34,7 +34,7 @@ Add a hook that intercepts user prompts before Claude starts execution and block
 
 #### Screenshot 2 — settings.json showing UserPromptSubmit hook
 
-Add your screenshot here.
+![UserPrompt](image-36.png)
 
 ---
 
@@ -48,7 +48,7 @@ Extend `settings.json` with a PreToolUse hook that blocks dangerous Bash command
 
 #### Screenshot 3 — full settings.json with permissions and hooks
 
-Add your screenshot here.
+![permissions](image-37.png)
 
 ---
 
@@ -92,7 +92,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`github`https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
 
 ---
 
