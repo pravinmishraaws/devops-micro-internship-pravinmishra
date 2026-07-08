@@ -329,6 +329,36 @@ Claude should use the GitHub MCP server to retrieve information from your GitHub
 
 ![mcp response](./images/ss205.png)
 
+
+## 3. Go to your GitHub account and verify README.md of your fork of Ultimate-Agentic-DevOps-with-Claude-Code has the same content
+
+- Go to your GitHub repository
+- Navigate to the forked repository - Ultimate-Agentic-DevOps-with-Claude-Code
+
+![github query](./images/ss213.png)
+
+- Open the repository and navigate to README.md file
+
+![github query](./images/ss214.png)
+
+- Go to `Raw` and right click
+
+![github query](./images/ss215.png)
+
+- Select `Open link in new tab`
+
+![github query](./images/ss216.png)
+
+- Compare the content with the output you got in step 6
+
+![github query](./images/ss217.png)
+
+- Output from GitHub Query in step 6
+
+![github query](./images/ss204.png)
+
+![mcp response](./images/ss205.png)
+
 ---
 
 # Step 7 — Commit `.mcp.json` to GitHub
