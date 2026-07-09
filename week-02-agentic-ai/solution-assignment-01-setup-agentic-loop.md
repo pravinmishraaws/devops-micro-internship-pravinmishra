@@ -56,8 +56,7 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 Add your screenshot here.
 
-![Claude's response to first question](./screenshots/SS-A1/W2-A1-SS-03-4.png)
-
+![Claude response to first question](./screenshots/SS-A1/W2-A1-SS-03-4.png)
 
 
 #### Screenshot 5 â€” Claude's response to the second question, showing it ran a command and reported the line count
