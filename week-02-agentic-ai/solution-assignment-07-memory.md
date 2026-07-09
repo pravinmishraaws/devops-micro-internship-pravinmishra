@@ -20,7 +20,7 @@ Identify where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![Screenshot](screenshots/path.png)
 
 ---
 
@@ -34,13 +34,13 @@ Store project-specific rules and configurations into Claude’s memory and verif
 
 #### Screenshot 2 — Claude confirming memory was saved
 
-Add your screenshot here.
+![Screenshot 2](screenshots/claude-memoryfile-saved.png)
 
 ---
 
 #### Screenshot 3 — MEMORY.md file showing saved content
 
-Add your screenshot here.
+![Screenshot 3](screenshots/Memory-path.png)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — Fresh Claude Code session after restart
 
-Add your screenshot here.
+![Screenshot 4](screenshots/new-session.png)
 
 ---
 
@@ -68,13 +68,13 @@ Verify that Claude correctly recalls stored memory after a full session reset.
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![Screenshot 5](screenshots/recall.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![Screenshot 6](screenshots/refuse.png)
 
 ---
 
@@ -91,9 +91,16 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/ayomikunphilip/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
+
+### LinkedIn posts
+
+![LinkedIn screenshot](screenshots/LinkedIn-2.png)
+
+Link: `https://www.linkedin.com/posts/ayomikunphilip_dmibypravinmishra-agenticai-claudecode-share-7481005967606882304-SYg5/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF4cLMMBGj_ND3_b5bGU28ywvq8aZAW62fs`
+
 
 # Completion Checklist
 
