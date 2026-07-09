@@ -48,8 +48,6 @@ By completing this assignment, you will:
 
 ## 5. Important Instructions
 
-Follow the Assignment Submission Guidelines.
-
 **Key Rules:**
 
 * Write in your own words
@@ -80,7 +78,7 @@ Before starting this assignment, you should have completed the Week 2 assignment
 
 **Goal:** Write a reflection blog about what you learned in Week 2 of the DevOps Micro Internship.
 
-You can write your blog in any of the following formats:
+You can write your blog in any of the following platforms:
 
 * Hashnode blog
 * Medium article
@@ -101,8 +99,6 @@ Your reflection must include the following sections.
 
 #### 1. Biggest technical insight I got this week
 
-Add your answer here.
-
 Write about the biggest thing you understood this week.
 For example, you can write about:
 
@@ -119,8 +115,6 @@ For example, you can write about:
 
 #### 2. Biggest insight I got about myself this week
 
-Add your answer here.
-
 Write about what you noticed about your own learning style.
 For example:
 
@@ -133,8 +127,6 @@ For example:
 ---
 
 #### 3. My biggest weakness or loop I noticed
-
-Add your answer here.
 
 Write honestly about one repeated challenge.
 For example:
@@ -149,8 +141,6 @@ For example:
 ---
 
 #### 4. One system I will implement from this week
-
-Add your answer here.
 
 Write one exact habit you will implement going forward.
 
@@ -168,8 +158,6 @@ Example:
 
 #### 5. What I learned about Agentic AI and DevOps
 
-Add your answer here.
-
 Explain how your understanding of DevOps changed after using Agentic AI tools.
 
 You may include points like:
@@ -184,8 +172,6 @@ You may include points like:
 ---
 
 #### 6. My Week 2 highlight
-
-Add your answer here.
 
 Write about one moment you are proud of.
 
@@ -228,24 +214,15 @@ Use this line in your post:
 
 P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
 
-Suggested hashtags:
+Hashtags:
 
-#DMIProgram #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
 ---
 
 ## 11. Submission Instructions
 
-Submit only a Google Doc link.
-
-Your Google Doc must include:
-
-* Your full name
-* Reflection blog link or full reflection written inside the document
-* LinkedIn post URL
-* Screenshot of your LinkedIn post
-
-Make sure link sharing is enabled before submission.
+Submit the GitHub Repo Link. 
 
 ---
 
@@ -257,16 +234,9 @@ Before submission, verify:
 * [ ] Full name is visible
 * [ ] Reflection is at least 300 words
 * [ ] All 6 required sections are answered
-* [ ] At least 2 Week 2 technical topics are mentioned
+* [ ] At least two Week 2 technical topics are mentioned
 * [ ] One exact habit/system is included
 * [ ] LinkedIn post is created
 * [ ] Required P.S. line is included in the LinkedIn post
 * [ ] LinkedIn post URL is added
 * [ ] Screenshot of LinkedIn post is added
-* [ ] Google Doc link sharing is enabled
-
----
-
-## 13. Final Submission
-
-Submit your assignment using the Google Form provided in the course.
