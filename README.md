@@ -17,8 +17,8 @@
 | **Name** | Gautam  |
 | **LinkedIn** | [Gautam Kevadiya](www.linkedin.com/in/gautam-kevadiya-60369041b) |
 | **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Background** | Consultant |
+| **Goal** | Learning perfect |
 
 ---
 
