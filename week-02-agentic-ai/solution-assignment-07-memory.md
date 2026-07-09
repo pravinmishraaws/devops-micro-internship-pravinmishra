@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![Assignment 7 Screenshots](screenshots/assgn7-img1.png)
 
 ---
 
@@ -34,13 +34,15 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![Assignment 7 Screenshots](screenshots/assgn7-img2.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![Assignment 7 Screenshots](screenshots/assgn7-img3a.png)
+
+![Assignment 7 Screenshots](screenshots/assgn7-img3b.png)
 
 ---
 
@@ -54,7 +56,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![Assignment 7 Screenshots](screenshots/assgn7-img4.png)
 
 ---
 
@@ -68,13 +70,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![Assignment 7 Screenshots](screenshots/assgn7-img5.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![Assignment 7 Screenshots](screenshots/assgn7-img6.png)
 
 ---
 
@@ -91,7 +93,7 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+https://www.linkedin.com/posts/kingsley-erhatiemwonmon_dmibypravinmishra-agenticai-claudecode-ugcPost-7480985703556943872-D6Pp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
 
 ---
 
@@ -99,7 +101,7 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+https://github.com/solutionkingz-glitch/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
 ---
 
