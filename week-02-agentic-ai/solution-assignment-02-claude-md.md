@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will create and customize a `CLAUDE.md` file for your project using `/init`. You will then modify it with project-specific rules and verify how it changes Claude’s behavior through before-and-after testing.
+In this assignment, you will create and customize a `CLAUDE.md` file for your project using `/init`. You will then modify it with project-specific rules and verify how it changes Claude's behavior through before-and-after testing.
 
 ---
 
@@ -14,17 +14,13 @@ In this assignment, you will create and customize a `CLAUDE.md` file for your pr
 
 ## Goal
 
-Capture Claude’s response before `CLAUDE.md` exists in the project to establish a baseline behavior.
+Capture Claude's response before `CLAUDE.md` exists in the project to establish a baseline behavior.
 
 ### Evidence
 
-#### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
+#### Screenshot 1 — Claude's generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
-
-### Screenshot 3 — VS Code with the project open, file tree visible
-
-[VS Code file tree](screenshots/assignment01-screenshot3-vscode-filetree.png)
+![Screenshot 1 - Before state](screenshots/assignment02-screenshot1-before-state.png)
 
 # Task 2 — Generate the First Draft with /init
 
@@ -36,9 +32,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
-
-[Screenshot 2 - Before state](assignment02-screenshot2-init-output.png)
+![Screenshot 2 - init output](screenshots/assignment02-screenshot2-init-output.png)
 
 # Task 3 — Customize the CLAUDE.md
 
@@ -50,29 +44,23 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
-
-[Screenshot 3 - customised claudemd](assignment02-screenshot3-customized-claudemd.png)
+![Screenshot 3 - customized CLAUDE.md](screenshots/assignment02-screenshot3-customized-claudemd.png)
 
 # Task 4 — Test the After State
 
 ## Goal
 
-Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a new session and comparing responses before and after context is applied.
+Verify that Claude's behavior changes after adding `CLAUDE.md` by running a new session and comparing responses before and after context is applied.
 
 ### Evidence
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
-
-[Screenshot 4 - deployment](assignment02-screenshot4-after-deployment.png)
+![Screenshot 4 - after deployment](screenshots/assignment02-screenshot4-after-deployment.png)
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
-
-[Screenshot 5 - Refusing react](assignment02-screenshot5-react-refusal.png)
+![Screenshot 5 - React refusal](screenshots/assignment02-screenshot5-react-refusal.png)
 
 # Task 5 — Commit and push your changes to your fork in GitHub
 
@@ -84,9 +72,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
-
-![Screenshot 6 - claudemd in github](assignment02-screenshot6-github-claudemd.png)
+![Screenshot 6 - CLAUDE.md in GitHub](screenshots/assignment02-screenshot6-github-claudemd.png)
 
 # Submission Instructions
 
@@ -99,8 +85,6 @@ Add your screenshot here.
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
-`https://github.com/Ubani-Onu-C/devops-micro-internship-pravinmishra
-
 `https://github.com/Ubani-Onu-C/devops-micro-internship-pravinmishra`
 
 # Completion Checklist
