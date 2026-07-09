@@ -14,7 +14,7 @@ In this assignment, you will explore Claude Code’s memory system. You will loc
 
 ## Goal
 
-Identify where Claude Code stores memory for this project.
+Discover exactly where Claude Code stores memory for this project.
 
 ### Evidence
 
@@ -28,7 +28,7 @@ Add your screenshot here.
 
 ## Goal
 
-Store project-specific rules and configurations into Claude’s memory and verify that they are saved.
+Teach Claude three specific facts about the project and instruct it to save them to the memory file.
 
 ### Evidence
 
@@ -62,7 +62,7 @@ Add your screenshot here.
 
 ## Goal
 
-Verify that Claude correctly recalls stored memory after a full session reset.
+Run three tests that prove Claude remembers what you told it — without you saying it again in the new session.
 
 ### Evidence
 
@@ -87,6 +87,14 @@ Add your screenshot here.
 
 ---
 
+## Linkedin Post Link
+
+Paste your Linkedin post link here:
+
+`__________________________`
+
+---
+
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
@@ -104,6 +112,7 @@ https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-0
 - [ ] Claude recalled hero colors correctly (Screenshot 5)
 - [ ] Claude refused JavaScript request based on memory (Screenshot 6)
 - [ ] All screenshots added and committed to GitHub repo
+- [ ] Linkedin post created.
 
 ---
 
