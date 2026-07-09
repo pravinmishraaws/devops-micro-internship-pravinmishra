@@ -240,9 +240,9 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+Learning : I learn everyday something from different resources.
+I do hit gym 
+ask help to different persons 
 * Add your answer here...
 * Add your answer here...
 * Add your answer here...
@@ -275,7 +275,7 @@ Examples:
 
 Answer:
 
-Add your answer here...
+yes
 
 ---
 
@@ -292,8 +292,9 @@ Example:
 * Sun: Weekly review
 
 #### My Weekly Routine
-
-Add your answer here...
+ 
+Wed : working on project 
+Sat : Session
 
 ---
 
@@ -301,11 +302,10 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
-
+Wed : after 17 o'clock
 #### How Many Sessions Per Week?
 
-Add your answer here...
+1
 
 ---
 
@@ -318,8 +318,8 @@ Examples:
 * Environment setup
 
 #### My Distraction Rules
-
-Add your answer here...
+No phone during session
+track all social media time
 
 ---
 
@@ -327,11 +327,11 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+motivation of all different people who joined
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+stop after finding blockage
 
 ### One system I will implement from this week (exact habit + time)
 
@@ -348,7 +348,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- Blog / Medium : [**ADD LINK HERE**  ](https://dmicohort3.blogspot.com/2026/07/week-1.html)
 
 ---
 
