@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
+
 ![Claude's generic response](./screenshots/SS-A2/W2-A2-SS-03-1.png)
 ---
 
@@ -34,7 +34,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
+
 ![The auto-generated CLAUDE.md](./screenshots/SS-A2/W2-A2-SS-03-2.png)
 ---
 
@@ -48,7 +48,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+
 ![The customized CLAUDE.md](./screenshots/SS-A2/W2-A2-SS-03-3.png)
 ---
 
@@ -62,13 +62,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+
 ![The specific, detailed answer after reading CLAUDE.md](./screenshots/SS-A2/W2-A2-SS-03-4.png)
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+
 ![The Claude refusing or warning against adding React](./screenshots/SS-A2/W2-A2-SS-03-5.png)
 ---
 
@@ -82,8 +82,8 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
-![Claude's generic response](./screenshots/SS-A2/W2-A2-SS-03-1.png)
+
+![CLAUDE.md visible to GitHub repository after pushing the commit](./screenshots/SS-A2/W2-A2-SS-03-6.png)
 ---
 
 # Submission Instructions
