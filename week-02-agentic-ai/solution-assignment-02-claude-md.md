@@ -93,7 +93,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 - Add all required screenshots to your submission
 - Push your final changes to your forked repository
 
----
+---g
 
 ## GitHub Repository URL
 
