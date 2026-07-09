@@ -83,7 +83,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
 
-![CLAUDE.md visible to GitHub repository after pushing the commit](./screenshots/SS-A2/W2-A2-SS-03-6.png)
+![CLAUDE.md visible to GitHub repository after pushing the commit](./screenshots/SS-A2/W2-A2-SS-3-6.png)
 ---
 
 # Submission Instructions
