@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Gautam  |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
+| **LinkedIn** | [Gautam Kevadiya](www.linkedin.com/in/gautam-kevadiya-60369041b) |
 | **Location** | Helsinki, Finland |
 | **Background** | Cloud, DevOps & AI Consultant |
 | **Goal** | Train 10,000+ DevOps professionals |
