@@ -62,7 +62,7 @@
 
 - set up claude
 - how to use claude
-- 
+- configuration 
 
 ---
 
