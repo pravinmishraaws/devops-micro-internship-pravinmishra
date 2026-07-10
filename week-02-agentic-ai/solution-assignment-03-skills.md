@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — scaffold-terraform skill folder contents
 
-![Screenshot 2](screenshots/Scaff.png)
+![Screenshot 2](screenshots/scaffF.png)
 
 ---
 
 #### Screenshot 3 — tf-plan/SKILL.md showing allowed-tools restrictions
 
-![Screenshot 3](screenshots/scaffF.png)
+![Screenshot 3](screenshots/TF_plann.png)
 
 ---
 
