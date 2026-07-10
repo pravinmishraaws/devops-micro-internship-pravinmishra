@@ -152,24 +152,31 @@ Demonstrate the complete dynamic workflow orchestration where multiple specializ
 
 ### Key Workflow Features Demonstrated
 
-✅ **Dynamic Parallel Execution** — 3 audit agents (security-audit, cost-analysis, drift-detection) running simultaneously  
-✅ **Multi-Phase Orchestration** — Audit phase (3 agents) → Synthesis phase (1 agent) sequential pipeline  
+✅ **Dynamic Parallel Execution** — 3 audit agents (security-auditor, cost-optimizer, drift-detector) running simultaneously with workflow display names (security-audit, cost-analysis, drift-detection)
+✅ **Multi-Phase Orchestration** — Audit phase (3 agents in parallel) → Synthesis phase (1 consolidation agent) sequential pipeline  
 ✅ **Agent Specialization** — Sonnet 5 for security analysis, Haiku 4.5 for cost/drift analysis  
-✅ **Result Synthesis** — Consolidation agent combines security, cost, and drift findings  
-✅ **Actionable Output** — Priority-ordered remediation recommendations with specific fixes  
+✅ **Result Synthesis** — Consolidation agent combines security, cost, and drift findings into unified report  
+✅ **Actionable Output** — Priority-ordered remediation recommendations with specific fixes and cost savings  
 
 ### Evidence Verification Notes
 
-**Actual Agent Names (corrected from initial documentation):**
-- `security-audit` (Sonnet 5) — Infrastructure security analysis
-- `cost-analysis` (Haiku 4.5) — Cost optimization opportunities  
-- `drift-detection` (Haiku 4.5) — State drift detection
-- `synthesis` (Haiku 4.5) — Findings consolidation and report generation
+**Agent Files vs Workflow Display Names:**
 
-**Actual Execution Timeline:**
-- Parallel audit phase: ~45s to 2m45s per agent (variable, not uniform)
-- Total workflow time: 3m+ including synthesis phase
-- Demonstrates real parallel execution with varying completion times
+| Agent File | Workflow Display Name | Model | Purpose |
+|-----------|----------------------|-------|---------|
+| `security-auditor.md` | `security-audit` | Sonnet 5 | Infrastructure security analysis |
+| `cost-optimizer.md` | `cost-analysis` | Haiku 4.5 | Cost optimization opportunities |
+| `drift-detector.md` | `drift-detection` | Haiku 4.5 | State drift detection |
+| (synthesis phase) | `synthesis` | Haiku 4.5 | Findings consolidation & report |
+
+**Workflow Execution Timeline:**
+- Parallel audit phase: Variable times (45s to 2m45s per agent)
+  - cost-analysis (Haiku): ~45s
+  - security-audit (Sonnet): ~1m32s
+  - drift-detection (Haiku): ~2m45s
+- Synthesis phase: ~29s (consolidation)
+- Total workflow time: 3m+ end-to-end
+- Demonstrates real parallel execution with varying completion times due to task complexity
 
 ---
 
