@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![book1](screenshots/m4.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+https://medium.com/@timobi410/reflection-week-2-learning-to-work-with-ai-not-just-use-it-b5ad6242b02b?sharedUserId=timobi410
 
 ---
 
@@ -92,23 +92,42 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![book1](screenshots/l8.png)
+![book1](screenshots/l9.png)
 
 ---
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
+LinkedIn Post Content ():
 
-```
-Paste your LinkedIn post content here
-```
+Week 2 of the DevOps Micro Internship (DMI) Cohort 3 is complete! 🚀
+
+This week completely changed how I think about AI.
+
+Before now, I saw AI as a tool that responds to prompts. This week, I learned how to configure AI to become a project-aware teammate through Claude Code, Skills, Subagents, Hooks, Permissions, and Memory.
+
+One of the most interesting moments was working with Claude Memory. I expected it to save every instruction I gave it, but instead it refused to store information that was already documented in the project or didn’t match the code. At first, I thought something was wrong, but after troubleshooting, I realized it was actually protecting the integrity of the project’s memory.
+
+That experience taught me an important lesson: good AI doesn’t just follow instructions—it verifies, reasons, and helps prevent mistakes.
+
+I also built custom hooks to automate parts of my Terraform workflow, configured command permissions for safer execution, and explored how project-specific instructions help AI maintain consistency across an entire repository.
+
+Every week in this internship reminds me that DevOps isn’t just about learning new tools—it’s about understanding how to build reliable systems, automate repetitive work, and collaborate effectively with both people and AI.
+
+I’m grateful for the opportunity to keep learning, building, and growing one week at a time. Looking forward to what Week 3 has in store! 💪
+
+Grateful to my Lead Co-mentor Anjana Muthunayake, my group 2 mentors: Faith Samson Joy Ukpabi Rukevwe ubioworo and lastly my fellow group 2 members. 
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra . You can start your DevOps journey by joining this Discord community (https://lnkd.in/enATmff9).
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic #Terraform #AWS
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+https://www.linkedin.com/posts/tim-obi-40688a3a7_dmibypravinmishra-agenticai-claudecode-ugcPost-7481342696712802304-TFE7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs
 
 ---
 
