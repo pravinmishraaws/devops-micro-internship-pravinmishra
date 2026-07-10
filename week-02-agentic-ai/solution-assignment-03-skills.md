@@ -134,39 +134,52 @@ Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that
 
 Move beyond local skill execution to **real cloud deployment**. Create actual cloud resources using the generated Terraform configuration, deploy the infrastructure, and verify the live site is accessible.
 
+### Course-Provided Skills Used
+
+#### `/tf-apply` Skill
+- **Purpose:** Execute Terraform apply to create and modify cloud resources
+- **Used for:** Provisioning infrastructure based on generated Terraform configuration
+- **Part of:** Udemy course content — standard DevOps automation workflow
+
+#### `/deploy` Skill
+- **Purpose:** Deploy and configure the application on provisioned infrastructure
+- **Used for:** Application deployment and service initialization
+- **Part of:** Udemy course content — complements `/tf-apply` for complete deployment pipeline
+
 ### Evidence
 
-#### Screenshot 11 — Cloud console showing created resources (compute instances, networking, storage)
+#### Screenshot 11 — `/tf-apply` skill execution creating cloud resources
 
-![Cloud resources created](./screenshots/Solution-Assignment/assignment-03/Screenshot%2011.png)
-
----
-
-#### Screenshot 12 — Cloud deployment status showing successful resource provisioning
-
-![Infrastructure deployment status](./screenshots/Solution-Assignment/assignment-03/Screenshot%2012.png)
+![tf-apply resource creation](./screenshots/Solution-Assignment/assignment-03/Screenshot%2011.png)
 
 ---
 
-#### Screenshot 13 — Live application URL in browser showing deployed site
+#### Screenshot 12 — `/deploy` skill execution deploying application to infrastructure
 
-![Live site verification in browser](./screenshots/Solution-Assignment/assignment-03/Screenshot%2013.png)
+![deploy skill execution](./screenshots/Solution-Assignment/assignment-03/Screenshot%2012.png)
 
 ---
 
-#### Screenshot 14 — Cloud monitoring dashboard showing live traffic and health metrics
+#### Screenshot 13 — Cloud console showing created resources (compute instances, networking, storage)
 
-![Cloud monitoring and metrics](./screenshots/Solution-Assignment/assignment-03/Screenshot%2014.png)
+![Cloud resources created](./screenshots/Solution-Assignment/assignment-03/Screenshot%2013.png)
+
+---
+
+#### Screenshot 14 — Live application URL in browser showing deployed site
+
+![Live site verification in browser](./screenshots/Solution-Assignment/assignment-03/Screenshot%2014.png)
 
 ---
 
 ### Key Achievements
 
-- ✅ Generated Terraform code successfully deployed to cloud
-- ✅ Real infrastructure resources provisioned (not just local validation)
+- ✅ Generated Terraform code successfully executed via `/tf-apply` skill
+- ✅ Application deployed to cloud using `/deploy` skill
+- ✅ Real infrastructure resources provisioned in cloud environment
 - ✅ Live application accessible and verified working
-- ✅ Demonstrates end-to-end agentic DevOps workflow: code generation → cloud deployment → verification
-- ✅ Shows practical application of skills in production-like scenario
+- ✅ Demonstrates end-to-end agentic DevOps workflow: code generation → tf-apply → deploy → verification
+- ✅ Shows practical application of course skills in production-like scenario
 
 ---
 
@@ -212,10 +225,12 @@ Move beyond local skill execution to **real cloud deployment**. Create actual cl
 - [x] Bonus screenshots 7-10 added
 
 ### Cloud Deployment & Verification (Bonus Task 6)
-- [x] Cloud resources created from generated Terraform configuration
+- [x] `/tf-apply` skill used to create cloud resources
+- [x] `/deploy` skill used to deploy application (course content skills)
 - [x] Infrastructure deployed to cloud environment
 - [x] Live site link verified and functional
 - [x] Deployment verification screenshots added (11-14)
+- [x] End-to-end workflow: scaffold → tf-apply → deploy → verify
 - [x] Production-ready infrastructure demonstrated
 
 ---
