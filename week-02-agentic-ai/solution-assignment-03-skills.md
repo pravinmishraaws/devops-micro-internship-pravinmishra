@@ -161,11 +161,11 @@ Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that
 - [x] LinkedIn post URL included
 
 ## Bonus Activities (Beyond Course Scope)
-- [ ] `/undeploy` custom skill created
-- [ ] `/undeploy/SKILL.md` configured with proper allowed-tools
-- [ ] `/undeploy` skill template/documentation added
-- [ ] `/undeploy` skill executed successfully
-- [ ] Bonus screenshots 7-10 added
+- [x] `/undeploy` custom skill created
+- [x] `/undeploy/SKILL.md` configured with proper allowed-tools
+- [x] `/undeploy` skill template/documentation added
+- [x] `/undeploy` skill executed successfully
+- [x] Bonus screenshots 7-10 added
 
 ---
 
