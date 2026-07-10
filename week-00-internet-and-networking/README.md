@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](./screenshots/task1.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+When we talk about networking, it has complex mechanism, that make us to connect everywhere. We can say it Protocol. 
 
 ---
 
@@ -59,7 +59,13 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+* Packet Switching : Packet switching is a method of transmitting data over a network by breaking it into small pieces called packets. Each packet is sent independently through the network and is reassembled into the original data at the destination.
+
+* IP Address : An IP address (Internet Protocol address) is a unique numerical identifier assigned to every device connected to a network. It allows devices to identify each other and send or receive data over the internet or a local network.
+
+* TCP/IP : TCP/IP (Transmission Control Protocol / Internet Protocol) is the standard set of communication protocols that enables computers and devices to communicate over the internet and other networks.
+
+* HTTP/HTTPS : HTTP (HyperText Transfer Protocol) and HTTPS (HyperText Transfer Protocol Secure) are application-layer protocols used to transfer web pages and other resources between a web browser and a web server.
 
 ---
 
@@ -102,18 +108,15 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+HTML, CSS, Javascript, React, Angular, Vue
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+Java, Spring Boot, Python, Node.js, .NET
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+MySQL, PostgreSQL, MongoDB
 
 ---
 
@@ -142,7 +145,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. DNS (Domain Name System) is a system that translates human-readable domain names into IP addresses that computers use to communicate over a network.
+2. Use an A Record because the given server address 52.172.142.222 is an IPv4 address, and an A record is designed to map a domain name (such as epicreads.com) directly to an IPv4 address.
 
 ---
 
@@ -178,7 +182,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](./screenshots/task5.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -235,20 +239,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+If we were given any tool like ChatGPT, we can speed up process to complete tasks.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Finding right information. There are many information available on internet. But selecting right impormation is difficulty.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
-
+More learning and more notes for reference. 
 ---
 
 ## 📌 About DMI & CloudAdvisory
