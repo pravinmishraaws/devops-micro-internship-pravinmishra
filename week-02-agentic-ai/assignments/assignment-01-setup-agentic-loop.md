@@ -151,7 +151,7 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 5 required screenshots
 - Your GitHub forked repository URL
-
+[Link]https://github.com/DMI-C3-Gautam/Ultimate-Agentic-DevOps-with-Claude-Code
 ---
 
 ## 10. Solution Walkthrough
@@ -163,11 +163,11 @@ Full solution walkthrough → (LINK)
 
 Before submission, verify:
 - [x] Claude Code CLI installed and `claude --version` works
-- [ ] Claude Code authenticated — opens without asking for login again
-- [ ] VS Code extension installed and Claude Code panel visible
-- [ ] Starter repo forked and cloned
-- [ ] All 5 screenshots captured and added to your Google Doc
-- [ ] GitHub repo URL included
+- [x] Claude Code authenticated — opens without asking for login again
+- [x] VS Code extension installed and Claude Code panel visible
+- [x] Starter repo forked and cloned
+- [x] All 5 screenshots captured and added to your Google Doc
+- [x] GitHub repo URL included
 
 ---
 
