@@ -298,17 +298,6 @@ Here are the key metrics I love to regularly measure to ensure steady growth in 
 * GitHub contributions (commits/PRs) per week
 * Technical blog posts or LinkedIn insights published per month
 * Personal portfolio projects or lab deployments completed per quarter
-Here are the key metrics I love to regularly measure to ensure steady growth in both your life and your DevOps career:
-
-### **Learning / Skill**
-* Continuous learning hours per week
-* DevOps tools and technologies learned and practiced per month
-* Technical documentation pages or study chapters completed per week
-
-### **Output / Proof**
-* GitHub contributions (commits/PRs) per week
-* Technical blog posts or LinkedIn insights published per month
-* Personal portfolio projects or lab deployments completed per quarter
 
 ### **Health / Energy**
 * Average hours of sleep per night
