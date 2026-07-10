@@ -6,23 +6,9 @@
 
 ---
 
-## Task 1: <!-- Task Name -->
+## Task 1: Install Claude Code
 
-**Task:** <!-- Copy the task description here -->
-
-**My Answer:**
-
-<!-- Write your answer here -->
-
-**Screenshot:**
-
-![Task 1](./screenshots/task1.png)
-
----
-
-## Task 2: <!-- Task Name -->
-
-**Task:** <!-- Copy the task description here -->
+**Task:** Install the Claude Code CLI globally and authenticate with your Anthropic account.
 
 **My Answer:**
 
@@ -30,11 +16,26 @@
 
 **Screenshot:**
 
-![Task 2](./screenshots/task2.png)
+![Task 1](./screenshots/claude.jpg)
+![Task 1](./screenshots/claude.jpg)
 
 ---
 
-## Task 3: <!-- Task Name -->
+## Task 2: Fork and Clone the Starter Repository
+
+**Task:** Get your own copy of the course project onto your machine.
+
+**My Answer:**
+
+<!-- Write your answer here -->
+
+**Screenshot:**
+
+![Task 2](./screenshots/repo.jpg)
+
+---
+
+## Task 3: Observe the Agentic Loop
 
 **Task:** <!-- Copy the task description here -->
 
