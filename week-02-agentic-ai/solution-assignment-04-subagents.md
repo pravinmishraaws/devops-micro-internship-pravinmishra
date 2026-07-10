@@ -190,8 +190,6 @@ Demonstrate the complete dynamic workflow orchestration where multiple specializ
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
 [Git Repo](https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
