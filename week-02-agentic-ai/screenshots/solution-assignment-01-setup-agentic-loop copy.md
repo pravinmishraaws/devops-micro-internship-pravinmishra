@@ -83,8 +83,9 @@ claude
 
 **Screenshots Required:**
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
+![Task 1](claude.jpg)
 - Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
-
+![Task 2](claude1.jpg)
 ---
 
 ### Task 2 — Fork and Clone the Starter Repository
@@ -108,7 +109,7 @@ code .
 
 **Screenshots Required:**
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
-
+![Task 3](repo.jpg)
 ---
 
 ### Task 3 — Observe the Agentic Loop
@@ -134,8 +135,9 @@ How many lines of CSS does this project have?
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
+![Task 4](screenshot4.jpg)
 - Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
-
+![Task 5](screenshot5.jpg)
 ---
 
 ## 8. Industry Insight
