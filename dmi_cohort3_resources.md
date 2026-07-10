@@ -92,18 +92,20 @@ Week-1 contains 7 assignments
 
 * **Deadline - Friday, 10th of July 11:59 PM (your local time)** 
 
+* **Assignment Submission Form:**: [Click here](https://forms.gle/GLC4HaBugrQCDaxK7)
+
 Week-2 contains 8 assignments
 
 | Assignment   | Name                                         | Correct Task Execution | Screenshots / Proof | LinkedIn Post | Total |
 | ------------ | -------------------------------------------- | ---------------------- | ------------------- | ------------- | ----- |
 | Assignment-1 | Your First Agentic Session                   | 10                     | 5                   | —             | 15    |
 | Assignment-2 | Teaching Claude Your Project (CLAUDE.md)     | 15                     | 5                   | —             | 20    |
-| Assignment-3 | Building Your Command Center (Skills)        | 20                     | 5                   | —             | 25    |
-| Assignment-4 | Building Your AI Team (Subagents)            | 15                     | 5                   | 20            | 40    |
-| Assignment-5 | Connecting Claude to the Outside World (MCP) | 20                     | 5                   | 20            | 45    |
-| Assignment-6 | Safety Rails for Your AI Agent         | 15                     | 5                   | 20            | 40    |
-| Assignment-7 | A Claude That Remembers (Memory)             | 10                     | 5                   | —             | 15    |
-| Assignment-8 | Week 2 Reflection Blog                       | 10                     | 5                   | 20            | 35    |
+| Assignment-3 | Building Your Command Center (Skills)        | 20                     | 5                   | 20             | 45    |
+| Assignment-4 | Building Your AI Team (Subagents)            | 15                     | 5                   |             | 20    |
+| Assignment-5 | Connecting Claude to the Outside World (MCP) | 20                     | 5                   |             | 25    |
+| Assignment-6 | Safety Rails for Your AI Agent         | 15                            | 5                   |             | 20    |
+| Assignment-7 | A Claude That Remembers (Memory)             | 10                     | 5                   | 20             | 35    |
+| Assignment-8 | Week 2 Reflection Blog                       | 30                     |                   | 20            | 55    |
 | **Total** | | | | | **235** |
 
 ---
