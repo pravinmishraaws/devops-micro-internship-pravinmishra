@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![VS Code sidebar showing `.claude/agents/`](./screenshots/SS-A4/W2-A4-SS-1.png)
 
 ---
 
@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer performs straightforward pattern matching and resource inventory tasks. It scans Terraform files for known cost patterns (like CloudFront price classes or S3 storage tiers) and delivers structured recommendations. This task has clear criteria and doesn't require nuanced reasoning across multiple competing factors, making Haiku's speed and efficiency better suited than Sonnet's deeper reasoning capabilities. The trade-off favors cost and latency over analytical depth.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor is a read-only inspection tool. By excluding Write, it cannot accidentally or intentionally modify infrastructure files, creating an audit-proof boundary between analysis and execution. This enforces a security principle: the mechanism that detects problems should be separate from the mechanism that fixes them, preventing a single compromised agent from both identifying and patching vulnerabilities.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer generates and modifies live infrastructure code, so it must adapt to the parent context's model selection. Using inherit ensures consistency with Claude Code's default reasoning capability rather than forcing a fixed model that might be misaligned with the project's requirements. This allows the project to upgrade or adjust its base model without updating individual agent definitions.
 
 ---
 
@@ -54,13 +54,13 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![`security-auditor.md`](./screenshots/SS-A4/W2-A4-SS-2.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![`cost-optimizer.md`](./screenshots/SS-A4/W2-A4-SS-3.png)
 
 ---
 
@@ -74,13 +74,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![`Claude launched the security-auditor`](./screenshots/SS-A4/W2-A4-SS-4.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![`Security audit report output`](./screenshots/SS-A4/W2-A4-SS-5.png)
 
 ---
 
@@ -94,7 +94,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![`The full cost optimization report`](./screenshots/SS-A4/W2-A4-SS-6.png)
 
 ---
 
@@ -110,22 +110,23 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra`
+`https://github.com/santosronnie26-sr/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [✓] `.claude/agents/` folder contains all 3 agent files
+- [✓] Screenshot 2 shows correct `security-auditor.md` configuration
+- [✓] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [✓] All 3 written answers completed 
+- [✓] Security auditor executed successfully
+- [✓] Cost optimizer executed successfully
+- [✓] Security report is visible with findings
+- [✓] Cost report is visible with recommendations
+- [✓] All required screenshots added
+- [✓] GitHub repo updated with agents
 
 ---
 
