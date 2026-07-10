@@ -19,8 +19,7 @@ Discover exactly where Claude Code stores memory for this project.
 ### Evidence
 
 #### Screenshot 1 — Memory file path shown by Claude
-
-Add your screenshot here.
+![alt text](screenshots/memoryfile.png)
 
 ---
 
@@ -34,13 +33,13 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![Add your screenshot here.](screenshots/63.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![alt text](screenshots/66.png)
 
 ---
 
@@ -53,8 +52,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 ### Evidence
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
-
-Add your screenshot here.
+![alt text](screenshots/68.png)
 
 ---
 
@@ -68,13 +66,11 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
-
+![alt text](screenshots/69.png)
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
-
-Add your screenshot here.
+![alt text](screenshots/71.png)
 
 ---
 
@@ -91,7 +87,7 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/shanmuki-reddy_dmi-pravinmishra-agenticai-share-7481465468625694722-5Dpy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw`
 
 ---
 
@@ -99,7 +95,7 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/pravinmishraaws/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/solution-assignment-07-memory.md`
 
 ---
 
