@@ -46,13 +46,13 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![screenshot 7](screenshots/ass7/9.png)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link:https://medium.com/@abhinav1712003/reflection-week-2-cf9b4b13d2c5
 
 `__________________________________________`
 
@@ -92,7 +92,8 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![screenshot 7](screenshots/ass7/8.png)
+
 
 ---
 
@@ -101,12 +102,26 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Just built my first agentic DevOps skill. One command generated an entire Terraform infrastructure. No manual code written 🙅‍♂️ 
+
+This week was full of surprises because I learned something that completely changed how I think about AI.
+Using Claude Code, I ran the "/scaffold-terraform" command, and it generated a complete Terraform project structure, including:
+● main.tf
+● providers.tf
+● variables.tf
+● outputs.tf
+● backend.tf
+All of this was created with a single command.
+Before this, I mostly used AI to ask questions, summarize resources, or get help with coding. This exercise showed me that AI can do much more than answer question, it can help build real projects and speed up development.
+Now I'm learning how to use AI in my day to day DevOps workflow to automate repetitive tasks, work more efficiently, and build infrastructure more safely.
+Every week, I'm discovering new ways to collaborate with AI instead of just using it as a chatbot.
+Here you can Read More: https://lnkd.in/gR2teuyC
 ```
 
 ---
 
 ### LinkedIn Post Link:
+https://lnkd.in/p/g_Ehwv-S
 
 `__________________________________________`
 
@@ -124,15 +139,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
+* [✅] Blog link added
+* [✅] LinkedIn post link added
+* [✅] Screenshots added to GitHub repo
 
 ---
 
