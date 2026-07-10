@@ -20,13 +20,13 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-Add your screenshot here.
+![Claude Code CLI version check](./screenshots/Solution-Assignment/Claude-Version-Check.png)
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-Add your screenshot here.
+![Claude Code authenticated in terminal](./screenshots/Solution-Assignment/Claude-Login-Verification.png)
 
 ---
 
@@ -40,7 +40,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-Add your screenshot here.
+![Project opened in VS Code](./screenshots/Solution-Assignment/Sample-Cloned-Repo-in-vscode.png)
 
 ---
 
@@ -54,13 +54,13 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-Add your screenshot here.
+![Claude reading project files and responding](./screenshots/Solution-Assignment/Project-related-prompts.png)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
+![Claude executing command to count CSS lines](./screenshots/Solution-Assignment/Sample-Cloned-Repo-css-count.png)
 
 ---
 
@@ -77,18 +77,19 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
 # Completion Checklist
 
-- [ ] Claude Code CLI installed successfully
-- [ ] Claude Code authenticated successfully
-- [ ] Repository forked successfully
-- [ ] Repository cloned and opened in VS Code
-- [ ] All required screenshots added
-- [ ] GitHub repository URL provided
+- [x] Claude Code CLI installed successfully
+- [x] Claude Code authenticated successfully
+- [x] VS Code extension installed and working
+- [x] Repository forked successfully
+- [x] Repository cloned and opened in VS Code
+- [x] All required screenshots added
+- [x] GitHub repository URL provided
 
 ---
 
