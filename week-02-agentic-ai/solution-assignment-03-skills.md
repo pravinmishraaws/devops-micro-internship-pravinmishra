@@ -96,7 +96,7 @@ Paste your forked repository URL here:
 
 Paste your forked repository URL here:
 
-https://www.linkedin.com/posts/onuchukwu-ubani-10004741_devops-terraform-infrastructureascode-activity-7481060143846076416-F4Eo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0__________________________`
+`https://www.linkedin.com/posts/onuchukwu-ubani-10004741_devops-terraform-infrastructureascode-activity-7481060143846076416-F4Eo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0`
 
 ---
 
@@ -111,7 +111,7 @@ https://www.linkedin.com/posts/onuchukwu-ubani-10004741_devops-terraform-infrast
 - [x] `/tf-plan` executed and output analyzed by Claude
 - [x] All required screenshots added
 - [x] GitHub repository URL included
-- [ ] LinkedIn post URL included
+- [x] LinkedIn post URL included
 
 ---
 
