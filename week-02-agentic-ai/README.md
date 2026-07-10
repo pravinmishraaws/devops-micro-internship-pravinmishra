@@ -37,7 +37,7 @@
 
 ## Task 3: Observe the Agentic Loop
 
-**Task:** <!-- Copy the task description here -->
+**Task:** Watch Claude Code work through Gather → Act → Verify on two real tasks.
 
 **My Answer:**
 
@@ -60,8 +60,8 @@
 
 <!-- 3-5 bullet points on what you learned this week -->
 
-- 
-- 
+- set up claude
+- how to use claude
 - 
 
 ---
