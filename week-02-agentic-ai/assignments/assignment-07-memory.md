@@ -75,7 +75,9 @@ Where does your memory file live for this project? Show me the full path.
 **Expected Output:** Claude gives you the full absolute path to the `MEMORY.md` file. The file may be empty or not yet exist — that is fine.
 
 **Screenshots Required:**
-- Screenshot 1 — Claude's response showing the full memory file path
+- Screenshot 1 — Memory file path shown by Claude
+
+![memory-file-path](/week-02-agentic-ai/screenshots/memory-path.png)
 
 ---
 
@@ -97,7 +99,13 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 
 **Screenshots Required:**
 - Screenshot 2 — Claude confirming the memory was saved
+
+![saved-to-memory](/week-02-agentic-ai/screenshots/saved-memory.png)
+
+
 - Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
+
+![memory-file-vscode-display](/week-02-agentic-ai/screenshots/memory-md-code-display.png)
 
 ---
 
@@ -120,6 +128,9 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 
 **Screenshots Required:**
 - Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
+
+![no-previous-claude-convo](/week-02-agentic-ai/screenshots/no-previous-claude-convo.png)
+
 
 ---
 
@@ -148,8 +159,14 @@ Should I add a JavaScript animation to the hero section?
 - Question 3: Claude refuses the JavaScript request — citing the memory rule
 
 **Screenshots Required:**
-- Screenshot 5 — Claude recalling the hero section colors correctly in the new session
-- Screenshot 6 — Claude refusing to add JavaScript (memory rule enforced in the new session)
+- Screenshot 5 — Claude recalling hero section colors
+
+![Hero-section-colors](/week-02-agentic-ai/screenshots/hero-section-colors.png)
+
+- Screenshot 6 — Claude refusing JavaScript request based on memory rule
+
+![no-javascript](/week-02-agentic-ai/screenshots/no-javascript-result.png)
+
 
 ---
 
@@ -171,8 +188,7 @@ Your submission must include:
 
 ## 10. Solution Walkthrough
 
-A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+A step-by-step solution and troubleshooting guide is provided.
 
 ---
 
@@ -185,7 +201,12 @@ Create a LinkedIn post including:
 
 **Submit:**
 - LinkedIn post URL
+
+(https://www.linkedin.com/posts/wisgeorge1_dmibypravinmishra-agenticai-claudecode-ugcPost-7481298397124124672-56hc/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY)
+
 - Screenshot of the post
+
+![memory-linkedin-post](/week-02-agentic-ai/screenshots/memory-post.png)
 
 ---
 

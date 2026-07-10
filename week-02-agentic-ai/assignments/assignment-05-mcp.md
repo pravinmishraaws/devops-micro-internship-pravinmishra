@@ -78,6 +78,8 @@ Each task must be completed sequentially.
 
 **Screenshots Required:**
 - Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
+![token-creation-page](/week-02-agentic-ai/screenshots/token-creation-1.png)
+![token-creation-page](/week-02-agentic-ai/screenshots/token-creation-2.png)
 
 ---
 
@@ -108,6 +110,8 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
+![mcp.json](/week-02-agentic-ai/screenshots/mcp-config.png)
+
 ---
 
 ### Task 3 — Add Your Token to settings.local.json
@@ -135,6 +139,9 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
+![settingslocal-json](/week-02-agentic-ai/screenshots/local-settingsJSON.png)
+
+
 ---
 
 ### Task 4 — Verify the Connection with /mcp
@@ -156,6 +163,8 @@ Each task must be completed sequentially.
 **Screenshots Required:**
 - Screenshot 4 — `/mcp` output showing `github: connected`
 
+![github-mcp-connected](/week-02-agentic-ai/screenshots/mcp-github-connect.png)
+
 ---
 
 ### Task 5 — Run a Live GitHub Query
@@ -176,6 +185,8 @@ List all my GitHub repositories.
 
 **Screenshots Required:**
 - Screenshot 5 — Claude's response showing your real GitHub repositories (you may blur individual repo names if preferred)
+
+![repository-list](/week-02-agentic-ai/screenshots/github-repo-display.png)
 
 ---
 

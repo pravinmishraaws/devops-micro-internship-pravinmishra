@@ -48,6 +48,7 @@ Senior DevOps engineers on agentic teams do not type long prompts from memory ev
 
 - Assignment 2 completed (CLAUDE.md in place)
 - Terraform installed (`terraform version` works — from course Lecture 1.3)
+![terraform](/week-02-agentic-ai/screenshots/terraform-version.png)
 - All 5 skill files downloaded from the Resources section of Lecture 5.1
 
 ---
@@ -80,6 +81,8 @@ mkdir -p .claude/skills/deploy
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
+
+![skills-folders](/week-02-agentic-ai/screenshots/skills-folders.png)
 ---
 
 ### Task 2 — Add the Skill Files
@@ -100,7 +103,13 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
+
+![scaffold-1](/week-02-agentic-ai/screenshots/skill-md.png)
+![scaffold-2](/week-02-agentic-ai/screenshots/template-md.png)
+
 - Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
+
+![plan](/week-02-agentic-ai/screenshots/tf-plan-skills.png)
 ---
 
 ### Task 3 — Run /scaffold-terraform
@@ -122,8 +131,23 @@ mkdir -p .claude/skills/deploy
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response showing the scaffold complete with the file list
+
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-1.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-2.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-3.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-4.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-5.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-6.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-7.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-8.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-9.png)
+![scaffold](/week-02-agentic-ai/screenshots/scaffold-10.png)
+
+
 - Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
+
+![file-terraform](/week-02-agentic-ai/screenshots/terraform-files.png)
 ---
 
 ### Task 4 — Run terraform init then /tf-plan
@@ -152,6 +176,7 @@ Then in Claude Code:
 
 **Screenshots Required:**
 - Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
+![tf-plan-fail](/week-02-agentic-ai/screenshots/tf-plan-fail-6.png)
 
 ---
 
@@ -186,8 +211,12 @@ Create a LinkedIn post including:
 - Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 **Submit:**
-- LinkedIn post URL
+- LinkedIn post URL:  https://www.linkedin.com/posts/(wisgeorge1_dmibypravinmishra-agenticai-claudecode-share-7481285258198392832-wW8u/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY)
+
 - Screenshot of the post
+
+![my-linkedIn-post](/week-02-agentic-ai/screenshots/post-1.png)
+![my-linkedIn-post](/week-02-agentic-ai/screenshots/post-2.png)
 
 ---
 

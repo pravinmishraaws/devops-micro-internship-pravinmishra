@@ -77,6 +77,7 @@ mkdir -p .claude/agents
 **Screenshots Required:**
 - Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
+![agentfilesdisplay](/week-02-agentic-ai/screenshots/agents-file-display.png)
 ---
 
 ### Task 2 — Compare the Agent Configurations
@@ -96,7 +97,14 @@ mkdir -p .claude/agents
 
 **Screenshots Required:**
 - Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
+
+![security-auditor](/week-02-agentic-ai/screenshots/security-tools-models.png)
+
+
 - Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
+
+![cost-optimizer](/week-02-agentic-ai/screenshots/cost-tools-models.png)
+
 
 ---
 
@@ -119,7 +127,12 @@ Audit my Terraform files for security issues.
 
 **Screenshots Required:**
 - Screenshot 4 — The delegation message showing Claude launched the security-auditor
-- Screenshot 5 — The full security audit report with findings visible
+
+![delagation-message](/week-02-agentic-ai/screenshots/delegate-agent.png)
+
+- Screenshot 5 — Security audit report output
+
+![audit-report](/week-02-agentic-ai/screenshots/security-report-1.png)
 
 ---
 
@@ -141,6 +154,12 @@ Review my Terraform infrastructure for cost optimization.
 
 **Screenshots Required:**
 - Screenshot 6 — The full cost optimization report
+
+![optimization-report-1](/week-02-agentic-ai/screenshots/optimize-cost-1.png)
+![optimization-report-2](/week-02-agentic-ai/screenshots/optimize-cost-2.png)
+![optimization-report-3](/week-02-agentic-ai/screenshots/optimize-cost-3.png)
+
+
 
 ---
 

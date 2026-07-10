@@ -26,7 +26,6 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 ## 4. Learning Outcomes
 
 - Install and authenticate Claude Code CLI
-- Set up the VS Code Claude Code extension
 - Fork and clone the course starter repository
 - Observe the three phases of the Agentic Loop: Gather, Act, Verify
 - Understand how Claude Code differs from Claude chat
@@ -34,8 +33,6 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 ---
 
 ## 5. Important Instructions (Global Rules)
-
-Follow the Assignment Submission Guidelines — Click here
 
 **Key Rules:**
 - Full name must be visible in required screenshots
@@ -49,9 +46,22 @@ Follow the Assignment Submission Guidelines — Click here
 ## 6. Prerequisites
 
 - Node.js and npm installed (`node --version` works)
-- Git installed and configured
+
+  ![nodejs-npm-version](/week-02-agentic-ai/screenshots/nodejs-npm-version.png)
+
+- Git installed and configured (Verify using `git --version`)
+
+![git-version](/week-02-agentic-ai/screenshots/git-version.png)
+
 - GitHub account
-- VS Code installed
+
+![github-account](/week-02-agentic-ai/screenshots/github-account.png)
+
+- VS Code installed (Vrify using `code --version`)
+
+![vscode-version](/week-02-agentic-ai/screenshots/vscode-version-cli.png)
+![vscode-version](/week-02-agentic-ai/screenshots/vscode-version-app.png)
+
 - Claude subscription (Pro plan minimum)
 
 ---
@@ -78,13 +88,24 @@ npm install -g @anthropic-ai/claude-code
 claude --version
 claude
 ```
+![claude-installation](/week-02-agentic-ai/screenshots/install-claude.png)
+
 
 **Expected Output:** Version number printed. Browser opens for Anthropic login. After logging in, the Claude Code prompt appears in your terminal.
 
 **Screenshots Required:**
 - Screenshot 1 — Terminal showing `claude --version` with the version number visible
+
+![claude version](/week-02-agentic-ai/screenshots/claude-version.png)
+
 - Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
+![terminal-prompt](/week-02-agentic-ai/screenshots/trust-folder.png)
+![welcome](/week-02-agentic-ai/screenshots/welcome-sub.png)
+![browser-connect](/week-02-agentic-ai/screenshots/browser-connect-claude.png)
+![authorize-claude](/week-02-agentic-ai/screenshots/authorize-claude.png)
+![authorize-code](/week-02-agentic-ai/screenshots/authorize-code.png)
+![claude-cli](/week-02-agentic-ai/screenshots/cli-claude.png)
 ---
 
 ### Task 2 — Fork and Clone the Starter Repository
@@ -92,22 +113,26 @@ claude
 **Goal:** Get your own copy of the course project onto your machine.
 
 **Steps:**
-1. Go to the course [repository link](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code) in the Resources section of [Fork the reposiroty](https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/learn/lecture/54808941#overview). 
+1. Open the [repository link](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code) in your browser.
+![repository](/week-02-agentic-ai/screenshots/github-assignment-repo.png)
 2. Click **Fork → Create Fork**
 3. Clone your fork to your local machine
 4. Open the project in VS Code
 
 **Commands:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/REPO_NAME.git
-cd REPO_NAME
+git clone https://github.com/wisegeorge1/Ultimate-Agentic-DevOps-with-Claude-Code
+cd  C:\Users\George\Documents\Personal-Workspace\DMI-Cohort-3\Ultimate-Agentic-DevOps-with-Claude-Code
 code .
 ```
 
-**Expected Output:** VS Code opens showing `index.html`, `style.css`, and the `images/` folder in the sidebar. No `.claude/` directory exists yet.
+**Expected Output:** VS Code opens showing `index.html`, `style.css`, and the `images/` folder in the sidebar. No `.claude/` directory exists yet. (Remove the .claude folder, CLAUDE.md, and .github folder if they exist.)
 
 **Screenshots Required:**
 - Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
+!
+![cloned repository](/week-02-agentic-ai/screenshots/cloned-repo-vs-code.png)
+
 
 ---
 
@@ -134,7 +159,10 @@ How many lines of CSS does this project have?
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
+![response to question 1](/week-02-agentic-ai/screenshots/response-first-question.png)
+
 - Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
+![response to question 2](/week-02-agentic-ai/screenshots/response-second-question.png)
 
 ---
 
@@ -154,6 +182,8 @@ Your submission must include:
 
 ---
 
+https://github.com/wisegeorge1/Ultimate-Agentic-DevOps-with-Claude-Code
+
 ## 10. Solution Walkthrough
 
 A step-by-step solution and troubleshooting guide will be provided.
@@ -171,7 +201,6 @@ Not required for this assignment.
 Before submission, verify:
 - [ ] Claude Code CLI installed and `claude --version` works
 - [ ] Claude Code authenticated — opens without asking for login again
-- [ ] VS Code extension installed and Claude Code panel visible
 - [ ] Starter repo forked and cloned
 - [ ] All 5 screenshots captured and added to your GitHub Repository file
 - [ ] GitHub repo URL included
