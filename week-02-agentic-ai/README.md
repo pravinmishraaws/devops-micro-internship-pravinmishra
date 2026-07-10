@@ -17,7 +17,7 @@
 **Screenshot:**
 
 ![Task 1](./screenshots/claude.jpg)
-![Task 1](./screenshots/claude1.jpg)
+![Task 2](./screenshots/claude1.jpg)
 
 ---
 
@@ -31,7 +31,7 @@
 
 **Screenshot:**
 
-![Task 2](./screenshots/repo.jpg)
+![Task 3](./screenshots/repo.jpg)
 
 ---
 
@@ -45,7 +45,8 @@
 
 **Screenshot:**
 
-![Task 3](./screenshots/task3.png)
+![Task 4](./screenshots/screenshot4.png)
+![Task 5](./screenshots/screenshot5.png)
 
 ---
 

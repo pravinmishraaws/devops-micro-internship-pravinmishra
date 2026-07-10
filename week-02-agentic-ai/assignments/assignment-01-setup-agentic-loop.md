@@ -162,7 +162,7 @@ Full solution walkthrough → (LINK)
 ## 11. Completion Checklist
 
 Before submission, verify:
-- [ ] Claude Code CLI installed and `claude --version` works
+- [*] Claude Code CLI installed and `claude --version` works
 - [ ] Claude Code authenticated — opens without asking for login again
 - [ ] VS Code extension installed and Claude Code panel visible
 - [ ] Starter repo forked and cloned
