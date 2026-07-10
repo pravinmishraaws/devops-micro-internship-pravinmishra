@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Blog published and visible](./screenshots/SS-A7/W2-A7-SS-8.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`__________________________________________`
+`https://medium.com/@santosronnie1991/reflection-week-2-from-it-support-to-agentic-ai-the-paradigm-shift-a6d3e54a2894`
 
 ---
 
@@ -124,15 +124,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
+* [✓] Blog written with required structure
+* [✓] Blog includes at least 2–3 Week 2 topics
+* [✓] Blog is publicly accessible
 * [ ] LinkedIn post created
 * [ ] Required P.S. line included
 * [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
+* [✓] Blog link added
 * [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✓] Screenshots added to GitHub repo
 
 ---
 

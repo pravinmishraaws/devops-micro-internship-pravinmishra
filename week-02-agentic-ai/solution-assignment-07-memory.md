@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![Memory file path](./screenshots/SS-A7/W2-A7-SS-1.png)
 
 ---
 
@@ -34,13 +34,14 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![Claude confirming the memory was saved](./screenshots/SS-A7/W2-A7-SS-2.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![MEMORY.md](./screenshots/SS-A7/W2-A7-SS-3.png)
+
 
 ---
 
@@ -54,7 +55,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![VS Code reopened with a fresh Claude Code session](./screenshots/SS-A7/W2-A7-SS-4.png)
 
 ---
 
@@ -68,13 +69,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![Claude recalling hero section colors](./screenshots/SS-A7/W2-A7-SS-5.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![Claude refusing JavaScript](./screenshots/SS-A7/W2-A7-SS-6.png)
 
 ---
 
@@ -91,7 +92,7 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-share-7481255639109881856-jX0I/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
 
 ---
 
@@ -99,20 +100,21 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra`
+`https://github.com/santosronnie26-sr/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
+- [✓] Memory file path identified (Screenshot 1)
+- [✓] Memory successfully saved via prompt (Screenshot 2)
+- [✓] `MEMORY.md` shows stored content (Screenshot 3)
+- [✓] Fresh session opened after full restart (Screenshot 4)
+- [✓] Claude recalled hero colors correctly (Screenshot 5)
+- [✓] Claude refused JavaScript request based on memory (Screenshot 6)
+- [✓] All screenshots added and committed to GitHub repo
+- [✓] Linkedin post created.
 
 ---
 
