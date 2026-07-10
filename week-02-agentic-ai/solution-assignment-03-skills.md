@@ -128,6 +128,48 @@ Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that
 
 ---
 
+## Task 6 — Deploy to Cloud & Verify Live Infrastructure
+
+### Goal
+
+Move beyond local skill execution to **real cloud deployment**. Create actual cloud resources using the generated Terraform configuration, deploy the infrastructure, and verify the live site is accessible.
+
+### Evidence
+
+#### Screenshot 11 — Cloud console showing created resources (compute instances, networking, storage)
+
+![Cloud resources created](./screenshots/Solution-Assignment/assignment-03/Screenshot%2011.png)
+
+---
+
+#### Screenshot 12 — Cloud deployment status showing successful resource provisioning
+
+![Infrastructure deployment status](./screenshots/Solution-Assignment/assignment-03/Screenshot%2012.png)
+
+---
+
+#### Screenshot 13 — Live application URL in browser showing deployed site
+
+![Live site verification in browser](./screenshots/Solution-Assignment/assignment-03/Screenshot%2013.png)
+
+---
+
+#### Screenshot 14 — Cloud monitoring dashboard showing live traffic and health metrics
+
+![Cloud monitoring and metrics](./screenshots/Solution-Assignment/assignment-03/Screenshot%2014.png)
+
+---
+
+### Key Achievements
+
+- ✅ Generated Terraform code successfully deployed to cloud
+- ✅ Real infrastructure resources provisioned (not just local validation)
+- ✅ Live application accessible and verified working
+- ✅ Demonstrates end-to-end agentic DevOps workflow: code generation → cloud deployment → verification
+- ✅ Shows practical application of skills in production-like scenario
+
+---
+
 # Submission Instructions
 
 - Ensure `.claude/skills/` folder and all skill files are committed to your GitHub repository
@@ -161,11 +203,20 @@ Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that
 - [x] LinkedIn post URL included
 
 ## Bonus Activities (Beyond Course Scope)
+
+### Custom Skill Development (Bonus Task 5)
 - [x] `/undeploy` custom skill created
 - [x] `/undeploy/SKILL.md` configured with proper allowed-tools
 - [x] `/undeploy` skill template/documentation added
 - [x] `/undeploy` skill executed successfully
 - [x] Bonus screenshots 7-10 added
+
+### Cloud Deployment & Verification (Bonus Task 6)
+- [x] Cloud resources created from generated Terraform configuration
+- [x] Infrastructure deployed to cloud environment
+- [x] Live site link verified and functional
+- [x] Deployment verification screenshots added (11-14)
+- [x] Production-ready infrastructure demonstrated
 
 ---
 
