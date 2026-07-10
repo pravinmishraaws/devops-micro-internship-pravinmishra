@@ -20,8 +20,11 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
-
+![alt text](<screenshots/Claude’s generic response1.png>)
+![alt text](<screenshots/Claude’s generic response2.png>)
+![alt text](<screenshots/Claude’s generic response3.png>)
+![alt text](<screenshots/Claude’s generic response4.png>)
+![alt text](<screenshots/Claude’s generic response5.png>)
 ---
 
 # Task 2 — Generate the First Draft with /init
@@ -34,8 +37,8 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
-
+![alt text](screenshots/Claude_init1.png)
+![alt text](screenshots/CLAUDE.md.png)
 ---
 
 # Task 3 — Customize the CLAUDE.md
@@ -48,7 +51,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+![alt text](screenshots/Project-summary.png)
 
 ---
 
