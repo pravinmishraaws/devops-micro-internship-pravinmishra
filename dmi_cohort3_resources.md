@@ -132,8 +132,6 @@ LinkedIn posts are evaluated separately:
 
 ---
 
----
-
 ## Week-3 — Linux for DevOps with Bash Scripting
 
 | S. No. | Item | Comments | Link |
