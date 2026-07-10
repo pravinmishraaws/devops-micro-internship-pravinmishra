@@ -110,17 +110,53 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ---
 
-# Task 5 — Agent Workflow Summary
+# Task 5 — Dynamic Agentic Workflow Orchestration
 
 ## Goal
 
-Capture and document the complete agent workflow showing how subagents were orchestrated to analyze the infrastructure.
+Demonstrate the complete dynamic workflow orchestration where multiple specialized agents are triggered in parallel to analyze infrastructure, then synthesize findings into actionable recommendations.
 
 ### Evidence
 
-#### Screenshot 7 — Complete agent workflow or summary output
+#### Screenshot 7a — Dynamic Workflow Launch: Parallel Agent Execution
 
-![Agent workflow summary](./screenshots/Solution-Assignment/assignment-04/Screenshot%207.png)
+![Dynamic workflow launch with parallel agents](./screenshots/Solution-Assignment/assignment-04/Screenshot%207a.png)
+
+**Description:** Shows the `execute infra audit workflow` command launching a parallel infrastructure audit. Three agents (security-audit, cost-audit, drift-audit) run simultaneously in the background using `/workflows` orchestration. Each agent completes in ~38 seconds, demonstrating efficient parallel execution.
+
+---
+
+#### Screenshot 7b — Workflow Completion: All Agents Finished
+
+![Workflow agents completed](./screenshots/Solution-Assignment/assignment-04/Screenshot%207b.png)
+
+**Description:** Shows the agents folder with all four agent definitions (cost-optimizer, drift-detector, security-auditor, tf-writer) and the completed workflow execution (4/4 agents done in 2m45s). The workflow phases show Audit (3/3) complete and Synthesis phase beginning, demonstrating the multi-phase orchestration.
+
+---
+
+#### Screenshot 7c — Synthesis Phase: Consolidating Agent Findings
+
+![Synthesis phase consolidation](./screenshots/Solution-Assignment/assignment-04/Screenshot%207c.png)
+
+**Description:** Demonstrates the synthesis phase where a single agent (Haiku 4.5) consolidates findings from all three parallel audit agents. The synthesis agent processes 17.4k tokens in 29 seconds, combining security, cost, and drift analysis results into a unified report.
+
+---
+
+#### Screenshot 7 — Final Report: Comprehensive Infrastructure Audit Results
+
+![Complete infrastructure audit report](./screenshots/Solution-Assignment/assignment-04/Screenshot%207.png)
+
+**Description:** Shows the complete synthesized report with Infrastructure Audit findings. Includes 3 CRITICAL issues (CloudFront disabled, CI/CD role mismatch), HIGH security gaps (untracked state, missing encryption, security headers), cost optimization recommendations ($1.50-2.50/month savings), and a prioritized action sequence. Demonstrates how the agentic workflow produces actionable, consolidated insights from parallel analysis.
+
+---
+
+### Key Workflow Features Demonstrated
+
+✅ **Dynamic Parallel Execution** — 3 agents running simultaneously for speed  
+✅ **Multi-Phase Orchestration** — Audit phase followed by synthesis phase  
+✅ **Agent Specialization** — Each agent uses appropriate model (Sonnet for security, Haiku for cost/drift)  
+✅ **Result Synthesis** — Consolidation agent combines findings into unified report  
+✅ **Actionable Output** — Priority-ordered recommendations with specific fixes  
 
 ---
 
@@ -142,18 +178,29 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [x] `.claude/agents/` folder contains all 3 agent files
+## Core Tasks
+- [x] `.claude/agents/` folder contains all 4 agent files (security-auditor, cost-optimizer, drift-detector, tf-writer)
 - [x] Screenshot 1 shows `.claude/agents/` folder structure
 - [x] Screenshot 2 shows correct `security-auditor.md` configuration
 - [x] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [x] All 3 written answers completed 
+- [x] All 3 written answers completed (Haiku for cost, no Write for auditor, inherit for tf-writer)
+
+## Agent Execution Evidence
 - [x] Security auditor executed successfully (Screenshot 4 - delegation)
-- [x] Security auditor report generated (Screenshot 5)
-- [x] Cost optimizer executed successfully (Screenshot 6 - report)
-- [x] Cost optimization analysis documented (Screenshot 6a - metrics)
-- [x] Agent workflow documented (Screenshot 7)
-- [x] All 8 required screenshots added
-- [ ] GitHub repo updated with agents and written answers
+- [x] Security auditor report generated (Screenshot 5 - findings)
+- [x] Cost optimizer executed successfully (Screenshot 6a - delegation)
+- [x] Cost optimizer report generated (Screenshot 6 - recommendations)
+
+## Dynamic Workflow Orchestration (Task 5)
+- [x] Workflow launch with parallel agent execution (Screenshot 7a)
+- [x] Workflow completion showing all agents finished (Screenshot 7b)
+- [x] Synthesis phase consolidating findings (Screenshot 7c)
+- [x] Final comprehensive report with recommendations (Screenshot 7)
+- [x] All 11 required screenshots added
+
+## Missing/Pending Items
+- [ ] **GitHub Repository URL** — Needs to be filled in
+- [ ] **drift-detector.md** — Not shown in configuration screenshots (verify if needed for core requirements)
 
 ---
 
