@@ -74,13 +74,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+![Security auditor delegation message](./screenshots/Solution-Assignment/assignment-04/Screenshot%204.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![Security audit report output](./screenshots/Solution-Assignment/assignment-04/Screenshot%205.png)
 
 ---
 
@@ -94,7 +94,21 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+![Cost optimization report output](./screenshots/Solution-Assignment/assignment-04/Screenshot%206.png)
+
+---
+
+# Task 5 — Agent Workflow Summary
+
+## Goal
+
+Capture and document the complete agent workflow showing how subagents were orchestrated to analyze the infrastructure.
+
+### Evidence
+
+#### Screenshot 7 — Complete agent workflow or summary output
+
+![Agent workflow summary](./screenshots/Solution-Assignment/assignment-04/Screenshot%207.png)
 
 ---
 
@@ -116,16 +130,17 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [x] `.claude/agents/` folder contains all 3 agent files
+- [x] Screenshot 1 shows `.claude/agents/` folder structure
+- [x] Screenshot 2 shows correct `security-auditor.md` configuration
+- [x] Screenshot 3 shows correct `cost-optimizer.md` configuration
 - [ ] All 3 written answers completed 
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [x] Security auditor executed successfully (Screenshot 4 - delegation)
+- [x] Security auditor report generated (Screenshot 5)
+- [x] Cost optimizer executed successfully (Screenshot 6 - report)
+- [x] Agent workflow documented (Screenshot 7)
+- [x] All 7 required screenshots added
+- [ ] GitHub repo updated with agents and written answers
 
 ---
 
