@@ -87,52 +87,11 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 # 🌟 Bonus Activities — Beyond the Course Scope
 
-## Task 5 — Create a Custom Skill: `/undeploy`
+## Task 5 — Cloud Deployment Using Course Skills
 
 ### Goal
 
-Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that was **not part of the original Udemy course content**. This skill demonstrates independent initiative in building agentic automation beyond the standard curriculum.
-
-### Evidence
-
-#### Screenshot 7 — VS Code showing the new `/undeploy` skill folder structure
-
-![Custom undeploy skill folder structure](./screenshots/Solution-Assignment/assignment-03/Screenshot%207.png)
-
----
-
-#### Screenshot 8 — The `/undeploy/SKILL.md` file showing skill configuration and allowed-tools
-
-![undeploy SKILL.md configuration](./screenshots/Solution-Assignment/assignment-03/Screenshot%208.png)
-
----
-
-#### Screenshot 9 — Template or documentation file for the `/undeploy` skill
-
-![undeploy skill template or docs](./screenshots/Solution-Assignment/assignment-03/Screenshot%209.png)
-
----
-
-#### Screenshot 10 — Claude's execution of the `/undeploy` command showing the skill in action
-
-![undeploy skill execution result](./screenshots/Solution-Assignment/assignment-03/Screenshot%2010.png)
-
----
-
-### Notes on Bonus Activity
-
-- The `/undeploy` skill was **created independently** to extend the DevOps automation toolkit
-- This demonstrates understanding of the skill system beyond the course materials
-- The skill likely performs infrastructure teardown/cleanup tasks complementary to `/scaffold-terraform`
-- Custom skill creation showcases agentic AI thinking and practical DevOps problem-solving
-
----
-
-## Task 6 — Deploy to Cloud & Verify Live Infrastructure
-
-### Goal
-
-Move beyond local skill execution to **real cloud deployment**. Create actual cloud resources using the generated Terraform configuration, deploy the infrastructure, and verify the live site is accessible.
+Execute the complete cloud deployment pipeline using course-provided skills (`/tf-apply` and `/deploy`). This demonstrates the practical application of Terraform and deployment skills to create real infrastructure resources and deploy a live application to the cloud environment.
 
 ### Course-Provided Skills Used
 
@@ -148,38 +107,67 @@ Move beyond local skill execution to **real cloud deployment**. Create actual cl
 
 ### Evidence
 
-#### Screenshot 11 — `/tf-apply` skill execution creating cloud resources
+#### Screenshot 7 — Claude's execution of the `/tf-apply` command creating cloud resources
 
-![tf-apply resource creation](./screenshots/Solution-Assignment/assignment-03/Screenshot%2011.png)
-
----
-
-#### Screenshot 12 — `/deploy` skill execution deploying application to infrastructure
-
-![deploy skill execution](./screenshots/Solution-Assignment/assignment-03/Screenshot%2012.png)
+![tf-apply skill execution](./screenshots/Solution-Assignment/assignment-03/Screenshot%207.png)
 
 ---
 
-#### Screenshot 13 — Cloud console showing created resources (compute instances, networking, storage)
+#### Screenshot 8 — Claude's execution of the `/deploy` command deploying application to infrastructure
 
-![Cloud resources created](./screenshots/Solution-Assignment/assignment-03/Screenshot%2013.png)
-
----
-
-#### Screenshot 14 — Live application URL in browser showing deployed site
-
-![Live site verification in browser](./screenshots/Solution-Assignment/assignment-03/Screenshot%2014.png)
+![deploy skill execution](./screenshots/Solution-Assignment/assignment-03/Screenshot%208.png)
 
 ---
 
-### Key Achievements
+#### Screenshot 9 — Live application verified in browser showing deployed site is accessible
+
+![Live site verification in browser](./screenshots/Solution-Assignment/assignment-03/Screenshot%209.png)
+
+---
+
+### Key Achievements - Task 5
 
 - ✅ Generated Terraform code successfully executed via `/tf-apply` skill
-- ✅ Application deployed to cloud using `/deploy` skill
-- ✅ Real infrastructure resources provisioned in cloud environment
-- ✅ Live application accessible and verified working
-- ✅ Demonstrates end-to-end agentic DevOps workflow: code generation → tf-apply → deploy → verification
-- ✅ Shows practical application of course skills in production-like scenario
+- ✅ Application deployed to cloud infrastructure using `/deploy` skill
+- ✅ Real cloud resources provisioned (compute, networking, storage)
+- ✅ Live application accessible and functioning in production environment
+- ✅ Demonstrates practical DevOps workflow: scaffold → tf-apply → deploy
+
+---
+
+## Task 6 — Create a Custom Skill: `/undeploy`
+
+### Goal
+
+Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that was **not part of the original Udemy course content**. This skill demonstrates independent initiative in building agentic automation beyond the standard curriculum, providing infrastructure teardown and cleanup capabilities.
+
+### Evidence
+
+#### Screenshot 10 — VS Code showing the new `/undeploy` skill folder structure with SKILL.md and configuration files
+
+![Custom undeploy skill folder structure](./screenshots/Solution-Assignment/assignment-03/Screenshot%2010.png)
+
+---
+
+#### Screenshot 11 — The `/undeploy/SKILL.md` file showing skill configuration, allowed-tools, and restrictions
+
+![undeploy SKILL.md configuration](./screenshots/Solution-Assignment/assignment-03/Screenshot%2011.png)
+
+---
+
+#### Screenshot 12 — Claude's execution of the `/undeploy` command showing the skill in action
+
+![undeploy skill execution result](./screenshots/Solution-Assignment/assignment-03/Screenshot%2012.png)
+
+---
+
+### Key Achievements - Task 6
+
+- ✅ `/undeploy` skill created independently (not in course materials)
+- ✅ Proper SKILL.md configuration with allowed-tools restrictions
+- ✅ Demonstrates understanding of skill system beyond course content
+- ✅ Performs infrastructure teardown/cleanup complementary to `/scaffold-terraform`
+- ✅ Custom skill creation showcases agentic AI thinking and practical DevOps problem-solving
 
 ---
 
@@ -217,21 +205,23 @@ Move beyond local skill execution to **real cloud deployment**. Create actual cl
 
 ## Bonus Activities (Beyond Course Scope)
 
-### Custom Skill Development (Bonus Task 5)
-- [x] `/undeploy` custom skill created
-- [x] `/undeploy/SKILL.md` configured with proper allowed-tools
-- [x] `/undeploy` skill template/documentation added
-- [x] `/undeploy` skill executed successfully
-- [x] Bonus screenshots 7-10 added
-
-### Cloud Deployment & Verification (Bonus Task 6)
-- [x] `/tf-apply` skill used to create cloud resources
-- [x] `/deploy` skill used to deploy application (course content skills)
+### Cloud Deployment Using Course Skills (Bonus Task 5)
+- [x] `/tf-apply` skill executed to create cloud resources
+- [x] `/deploy` skill executed to deploy application
 - [x] Infrastructure deployed to cloud environment
-- [x] Live site link verified and functional
-- [x] Deployment verification screenshots added (11-14)
-- [x] End-to-end workflow: scaffold → tf-apply → deploy → verify
-- [x] Production-ready infrastructure demonstrated
+- [x] Live site verified and accessible in browser
+- [x] Screenshots 7-9 showing tf-apply, deploy, and site verification
+- [x] End-to-end workflow demonstrated: scaffold → tf-apply → deploy → verify
+- [x] Production environment verified with live traffic
+
+### Custom Skill Development (Bonus Task 6)
+- [x] `/undeploy` custom skill created (independent, not in course)
+- [x] `/undeploy/SKILL.md` configured with proper allowed-tools restrictions
+- [x] `/undeploy` skill documentation and structure completed
+- [x] `/undeploy` skill executed successfully
+- [x] Screenshots 10-12 showing skill structure, configuration, and execution
+- [x] Demonstrates understanding of skill system beyond course materials
+- [x] Infrastructure cleanup automation capability added
 
 ---
 
