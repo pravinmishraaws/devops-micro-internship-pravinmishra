@@ -17,7 +17,7 @@
 **Screenshot:**
 
 ![Task 1](./screenshots/claude.jpg)
-![Task 1](./screenshots/claude.jpg)
+![Task 1](./screenshots/claude1.jpg)
 
 ---
 
