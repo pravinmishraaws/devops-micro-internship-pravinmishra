@@ -88,11 +88,17 @@ Trigger the security auditor agent and analyze the generated security report for
 
 ## Goal
 
-Trigger the cost optimizer agent and review the generated cost optimization report.
+Trigger the cost optimizer agent and review the generated cost optimization report, including recommendations and cost savings analysis.
 
 ### Evidence
 
-#### Screenshot 6 — The full cost optimization report
+#### Screenshot 6a — The delegation message showing Claude launched the cost-optimizer
+
+![Cost optimizer delegation message](./screenshots/Solution-Assignment/assignment-04/Screenshot%206a.png)
+
+---
+
+#### Screenshot 6 — The cost optimization report with recommendations
 
 ![Cost optimization report output](./screenshots/Solution-Assignment/assignment-04/Screenshot%206.png)
 
@@ -138,8 +144,9 @@ Paste your forked repository URL here:
 - [x] Security auditor executed successfully (Screenshot 4 - delegation)
 - [x] Security auditor report generated (Screenshot 5)
 - [x] Cost optimizer executed successfully (Screenshot 6 - report)
+- [x] Cost optimization analysis documented (Screenshot 6a - metrics)
 - [x] Agent workflow documented (Screenshot 7)
-- [x] All 7 required screenshots added
+- [x] All 8 required screenshots added
 - [ ] GitHub repo updated with agents and written answers
 
 ---
