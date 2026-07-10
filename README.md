@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Shanmuki Reddy |
+| **LinkedIn** | [www.linkedin.com/in/shanmuki-reddy](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
+| **Location** | Coventry, UK |
+| **Background** | Career Change |
+| **Goal** | AI DevOps Engineer |
 
 ---
 
@@ -49,7 +49,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#__** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **#37** <!-- Update this each week -->
 
 ---
 
@@ -57,7 +57,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/shanmukireddy/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -67,14 +67,16 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+Week 00 → Internet & Networking Basics 
+![Week 00 – Networking](./badges/week-00.svg)
+ 
 
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+Week 01 → Success Mindset
+![Week 01 – Mindset](./badges/week-01.svg)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+
+Week 02 → Agentic AI with Claude Code 
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
 <!-- Week 03 → Linux for DevOps -->
 <!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
@@ -133,9 +135,9 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | -| - |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_from-intern-to-innovator-the-making-of-an-activity-7477756458416377856-3mnj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw  | https://medium.com/@shivasmukkala/week-1-of-my-devops-journey-f9b42094bcce?sharedUserId=shivasmukkala |
+| 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
