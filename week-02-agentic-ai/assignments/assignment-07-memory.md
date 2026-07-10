@@ -184,18 +184,18 @@ Create a LinkedIn post including:
 - Tag: #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 **Submit:**
-- LinkedIn post URL
-- Screenshot of the post
+- LinkedIn post URL:**https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-activity-7481361121216589824-56Vz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
+- Screenshot of the post: ![Screenshot 11](image-1.png)
 
 ---
 
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Memory file path identified and shown in Screenshot 1
-- [ ] Three facts saved to memory and visible in MEMORY.md (Screenshot 3)
-- [ ] Session fully closed and fresh session opened (Screenshot 4)
-- [ ] Claude recalled hero colors in new session without prompting (Screenshot 5)
-- [ ] Claude refused JavaScript — memory rule enforced (Screenshot 6)
-- [ ] All 6 screenshots captured and updated in GitHub folder
+- [-] Memory file path identified and shown in Screenshot 1
+- [-] Three facts saved to memory and visible in MEMORY.md (Screenshot 3)
+- [-] Session fully closed and fresh session opened (Screenshot 4)
+- [-] Claude recalled hero colors in new session without prompting (Screenshot 5)
+- [-] Claude refused JavaScript — memory rule enforced (Screenshot 6)
+- [-] All 6 screenshots captured and updated in GitHub folder
 

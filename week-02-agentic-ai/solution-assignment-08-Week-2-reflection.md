@@ -133,17 +133,12 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
  Peace Nwadinachi Offor):
 
-```
-![Screenshot 2](image-1.png)
-```
-```
-![Screenshot 2](image-2.png)
-```
+
 ---
 
 ### LinkedIn Post Link:
 
-`https://www.linkedin.com/posts/peace-offor-aa736a147_devops-cloudcomputing-tech-share-7481292200098807808-imD9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
+**https://www.linkedin.com/posts/peace-offor-aa736a147_devops-cloudcomputing-tech-share-7481292200098807808-imD9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
 
 ---
 

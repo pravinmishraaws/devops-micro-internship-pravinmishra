@@ -98,13 +98,13 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] `settings.json` created with permissions block
-- [ ] UserPromptSubmit hook added correctly
-- [ ] PreToolUse hook added correctly
-- [ ] Screenshot 3 shows full hooks + permissions configuration
-- [ ] Prompt-level destructive test was blocked (Screenshot 4)
-- [ ] Command-level `terraform destroy` was blocked (Screenshot 5)
-- [ ] `settings.json` committed and visible in GitHub repo
+- [-] `settings.json` created with permissions block
+- [-] UserPromptSubmit hook added correctly
+- [-] PreToolUse hook added correctly
+- [-] Screenshot 3 shows full hooks + permissions configuration
+- [-] Prompt-level destructive test was blocked (Screenshot 4)
+- [-] Command-level `terraform destroy` was blocked (Screenshot 5)
+- [-] `settings.json` committed and visible in GitHub repo
 
 ---
 

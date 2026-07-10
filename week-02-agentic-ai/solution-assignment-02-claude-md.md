@@ -90,12 +90,12 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
-- [ ] Screenshot 2 shows `/init` generated CLAUDE.md
-- [ ] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
-- [ ] Screenshot 4 shows updated deployment-aware Claude response
-- [ ] Screenshot 5 shows Claude rejecting React request based on rules
-- [ ] CLAUDE.md is committed and visible in GitHub repository
+- [-] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
+- [-] Screenshot 2 shows `/init` generated CLAUDE.md
+- [-] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
+- [-] Screenshot 4 shows updated deployment-aware Claude response
+- [-] Screenshot 5 shows Claude rejecting React request based on rules
+- [-] CLAUDE.md is committed and visible in GitHub repository
 
 ---
 

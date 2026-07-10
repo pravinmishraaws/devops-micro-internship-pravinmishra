@@ -111,7 +111,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 Paste your Google Doc URL here:
 
-**https://docs.google.com/document/d/1dUrgDSBdqI9nB-93aRv2ltPVOyCOKayvNiaLW_IiQao/edit?usp=sharing**
+** {https://docs.google.com/document/d/1dUrgDSBdqI9nB-93aRv2ltPVOyCOKayvNiaLW_IiQao/edit?usp=sharing} **
 
 ---
 
@@ -119,22 +119,22 @@ Paste your Google Doc URL here:
 
 Paste your forked repository URL here:
 
-`https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git`
+** {https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git} **
 
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed in Google Doc
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [-] `.claude/agents/` folder contains all 3 agent files
+- [-] Screenshot 2 shows correct `security-auditor.md` configuration
+- [-] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [-] All 3 written answers completed in Google Doc
+- [-] Security auditor executed successfully
+- [-] Cost optimizer executed successfully
+- [-] Security report is visible with findings
+- [-] Cost report is visible with recommendations
+- [-] All required screenshots added
+- [-] GitHub repo updated with agents
 
 ---
 

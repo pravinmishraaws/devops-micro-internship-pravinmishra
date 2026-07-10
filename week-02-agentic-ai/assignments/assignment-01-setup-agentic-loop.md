@@ -169,11 +169,11 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Claude Code CLI installed and `claude --version` works
-- [ ] Claude Code authenticated — opens without asking for login again
-- [ ] VS Code extension installed and Claude Code panel visible
-- [ ] Starter repo forked and cloned
-- [ ] All 5 screenshots captured and added to your GitHub Repository file
-- [ ] GitHub repo URL included
+- [-] Claude Code CLI installed and `claude --version` works
+- [-] Claude Code authenticated — opens without asking for login again
+- [-] VS Code extension installed and Claude Code panel visible
+- [-] Starter repo forked and cloned
+- [-] All 5 screenshots captured and added to your GitHub Repository file
+- [-] GitHub repo URL included
 
 ---

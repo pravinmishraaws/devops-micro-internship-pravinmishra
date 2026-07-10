@@ -42,7 +42,7 @@ This is not a course. It is an internship-style program — real deployments, re
  If you were named Champion of the Week, add the badge below and link to your LinkedIn post 
 
 | Week | Award | Post |
-| Week 03 | 🏆Champion of the Week |[https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-cloudcomputing-ugcPost-7481288649662263296-WEgb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ]
+| Week 03 | 🏆 Champion of the Week | **https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-cloudcomputing-ugcPost-7481288649662263296-WEgb/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
 
 
 ### Leaderboard
@@ -167,6 +167,6 @@ Week 02 → Agentic AI with Claude Code
 If you found this repo useful or want to follow my DevOps journey:
 
 - ⭐ Star this repo
-- 🔗 Connect with me on [LinkedIn](#)
+- 🔗 Connect with me on [https://www.linkedin.com/in/peace-offor-aa736a147?trk=contact-info](#)
 - 🌐 Learn more about the program: https://dmi.pravinmishra.com
 - 💬 Join the community: https://discord.pravinmishra.com

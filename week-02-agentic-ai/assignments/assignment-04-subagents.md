@@ -180,10 +180,10 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] All 3 agent files in `.claude/agents/`
-- [ ] Screenshot 2 and 3 show different tools and models for each agent
-- [ ] 3 written answers 
-- [ ] Security auditor ran and produced a report with findings
-- [ ] Cost optimizer ran and produced a report
-- [ ] Agents committed and visible in GitHub repo
+- [-] All 3 agent files in `.claude/agents/`
+- [-] Screenshot 2 and 3 show different tools and models for each agent
+- [-] 3 written answers 
+- [-] Security auditor ran and produced a report with findings
+- [-] Cost optimizer ran and produced a report
+- [-] Agents committed and visible in GitHub repo
 
