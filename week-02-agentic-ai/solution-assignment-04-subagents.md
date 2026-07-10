@@ -36,9 +36,7 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 **Answer:**
 
-After working through setting up the agents, it makes sense that cost-optimizer uses Haiku. When I looked at the config, the cost optimizer is doing pretty basic tasks - reading the Terraform files, comparing resource pricing, and spotting unused instances. It's not like it needs to make complex architectural decisions. 
-
-The reason is financial - Haiku costs way less than Sonnet, and you're going to run cost checks pretty regularly (sometimes daily). If you used Sonnet for every cost scan, that would eat into the savings the agent is trying to find. I realized that the cost-optimizer doesn't need deep reasoning - it's just analyzing numbers and making recommendations. Sonnet would be overkill and wasteful. Haiku is fast enough to give you quick results, and it keeps the API costs down.
+Cost optimization is just analyzing numbers and finding wasted resources - doesn't need Sonnet's advanced reasoning. Haiku is cheaper and faster, so if you run daily cost checks, you save money on API calls instead of burning it on the tool itself.
 
 ---
 
@@ -46,11 +44,7 @@ The reason is financial - Haiku costs way less than Sonnet, and you're going to 
 
 **Answer:**
 
-When I looked at the security-auditor.md config, I noticed it only has Read and Bash tools - no Write at all. At first I thought that was weird, but then I understood why. The security auditor should only be scanning and reporting vulnerabilities, not fixing them.
-
-If I gave it Write access, it could theoretically auto-fix issues, but then I'd have an agent making security changes to my infrastructure without anyone reviewing them. That's dangerous. What if the agent misunderstands something or gets confused? You'd have unauthorized changes in production.
-
-Also, security is sensitive. I want a human (or at least a separate approval process) between finding a vulnerability and actually fixing it. The auditor reads everything, finds problems, and reports. That's it. Then I manually review and decide what to do. It's the right separation of duties - auditor doesn't fix, it just finds and reports.
+The auditor's job is to find problems, not fix them. If it had Write access, it could make unauthorized security changes without human review, which is risky.
 
 ---
 
@@ -58,11 +52,7 @@ Also, security is sensitive. I want a human (or at least a separate approval pro
 
 **Answer:**
 
-Looking at the tf-writer.md, I saw it says `model: inherit` instead of specifying Haiku or Sonnet. That was interesting. I think the idea is that tf-writer is doing the heavy lifting - it's writing actual Terraform code, modules, variables, all that complex stuff. It can't be too limited.
-
-If you lock it to Haiku like the cost-optimizer, it might not be smart enough for tricky infrastructure decisions. By using `inherit`, it automatically uses whatever model I'm running in my main session. So if I'm using Sonnet for my project, tf-writer gets Sonnet. If I upgrade to a better model later, tf-writer automatically upgrades too without me having to change anything.
-
-I also realized it's about consistency - I'm not managing model selection in 10 different places. The cost-optimizer needs Haiku (that's a specific requirement), but tf-writer is a general-purpose agent that should match the capability of the main Claude instance. That's cleaner and more flexible when your project requirements change.
+tf-writer is the main agent writing Terraform code - it needs to be as smart as the main Claude instance, not locked to a cheap model like Haiku. Using `inherit` means it automatically gets the same model you're using for the whole project, and if you upgrade later, it upgrades too.
 
 ---
 
