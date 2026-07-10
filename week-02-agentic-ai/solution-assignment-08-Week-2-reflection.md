@@ -46,15 +46,13 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Screenshot 1](./screenshots/Solution-Assignment/assignment-08/Screenshot%201.png)
 
 ---
 
 ### Submission Field
 
-Blog Link:
-
-`__________________________________________`
+[Blog Link](https://www.linkedin.com/pulse/reflection-week-2-when-ai-meets-infrastructure-maneetta-antony-cwayc/)
 
 ---
 
@@ -92,7 +90,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Screenshot 2](./screenshots/Solution-Assignment/assignment-08/Screenshot%202.png)
 
 ---
 
@@ -101,14 +99,28 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2: Building DevOps Systems, Not Just Automating Tasks
+
+I came into this week comfortable with Claude Code CLI and agentic AI. What I didn't know was how to use it safely in infrastructure.
+
+Built subagents with different permissions. Configured hooks to catch destructive commands. Connected GitHub MCP for real-time data access. Each piece taught me that DevOps isn't just "can we automate this?" – it's "should we, and how do we control it?"
+
+The difference: infrastructure has real consequences. Every agent delegation needs safety rails, audit trails, and thoughtful access controls.
+
+My CLAUDE.md became a security playbook, not just prompts.
+
+Key takeaway: powerful tools need powerful frameworks.
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/gEX4Js5t ).
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+[Linked In Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmibypravinmishra-agenticai-claudecode-ugcPost-7481318574037442560-3TCh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
 ---
 
@@ -124,15 +136,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [x] Blog written with required structure
+* [x] Blog includes at least 2–3 Week 2 topics
+* [x] Blog is publicly accessible
+* [x] LinkedIn post created
+* [x] Required P.S. line included
+* [x] LinkedIn post content copied in submission field
+* [x] Blog link added
+* [x] LinkedIn post link added
+* [x] Screenshots added to GitHub repo
 
 ---
 
