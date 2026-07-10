@@ -93,17 +93,15 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 ## Linkedin Post Link
 
-Paste your Linkedin post link here:
+[Linked In Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmibypravinmishra-agenticai-claudecode-ugcPost-7481313184721563648-CQ8P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
-`__________________________`
+![Screenshot 7](./screenshots/Solution-Assignment/assignment-07/Screenshot%207.png)
 
 ---
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
-
-`__________________________`
+[Git Repo](https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
 
@@ -116,7 +114,7 @@ Paste your forked repository URL here:
 - [x] Claude recalled hero colors correctly (Screenshot 5)
 - [x] Claude refused JavaScript request based on memory (Screenshot 6)
 - [x] All 8 screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
+- [x] Linkedin post created.
 
 ---
 
