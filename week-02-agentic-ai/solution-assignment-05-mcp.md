@@ -62,7 +62,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+![/mcp](./screenshots/SS-A5/W2-A5-SS-4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
+![GitHub MCP tool call and the retrieved README.md](./screenshots/SS-A5/W2-A5-SS-5.png)
 
 ---
 
@@ -102,8 +102,8 @@ Paste your forked repository URL here:
 
 Confirm below:
 
-- [ ] `settings.local.json` is added to `.gitignore`
-- [ ] GitHub token is NOT exposed in repository or screenshots
+- [✓] `settings.local.json` is added to `.gitignore`
+- [✓] GitHub token is NOT exposed in repository or screenshots
 
 ---
 
