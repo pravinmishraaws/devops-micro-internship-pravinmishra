@@ -126,7 +126,7 @@ code --version
 
 ---
 
-* Claude Pro subscription active
+* Claude Pro subscription or 5$ subscription is active
 
 If any of these are missing, install them before proceeding.
 
@@ -287,7 +287,7 @@ pwd
 
 ![github](./images/ss45.png)
 
-7. Open the folder in VS Code. If this method doesn't work, use one of the alternative methods described in the onboarding guide.[onboardind](../../onboarding/04-assignment-submission-guide.md) folder)
+7. Open the folder in VS Code. If this method doesn't work, use one of the alternative methods described in the onboarding guide.[onboarding](../../onboarding/04-assignment-submission-guide.md) folder
 
 ```bash
 code .
@@ -411,7 +411,7 @@ How many lines of CSS does this project have?
 
 ![claude version](./images/ss5.png)
 
-### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
+### Screenshot 2 — Claude Code authenticated and showing the terminal prompt 
 
 ![claude version](./images/ss34.png)
 

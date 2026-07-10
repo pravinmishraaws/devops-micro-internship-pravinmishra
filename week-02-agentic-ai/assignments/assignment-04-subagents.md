@@ -64,7 +64,7 @@ Each task must be completed sequentially.
 **Steps:**
 1. Open the VS Code terminal
 2. Create the agents folder
-3. Move the 3 downloaded agent files into it
+3. Move the 3 downloaded agent files into it - Resource [Click here](https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/learn/lecture/54915307#overview)
 4. Verify file names match exactly — the file name must match the `name` field in each file's frontmatter
 
 **Commands:**
@@ -167,7 +167,7 @@ Follow the Assignment Submission Guidelines — (LINK)
 ## 10. Solution Walkthrough
 
 A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+Full solution walkthrough → [Click here](../Solutions_walkthrough/assignment-04-subagents.md)
 
 ---
 
