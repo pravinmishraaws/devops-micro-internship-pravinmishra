@@ -224,7 +224,7 @@ Hashtags:
 
 Submit the GitHub Repo Link. 
 
-![Github-repo](https://github.com/wisegeorge1/Ultimate-Agentic-DevOps-with-Claude-Code)
+![Github-repo](https://github.com/wisegeorge1/devops-micro-internship-pravinmishra.git)
 
 ![Linkedin-post](https://www.linkedin.com/posts/wisgeorge1_dmibypravinmishra-agenticai-claudecode-share-7481370662604034048-aSbv/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY)
 

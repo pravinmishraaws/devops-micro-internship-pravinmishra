@@ -181,8 +181,9 @@ Your submission must include:
 - Your GitHub forked repository URL
 
 ---
+![](https://github.com/wisegeorge1/devops-micro-internship-pravinmishra.git)
 
-https://github.com/wisegeorge1/Ultimate-Agentic-DevOps-with-Claude-Code
+![](https://github.com/wisegeorge1/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ## 10. Solution Walkthrough
 
