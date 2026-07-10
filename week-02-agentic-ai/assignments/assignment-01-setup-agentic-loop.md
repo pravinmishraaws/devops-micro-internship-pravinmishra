@@ -151,7 +151,7 @@ Complete all tasks in sequence.
 Your submission must include:
 - All 5 required screenshots
 - Your GitHub forked repository URL
-[Link]https://github.com/DMI-C3-Gautam/Ultimate-Agentic-DevOps-with-Claude-Code
+[https://github.com/DMI-C3-Gautam/Ultimate-Agentic-DevOps-with-Claude-Code]
 ---
 
 ## 10. Solution Walkthrough
