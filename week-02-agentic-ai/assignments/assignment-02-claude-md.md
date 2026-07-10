@@ -78,7 +78,7 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 1 — Claude's vague response to the question (no CLAUDE.md in place)
-
+![Task 1](./screenshots/screenshot21.jpg)
 ---
 
 ### Task 2 — Generate the First Draft with /init
@@ -99,7 +99,7 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
-
+![Task 2](./screenshots/screenshot22.jpg)
 ---
 
 ### Task 3 — Customize the CLAUDE.md
@@ -125,7 +125,7 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
-
+![Task 3](./screenshots/screenshot23.jpg)
 ---
 
 ### Task 4 — Test the After State
@@ -151,7 +151,8 @@ Add a React component to the homepage.
 **Screenshots Required:**
 - Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md
 - Screenshot 5 — Claude pushing back on the React request, citing the convention
-
+![Task 4](./screenshots/screenshot24.jpg)
+![Task 5](./screenshots/screenshot25.jpg)
 ---
 
 ## 8. Industry Insight
@@ -176,7 +177,7 @@ Follow the Assignment Submission Guidelines — (LINK)
 ## 10. Solution Walkthrough
 
 A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+Full solution walkthrough → [LINK](https://github.com/DMI-C3-Gautam/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
 ---
 
@@ -189,12 +190,12 @@ Not required for this assignment.
 ## 12. Completion Checklist
 
 Before submission, verify:
-- [ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)
-- [ ] Screenshot 2 shows the auto-generated `/init` output
-- [ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md
-- [ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform
-- [ ] Screenshot 5 shows Claude refusing the React request
-- [ ] CLAUDE.md is committed and visible in your GitHub repo
+- [x] Screenshot 1 shows a generic Claude response (no CLAUDE.md)
+- [x] Screenshot 2 shows the auto-generated `/init` output
+- [x] Screenshot 3 shows all 5 sections in your customized CLAUDE.md
+- [x] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform
+- [x] Screenshot 5 shows Claude refusing the React request
+- [x] CLAUDE.md is committed and visible in your GitHub repo
 
 ---
 
