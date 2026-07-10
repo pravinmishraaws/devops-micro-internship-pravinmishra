@@ -78,7 +78,7 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 1 — Claude's vague response to the question (no CLAUDE.md in place)
-![Task 1](./screenshots/screenshot21.jpg)
+![Task 1](screenshot21.jpg)
 ---
 
 ### Task 2 — Generate the First Draft with /init
@@ -99,7 +99,7 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
-![Task 2](./screenshots/screenshot22.jpg)
+![Task 2](screenshot22.jpg)
 ---
 
 ### Task 3 — Customize the CLAUDE.md
@@ -125,7 +125,7 @@ What is this project and how should I deploy it?
 
 **Screenshots Required:**
 - Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
-![Task 3](/week-02-agentic-ai/screenshots/screenshot23.jpg)
+![Task 3](screenshot23.jpg)
 ---
 
 ### Task 4 — Test the After State
@@ -151,8 +151,8 @@ Add a React component to the homepage.
 **Screenshots Required:**
 - Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md
 - Screenshot 5 — Claude pushing back on the React request, citing the convention
-![Task 4](./screenshots/screenshot24.jpg)
-![Task 5](./screenshots/screenshot25.jpg)
+![Task 4](screenshot24.jpg)
+![Task 5](screenshot25.jpg)
 ---
 
 ## 8. Industry Insight
