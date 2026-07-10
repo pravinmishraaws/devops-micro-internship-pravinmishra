@@ -45,8 +45,8 @@
 
 **Screenshot:**
 
-![Task 4](./screenshots/screenshot4.png)
-![Task 5](./screenshots/screenshot5.png)
+![Task 4](./screenshots/screenshot4.jpg)
+![Task 5](./screenshots/screenshot5.jpg)
 
 ---
 
