@@ -132,6 +132,56 @@ LinkedIn posts are evaluated separately:
 
 ---
 
+## Week-3 — Linux for DevOps with Bash Scripting
+
+| S. No. | Item | Comments | Link |
+|--------|------|----------|------|
+| 1 | Week-3 Class Recording | Watch the recording of the Week-3 live class on YouTube | [YouTube](https://youtube.com/live/8xyHctymcXI?feature=share) |
+
+---
+
+### Week 3: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
+
+* **Deadline - Friday, 17th of July 11:59 PM (your local time)**
+
+* **Assignment Submission Form:**: [Click here](https://forms.gle/KgE3YhGD8y71mGhC8)
+
+Week-3 contains 7 assignments
+
+| Assignment | Name | Correct Task Execution | Screenshots / Proof | LinkedIn Post | Total |
+|------------|------|:----------------------:|:-------------------:|:-------------:|:-----:|
+| Assignment-1 | AWS Free Tier Account – Get Ready for DevOps Projects | 10 | 5 | — | 15 |
+| Assignment-2 | Deploy a React App on Ubuntu VM Using Nginx | 15 | 5 | 20 | 40 |
+| Assignment-3 | Production Maintenance Drill (OPS Checklist) | 10 | 5 | 20 | 45 |
+| Assignment-4 | Deploy a Professional Website (Confidence Project) | 25 | 5 | 20 | 50 |
+| Assignment-5 | Bash Script Automation Drill (OPS Checklist) | 15 | 5 | 20 | 40 |
+| Assignment-6 | Build an AI-Assisted Linux Health Check | 15 | 5 | 20 | 40 |
+| Assignment-7 | Week 3 Reflection Blog | 30 | — | — | 30 |
+| **Total** | | | | | **260** |
+
+---
+
+# 📌 Summary Rules
+
+### 📷 Screenshot Scoring
+
+* 5 marks = correct evidence (all required screenshots present, clear, valid)
+* Missing or incorrect proof = partial or zero marks
+
+---
+
+### 🔗 LinkedIn Post Scoring (ONLY where required)
+
+LinkedIn posts are evaluated separately:
+
+| Criteria | Marks |
+|------------------------------------|------:|
+| Post published with correct content | 10 |
+| Required P.S. line included | 5 |
+| Screenshot of post included | 5 |
+| **Total per LinkedIn post** | **20** |
+
+---
 
 
 
