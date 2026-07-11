@@ -46,13 +46,14 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![screenshot_8](screenshots/assignment-8-ss1.jpg)
+![screenshot_8](screenshots/assignment-8-ss2.jpg)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link: https://medium.com/@timothyolubiyi/reflection-week-2-104593d11eda
 
 `__________________________________________`
 
@@ -101,12 +102,31 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+## Reflection – Week 2
+
+**By Timothy Olubiyi**
+
+Week 2 of the DMI Micro-Internship has been both challenging and rewarding. This week, I explored **Claude Code**, **Skills**, and **Permissions**, and my perspective on AI-assisted development has changed significantly.
+
+One key lesson was realizing that AI is most effective when paired with good engineering practices. Learning how Skills can automate repetitive tasks and how Permissions help enforce security reminded me that productivity and security should always go hand in hand.
+
+A moment I'm especially proud of was fixing an error by carefully reading the terminal output instead of immediately searching for the answer. Taking time to understand the problem not only helped me solve it but also strengthened my troubleshooting skills and confidence.
+
+The biggest mindset shift for me this week is that growth comes from building, experimenting, and learning from mistakes—not from trying to be perfect.
+
+To keep improving, I'm committing to a simple system: **90 minutes of distraction-free deep work every weekday**, dedicated to hands-on labs, projects, and continuous learning.
+
+Every week reinforces that consistency beats intensity, and small daily improvements lead to long-term growth.
+
+Looking forward to Week 3!
+
+#DMIMicroInternship #ClaudeCode #ArtificialIntelligence #DevOps #CloudComputing #CyberSecurity #Terraform #ContinuousLearning #CareerGrowth
+
 ```
 
 ---
 
-### LinkedIn Post Link:
+LinkedIn Post Link:  https://www.linkedin.com/posts/share-7481852621096468481-FU1i/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw
 
 `__________________________________________`
 
@@ -124,15 +144,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-* [ ] Blog written with required structure
-* [ ] Blog includes at least 2–3 Week 2 topics
-* [ ] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
-* [ ] Blog link added
-* [ ] LinkedIn post link added
-* [ ] Screenshots added to GitHub repo
+* [✅] Blog written with required structure
+* [✅] Blog includes at least 2–3 Week 2 topics
+* [✅] Blog is publicly accessible
+* [✅] LinkedIn post created
+* [✅] Required P.S. line included
+* [✅] LinkedIn post content copied in submission field
+* [✅] Blog link added
+* [✅] LinkedIn post link added
+* [✅] Screenshots added to GitHub repo
 
 ---
 

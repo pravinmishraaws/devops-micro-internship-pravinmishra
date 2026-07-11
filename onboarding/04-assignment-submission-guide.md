@@ -1217,6 +1217,7 @@ Before starting a new assignment (Every Saturday after the live session), run th
 ```bash
 git fetch upstream
 git merge upstream/main
+git push origin main
 ```
 
 ---
