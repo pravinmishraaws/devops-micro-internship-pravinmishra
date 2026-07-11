@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will explore Claude Code’s memory system. You will locate the project memory file, store structured information into it, restart your session, and verify that Claude can recall stored knowledge across sessions without being prompted again.
+In this assignment, you will explore Claude Code's memory system. You will locate the project memory file, store structured information into it, restart your session, and verify that Claude can recall stored knowledge across sessions without being prompted again.
 
 ---
 
@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![Screenshot 1 - Memory file path](screenshots/assignment07-screenshot1-memory-path.png)
 
 ---
 
@@ -34,13 +34,13 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![Screenshot 2 - Memory saved confirmation](screenshots/assignment07-screenshot2-memory-saved.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![Screenshot 3 - MEMORY.md content](screenshots/assignment07-screenshot3-memory-md-content.png)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![Screenshot 4 - Fresh session](screenshots/assignment07-screenshot4-fresh-session.png)
 
 ---
 
@@ -68,13 +68,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![Screenshot 5 - Recall mobile breakpoints](screenshots/assignment07-screenshot5-recall-breakpoints.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![Screenshot 6 - Refuse JavaScript request](screenshots/assignment07-screenshot6-refuse-javascript.png)
 
 ---
 
@@ -91,7 +91,7 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/onuchukwu-ubani-10004741_dmibypravinmishra-devops-agenticai-activity-7481586830929334272-Mazo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0`
 
 ---
 
@@ -99,20 +99,20 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Ubani-Onu-C/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
+- [x] Memory file path identified (Screenshot 1)
+- [x] Memory successfully saved via prompt (Screenshot 2)
+- [x] `MEMORY.md` shows stored content (Screenshot 3)
+- [x] Fresh session opened after full restart (Screenshot 4)
+- [x] Claude recalled hero colors correctly (Screenshot 5)
+- [x] Claude refused JavaScript request based on memory (Screenshot 6)
+- [x] All screenshots added and committed to GitHub repo
+- [x] Linkedin post created.
 
 ---
 
