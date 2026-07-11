@@ -460,47 +460,20 @@ Screenshot 2 — Claude refusing JavaScript request based on memory rule
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Task 4: LinkedIn Post
 
-**Post:** <!-- Paste your LinkedIn post URL here -->
+**Post:** Linkedin: (https://www.linkedin.com/posts/ibitoye-oloni_dmibypravinmishra-agenticai-claudecode-share-7481405168287215617-X6yq/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABp_1YBcUgsxYJIdRCX9CFvm17K_adeV6E)
+Medium: https://medium.com/@toyeoloni/reflection-week-2-discovering-that-ai-needs-more-than-good-prompts-f6ca8ecc8709
 
 ---
 
 ## Key Learnings
 
-<!-- 3-5 bullet points on what you learned this week -->
-
-- 
-- 
-- 
+- Learned how Claude Code uses skills, subagents, MCP, hooks, permissions, and memory to automate DevOps workflows.
+- Gained hands-on experience using Terraform with Claude Code to scaffold infrastructure and review execution plans.
+- Understood the importance of project context through `CLAUDE.md` and how it improves AI responses.
+- Learned how hooks and permissions help prevent unsafe actions while allowing controlled automation.
+- Improved my troubleshooting skills by diagnosing and resolving issues with Git, Terraform, Claude Code, and GitHub MCP.
 
 ---
 
