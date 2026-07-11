@@ -1,4 +1,4 @@
-# Week 04 — Agentic AI
+# Week 02 — Agentic AI
 
 ## Assignment Overview
 
