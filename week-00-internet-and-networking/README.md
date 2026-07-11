@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 screenshot](screenshots/week-00-screenshot-01.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -33,8 +33,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 ---
 
 ## What I Learned (2–3 lines)
-
-Add your answer here...
+I learned that networking protocols are simply a set of rules that allow devices to communicate and understand each other. Using a simple real-life analogy made the concept much easier to grasp, showing that protocols are essential for reliable and accurate communication across networks.
 
 ---
 
@@ -59,7 +58,10 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+EpicReads’ website can be accessed globally because the internet uses a system of connected networks and communication rules. When a user visits the website, their request is broken into small pieces called packets through packet switching. These packets travel across different routes on the internet and are reassembled when they reach the server in Finland.
+
+The server has a unique Internet Protocol(IP) address, which helps devices locate it online. Communication between the user and the server follows the Transmission Control Protocol/ Internet Protocol (TCP/IP) suite, ensuring data is delivered accurately and in the correct order. Users access the site through Hypertext Transfer Protocol (HTTP) or Hypertext Transfer Protocol Secure (HTTPS), which are protocols used for web communication. HTTPS is more secure because it encrypts data, protecting users’ information while browsing or making purchases on EpicReads.
+
 
 ---
 
@@ -91,7 +93,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/week-00-screenshot-02.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +104,25 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS/JAVASCRIPT
+* React.js
+* Vue.js
+* Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js/Expresso.js
+* Python/Django
+* Flash
+* Java Spring Boot
+* Go
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* SQLite
+* MongoDB
+* PostgrelSQL
+* MySQL
 
 ---
 
@@ -142,7 +151,11 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. Domain Name System (DNS) is the internet address translator. It works by connecting easy to remember domain names, for example, EpicReads’s “epicreads.com” to the numerical IP addresses computers use to find websites.This makes it easier for users to be able to access domain name by simply typing the domain name in a browser instead of typing  52.172.142.222:3000.
+
+2. To connect the domain to the server IP, an Address (A) record should be used because it links a domain name directly to an IPv4 address. It works like this: when you type epicreads.com, the DNS looks up the A record and returns the IPv4 address like 52.172.142.222, then your browser connects to that IP. The A record will point epicreads.com to 52.172.142.222.
+For example:
+epicreads.com A 52.172.142.222
 
 ---
 
@@ -178,7 +191,8 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/week-00-screenshot-03.png)
+![VS Code Setup Screenshot](screenshots/week-00-screenshot-04.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -218,7 +232,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+**https://www.linkedin.com/posts/peace-offor-aa736a147_week-0-devops-micro-internship-key-takeaways-activity-7462543993420197888-nsVG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
 ```
 
 ---
@@ -227,7 +241,31 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+Week 0 DevOps Micro Internship (Key Takeaways)
+
+I just finished Tasks 1-5 and wanted to share what I learned in simple terms:
+
+ChatGPT 
+I used ChatGPT to clarify DevOps concepts, compare tools, and draft explanations. It helped me transform technical notes into clear, accurate posts without losing details that matters.
+
+INTERNET & NETWORKING
+I learned the basic flow: 
+Frontend runs in the browser, 
+Backend + Database run on the server. 
+They communicate using HTTP requests and APIs. Understanding where each part lives eliminates a lot of confusion early on.
+
+APP ARCHITECTURE 
+2-Tier: The frontend connects directly to the database. Quick to build, but difficult to scale and secure. 
+3-Tier: Frontend — Backend/API — Database. A middle layer for logic and security. This is the standard for most production and applications.
+
+DNS 
+DNS (Domain Name System) is like the internet’s phonebook. It translates domain names into IP addresses. An A record specifically maps a domain name to an IPv4 address, so when you type a URL, your browser knows exactly where to go.
+
+VS CODE SETUP 
+Set up VS Code as my primary code editor. With extensions for React, Python, Docker, and Git, plus the built in terminal, it handles coding, debugging, and version control in one place.
+
+
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
 ---
 
@@ -235,19 +273,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found it easy to understand the high-level concepts once I related them to real-world examples. Explaining networking, DNS, and application architecture in simple terms helped me move beyond memorization and build a clearer understanding of how the different components work together.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The most challenging part was connecting individual concepts into a complete picture of how a web application functions from end to end. Understanding where the frontend, backend, database, APIs, and DNS each fit required careful study rather than simply reading definitions.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will spend more time reinforcing the concepts through hands-on practice instead of relying only on theory. My goal is to strengthen my understanding by applying what I learn and explaining each topic in my own words.
 
 ---
 
