@@ -25,7 +25,7 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 2 — Claude Code authenticated in terminal
 
-![claude_terminal](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\claude_terminal.png)
+![claude_terminal](screenshots\claude_terminal.png)
 
 # Task 2 — Fork and Clone the Starter Repository
 
