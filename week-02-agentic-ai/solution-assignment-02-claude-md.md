@@ -1,6 +1,6 @@
 # Assignment 2 — Teaching Claude Your Project
 
-![steps](devops-micro-internship-pravinmishra\week-02-agentic-ai\Deployment_Steps.png)
+![Deployment_Steps](devops-micro-internship-pravinmishra\week-02-agentic-ai\Deployment_Steps.png)
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
