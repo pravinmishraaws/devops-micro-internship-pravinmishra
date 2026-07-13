@@ -35,6 +35,9 @@ I understand further that some services are “Always Free” with usage limits,
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
 Write your answer here.
+Amazon EC2
+Amazon S3
+Amazon RDS
 
 Amazon EC2: 	750 hours/month (t2.micro/t3.micro)
 Amazon S3:  5 GB storage, 20k GET, 2k PUT requests
