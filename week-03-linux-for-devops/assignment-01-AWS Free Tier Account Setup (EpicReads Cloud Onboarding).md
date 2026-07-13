@@ -28,6 +28,7 @@ From my understanding, an AWS account is the gateway to Amazon Web Services, giv
 
 Write your answer here.
 
+<<<<<<< HEAD
 Having gone through a few of the documentations, I understand that AWS Free Tier lets new customers explore AWS services at no cost for up to six months or until their credits run out. 
 
 I understand further that some services are “Always Free” with usage limits, meaning you can keep using them indefinitely as long as you stay within those limits.
@@ -67,6 +68,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 Add your screenshot here.
 
+<<<<<<< HEAD
 ![AWS account page](image.png)
 
 # Submission Instructions
