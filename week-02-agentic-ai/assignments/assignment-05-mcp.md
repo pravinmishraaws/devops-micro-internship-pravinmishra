@@ -158,24 +158,33 @@ Each task must be completed sequentially.
 
 ---
 
-### Task 5 — Run a Live GitHub Query
+## Task 5 — Run a Live GitHub Query
 
-**Goal:** Prove the MCP connection works by asking Claude something only the GitHub MCP can answer.
+**Goal:** Prove the MCP connection works by asking Claude to retrieve real data from GitHub using the GitHub MCP server.
 
 **Steps:**
-1. In Claude Code, ask: `"List all my GitHub repositories"`
-2. Watch Claude use the GitHub MCP tool to fetch live data from your actual account
-3. The response will include your real repositories — not guessed content
 
-**Commands (in Claude Code):**
-```
-List all my GitHub repositories.
+1. In Claude Code, run the following prompt:
+
 ```
 
-**Expected Output:** Claude calls the GitHub MCP, retrieves your actual repository list, and displays it. This is live data pulled directly from GitHub — not training data.
+Use GitHub MCP to get the README.md file from <your-github-username>/Ultimate-Agentic-DevOps-with-Claude-Code
+
+```
+
+2. Watch Claude call the GitHub MCP tool to retrieve the README.md file from the GitHub repository.
+
+3. Verify that Claude's response contains the actual README.md content from GitHub.
+
+**Expected Output:**
+
+- Claude calls the GitHub MCP server and retrieves the README.md content from the live GitHub repository.
+- The response should include the actual repository content fetched from GitHub — not guessed information from Claude's training data.
+- You can verify the retrieved content by navigating to the same README.md file in your GitHub repository and comparing it with Claude's response.
 
 **Screenshots Required:**
-- Screenshot 5 — Claude's response showing your real GitHub repositories (you may blur individual repo names if preferred)
+
+* Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
 ---
 
@@ -198,7 +207,8 @@ Your submission must include:
 
 ## 10. Solution Walkthrough
 
-A step-by-step solution and troubleshooting guide is available for reference will be updated.
+A step-by-step solution and troubleshooting guide is available for reference:
+Full solution walkthrough → [Click here](../Solutions_walkthrough/assignment-05-mcp.md)
 
 ---
 

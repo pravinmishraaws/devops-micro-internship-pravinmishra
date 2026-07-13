@@ -34,8 +34,6 @@ On real engineering teams, every new team member reads the onboarding doc before
 
 ## 5. Important Instructions (Global Rules)
 
-Follow the Assignment Submission Guidelines — Click here
-
 **Key Rules:**
 - Full name must be visible in required screenshots
 - Do not expose sensitive information (keys, passwords, account IDs)
@@ -65,7 +63,7 @@ Each task must be completed sequentially.
 
 **Steps:**
 1. Open Claude Code in your project
-2. Confirm there is no CLAUDE.md file (the project should only have `index.html`, `style.css`, `images/`)
+2. Confirm there is no CLAUDE.md file (the project should only have `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 3. Ask this exact question: `"What is this project and how should I deploy it?"`
 4. Screenshot the response — it will be generic and vague
 
@@ -74,10 +72,10 @@ Each task must be completed sequentially.
 What is this project and how should I deploy it?
 ```
 
-**Expected Output:** Claude gives a generic answer. It can see HTML and CSS but has no idea about S3, CloudFront, or Terraform.
+**Expected Output:** Claude gives a generic answer based only on the existing project files. It may describe the project as a static HTML/CSS website and suggest common deployment options.
 
 **Screenshots Required:**
-- Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only index.html, style.css and images/)
+- Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
 ---
 
@@ -134,7 +132,7 @@ What is this project and how should I deploy it?
 
 **Steps:**
 1. Start a **new Claude Code session** — close the current terminal and open a fresh one
-2. Ask: `"What is this project and how should I deploy it?"` — Claude should now mention S3, CloudFront, and Terraform
+2. Ask: `"What is this project and how should I deploy it?"` — Claude should now mention S3, CloudFront, and Terraform clearly.
 3. Then ask: `"Add a React component to the homepage"` — Claude should push back because of the No JavaScript rule
 4. Screenshot both responses
 
@@ -154,6 +152,43 @@ Add a React component to the homepage.
 
 ---
 
+### Task 5 — Commit and push your changes to your fork in GitHub
+
+**Goal:** Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instructions are version-controlled.
+
+**Steps:**
+
+1. Check the Git status to verify that `CLAUDE.md` has been created or modified
+
+2. Stage the changes (`git add .`)
+
+3. Commit the changes with a meaningful commit message
+
+4. Push the commit to your GitHub fork
+
+5. Open your GitHub repository in the browser and verify that `CLAUDE.md` is visible in the repository root
+
+
+**Commands (Terminal):**
+
+```bash
+
+git status
+git add CLAUDE.md
+git commit -m "Add project-specific CLAUDE.md"
+git push origin main
+
+```
+
+**Expected Output:** The `CLAUDE.md` file is committed, pushed to your GitHub fork, and visible in the repository.
+
+
+**Screenshots Required:**
+
+- Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
+
+---
+
 ## 8. Industry Insight
 
 The CLAUDE.md is where the engineer's knowledge becomes permanent. Every line you write there is an instruction that applies to every session, every command, every file Claude touches — automatically. Senior engineers on agentic teams treat their CLAUDE.md like production code: they version control it, review changes to it, and keep it updated as the project evolves. A 90-line CLAUDE.md written carefully can save weeks of correction across a year of usage.
@@ -165,15 +200,15 @@ The CLAUDE.md is where the engineer's knowledge becomes permanent. Every line yo
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 5 required screenshots
-- Your GitHub repo URL (CLAUDE.md should be committed)
+- All 6 required screenshots
+- Your GitHub repo URL (`CLAUDE.md` must be committed and pushed)
 
 ---
 
 ## 10. Solution Walkthrough
 
 A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+Full solution walkthrough → [Click here](../Solutions_walkthrough/assignment-02-claude-md.md)
 
 ---
 
@@ -183,15 +218,26 @@ Not required for this assignment.
 
 ---
 
-## 12. Completion Checklist
+### 12. Completion Checklist
 
 Before submission, verify:
+<<<<<<< HEAD
 - [-] Screenshot 1 shows a generic Claude response (no CLAUDE.md)
 - [-] Screenshot 2 shows the auto-generated `/init` output
 - [-] Screenshot 3 shows all 5 sections in your customized CLAUDE.md
 - [-] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform
 - [-] Screenshot 5 shows Claude refusing the React request
 - [-] CLAUDE.md is committed and visible in your GitHub repo
+=======
+
+[ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
+[ ] Screenshot 2 shows the auto-generated `/init` output <br>
+[ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
+[ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
+[ ] Screenshot 5 shows Claude refusing the React request <br>
+[ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+[ ] GitHub repository URL is included in the submission <br>
+>>>>>>> upstream/main
 
 ---
 

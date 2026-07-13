@@ -75,7 +75,7 @@ Where does your memory file live for this project? Show me the full path.
 **Expected Output:** Claude gives you the full absolute path to the `MEMORY.md` file. The file may be empty or not yet exist — that is fine.
 
 **Screenshots Required:**
-- Screenshot 1 — Claude's response showing the full memory file path
+- Screenshot 1 — Memory file path shown by Claude
 
 ---
 
@@ -148,8 +148,8 @@ Should I add a JavaScript animation to the hero section?
 - Question 3: Claude refuses the JavaScript request — citing the memory rule
 
 **Screenshots Required:**
-- Screenshot 5 — Claude recalling the hero section colors correctly in the new session
-- Screenshot 6 — Claude refusing to add JavaScript (memory rule enforced in the new session)
+- Screenshot 5 — Claude recalling hero section colors
+- Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
 ---
 
@@ -172,7 +172,8 @@ Your submission must include:
 ## 10. Solution Walkthrough
 
 A step-by-step solution and troubleshooting guide is available for reference:
-Full solution walkthrough → (LINK)
+Full solution walkthrough → [Click here](../Solutions_walkthrough/assignment-07-memory.md)
+
 
 ---
 
@@ -185,6 +186,7 @@ Create a LinkedIn post including:
 
 **Submit:**
 - LinkedIn post URL:**https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-activity-7481361121216589824-56Vz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
+
 - Screenshot of the post: ![Screenshot 11](image-1.png)
 
 ---
