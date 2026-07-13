@@ -38,16 +38,9 @@ Having gone through a few of the documentations, I understand that AWS Free Tier
 
 I understand further that some services are “Always Free” with usage limits, meaning you can keep using them indefinitely as long as you stay within those limits.
 
-
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
 Write your answer here.
-<<<<<<< HEAD
-Amazon EC2
-Amazon S3
-Amazon RDS
-=======
->>>>>>> b0f59795762ae52e6599eddd97357798c0d88c59
 
 Amazon EC2: 	750 hours/month (t2.micro/t3.micro)
 Amazon S3:  5 GB storage, 20k GET, 2k PUT requests
@@ -77,13 +70,6 @@ Add your screenshot here.
 
 <<<<<<< HEAD
 ![AWS account page](image.png)
-=======
-<<<<<<< HEAD
-![AWS account](image.png)
-=======
----
->>>>>>> b0f59795762ae52e6599eddd97357798c0d88c59
->>>>>>> 7c26ee001c8e0916fd7f017dc3e35171a467e192
 
 # Submission Instructions
 
