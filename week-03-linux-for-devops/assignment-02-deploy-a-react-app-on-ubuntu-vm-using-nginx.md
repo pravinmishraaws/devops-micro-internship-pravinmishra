@@ -22,7 +22,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 Add your screenshot here.
 
-[node and npm](image-1.png)
+---
 
 # Task 2 — Setup Environment (Nginx)
 
@@ -36,7 +36,7 @@ Install Nginx, start the service, and confirm it is running.
 
 Add your screenshot here.
 
-[status](image-2.png)
+---
 
 # Task 3 — Clone React Application
 
