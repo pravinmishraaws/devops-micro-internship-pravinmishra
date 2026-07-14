@@ -22,7 +22,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 Add your screenshot here.
 
----
+![SkillFolderStructure](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\Ass3Task1.png)
 
 # Task 2 — Add the Skill Files
 
@@ -34,15 +34,12 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — scaffold-terraform skill folder contents
 
-Add your screenshot here.
 
----
+![SkillsFiles](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\Ass3Task2.png)
 
 #### Screenshot 3 — tf-plan/SKILL.md showing allowed-tools restrictions
 
-Add your screenshot here.
-
----
+![TerraformPlan](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\Ass3Task1.png)
 
 # Task 3 — Run /scaffold-terraform
 
@@ -54,15 +51,11 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude scaffold execution result
 
-Add your screenshot here.
-
----
+![ScaffoldTerraform/](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\scaffold-tf1.png)
 
 #### Screenshot 5 — Generated terraform/ folder with all files
 
-Add your screenshot here.
-
----
+![TerraformFolders](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\TerraformFoldersFiles.png)
 
 # Task 4 — Run terraform init and /tf-plan
 
@@ -74,9 +67,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — /tf-plan execution and Claude analysis output
 
-Add your screenshot here.
-
----
+![TerraformPlan]()
 
 # Submission Instructions
 
@@ -88,9 +79,8 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
 
-`__________________________`
+``
 
 ---
 
