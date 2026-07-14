@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — Agents folder structure in VS Code
 
-![AgensfolderStructure]()
+![AgensfolderStructure](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\Agents3Files.png)
 
 # Task 2 — Compare the Agent Configurations
 
@@ -34,33 +34,73 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 Add your answer here...
 
----
+--- 1. Why does the cost optimizer use Haiku instead of Sonnet?
+The Cost Optimizer uses Haiku because its tasks are generally:
+Parsing Terraform configurations
+Identifying cost-saving opportunities
+Comparing resource configurations
+Producing concise recommendations
+These tasks are mostly pattern matching and rule-based analysis, which do not require the deeper reasoning capabilities of Sonnet.
+Using Haiku provides several benefits:
+Lower cost per request
+Faster responses
+Sufficient intelligence for straightforward optimization tasks
+If every agent used Sonnet, operating costs would increase without significantly improving the quality of cost optimization recommendations.
+
+
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
 Add your answer here...
 
----
+--- The Security Auditor is intended to analyze, inspect, and report security issues—not modify infrastructure.
+
+Removing the Write tool follows the principle of least privilege, meaning an agent should only receive the permissions it actually needs.
+
+Without the Write tool, the security auditor can:
+
+Read Terraform files
+Identify vulnerabilities
+Produce recommendations
+
+But it cannot:
+
+Modify Terraform code
+Accidentally introduce changes
+Overwrite infrastructure configurations
+
+This makes the agent safer and reduces the risk of unintended or unauthorized changes.
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
 Add your answer here...
 
----
+---  The tf-writer is responsible for generating or modifying Terraform code, so it benefits from using whichever model is configured as the system's default.
+
+Using:
+
+model: inherit
+
+instead of specifying a model (such as Sonnet or Haiku) provides several advantages:
+
+Automatically uses the project's configured default model.
+Makes the configuration easier to maintain because changing the default model updates all inheriting agents.
+Allows users or administrators to upgrade models without editing every agent configuration.
+Keeps the agent portable across environments with different default model preferences.
+
+
 
 ### Evidence
 
 #### Screenshot 2 — security-auditor.md frontmatter
 
-Add your screenshot here.
+![SecurittyAuditor.md](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\securityAudit.png)
 
----
+![SecurityAudit2](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\SecurityReview.png)
 
 #### Screenshot 3 — cost-optimizer.md frontmatter
 
-Add your screenshot here.
-
----
+![CostOptimizer](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\costOptimizer.png)
 
 # Task 3 — Run the Security Auditor
 
@@ -72,15 +112,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — Security auditor delegation triggered
 
-Add your screenshot here.
-
----
+![SecurityAuditor](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\SecurityAudit1.png)
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+![SecurityAuditReortOutput1](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\Secoutput1.png)
 
----
+![SecurityAuditReortOutput2](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\SecAud2.png)
 
 # Task 4 — Run the Cost Optimizer
 
@@ -92,9 +130,17 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — Cost optimization report output
 
-Add your screenshot here.
+![CostOptimizattionReport](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\CostAudit1.png)
 
----
+![CostOpt2](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\CostAudit2.png)
+
+
+![CostOpt3](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\CostAudit3.png)
+
+![CostOpt4](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\costaud4.png)
+
+![CostOpti5](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\CostAud5.png)
+
 
 # Submission Instructions
 
@@ -109,9 +155,16 @@ Add your screenshot here.
 
 Paste your Google Doc URL here:
 
-`__________________________`
+`______________________`
 
----
+--- https://docs.google.com/document/d/11VbIbEM3XOiqwid4LVcFNZ15JtRcAv0ZCmQnPpTBUJo/edit?usp=sharing
+
+--- https://docs.google.com/document/d/1H-ZUtbBdsjfUIQw97JQoy2DhIKkzEeYiw8JOfXU-sDQ/edit?usp=sharing
+
+
+--- https://docs.google.com/document/d/1Ou3cvVqf93xzU7nMhG56OCFs7LwxwVpP3MW38hxWDMs/edit?usp=sharing
+
+
 
 ## GitHub Repository URL
 
@@ -119,7 +172,7 @@ Paste your forked repository URL here:
 
 `__________________________`
 
----
+---https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code
 
 # Completion Checklist
 
