@@ -67,7 +67,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — /tf-plan execution and Claude analysis output
 
-![TerraformPlan]()
+![TerraformPlan](devops-micro-internship-pravinmishra\week-02-agentic-ai\screenshots\tf_plan2.png)
 
 # Submission Instructions
 
@@ -80,7 +80,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 ## GitHub Repository URL
 
 
-``
+`https://github.com/Taiwo-Peter2023/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ---
 
