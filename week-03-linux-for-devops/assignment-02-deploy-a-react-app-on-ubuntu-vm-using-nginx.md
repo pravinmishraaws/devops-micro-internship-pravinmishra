@@ -22,7 +22,7 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 Add your screenshot here.
 
----
+![node and npm](image-38.png)
 
 # Task 2 — Setup Environment (Nginx)
 
@@ -36,7 +36,7 @@ Install Nginx, start the service, and confirm it is running.
 
 Add your screenshot here.
 
----
+![systemctl](image-39.png)
 
 # Task 3 — Clone React Application
 
@@ -50,7 +50,8 @@ Clone the project repository and verify the project files are present.
 
 Add your screenshot here.
 
-[output of ls](image-3.png)
+[output of ls]
+(image-3.png)
 
 # Task 4 — Modify Application (Personalization)
 
@@ -63,7 +64,8 @@ Update `App.js` with your full name and the current date.
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
 Add your screenshot here.
-![nano.js](image-6.png)
+![nano.js]
+(image-6.png)
 
 # Task 5 — Build React Application
 
@@ -77,7 +79,8 @@ Install dependencies and generate the production build.
 
 Add your screenshot here.
 
-[ls screenshot](image-7.png)
+[ls screenshot]
+(image-7.png)
 
 # Task 6 — Deploy React Build to Nginx Web Root
 
@@ -91,7 +94,8 @@ Copy the production build files to the Nginx web root directory.
 
 Add your screenshot here.
 
-[ls /var/www/html](image-8.png)
+[ls /var/www/html]
+(image-8.png)
 
 # Task 7 — Configure Nginx for React Application
 
@@ -105,13 +109,15 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 Add your screenshot here.
 
-[systemctl is active](image-10.png)
+[systemctl is active]
+(image-10.png)
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
 Add your screenshot here.
 
-![cat etc](image-9.png)
+![cat etc]
+(image-9.png)
 
 # Task 8 — Test Deployment
 
@@ -125,13 +131,15 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Add your screenshot here.
 
-![curl](image-11.png)
+![curl]
+(image-11.png)
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
 Add your screenshot here.
 
-![React app on browser](image-12.png)
+![React app on browser]
+(image-12.png)
 
 # LinkedIn Post (Required)
 
