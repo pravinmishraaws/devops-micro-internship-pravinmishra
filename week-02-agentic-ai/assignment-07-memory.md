@@ -90,7 +90,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`__________________________`
+[`Linkedin post on MEMORY.md`](https://www.linkedin.com/posts/solaibinuolapo_techleadership-cloudcomputing-devops-share-7483106890063994880-yPAI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM)
 
 ---
 
