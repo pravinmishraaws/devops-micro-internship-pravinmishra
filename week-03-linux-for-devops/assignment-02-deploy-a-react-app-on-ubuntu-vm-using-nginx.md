@@ -139,9 +139,10 @@ Add your screenshot here.
 
 #### LinkedIn Post URL
 
-!Paste your LinkedIn post URL here:
+Paste your LinkedIn post URL here:
+
 https://www.linkedin.com/posts/abraham-inwang-695a67216_todays-real-life-task-deploy-a-react-share-7482784747207786496-C6d8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
-!
+
 
 #### Screenshot — LinkedIn post showing the deployed application
 
