@@ -4,7 +4,7 @@
 
 ## 1. Assignment Overview
 
-**Assignment:** Hooks & Permissions             
+**Assignment:** Hooks & Permissions     
 **Estimated Time:** 60 minutes             
 **Difficulty:** Intermediate                 
 **Category:** Agentic AI, Safety              

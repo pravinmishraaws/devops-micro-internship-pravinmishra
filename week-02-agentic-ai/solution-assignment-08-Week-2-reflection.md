@@ -46,15 +46,15 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![alt text](image-56.png)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link: 
 
-`__________________________________________`
+[`Medium post`](https://hesolaroyal.medium.com/dmi-cohort-3-reflection-week-2-9f3e1dc2128e)
 
 ---
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![alt text](image-57.png)
 
 ---
 
@@ -101,14 +101,24 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 of my learning journey has been an exciting and eye-opening experience, and at the same time, overwhelming. I spent time exploring Claude Code, Skills, Subagents, MCP, Hooks, Permissions, and Memory, and each topic helped me understand how powerful and intentional modern tools can be when used thoughtfully.
+
+What stood out most to me is that learning is not only about gaining new knowledge but also about building better habits, improving how I work, and becoming more reflective in the process. One of the biggest challenges this week was delaying watching the learning videos until the end before starting the assignment. I know for sure that I am improving; a big thanks to Joy Ukpabi  Anjana Muthunayake Nkechi Anna Ahanonye Tanisha Borana for their guidance. Any moment from now, I must start it from sunday. my mindset to stay curious and patient instead of feeling pressured to understand everything immediately. That shift has been valuable.
+
+One habit I plan to implement is writing short reflections after each learning session so I can capture what I learned, what challenged me, and how I can apply it moving forward.
+
+I’m grateful for the growth that comes with each step, and I'm starting week 3 immediately because it has already been delayed. A big thanks to Pravin Mishra for this idea and vision to transform people; God is really using you mightily 
+
+P.S. This post is part of the DevOps Micro Internship with Agentic AI Cohort 3 by Pravin Mishra. You can begin your DevOps journey by joining the DMI waiting list. (https://forms.gle/3hvrWJBDzsDeJoPs6)
+
+#TechLeadership #CloudComputing #DevOps #AgenticAI #DigitalTransformation #Nigeria, #GovTech, #CloudArchitect, #TerraformCertified, #NigerianTechDiaspora, #PublicSectorInnovation #hesolaroyal #NationalTreasure #DMI #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+[`Linkedin Post`](https://www.linkedin.com/posts/solaibinuolapo_techleadership-cloudcomputing-devops-share-7483045008934219776-OrVL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM)
 
 ---
 
