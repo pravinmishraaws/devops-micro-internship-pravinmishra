@@ -21,14 +21,17 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
 Write your answer here.
+From my understanding, an AWS account is the gateway to Amazon Web Services, giving users/subscribers access to cloud infrastructure, tools, and services. 
 
-From my understanding, an AWS account is the gateway to Amazon Web Services, giving users/subscribers access to cloud infrastructure, tools, and services. As a DevOps engineer, it is needed to build, automate, and manage scalable systems, implement CI/CD pipelines, and ensure secure, efficient software delivery.
+Why I need it at this stage.
+
+As a DevOps engineer, it is needed to build, automate, and manage scalable systems, implement CI/CD pipelines, and ensure secure, efficient software delivery.
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 Write your answer here.
 
-<<<<<<< HEAD
+
 Having gone through a few of the documentations, I understand that AWS Free Tier lets new customers explore AWS services at no cost for up to six months or until their credits run out. 
 
 I understand further that some services are “Always Free” with usage limits, meaning you can keep using them indefinitely as long as you stay within those limits.
@@ -68,7 +71,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 Add your screenshot here.
 
-<<<<<<< HEAD
+
 ![AWS account page](image.png)
 
 # Submission Instructions
