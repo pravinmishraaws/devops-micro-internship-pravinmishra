@@ -22,7 +22,8 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 Add your screenshot here.
 
----
+![status nginx]
+(image-40.png)
 
 # Task 1 — Get the Website Source Code
 
@@ -36,7 +37,8 @@ Download and extract the portfolio website template.
 
 Add your screenshot here.
 
----
+![ls la]
+(image-41.png)
 
 # Task 2 — Add Ownership Proof (Anti-Copy Change)
 
@@ -50,7 +52,8 @@ Update the website footer with your deployment details.
 
 Add your screenshot here.
 
----
+![Nano]
+!(image-43.png)
 
 # Task 3 — Deploy Website via Nginx
 
@@ -64,13 +67,15 @@ Deploy the portfolio website to the Nginx web root.
 
 Add your screenshot here.
 
----
+![nginx]
+(image-44.png)
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
 Add your screenshot here.
 
----
+![ls]
+(image-45.png)
 
 # Task 4 — Verify Website is Live
 
@@ -84,13 +89,15 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 Add your screenshot here.
 
----
+![curl]
+(image-46.png)
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
 Add your screenshot here.
 
----
+![live]
+(image-47.png)
 
 # Task 5 — Mini Real DevOps Operational Check
 
@@ -104,13 +111,15 @@ Verify the deployed website and Nginx service are healthy.
 
 Add your screenshot here.
 
----
+![asystemctl]
+(image-48.png)
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
 Add your screenshot here.
 
----
+![curl]
+(image-49.png)
 
 # LinkedIn Post (Mandatory)
 
@@ -122,13 +131,14 @@ Paste your LinkedIn post URL here:
 
 `__________________________`
 
----
+https://www.linkedin.com/posts/abraham-inwang-695a67216_today-i-deployed-the-epicreads-portfolio-share-7483260552270655489-L0mg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
 Add your screenshot here.
 
----
+![LinkedIn]
+(image-50.png)
 
 # Submission Instructions
 
