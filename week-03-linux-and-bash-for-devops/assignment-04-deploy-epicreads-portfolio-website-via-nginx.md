@@ -102,7 +102,7 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-1[Screenshot 7](screenshots/enabledd.png)
+![Screenshot 7](screenshots/enabledd.png)
 
 ---
 
