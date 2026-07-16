@@ -20,19 +20,22 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is our authentication layer into Amazon's cloud infrastructure—it's our identity and billing container for all services and resources you provision. We need it to begin hands-on work with cloud services, manage security/permissions, and eventually deploy infrastructure. Without an account, we have no access to the console, or any cloud resources.
+
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier is a promotional offering that gives free usage of selected AWS services for a limited time, designed for testing and learning. The standard Free Tier lasts 6 months
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+Amazon EC2: 750 hours per month of a t2.micro or t3.micro virtual server.
+Amazon S3: 5 GB of standard object storage, plus 2,000 PUT and 20,000 GET requests.
+AWS Lambda: 1 million free serverless code requests and 400,000 GB-seconds of compute time.
 
 ---
 
@@ -56,7 +59,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![AWS Account page showing account name](./screenshots/W3-SS-A1/W3-A1-SS-1.png)
 
 ---
 
@@ -70,11 +73,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1 answers written in own words
-- [ ] AWS Free Tier account created successfully
-- [ ] Signed in to AWS Management Console
-- [ ] Screenshot of AWS Account page captured (full name visible, no sensitive data)
-- [ ] All required screenshots added to repository
+- [✓] Task 1 answers written in own words
+- [✓] AWS Free Tier account created successfully
+- [✓] Signed in to AWS Management Console
+- [✓] Screenshot of AWS Account page captured (full name visible, no sensitive data)
+- [✓] All required screenshots added to repository
 
 ---
 
