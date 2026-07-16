@@ -23,6 +23,7 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 An AWS account gives users access to Amazon Web Services (AWS) cloud resources over the internet. It allows users to create and manage services such as EC2 virtual machines, storage, and networking without owning physical infrastructure. 
 
 **Why do I need it at this stage:** I need it to practise Linux, DevOps, and Terraform in a real cloud environment. It will also enable me to complete my Linux hands-on assignments in a secure environment and cost-effective manner.
+
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
 **AWS Free Tier** is a program that allows new AWS customers to use selected AWS services free of charge, within certain usage limits.
@@ -62,8 +63,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
-
+![alt text](image.png)
 ---
 
 # Submission Instructions
