@@ -1074,8 +1074,8 @@ You can update this message depending on the week and task you are working on.
 ### 📝 Example commit messages:
 
 * `Week 02 - Agentic AI assignment completed`
-* `Week 03 - Linux for DevOps assignment completed`
-* `Week 04 - Bash Scripting assignment completed`
+* `Week 03 - Linux & Bash for DevOps assignment completed`
+* `Week 04 - Git & GitHub assignment completed`
 
 ---
 
