@@ -1,4 +1,4 @@
-# Week 02 — Linux for DevOps
+# Week 03 — Linux for DevOps
 
 ## Assignment Overview
 
@@ -101,9 +101,9 @@ sudo nginx -t
 curl -I http://54.167.8.10
 ```
 
-**Screenshot:**
+**Screenshot (Nginx installation and service status):**
 
-![Production Checks](./screenshots/nginx-status.png)
+![Nginx installation and status](./screenshots/nginx-status.png)
 
 ---
 

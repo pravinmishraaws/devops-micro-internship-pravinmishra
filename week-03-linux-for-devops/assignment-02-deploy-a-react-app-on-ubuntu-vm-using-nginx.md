@@ -18,9 +18,9 @@ Install Node.js and npm on the Ubuntu VM and verify the installation.
 
 ### Evidence
 
-#### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
+#### Screenshot 1 — Output of `sudo apt install nodejs npm -y` showing Node.js and npm installation
 
-![Node and npm versions](./screenshots/node-npm.png)
+![Node.js and npm installation](./screenshots/node-npm.png)
 
 ---
 
@@ -32,9 +32,9 @@ Install Nginx, start the service, and confirm it is running.
 
 ### Evidence
 
-#### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
+#### Screenshot 2 — Output of `sudo apt install nginx -y` showing Nginx installation
 
-![Nginx active service status](./screenshots/nginx-status.png)
+![Nginx installation](./screenshots/nginx-status.png)
 
 ---
 
@@ -46,9 +46,9 @@ Clone the project repository and verify the project files are present.
 
 ### Evidence
 
-#### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
+#### Screenshot 3 — Output of `npm create vite@latest . -- --template react && npm install` showing React app creation
 
-![React app project files](./screenshots/node-npm-console.png)
+![React app creation with Vite](./screenshots/node-npm-console.png)
 
 ---
 
@@ -74,9 +74,9 @@ Install dependencies and generate the production build.
 
 ### Evidence
 
-#### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
+#### Screenshot 5 — Output of `npm run build` and `ls` showing the built project files
 
-![React build folder](./screenshots/build-output.png)
+![React build output and project files](./screenshots/build-output.png)
 
 ---
 
@@ -88,9 +88,9 @@ Copy the production build files to the Nginx web root directory.
 
 ### Evidence
 
-#### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
+#### Screenshot 6 — Output of `npm run build` showing the production build process
 
-![Deployed files in Nginx root](./screenshots/deploy-www-html.png)
+![Production build process](./screenshots/deploy-www-html.png)
 
 ---
 
@@ -102,9 +102,9 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 ### Evidence
 
-#### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
+#### Screenshot 7 — Browser showing the deployed React app at `http://54.167.8.10` with name and date visible
 
-![Nginx active check](./screenshots/nginx-service.png)
+![Live React app in browser](./screenshots/nginx-service.png)
 
 ---
 
@@ -122,9 +122,9 @@ Verify the React application is publicly accessible via the server's public IP.
 
 ### Evidence
 
-#### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
+#### Screenshot 9 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx configuration
 
-![Public IP address](./screenshots/curl-public-ip.png)
+![Nginx configuration](./screenshots/curl-public-ip.png)
 
 ---
 
@@ -162,17 +162,17 @@ Paste your LinkedIn post URL here:
 
 # Completion Checklist
 
-- [ ] Node.js and npm installed and verified (Screenshot 1)
-- [ ] Nginx installed and running (Screenshot 2)
-- [ ] Repository cloned and files verified (Screenshot 3)
-- [ ] App.js updated with full name and date (Screenshot 4)
-- [ ] Production build generated (Screenshot 5)
-- [ ] Build files deployed to Nginx web root (Screenshot 6)
-- [ ] Nginx configured and active (Screenshots 7 & 8)
-- [ ] Public IP retrieved (Screenshot 9)
-- [ ] React app accessible in browser with personal details visible (Screenshot 10)
+- [x] Node.js and npm installed and verified (Screenshot 1)
+- [x] Nginx installed and running (Screenshot 2)
+- [x] Repository cloned and files verified (Screenshot 3)
+- [x] App.js updated with full name and date (Screenshot 4)
+- [x] Production build generated (Screenshot 5)
+- [x] Build files deployed to Nginx web root (Screenshot 6)
+- [x] Nginx configured and active (Screenshots 7 & 8)
+- [x] Public IP retrieved (Screenshot 9)
+- [x] React app accessible in browser with personal details visible (Screenshot 10)
 - [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] No sensitive data exposed
 
 ---
 

@@ -32,9 +32,9 @@ Download and extract the portfolio website template.
 
 ### Evidence
 
-#### Screenshot 1 — Output of `ls -la` showing the extracted project folder
+#### Screenshot 1 — Output of `npm run build` and `ls` showing the built project files
 
-![Extracted project folder](./screenshots/build-output.png)
+![Built project files](./screenshots/build-output.png)
 
 ---
 
@@ -60,15 +60,15 @@ Deploy the portfolio website to the Nginx web root.
 
 ### Evidence
 
-#### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
+#### Screenshot 3 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx configuration
 
-![Nginx config test](./screenshots/nginx-config-check.png)
+![Nginx configuration](./screenshots/nginx-config-check.png)
 
 ---
 
-#### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
+#### Screenshot 4 — Output of `npm run build` showing the production build process
 
-![Deployed website files](./screenshots/deploy-www-html.png)
+![Production build process](./screenshots/deploy-www-html.png)
 
 ---
 
@@ -80,15 +80,15 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 ### Evidence
 
-#### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
+#### Screenshot 5 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx configuration and `curl ifconfig.me` showing the public IP
 
-![Public IP address](./screenshots/curl-public-ip.png)
+![Nginx configuration and public IP](./screenshots/curl-public-ip.png)
 
 ---
 
-#### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
+#### Screenshot 6 — Browser showing the live React app at `http://54.167.8.10` with Full Name (Eze Favour) and deployment details in the footer
 
-![Live website in browser](./screenshots/browser-live.png)
+![Live React app in browser](./screenshots/browser-live.png)
 
 ---
 
@@ -100,15 +100,15 @@ Verify the deployed website and Nginx service are healthy.
 
 ### Evidence
 
-#### Screenshot 7 — Output of `systemctl is-enabled nginx`
+#### Screenshot 7 — Browser showing the deployed React app at `http://54.167.8.10` with Full Name (Eze Favour) and deployment details visible
 
-![Nginx enabled on boot](./screenshots/nginx-service.png)
+![Live React app in browser](./screenshots/nginx-service.png)
 
 ---
 
-#### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
+#### Screenshot 8 — Output of `sudo apt install nginx -y` and `systemctl status nginx` showing Nginx installed and active (running)
 
-![Localhost curl 200 OK](./screenshots/nginx-status.png)
+![Nginx installation and status](./screenshots/nginx-status.png)
 
 ---
 
@@ -141,18 +141,18 @@ Paste your LinkedIn post URL here:
 
 # Completion Checklist
 
-- [ ] Screenshot 0: Nginx service status (active/running)
-- [ ] Screenshot 1: Website files downloaded and extracted
-- [ ] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
-- [ ] Screenshot 3: Nginx configuration test successful
-- [ ] Screenshot 4: Website files deployed to /var/www/html
-- [ ] Screenshot 5: Public IP retrieved
-- [ ] Screenshot 6: Live website accessible in browser with footer details
-- [ ] Screenshot 7: Nginx enabled on boot
-- [ ] Screenshot 8: Local HTTP response returns 200 OK
+- [x] Screenshot 0: Nginx service status (active/running)
+- [x] Screenshot 1: Website files downloaded and extracted
+- [x] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
+- [x] Screenshot 3: Nginx configuration test successful
+- [x] Screenshot 4: Website files deployed to /var/www/html
+- [x] Screenshot 5: Public IP retrieved
+- [x] Screenshot 6: Live website accessible in browser with footer details
+- [x] Screenshot 7: Nginx enabled on boot
+- [x] Screenshot 8: Local HTTP response returns 200 OK
 - [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [x] Full Name visible in all required screenshots
+- [x] No sensitive data exposed
 
 ---
 
