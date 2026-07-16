@@ -2,17 +2,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 230" width="120" height="138">
   <defs>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2196F3"/>
-      <stop offset="100%" stop-color="#0D47A1"/>
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0A2472"/>
     </linearGradient>
   </defs>
   <polygon points="103,30 181,75 181,165 103,210 25,165 25,75" fill="rgba(0,0,0,0.35)"/>
   <polygon points="100,25 178,70 178,160 100,205 22,160 22,70" fill="url(#g)"/>
   <polygon points="100,25 178,70 178,160 100,205 22,160 22,70" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2"/>
-  <text x="100" y="78" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.85)" letter-spacing="2.5">WEEK 12</text>
+  <text x="100" y="78" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="bold" fill="rgba(255,255,255,0.85)" letter-spacing="2.5">WEEK 13</text>
   <line x1="62" y1="86" x2="138" y2="86" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
-  <text x="100" y="122" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="24" font-weight="bold" fill="white" letter-spacing="2">DOCKER</text>
-  <text x="100" y="142" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="2">CONTAINERS</text>
+  <text x="100" y="122" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="bold" fill="white" letter-spacing="2">K8s</text>
+  <text x="100" y="142" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="2">KUBERNETES</text>
   <line x1="62" y1="152" x2="138" y2="152" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
   <text x="100" y="164" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="bold" fill="rgba(255,255,255,0.9)">DevOps Micro Internship</text>
 </svg>

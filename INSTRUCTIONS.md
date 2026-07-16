@@ -50,14 +50,16 @@ Open `README.md` and update the **About Me** section with your:
 
 ## Step 4 — Complete Your Weekly Assignment
 
-1. Open the folder for the current week (e.g. `week-03-linux-for-devops/`)
-2. Open `README.md` inside that folder
-3. Fill in your answers where you see `<!-- ... -->` comments
+1. Open the folder for the current week (e.g. `week-03-linux-and-bash-for-devops/`)
+2. Open each `assignment-XX-*.md` file inside that folder (e.g. `assignment-01-....md`)
+3. Fill in your answers where you see "Add your screenshot here" and other placeholder text
 4. Add your screenshots to the `screenshots/` folder inside that week
 5. Update the progress table in the main `README.md`:
    - Change ⬜ to 🔄 when you start
    - Change 🔄 to ✅ when you finish
    - Paste your LinkedIn post URL in the LinkedIn Post column
+
+> **Week 02 only:** `week-02-agentic-ai/assignment-briefs/` holds the detailed assignment briefs (scenario, objective, learning outcomes) and `week-02-agentic-ai/assignment-solutions/` holds a fully worked example for reference — your own answers still go in the `assignment-XX-*.md` files in the week folder root.
 
 ---
 
@@ -112,7 +114,7 @@ git push
 ## Rules
 
 - Every screenshot must show **your name or username** — no copying from others
-- Each week's LinkedIn post must include the credit line (see each week's README)
+- Each week's LinkedIn post must include the credit line (see each week's assignment-*.md files)
 - Submit before the deadline shared in the live session
 
 ---
