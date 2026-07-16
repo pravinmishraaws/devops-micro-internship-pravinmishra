@@ -120,7 +120,6 @@ code .
 5. Watch Claude run a shell command to count them — this is Act in action
 
 **Commands (type in Claude Code terminal):**
-```
 What files are in this project and what does each one do?
 How many lines of CSS does this project have?
 ```
