@@ -411,7 +411,7 @@ Stopping or terminating unused cloud resources helps reduce unnecessary costs an
 
 Paste your LinkedIn post URL here:
 
-https://www.linkedin.com/posts/ayomikunphilip_dmibypravinmishra-agenticai-claudecode-share-7483109392414916608-C8IK/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF4cLMMBGj_ND3_b5bGU28ywvq8aZAW62fs
+`Add your URL here`
 
 ---
 

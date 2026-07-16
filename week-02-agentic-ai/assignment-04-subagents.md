@@ -18,9 +18,9 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 ### Evidence
 
-#### Screenshot 1 — Agents folder structure in VS Code
+#### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-![Screenshot 1](screenshots/Agents.png)
+Add your screenshot here.
 
 ---
 
@@ -34,33 +34,33 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Cost review is basically checking things against a fixed checklist: price classes, storage tiers, TTLs. It's not deep reasoning, so a cheaper, faster model is enough. Plus there's something fitting about not burning expensive tokens on the agent whose whole job is saving money.
+Add your answer here...
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Because an auditor should report problems, not quietly fix them. If it could write files, it might change your infrastructure without anyone reviewing the change first. Keeping it read-only (Read, Grep, Glob) means every fix it suggests has to go through a human, or through tf-writer, before anything actually changes.
+Add your answer here...
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Writing real Terraform code takes more judgment than the other two tasks: architecture calls, best practices, getting things actually correct. So instead of locking it to one model tier, it just uses whatever model you're running in your main session. If you're on Opus for a tough problem, tf-writer gets that same power too.
+Add your answer here...
 
 ---
 
 ### Evidence
 
-#### Screenshot 2 — security-auditor.md frontmatter
+#### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-![Screenshot 2](screenshots/Security.png)
+Add your screenshot here.
 
 ---
 
-#### Screenshot 3 — cost-optimizer.md frontmatter
+#### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-![Screenshot 3](screenshots/cost-optimizer.png)
+Add your screenshot here.
 
 ---
 
@@ -72,15 +72,15 @@ Trigger the security auditor agent and analyze the generated security report for
 
 ### Evidence
 
-#### Screenshot 4 — Security auditor delegation triggered
+#### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-![Screenshot 4](screenshots/sec-aud.png)
+Add your screenshot here.
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-![Screenshot 5](screenshots/Full-sec.png)
+Add your screenshot here.
 
 ---
 
@@ -92,26 +92,17 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 ### Evidence
 
-#### Screenshot 6 — Cost optimization report output
+#### Screenshot 6 — The full cost optimization report
 
-![Screenshot 6](screenshots/Cost-op.png)
+Add your screenshot here.
 
 ---
 
 # Submission Instructions
 
 - Ensure all agent files are committed in `.claude/agents/`
-- Complete all written answers in your Google Doc submission
+- Complete all written answers in your GitHub Repo
 - Push final changes to your forked GitHub repository
-- Submit only the Google Doc link as required
-
----
-
-## Google Doc Link
-
-Paste your Google Doc URL here:
-
-https://docs.google.com/document/d/1ARm37kYmVrCujvgAFxK4QyXC1vPRCCrnlDRNktWnmBA/edit?usp=sharing
 
 ---
 
@@ -119,7 +110,7 @@ https://docs.google.com/document/d/1ARm37kYmVrCujvgAFxK4QyXC1vPRCCrnlDRNktWnmBA/
 
 Paste your forked repository URL here:
 
-https://github.com/ayomikunphilip/Ultimate-Agentic-DevOps-with-Claude-Code
+`Add your URL here`
 
 ---
 
@@ -128,7 +119,7 @@ https://github.com/ayomikunphilip/Ultimate-Agentic-DevOps-with-Claude-Code
 - [ ] `.claude/agents/` folder contains all 3 agent files
 - [ ] Screenshot 2 shows correct `security-auditor.md` configuration
 - [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed in Google Doc
+- [ ] All 3 written answers completed 
 - [ ] Security auditor executed successfully
 - [ ] Cost optimizer executed successfully
 - [ ] Security report is visible with findings
