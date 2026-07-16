@@ -88,13 +88,11 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 # Completion Checklist
 
-- [x] Task 1 answers written in own words (Q1, Q2, Q3 all completed)
+- [x] Task 1 answers written in own words
 - [x] AWS Free Tier account created successfully
 - [x] Signed in to AWS Management Console
 - [x] Screenshot of AWS Account page captured (full name visible, no sensitive data)
 - [x] All required screenshots added to repository
-- [x] Sensitive information check: Account ID redacted, no credentials exposed
-- [x] Submission instructions followed: No sensitive info exposed, full name visible
 
 ---
 
