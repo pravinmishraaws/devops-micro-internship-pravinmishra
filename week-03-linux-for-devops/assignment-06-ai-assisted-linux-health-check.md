@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-![alt text](image-72.png)
+![alt text](screenshots/image-72.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-![alt text](image-73.png)
+![alt text](screenshots/image-73.png)
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-![alt text](image-81.png)
+![alt text](screenshots/image-81.png)
 
 ---
 
@@ -98,9 +98,9 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-![alt text](image-82.png)
+![alt text](screenshots/image-82.png)
 
-![alt text](image-83.png)
+![alt text](screenshots/image-83.png)
 
 ---
 
@@ -136,25 +136,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-![alt text](image-74.png)
+![alt text](screenshots/image-74.png)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-![alt text](image-75.png)
+![alt text](screenshots/image-75.png)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-![alt text](image-77.png)
+![alt text](screenshots/image-77.png)
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-![alt text](image-76.png)
+![alt text](screenshots/image-76.png)
 
 ---
 
@@ -202,13 +202,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-![alt text](image-79.png)
+![alt text](screenshots/image-79.png)
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-![alt text](image-80.png)
+![alt text](screenshots/image-80.png)
 
 ---
 
@@ -250,13 +250,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-![alt text](image-85.png)
+![alt text](screenshots/image-85.png)
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-![alt text](image-84.png)
+![alt text](screenshots/image-84.png)
 
 ---
 
@@ -298,19 +298,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-![alt text](image-86.png)
+![alt text](screenshots/image-86.png)
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-![alt text](image-87.png)
+![alt text](screenshots/image-87.png)
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-![alt text](image-88.png)
+![alt text](screenshots/image-88.png)
 
 ---
 
@@ -358,25 +358,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-![alt text](image-89.png)
+![alt text](screenshots/image-89.png)
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-![alt text](image-90.png)
+![alt text](screenshots/image-90.png)
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-![alt text](image-91.png)
+![alt text](screenshots/image-91.png)
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-![alt text](image-92.png)
+![alt text](screenshots/image-92.png)
 
 ---
 
@@ -480,7 +480,7 @@ https://www.linkedin.com/posts/ibitoye-oloni_devops-aws-linux-share-748357610168
 
 #### Screenshot — Published LinkedIn post
 
-![alt text](image-93.png)
+![alt text](screenshots/image-93.png)
 
 ---
 

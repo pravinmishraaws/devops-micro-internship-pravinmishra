@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-![alt text](image-36.png)
+![alt text](screenshots/image-36.png)
 
 ---
 
@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-![alt text](image-37.png)
+![alt text](screenshots/image-37.png)
 
 ---
 
@@ -48,7 +48,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-![alt text](image-38.png)
+![alt text](screenshots/image-38.png)
 
 ---
 
@@ -62,13 +62,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-![alt text](image-40.png)
+![alt text](screenshots/image-40.png)
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-![alt text](image-41.png)
+![alt text](screenshots/image-41.png)
 ---
 
 # Task 4 — Verify Website is Live
@@ -81,13 +81,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-![alt text](image-42.png)
+![alt text](screenshots/image-42.png)
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-![alt text](image-43.png)
+![alt text](screenshots/image-43.png)
 
 ---
 
@@ -101,13 +101,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-![alt text](image-44.png)
+![alt text](screenshots/image-44.png)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-![alt text](image-45.png).
+![alt text](screenshots/image-45.png).
 
 ---
 
@@ -125,7 +125,7 @@ https://www.linkedin.com/posts/ibitoye-oloni_devops-aws-linux-share-748357610168
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-![alt text](image-96.png)
+![alt text](screenshots/image-96.png)
 
 ---
 
