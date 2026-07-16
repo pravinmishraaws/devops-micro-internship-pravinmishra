@@ -131,8 +131,8 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/feed/update/urn:li:activity:7462885253028843520/ | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ronnie-santos-131856184_join-the-dmi-devops-micro-internship-share-7478318024186503168-ViCC/ | https://medium.com/@santosronnie1991/from-it-support-professional-to-devops-engineer-51de2c9815b8 |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ronnie-santos-131856184_join-the-dmi-devops-micro-internship-share-7478318024186503168-ViCC/ | https://medium.com/@santosronnie1991/from-it-support-professional-to-devops-engineer-51de2c9815b8 | 
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-share-7481255639109881856-jX0I/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8 | https://medium.com/@santosronnie1991/reflection-week-2-from-it-support-to-agentic-ai-the-paradigm-shift-a6d3e54a2894 |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
