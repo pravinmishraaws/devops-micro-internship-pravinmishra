@@ -304,13 +304,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![book1](screenshots/881.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![book1](screenshots/882.png)
 
 ---
 
@@ -320,19 +320,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke because the original deployed files in /var/www/html were moved to /var/www/html_backup, and an empty /var/www/html directory was created in their place.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I restored the application by replacing the empty /var/www/html directory with the backup, then restarted Nginx. Finally, I verified the application was working again by confirming a successful 200 OK response.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To prevent this in production, I would back up the current version before deployment, test changes in a staging environment, validate the Nginx configuration, use automated deployment checks, and keep a rollback plan ready in case the new version fails.
 
 ---
 
@@ -348,31 +348,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication is more secure because it uses a pair of cryptographic keys instead of a password. The private key stays on the user's device and is never shared, making it much harder for attackers to steal or guess.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Only the necessary ports should be open to reduce the server's attack surface. Closing unused ports helps prevent unauthorized access and lowers the risk of security vulnerabilities being exploited.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+Enabling Nginx on boot ensures the web server starts automatically whenever the server restarts. This keeps the website available without requiring manual intervention.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Sharing secrets or credentials publicly can allow unauthorized users to access systems, steal sensitive data, modify resources, or incur unexpected cloud costs. They should always be kept private and stored securely.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources should be stopped or terminated to avoid unnecessary charges, reduce security risks, and ensure resources are not left exposed or consuming services that are no longer required.
 
 ---
 
@@ -384,13 +384,13 @@ Write your answer here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/posts/tim-obi-40688a3a7_production-maintenance-isnt-just-about-activity-7483587496270888960-l3UH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![book1](screenshots/222.png)
 
 ---
 
