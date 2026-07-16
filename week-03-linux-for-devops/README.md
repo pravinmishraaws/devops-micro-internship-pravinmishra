@@ -19,7 +19,7 @@ production-style operational checks — the way an on-call DevOps engineer would
 
 **Screenshot:**
 
-![Cloud Access](./screenshots/task1-cloud-access.png)
+![Cloud Access](./screenshots/aws-account.png)
 
 ---
 
@@ -43,7 +43,7 @@ production-style operational checks — the way an on-call DevOps engineer would
 
 **Screenshot (app running in browser):**
 
-![React App Live](./screenshots/task2-app-live.png)
+![React App Live](./screenshots/browser-live.png)
 
 ---
 
@@ -61,7 +61,7 @@ production-style operational checks — the way an on-call DevOps engineer would
 
 **Screenshot:**
 
-![Production Checks](./screenshots/task3-prod-checks.png)
+![Production Checks](./screenshots/nginx-status.png)
 
 ---
 
