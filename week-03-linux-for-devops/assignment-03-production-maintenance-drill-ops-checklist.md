@@ -48,19 +48,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+The output of `sudo ss -tulpen` (shown in screenshot a3-ss-tulpen.png) proves Nginx is listening on 0.0.0.0:80. The ss command shows a LISTEN state on port 80 with the process name "nginx" and the address 0.0.0.0:80, meaning it's accepting connections from all network interfaces. Additionally, `sudo ss -lptn '( sport = :80 )'` (a3-ss-port80-access-log.png) confirms Nginx is specifically bound to port 80.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+The same `sudo ss -tulpen` output shows sshd listening on 0.0.0.0:22 with LISTEN state. This confirms the SSH service is active and accepting connections on the default SSH port. The process name "sshd" is visible in the output alongside the port binding.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+The ss -tulpen output shows ports 53 (systemd-resolve), 22 (sshd), and 80 (nginx). Port 53 is used for DNS resolution by systemd-resolved, which is standard for Ubuntu. No unexpected or suspicious open ports were found. The server has a minimal attack surface with only essential services exposed.
 
 ---
 
@@ -96,13 +96,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart in production, the web server becomes unavailable, causing all websites and applications served by it to return errors (502 Bad Gateway, 503 Service Unavailable, or connection refused). This results in downtime, loss of revenue, and negative user experience. The `systemctl status nginx` output (a3-nginx-status.png) shows the service was active and running, confirming a healthy baseline before any failure simulation.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+My basic rollback plan is: (1) Keep a backup of the last known-good Nginx configuration (`cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak`), (2) If a new config fails `nginx -t`, immediately restore the backup with `cp default.bak default`, (3) Reload Nginx with `sudo systemctl reload nginx`, (4) Verify with `curl -I http://localhost` to confirm 200 OK, and (5) Investigate what went wrong in the broken config.
 
 ---
 
@@ -141,19 +141,19 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+The access log (a3-access-log-tail.png) shows HTTP status codes including 404 and 405 responses. A 404 means the requested resource was not found (e.g., trying to access a path that doesn't exist), and a 405 means the HTTP method used is not allowed for that endpoint. The error log (a3-error-log.png) shows a "notice" entry rather than critical errors, which is normal operational logging. The journalctl output (a3-journalctl-uptime-free-df.png) shows Nginx startup messages confirming the service started successfully.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+The absence of critical errors in the error log indicates that Nginx is functioning normally without configuration issues, missing files, or permission problems. The 404/405 responses in the access log are client-side issues (the client requested invalid paths), not server-side failures. This means the server is healthy and properly serving valid requests.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes, the access log entries show HTTP requests with timestamps, client IPs, HTTP methods, paths, and response status codes. This proves that traffic is flowing end-to-end: the client (browser or curl) sends a request → Nginx receives it → Nginx processes it and serves the response → the response is logged. The access log is the definitive record of all HTTP traffic reaching the server.
 
 ---
 
@@ -195,13 +195,13 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+Based on the OCR analysis, the `free -h` output (a3-uptime-free-df-du.png) shows 908Mi total memory with the server running on a t2.micro instance. Memory is the most critical resource right now because t2.micro instances have only 1 GB of RAM. If the React app or Nginx consumes too much memory, the system could start swapping or the kernel could OOM-kill processes. The uptime shows load average of 0.00, indicating CPU is not under stress. Disk usage needs to be checked via `df -h`.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If disk becomes 100% full: (1) Nginx cannot write access/error logs, causing the service to fail or crash, (2) The application cannot write temporary files or cache data, (3) SSH logins may fail because authentication logs cannot be written, (4) The system may become unresponsive or crash entirely, (5) Database operations (if any) will fail. This is why monitoring disk usage with alerts at 80% and 90% thresholds is critical in production.
 
 ---
 
@@ -237,7 +237,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+You can confirm the correct version by: (1) Running `grep -R "Deployed by" -n /var/www/html` to search for the deployment signature in the build files — the OCR analysis (a3-grep-deployed-by.png) shows this grep command searching through React build JS files, (2) Checking the browser to verify the full name and date are displayed correctly (a3-browser-react-app.png), and (3) Comparing file hashes or timestamps between the build output and the deployed files.
 
 ---
 
@@ -273,19 +273,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The configuration failure was caused by introducing a syntax error in the Nginx configuration file (e.g., missing semicolon, incorrect directive, or malformed block). When `sudo nginx -t` was run, Nginx's configuration parser detected the error and reported the specific line number and nature of the problem, preventing the service from reloading with the broken config.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+The fix involved: (1) Running `sudo nginx -t` to identify the exact syntax error and line number, (2) Opening the configuration file with `sudo nano /etc/nginx/sites-available/default`, (3) Correcting the syntax error (e.g., adding the missing semicolon or fixing the directive), (4) Running `sudo nginx -t` again to confirm "syntax is ok" / "test is successful", and (5) Reloading Nginx with `sudo systemctl reload nginx`.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+To avoid configuration failures in production: (1) Always run `nginx -t` before reloading Nginx — this is a non-negotiable step, (2) Use version control (Git) for Nginx configuration files to track changes and enable rollback, (3) Implement a CI/CD pipeline that tests Nginx config syntax before deployment, (4) Use configuration management tools like Ansible to enforce consistent, validated configurations, and (5) Keep backups of known-good configurations.
 
 ---
 
@@ -315,19 +315,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke because the deployment files were removed or the web root was emptied (simulating a failed deployment or accidental deletion). When Nginx tried to serve the application, it found no files in `/var/www/html/`, resulting in a non-200 response (e.g., 403 Forbidden or 404 Not Found) when accessed via `curl -I`.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+The fix involved: (1) Rebuilding the React application with `npm run build` in the project directory, (2) Copying the build files to the Nginx web root with `sudo cp -r build/* /var/www/html/`, (3) Restarting Nginx with `sudo systemctl restart nginx`, and (4) Verifying recovery with `curl -I http://<public-ip>` which returned HTTP/1.1 200 OK (confirmed in a3-curl-build-output.png).
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To prevent deployment failures: (1) Use CI/CD pipelines with automated build and deployment steps, (2) Keep the previous deployment version as a backup for instant rollback, (3) Use blue-green deployment or canary releases to minimize impact, (4) Implement health check endpoints and monitoring alerts, (5) Use infrastructure-as-code to ensure consistent deployment environments, and (6) Always verify the deployment with `curl -I` and browser checks after deployment.
 
 ---
 
@@ -343,31 +343,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication uses asymmetric cryptography — a private key (kept secret on the client) and a public key (stored on the server). Unlike passwords, SSH keys are resistant to brute-force attacks, cannot be guessed, and are not transmitted over the network during authentication. Even if the server is compromised, the private key remains safe on the client machine.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Every open port is a potential attack vector. By limiting open ports to only those required (e.g., 22 for SSH, 80/443 for web traffic), you reduce the server's attack surface. Unnecessary open ports increase the risk of unauthorized access, exploitation of vulnerable services, and make the server harder to monitor and secure.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+If Nginx is enabled on boot (`systemctl enable nginx`), it automatically starts when the server reboots. This ensures the web application comes back online without manual intervention after planned maintenance, OS updates, or unexpected power cycles. Without this, a server reboot would result in prolonged downtime until someone manually starts Nginx.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Sharing secrets publicly (e.g., on GitHub, in screenshots, or in logs) can lead to: (1) Unauthorized access to cloud resources and data breaches, (2) Financial loss through resource abuse (e.g., crypto mining on compromised EC2 instances), (3) Account takeover and identity theft, (4) Compliance violations and legal liability, and (5) Permanent damage to professional reputation.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Running unused cloud resources incurs ongoing costs that accumulate over time. For example, an idle EC2 t2.micro instance costs approximately $8-10/month. Beyond cost, unused resources increase the attack surface and management overhead. Terminating or stopping resources when not in use is a fundamental cloud cost optimization and security best practice.
 
 ---
 

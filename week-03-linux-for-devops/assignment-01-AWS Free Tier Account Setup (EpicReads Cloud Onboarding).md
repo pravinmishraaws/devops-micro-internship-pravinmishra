@@ -20,19 +20,21 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+An AWS account is a container that provides access to Amazon Web Services — it includes identity, billing, and resource management. At this stage, I need it to provision cloud infrastructure (like EC2 instances) to deploy and host applications such as the React app and EpicReads portfolio website. Without an AWS account, I cannot create or manage cloud resources.
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier provides free usage of select AWS services for new customers. It lasts for 12 months from the date of account creation for the "12 months free" tier (e.g., 750 hours/month of EC2 t2.micro). Some services are always free (like 1 million Lambda requests/month), and others are free for a limited trial period (e.g., 30 days).
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+1. **EC2 (Elastic Compute Cloud)** — 750 hours per month of t2.micro (or t3.micro) instances for 12 months
+2. **S3 (Simple Storage Service)** — 5 GB of standard storage, 20,000 GET requests, and 2,000 PUT requests per month for 12 months
+3. **Amazon CloudWatch** — 10 custom metrics and 1 GB of log data ingestion per month (always free)
 
 ---
 
