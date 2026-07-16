@@ -120,7 +120,7 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 

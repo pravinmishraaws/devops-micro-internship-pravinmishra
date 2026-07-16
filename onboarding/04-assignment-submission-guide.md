@@ -515,15 +515,21 @@ In the VS Code Explorer panel, locate the folder named:
 
 Click on the highlighted dropdown to expand the folder.
 
-Inside this folder, you will see the assignment files, including the **README.md** file.
+Inside this folder, you will see the assignment file:
+
+**assignment-01-mindset-os.md**
 
 ![expand](images/ss102.png)
 
-Click on the **README.md** file to open it.
+Click on the **assignment-01-mindset-os.md** file to open it.
 
 ![README](images/ss103.png)
 
 This is the file where you will complete your Week 01 assignment.
+
+> ℹ️ Every week works the same way: your answers always go in the
+> `assignment-*.md` files inside the week folder (some weeks have more than
+> one). Week folders do not use README.md for answers.
 
 ---
 
@@ -1125,11 +1131,11 @@ Navigate to the forked repositry on browser
 
 ![Succeeded](images/ss147.png)
 
-Select week-01-success-mindset file
+Select week-01-success-mindset folder
 
 ![Succeeded](images/ss148.png)
 
-Go inside the file -> Select README.md file
+Go inside the folder -> Select the assignment-01-mindset-os.md file
 
 ![Succeeded](images/ss149.png)
 

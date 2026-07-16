@@ -160,7 +160,7 @@ Start your own DevOps journey — join the community: https://lnkd.in/eFsbcwnr
 
 [Assignment-3](https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_pravinmishra-devops-cloudcomputing-share-7478792094447382528-yDzR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw)
 
-`__________________________`
+`Add your URL here`
 
 ---
 
@@ -415,7 +415,7 @@ Time: Monday–Friday, 7:00 PM – 9:00 PM WAT
 
 https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_pravinmishra-devops-cloudcomputing-share-7478792094447382528-yDzR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw
 
-`__________________________`
+`Add your URL here`
 
 ---
 
