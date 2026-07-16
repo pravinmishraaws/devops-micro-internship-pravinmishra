@@ -142,13 +142,13 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/ronnie-santos-131856184_week-3-checkpoint-deployed-a-react-app-on-activity-7483575054924992512-h6TW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+![LinkedIn post](./screenshots/W3-SS-A2/W3-A2-SS-11.png)
 
 ---
 
@@ -171,7 +171,7 @@ Add your screenshot here.
 - [✓] Nginx configured and active (Screenshots 7 & 8)
 - [✓] Public IP retrieved (Screenshot 9)
 - [✓] React app accessible in browser with personal details visible (Screenshot 10)
-- [ ] LinkedIn post published and URL submitted
+- [✓] LinkedIn post published and URL submitted
 - [✓] No sensitive data exposed
 
 ---
