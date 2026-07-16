@@ -104,7 +104,7 @@ Apply Nginx configuration for React routing and confirm the service is active.
 
 #### Screenshot 7 — Browser showing the deployed React app at `http://54.167.8.10` with name and date visible
 
-![Live React app in browser](./screenshots/nginx-service.png)
+![Live React app in browser](./screenshots/browser-live.png)
 
 ---
 
@@ -128,9 +128,9 @@ Verify the React application is publicly accessible via the server's public IP.
 
 ---
 
-#### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
+#### Screenshot 10 — Browser showing the deployed React app at `http://54.167.8.10` with name (Eze Favour) and date (July 16, 2026) visible
 
-![Live React app in browser](./screenshots/browser-live.png)
+![Live React app in browser](./screenshots/nginx-service.png)
 
 ---
 
