@@ -55,6 +55,7 @@ You can publish your blog on:
 Blog Link:
 
 https://kingzcloud.hashnode.dev/devops-training-reflection
+`Add your URL here`
 
 ---
 
@@ -131,6 +132,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 ### LinkedIn Post Link:
 
 https://www.linkedin.com/posts/kingsley-erhatiemwonmon_dmibypravinmishra-agenticai-claudecode-ugcPost-7481106392880398337-Q2ko/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
+`Add your URL here`
 
 ---
 

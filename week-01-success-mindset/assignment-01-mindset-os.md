@@ -156,6 +156,9 @@ Building in public. Learning continuously. Growing one version at a time.
 
 Paste your link here:
 https://www.linkedin.com/posts/kingsley-erhatiemwonmon_devops-aws-cloudcomputing-share-7478083739001221121-pNYZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
+
+`Add your URL here`
+
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -416,6 +419,8 @@ Starting this week, I will dedicate 7:00 PM to 9:00 PM every weekday to focused 
 
 Paste your LinkedIn post link here:
 https://www.linkedin.com/posts/kingsley-erhatiemwonmon_devops-learninginpublic-continuouslearning-share-7478319270989574144-0QL7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
+
+`Add your URL here`
 
 ---
 
