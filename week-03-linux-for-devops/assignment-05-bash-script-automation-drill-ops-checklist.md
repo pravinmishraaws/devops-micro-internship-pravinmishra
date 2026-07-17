@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-![Shell and Bash version](./screenshots/a5-warp-all-tasks.png)
+![Shell and Bash version](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-![Scripts directory](./screenshots/a5-warp-all-tasks.png)
+![Scripts directory](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-![First script content](./screenshots/a5-warp-all-tasks.png)
+![First script content](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-![First script output](./screenshots/a5-warp-all-tasks.png)
+![First script output](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-![First script permissions](./screenshots/a5-warp-all-tasks.png)
+![First script permissions](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-![User info script content](./screenshots/a5-warp-all-tasks.png)
+![User info script content](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-![User info script output](./screenshots/a5-warp-all-tasks.png)
+![User info script output](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-![Tools checklist script content](./screenshots/a5-warp-all-tasks.png)
+![Tools checklist script content](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-![Tools checklist output](./screenshots/a5-warp-all-tasks.png)
+![Tools checklist output](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -200,13 +200,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-![Counter script content](./screenshots/a5-warp-all-tasks.png)
+![Counter script content](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-![Counter script output](./screenshots/a5-warp-all-tasks.png)
+![Counter script output](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -248,13 +248,13 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Content of `file-check.sh`
 
-![File check script content](./screenshots/a5-warp-all-tasks.png)
+![File check script content](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `./file-check.sh`
 
-![File check output](./screenshots/a5-warp-all-tasks.png)
+![File check output](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -296,25 +296,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-![Score check script with score=85](./screenshots/a5-warp-all-tasks.png)
+![Score check script with score=85](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-![Score check pass output](./screenshots/a5-warp-all-tasks.png)
+![Score check pass output](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-![Score check script with score=55](./screenshots/a5-warp-all-tasks.png)
+![Score check script with score=55](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-![Score check retry output](./screenshots/a5-warp-all-tasks.png)
+![Score check retry output](./screenshots/a5-terminal-full.png)
 
 ---
 
@@ -356,19 +356,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-![Final automation script content](./screenshots/a5-warp-all-tasks.png)
+![Final automation script content](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-![Final automation output](./screenshots/a5-warp-all-tasks.png)
+![Final automation output](./screenshots/a5-terminal-full.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-![All scripts listing](./screenshots/a5-warp-all-tasks.png)
+![All scripts listing](./screenshots/a5-terminal-full.png)
 
 ---
 
