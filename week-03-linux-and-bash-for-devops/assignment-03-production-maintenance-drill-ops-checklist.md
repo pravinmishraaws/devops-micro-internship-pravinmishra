@@ -340,31 +340,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication is more secure because it uses cryptographic key pairs instead of passwords. The private key is stored locally and never transmitted, while the server only knows the public key. This makes brute-force attacks impractical since attackers would need to crack the private key encryption rather than guess a password. Additionally, key-based auth eliminates the risks of password reuse, phishing, or accidental password sharing. Keys can also be protected with passphrases and rotated easily without affecting the server.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Opening only required ports follows the principle of least privilege, reducing the attack surface. Each open port is a potential entry point for attackers to exploit vulnerabilities. In this deployment, only SSH (port 22) for management and HTTP (port 80) for the web application are needed. Any other open ports (like SMTP, DNS, or database ports) provide unnecessary access paths that could be exploited. By restricting to only essential services, you minimize risks and make security audits easier to manage and defend.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+Enabling Nginx on boot ensures that the web server automatically starts when the system restarts, maintaining service availability without manual intervention. This is critical for production systems where unexpected restarts (power failures, kernel updates, emergency reboots) can occur. Without autostart enabled, the application would be offline after a reboot until someone manually restarts Nginx, potentially causing significant downtime and lost revenue. Systemd with "enabled" status guarantees the service recovers automatically.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Sharing secrets, keys, or credentials publicly (in code repositories, chat messages, screenshots, or documentation) creates severe security risks. Attackers can use leaked AWS keys to launch expensive infrastructure or delete data, compromised SSH keys allow unauthorized server access, and exposed database credentials enable data breaches. Even if credentials are rotated later, the damage has already occurred during the exposure window. Public exposure is permanent as Git history cannot be fully erased. This is why secrets should never be committed to version control and must be managed through secure vaults like AWS Secrets Manager or HashiCorp Vault.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources incur unnecessary costs that accumulate quickly, impacting the project budget significantly. An idle EC2 instance still charges for compute, storage, and data transfer even if not actively serving users. Terminating unused resources also reduces security risks by eliminating unnecessary infrastructure that could be compromised. It improves resource hygiene and makes it easier to track and manage the infrastructure landscape. In development and testing environments, it's particularly important to stop instances after hours and completely terminate experimental resources to prevent bill shock and maintain financial discipline in cloud operations.
 
 ---
 
