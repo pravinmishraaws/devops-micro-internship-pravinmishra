@@ -46,27 +46,72 @@ Go through the [Onboarding](./onboarding) folder for complete assignment guideli
 
 ## 📌 How You're Scored
 
-Same rules apply every week, no exceptions. Here's exactly what we're checking, from your folder names down to your written content:
+These rules apply **every week** without exception. Every submission is reviewed using the same criteria to ensure consistency and fairness.
 
-**1. Folder and file names must match the template exactly.**
-Don't rename anything yourself. Sync your fork with `upstream` regularly (see the onboarding guide) so your structure always matches the current template — a folder or file that doesn't match exactly is treated as missing.
+### 1. Folder and File Structure
 
-**2. Each assignment file is worth 20 points — pass or fail, no partial credit.** To pass, a file must:
-- Be genuinely filled in — not left as an untouched copy of the template
-- Have none of the placeholder text still in it: *"Add your answer here"*, *"Add your screenshot here."*, *"Add your URL here"*, *"Add your post content here"*
-- Contain at least 50 words of your own writing
+Your folder and file names **must match the official template exactly**.
 
-We're not marking whether your answer is *correct* — only that it's real, complete, original work, not a stub.
+* Do **not** rename folders or files.
+* Regularly sync your fork with the upstream repository (refer to the onboarding guide) to ensure you have the latest template.
+* Any folder or file that does not match the required structure will be treated as **missing**.
 
-**3. LinkedIn post — 10 points, once per week.**
-The link in your README's progress table must be an actual post URL, starting with `https://www.linkedin.com/posts/` (a profile link or a shortened URL doesn't count), and the post itself must include the required **P.S. credit line and hashtag** (see the top of this doc).
+### 2. Assignment Files (20 Points Each)
 
-**4. Blog post — 30 points, once per week.**
-The link must load, the post must be at least 200 words, and it must include the **P.S. credit line** — the same one required on your LinkedIn post — mentioning "DevOps Micro Internship", "DMI", or "Pravin Mishra".
+Each assignment file is graded on a **pass/fail** basis. There is **no partial credit**.
 
-**5. Attendance — 10 points per Saturday session slot** (Morning / Mid / Evening), up to 30 points a week. **Starts from Week 4** — Weeks 1-3 don't include attendance points.
+To receive the full **20 points**, the file must:
 
-**6. Screenshots are required as proof, even though they aren't separately scored.** An empty `screenshots/` folder gets flagged for review.
+* Be genuinely completed and **not** remain an untouched copy of the template.
+* Replace **every placeholder** with the required content. This includes placeholders such as:
+
+  * "Add your answer here"
+  * "Add your screenshot here."
+  * "Add your URL here"
+  * "Add your post content here"
+* Contain **at least 50 words of your own original writing**.
+
+**Important:** Every placeholder must be replaced with the appropriate required content. If **any** placeholder is left unchanged, missing, or contains incorrect or incomplete content, the **entire assignment file will be marked as Failed**.
+
+### 3. LinkedIn Post (10 Points)
+
+One LinkedIn post is required each week.
+
+To earn the points:
+
+* The link in your **README progress table** must be a valid LinkedIn **post** URL beginning with:
+  `https://www.linkedin.com/posts/`
+* Profile links, feed links, or shortened URLs will **not** be accepted.
+* Your LinkedIn post must include the required **P.S. credit line** and **hashtag** specified at the top of this document.
+
+### 4. Blog Post (30 Points)
+
+One blog post is required each week.
+
+To receive full credit:
+
+* The link must be accessible and load successfully.
+* The post must contain **at least 200 words**.
+* It must include the required **P.S. credit line**, the same one required for your LinkedIn post, mentioning **"DevOps Micro Internship," "DMI," or "Pravin Mishra."**
+
+### 5. Attendance (Up to 30 Points)
+
+Attendance is worth **10 points** for each Saturday session:
+
+* Morning Session – 10 points
+* Mid Session – 10 points
+* Evening Session – 10 points
+
+You can earn a maximum of **30 attendance points per week**.
+
+**Note:** Attendance grading begins in **Week 4**. **Weeks 1–3 do not include attendance points.**
+
+### 6. Screenshots
+
+Screenshots are a **mandatory requirement** for every assignment.
+
+* Ensure the `screenshots/` folder contains **all required screenshots** as proof of your completed work.
+* If **any required screenshot is missing** or the `screenshots/` folder is empty, the **entire assignment will be marked as Failed**.
 
 ---
 
