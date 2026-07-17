@@ -164,25 +164,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![Task 4 - uptime](./screenshots/assignment-03/task4/Screenshot%201.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![Task 4 - free](./screenshots/assignment-03/task4/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![Task 4 - df](./screenshots/assignment-03/task4/Screenshot%203.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![Task 4 - du](./screenshots/assignment-03/task4/Screenshot%204.png)
 
 ---
 
@@ -192,13 +192,13 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+Disk usage appears to be the most critical resource to monitor. The root filesystem (/dev/root) is at 52% capacity (3.5G used of 6.7G available), which is still healthy but heading toward concern. The load average is 0.00, indicating very low CPU usage, and memory is abundant with 589Mi available out of 908Mi total. However, as application data and logs accumulate over time, disk space can fill up quickly and should be regularly monitored.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If disk becomes 100% full in a production server, the application and all system services will fail catastrophically. New log files cannot be written, temporary files cannot be created, and database transactions will fail. The Nginx web server will likely crash, making the application completely inaccessible. The server may even become unresponsive since the operating system needs disk space for basic operations. Recovery requires immediate intervention to free up space or expand the filesystem.
 
 ---
 
@@ -212,7 +212,7 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![Task 5 - ls html](./screenshots/assignment-03/task5/Screenshot%201.png)
 
 ---
 
@@ -224,7 +224,7 @@ Add your screenshot here.
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![Task 5 - try_files](./screenshots/assignment-03/task5/Screenshot%203.png)
 
 ---
 
@@ -234,7 +234,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+You can confirm the correct version is deployed by checking the presence of specific files and content in /var/www/html. Using `ls -lah /var/www/html`, you can verify that all required React build files are present (index.html, manifest.json, static/ directory with JS and CSS files). Additionally, searching for unique strings in the deployed application using `grep -r "Deployed by"` verifies that your personalized content is present, confirming the correct build version is in production.
 
 ---
 
@@ -248,13 +248,13 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![Task 6 - nginx -t fail](./screenshots/assignment-03/task6/Screenshot%201.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![Task 6 - nginx -t pass](./screenshots/assignment-03/task6/Screenshot%202.png)
 
 ---
 
@@ -270,19 +270,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The configuration failure was caused by a syntax error in the Nginx configuration file. Specifically, there was an unexpected closing brace "}" on line 9 of /etc/nginx/sites-enabled/default. This could happen if someone accidentally deleted or misplaced a line in the configuration, breaking the proper syntax structure that Nginx expects.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+To fix the issue, I opened the Nginx configuration file at /etc/nginx/sites-available/default using a text editor (nano or vim), located the problematic line 9 where the unexpected closing brace appeared, and corrected the syntax. The error message pointed to the exact location of the problem, making it straightforward to identify and remove the erroneous character. After fixing the syntax, I ran `sudo nginx -t` again to verify the configuration was valid before restarting the service.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+To avoid configuration failures in production: (1) Always test configuration changes with `sudo nginx -t` before restarting the service, (2) Use version control (git) to track all configuration file changes, (3) Use configuration management tools like Ansible or Terraform, (4) Document all changes with commit messages, (5) Implement a staging environment where changes can be tested before production deployment, (6) Require code review/peer approval before applying configuration changes, (7) Have a rollback plan to quickly revert to the last known good configuration.
 
 ---
 
