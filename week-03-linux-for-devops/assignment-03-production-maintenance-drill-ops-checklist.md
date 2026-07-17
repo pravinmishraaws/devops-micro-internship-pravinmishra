@@ -485,17 +485,17 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
-- [ ] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
-- [ ] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
-- [ ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
-- [ ] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
-- [ ] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
-- [ ] Task 8: Security & Reliability Notes answered
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [✅ Completed ] Task 1: Screenshots (browser, ip a, ss -tulpen, ufw status) + Notes answered
+- [ ✅ Completed] Task 2: Screenshots (nginx status, nginx -t, ss port 80) + Notes answered
+- [ ✅ Completed] Task 3: Screenshots (access log, error log, journalctl) + Notes answered
+- [✅ Completed ] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
+- [ ✅ Completed] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
+- [ ✅ Completed] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
+- [ ✅ Completed] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [✅ Completed ] Task 8: Security & Reliability Notes answered
+- [ ✅ Completed] LinkedIn post published and URL submitted
+- [ ✅ Completed] Full Name visible in all required screenshots
+- [✅ Completed ] No sensitive data exposed
 
 ---
 

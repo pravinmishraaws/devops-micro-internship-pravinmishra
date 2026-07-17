@@ -141,18 +141,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Screenshot 0: Nginx service status (active/running)
-- [ ] Screenshot 1: Website files downloaded and extracted
-- [ ] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
-- [ ] Screenshot 3: Nginx configuration test successful
-- [ ] Screenshot 4: Website files deployed to /var/www/html
-- [ ] Screenshot 5: Public IP retrieved
-- [ ] Screenshot 6: Live website accessible in browser with footer details
-- [ ] Screenshot 7: Nginx enabled on boot
-- [ ] Screenshot 8: Local HTTP response returns 200 OK
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [ ✅ Completed] Screenshot 0: Nginx service status (active/running)
+- [✅ Completed ] Screenshot 1: Website files downloaded and extracted
+- [ ✅ Completed] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
+- [ ✅ Completed] Screenshot 3: Nginx configuration test successful
+- [ ✅ Completed] Screenshot 4: Website files deployed to /var/www/html
+- [ ✅ Completed] Screenshot 5: Public IP retrieved
+- [ ✅ Completed] Screenshot 6: Live website accessible in browser with footer details
+- [ ✅ Completed] Screenshot 7: Nginx enabled on boot
+- [✅ Completed ] Screenshot 8: Local HTTP response returns 200 OK
+- [✅ Completed ] LinkedIn post published and URL submitted
+- [ ✅ Completed] Full Name visible in all required screenshots
+- [ ✅ Completed] No sensitive data exposed
 
 ---
 
