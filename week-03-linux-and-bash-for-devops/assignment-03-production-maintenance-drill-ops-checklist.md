@@ -376,7 +376,7 @@ Unused cloud resources incur unnecessary costs that accumulate quickly, impactin
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`Add your URL here`
 
 ---
 
