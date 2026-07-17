@@ -142,7 +142,7 @@ Verify the React application is publicly accessible via the server's public IP.
 
 Paste your LinkedIn post URL here:
 
-**https://www.linkedin.com/posts/peace-offor-aa736a147_devops-reactjs-nginx-activity-7483141769757605889-0-H_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
+`https://www.linkedin.com/posts/peace-offor-aa736a147_devops-reactjs-nginx-activity-7483141769757605889-0-H_?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
