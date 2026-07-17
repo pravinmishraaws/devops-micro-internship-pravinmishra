@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![Shell and Bash version](./screenshots/a5-task1-2.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![Scripts directory](./screenshots/a5-task1-2.png)
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![First script content](./screenshots/a5-task1-2.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![First script output](./screenshots/a5-task1-2.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![First script permissions](./screenshots/a5-task1-2.png)
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![User info script content](./screenshots/a5-task3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![User info script output](./screenshots/a5-task3.png)
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![Tools checklist script content](./screenshots/a5-task4-5.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![Tools checklist output](./screenshots/a5-task4-5.png)
 
 ---
 
@@ -200,13 +200,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![Counter script content](./screenshots/a5-task4-5.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![Counter script output](./screenshots/a5-task4-5.png)
 
 ---
 
@@ -248,19 +248,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+![Test folder listing](./screenshots/a5-task6-7.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![File check script content](./screenshots/a5-task6-7.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![File check output](./screenshots/a5-task6-7.png)
 
 ---
 
@@ -302,25 +302,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![Score check script with score=85](./screenshots/a5-task6-7.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![Score check pass output](./screenshots/a5-task6-7.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![Score check script with score=55](./screenshots/a5-task6-7.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![Score check retry output](./screenshots/a5-task6-7.png)
 
 ---
 
@@ -362,19 +362,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![Final automation script content](./screenshots/a5-task8.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![Final automation output](./screenshots/a5-task8.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![All scripts listing](./screenshots/a5-task8.png)
 
 ---
 
@@ -396,7 +396,7 @@ Functions are useful because they: (1) Eliminate code duplication by allowing re
 
 **3. Which functions did you create in this script?**
 
-In the final automation script, I would create functions such as: `print_header()` to display a formatted title, `check_shell()` to verify the shell environment, `list_tools()` to display the tools checklist using an array and loop, `check_score()` to evaluate a score and print Pass/Retry, `validate_file()` to check if a file or directory exists, and `main()` to orchestrate all the functions in sequence. Each function encapsulates a specific task from the previous scripts.
+In the final automation script, I created functions such as: `print_header()` to display a formatted title, `check_shell()` to verify the shell environment, `list_tools()` to display the tools checklist using an array and loop, `check_score()` to evaluate a score and print Pass/Retry, `validate_file()` to check if a file or directory exists, and `main()` to orchestrate all the functions in sequence. Each function encapsulates a specific task from the previous scripts.
 
 ---
 
@@ -436,18 +436,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
+- [x] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [x] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [x] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+- [x] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [x] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [x] All scripts run without errors
+- [x] Full Name visible in all required screenshots
 - [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] No sensitive data exposed
 
 ---
 
