@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-![Claude response before CLAUDE.md](./screenshots/Solution-Assignment/assignment-02/Screenshot%201.png)
+![Claude response before CLAUDE.md](./screenshots/assignment-02/Screenshot%201.png)
 
 ---
 
@@ -34,7 +34,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-![Auto-generated CLAUDE.md](./screenshots/Solution-Assignment/assignment-02/Screenshot%202.png)
+![Auto-generated CLAUDE.md](./screenshots/assignment-02/Screenshot%202.png)
 
 ---
 
@@ -48,7 +48,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-![Customized CLAUDE.md](./screenshots/Solution-Assignment/assignment-02/Screenshot%203.png)
+![Customized CLAUDE.md](./screenshots/assignment-02/Screenshot%203.png)
 
 ---
 
@@ -62,7 +62,7 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-![Claude response with deployment details](./screenshots/Solution-Assignment/assignment-02/Screenshot%204.png)
+![Claude response with deployment details](./screenshots/assignment-02/Screenshot%204.png)
 
 ---
 
@@ -82,7 +82,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-![Claude rejecting React change based on rules](./screenshots/Solution-Assignment/assignment-02/Screenshot%205.png)
+![Claude rejecting React change based on rules](./screenshots/assignment-02/Screenshot%205.png)
 
 ---
 
@@ -98,7 +98,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 Paste your forked repository URL here:
 
-`https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code`
+[Git Repo](https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
 

@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-![Screenshot 1](./screenshots/Solution-Assignment/assignment-07/Screenshot%201.png)
+![Screenshot 1](./screenshots/assignment-07/Screenshot%201.png)
 
 ---
 
@@ -34,17 +34,17 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-![Screenshot 2](./screenshots/Solution-Assignment/assignment-07/Screenshot%202.png)
+![Screenshot 2](./screenshots/assignment-07/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-![Screenshot 3a](./screenshots/Solution-Assignment/assignment-07/Screenshot%203a.png)
+![Screenshot 3a](./screenshots/assignment-07/Screenshot%203a.png)
 
-![Screenshot 3b](./screenshots/Solution-Assignment/assignment-07/Screenshot%203b.png)
+![Screenshot 3b](./screenshots/assignment-07/Screenshot%203b.png)
 
-![Screenshot 3c](./screenshots/Solution-Assignment/assignment-07/Screenshot%203c.png)
+![Screenshot 3c](./screenshots/assignment-07/Screenshot%203c.png)
 
 ---
 
@@ -58,7 +58,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-![Screenshot 4](./screenshots/Solution-Assignment/assignment-07/Screenshot%204.png)
+![Screenshot 4](./screenshots/assignment-07/Screenshot%204.png)
 
 ---
 
@@ -72,13 +72,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-![Screenshot 5](./screenshots/Solution-Assignment/assignment-07/Screenshot%205.png)
+![Screenshot 5](./screenshots/assignment-07/Screenshot%205.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-![Screenshot 6](./screenshots/Solution-Assignment/assignment-07/Screenshot%206.png)
+![Screenshot 6](./screenshots/assignment-07/Screenshot%206.png)
 
 ---
 
@@ -95,7 +95,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 [Linked In Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmibypravinmishra-agenticai-claudecode-ugcPost-7481313184721563648-CQ8P/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
-![Screenshot 7](./screenshots/Solution-Assignment/assignment-07/Screenshot%207.png)
+![Screenshot 7](./screenshots/assignment-07/Screenshot%207.png)
 
 ---
 

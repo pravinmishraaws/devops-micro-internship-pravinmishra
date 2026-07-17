@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-![Skills folder structure in VS Code](./screenshots/Solution-Assignment/assignment-03/Screenshot%201.png)
+![Skills folder structure in VS Code](./screenshots/assignment-03/Screenshot%201.png)
 
 ---
 
@@ -34,13 +34,13 @@ Place all required skill files into their correct directories and verify their c
 
 #### Screenshot 2 — `.claude/skills/scaffold-terraform/` open in VS Code showing both `SKILL.md` and `template-spec.md`
 
-![scaffold-terraform skill folder contents](./screenshots/Solution-Assignment/assignment-03/Screenshot%202.png)
+![scaffold-terraform skill folder contents](./screenshots/assignment-03/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — Screenshot 3 — `tf-plan/SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no Write) and `disable-model-invocation: true`
 
-![tf-plan/SKILL.md showing allowed-tools restrictions](./screenshots/Solution-Assignment/assignment-03/Screenshot%203.png)
+![tf-plan/SKILL.md showing allowed-tools restrictions](./screenshots/assignment-03/Screenshot%203.png)
 
 ---
 
@@ -54,13 +54,13 @@ Execute the `/scaffold-terraform` skill to generate a full Terraform infrastruct
 
 #### Screenshot 4 — Claude's response showing the scaffold complete with the file list
 
-![Claude scaffold execution result](./screenshots/Solution-Assignment/assignment-03/Screenshot%204.png)
+![Claude scaffold execution result](./screenshots/assignment-03/Screenshot%204.png)
 
 ---
 
 #### Screenshot 5 — VS Code sidebar showing the `terraform/` folder with all generated files inside
 
-![Generated terraform/ folder with all files](./screenshots/Solution-Assignment/assignment-03/Screenshot%205.png)
+![Generated terraform/ folder with all files](./screenshots/assignment-03/Screenshot%205.png)
 
 ---
 
@@ -74,13 +74,13 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6a — Claude's `/tf-plan` response showing auth failure execution result
 
-![tf-plan execution with auth failure](./screenshots/Solution-Assignment/assignment-03/Screenshot%206a.png)
+![tf-plan execution with auth failure](./screenshots/assignment-03/Screenshot%206a.png)
 
 ---
 
 #### Screenshot 6b — Claude's `/tf-plan` response showing successful execution result
 
-![tf-plan execution successful](./screenshots/Solution-Assignment/assignment-03/Screenshot%206b.png)
+![tf-plan execution successful](./screenshots/assignment-03/Screenshot%206b.png)
 
 
 ---
@@ -109,19 +109,19 @@ Execute the complete cloud deployment pipeline using course-provided skills (`/t
 
 #### Screenshot 7 — Claude's execution of the `/tf-apply` command creating cloud resources
 
-![tf-apply skill execution](./screenshots/Solution-Assignment/assignment-03/Screenshot%207.png)
+![tf-apply skill execution](./screenshots/assignment-03/Screenshot%207.png)
 
 ---
 
 #### Screenshot 8 — Claude's execution of the `/deploy` command deploying application to infrastructure
 
-![deploy skill execution](./screenshots/Solution-Assignment/assignment-03/Screenshot%208.png)
+![deploy skill execution](./screenshots/assignment-03/Screenshot%208.png)
 
 ---
 
 #### Screenshot 9 — Live application verified in browser showing deployed site is accessible
 
-![Live site verification in browser](./screenshots/Solution-Assignment/assignment-03/Screenshot%209.png)
+![Live site verification in browser](./screenshots/assignment-03/Screenshot%209.png)
 
 ---
 
@@ -145,19 +145,19 @@ Extend the Claude Skills system by creating a brand-new skill (`/undeploy`) that
 
 #### Screenshot 10 — VS Code showing the new `/undeploy` skill folder structure with SKILL.md and configuration files
 
-![Custom undeploy skill folder structure](./screenshots/Solution-Assignment/assignment-03/Screenshot%2010.png)
+![Custom undeploy skill folder structure](./screenshots/assignment-03/Screenshot%2010.png)
 
 ---
 
 #### Screenshot 11 — The `/undeploy/SKILL.md` file showing skill configuration, allowed-tools, and restrictions
 
-![undeploy SKILL.md configuration](./screenshots/Solution-Assignment/assignment-03/Screenshot%2011.png)
+![undeploy SKILL.md configuration](./screenshots/assignment-03/Screenshot%2011.png)
 
 ---
 
 #### Screenshot 12 — Claude's execution of the `/undeploy` command showing the skill in action
 
-![undeploy skill execution result](./screenshots/Solution-Assignment/assignment-03/Screenshot%2012.png)
+![undeploy skill execution result](./screenshots/assignment-03/Screenshot%2012.png)
 
 ---
 

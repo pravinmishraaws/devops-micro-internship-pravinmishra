@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-![Screenshot 1](./screenshots/Solution-Assignment/assignment-08/Screenshot%201.png)
+![Screenshot 1](./screenshots/assignment-08/Screenshot%201.png)
 
 ---
 
@@ -90,7 +90,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-![Screenshot 2](./screenshots/Solution-Assignment/assignment-08/Screenshot%202.png)
+![Screenshot 2](./screenshots/assignment-08/Screenshot%202.png)
 
 ---
 

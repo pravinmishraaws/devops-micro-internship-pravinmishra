@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-![Agents folder structure in VS Code](./screenshots/Solution-Assignment/assignment-04/Screenshot%201.png)
+![Agents folder structure in VS Code](./screenshots/assignment-04/Screenshot%201.png)
 
 ---
 
@@ -60,13 +60,13 @@ tf-writer is the main agent writing Terraform code - it needs to be as smart as 
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-![security-auditor.md configuration](./screenshots/Solution-Assignment/assignment-04/Screenshot%202.png)
+![security-auditor.md configuration](./screenshots/assignment-04/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-![cost-optimizer.md configuration](./screenshots/Solution-Assignment/assignment-04/Screenshot%203.png)
+![cost-optimizer.md configuration](./screenshots/assignment-04/Screenshot%203.png)
 
 ---
 
@@ -80,13 +80,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-![Security auditor delegation message](./screenshots/Solution-Assignment/assignment-04/Screenshot%204.png)
+![Security auditor delegation message](./screenshots/assignment-04/Screenshot%204.png)
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-![Security audit report output](./screenshots/Solution-Assignment/assignment-04/Screenshot%205.png)
+![Security audit report output](./screenshots/assignment-04/Screenshot%205.png)
 
 ---
 
@@ -100,13 +100,13 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6a — The delegation message showing Claude launched the cost-optimizer
 
-![Cost optimizer delegation message](./screenshots/Solution-Assignment/assignment-04/Screenshot%206a.png)
+![Cost optimizer delegation message](./screenshots/assignment-04/Screenshot%206a.png)
 
 ---
 
 #### Screenshot 6 — The cost optimization report with recommendations
 
-![Cost optimization report output](./screenshots/Solution-Assignment/assignment-04/Screenshot%206.png)
+![Cost optimization report output](./screenshots/assignment-04/Screenshot%206.png)
 
 ---
 
@@ -120,7 +120,7 @@ Demonstrate the complete dynamic workflow orchestration where multiple specializ
 
 #### Screenshot 7a — Dynamic Workflow Launch: Parallel Agent Execution
 
-![Dynamic workflow launch with parallel agents](./screenshots/Solution-Assignment/assignment-04/Screenshot%207a.png)
+![Dynamic workflow launch with parallel agents](./screenshots/assignment-04/Screenshot%207a.png)
 
 **Description:** Shows the infrastructure audit workflow launching three concurrent agents (security-audit, cost-analysis, drift-detection) in parallel using `/workflows` orchestration. Also shows the drift-detector.md agent configuration file. The agents begin execution in background with monitoring via `/workflows watch` command. Demonstrates workflow initialization with multiple agents starting simultaneously.
 
@@ -128,7 +128,7 @@ Demonstrate the complete dynamic workflow orchestration where multiple specializ
 
 #### Screenshot 7b — Workflow In Progress: Audit Phase Completing
 
-![Workflow audit phase in progress](./screenshots/Solution-Assignment/assignment-04/Screenshot%207b.png)
+![Workflow audit phase in progress](./screenshots/assignment-04/Screenshot%207b.png)
 
 **Description:** Shows workflow execution with three audit agents running concurrently (security-audit: Sonnet 5 - 1m32s, cost-analysis: Haiku 4.5 - 45s, drift-detection: Haiku 4.5 - 2m45s). Total time shown as 3/4 agents at 3m19s. The Audit phase shows 3/3 agents completed with Synthesis phase (0/1) queued. Also displays the four agent configuration files (cost-optimizer, drift-detector, security-auditor, tf-writer) in the agents folder.
 
@@ -136,7 +136,7 @@ Demonstrate the complete dynamic workflow orchestration where multiple specializ
 
 #### Screenshot 7c — Synthesis Phase: Consolidating Agent Findings
 
-![Synthesis phase consolidation](./screenshots/Solution-Assignment/assignment-04/Screenshot%207c.png)
+![Synthesis phase consolidation](./screenshots/assignment-04/Screenshot%207c.png)
 
 **Description:** Demonstrates the synthesis phase where a single agent (Haiku 4.5) consolidates findings from all three parallel audit agents. The synthesis agent processes 17.4k tokens in 29 seconds, combining security, cost, and drift analysis results into a unified report.
 
@@ -144,7 +144,7 @@ Demonstrate the complete dynamic workflow orchestration where multiple specializ
 
 #### Screenshot 7 — Final Report: Comprehensive Infrastructure Audit Results
 
-![Complete infrastructure audit report](./screenshots/Solution-Assignment/assignment-04/Screenshot%207.png)
+![Complete infrastructure audit report](./screenshots/assignment-04/Screenshot%207.png)
 
 **Description:** Shows the complete synthesized report with Infrastructure Audit findings. Includes 3 CRITICAL issues (CloudFront disabled, CI/CD role mismatch), HIGH security gaps (untracked state, missing encryption, security headers), cost optimization recommendations ($1.50-2.50/month savings), and a prioritized action sequence. Demonstrates how the agentic workflow produces actionable, consolidated insights from parallel analysis.
 

@@ -20,13 +20,13 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-![Claude Code CLI version check](./screenshots/Solution-Assignment/assignment-01/Screeshot%201.png)
+![Claude Code CLI version check](./screenshots/assignment-01/Screeshot%201.png)
 
 ---
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-![Claude Code authenticated in terminal](./screenshots/Solution-Assignment/assignment-01/Screeshot%202.png)
+![Claude Code authenticated in terminal](./screenshots/assignment-01/Screeshot%202.png)
 
 ---
 
@@ -40,7 +40,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-![Project opened in VS Code](./screenshots/Solution-Assignment/assignment-01/Screeshot%203.png)
+![Project opened in VS Code](./screenshots/assignment-01/Screeshot%203.png)
 
 ---
 
@@ -54,13 +54,13 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-![Claude reading project files and responding](./screenshots/Solution-Assignment/assignment-01/Screeshot%204.png)
+![Claude reading project files and responding](./screenshots/assignment-01/Screeshot%204.png)
 
 ---
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-![Claude executing command to count CSS lines](./screenshots/Solution-Assignment/assignment-01/Screeshot%205.png)
+![Claude executing command to count CSS lines](./screenshots/assignment-01/Screeshot%205.png)
 
 ---
 
@@ -77,7 +77,7 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 Paste your forked repository URL here:
 
-`https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code`
+[Git repo](https://github.com/dev-enthusiast-84/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
 
