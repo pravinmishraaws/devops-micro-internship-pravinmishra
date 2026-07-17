@@ -123,8 +123,6 @@ Here you can Read More: https://lnkd.in/gR2teuyC
 ### LinkedIn Post Link:
 https://lnkd.in/p/g_Ehwv-S
 
-`Add your URL here`
-
 ---
 
 # Submission Instructions

@@ -147,8 +147,6 @@ The biggest change? I became more disciplined, curious, and focused on solving r
 
 https://medium.com/@abhinav1712003/the-future-2-0-152477599749
 
-`Add your URL here`
-
 ---
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -345,8 +343,6 @@ Will maintain fixed learning routine and improve productivity
 ### LinkedIn Post
 
 https://lnkd.in/p/ehyZ-Cka
-
-`Add your URL here`
 
 ---
 
