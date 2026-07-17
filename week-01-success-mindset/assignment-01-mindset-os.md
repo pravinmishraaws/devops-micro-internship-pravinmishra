@@ -151,9 +151,7 @@ Looking back, the most meaningful achievement was not a single project, promotio
 
 ### Public Link
 
-Paste your link here:
-
-`__________________________`
+[Linked In Article](https://www.linkedin.com/pulse/week-1-what-does-my-20-version-look-like-maneetta-antony-xwucc/)
 
 ---
 

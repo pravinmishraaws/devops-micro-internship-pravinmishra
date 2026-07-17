@@ -48,13 +48,13 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+Nginx is listening on port 80 can be proved by running the sudo ss -tulpn command in the terminal. If Nginx is active, the output will explicitly show the "nginx" process in a "LISTEN" state next to the address 0.0.0.0:80, confirming it is ready to accept incoming web traffic.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+SSH is active on port 22 can be proven by running the sudo ss -tulpn command in the terminal. The output will show the "sshd" process in a "LISTEN" state next to port 22, confirming the server is ready to accept remote connections.
 
 ---
 
@@ -96,13 +96,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart in production, the web application will become completely inaccessible to users, resulting in a "Site Can't Be Reached" error or a timeout. This happens because the web server stops routing incoming internet traffic to our application's backend files.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+The basic rollback plan is to immediately restore the last working backup of the Nginx configuration file and restart the service to restore traffic. If the issue is with the application itself, I would quickly redeploy the previous stable build directory from our version control system.
 
 ---
 
