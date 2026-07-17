@@ -137,8 +137,8 @@ Week 02 → Agentic AI with Claude Code
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | -| - |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_from-intern-to-innovator-the-making-of-an-activity-7477756458416377856-3mnj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw  | https://medium.com/@shivasmukkala/week-1-of-my-devops-journey-f9b42094bcce?sharedUserId=shivasmukkala |
-| 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | — | — |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_devops-linux-aws-share-7484020436989685761-n9MJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw | https://medium.com/@shivasmukkala/week-03-linux-for-devops-my-hands-on-journey-into-real-production-ops-d575ecac85e6 |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
