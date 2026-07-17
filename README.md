@@ -78,8 +78,8 @@ Week 01 → Success Mindset
 Week 02 → Agentic AI with Claude Code 
 [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
 
-<!-- Week 03 → Linux for DevOps -->
-<!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
+ Week 03 → Linux for DevOps 
+ [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) 
 
 <!-- Week 04 → Bash Scripting -->
 <!-- [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/) -->
