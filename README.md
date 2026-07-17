@@ -132,7 +132,7 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-share-7477393810415861760-73Q7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0) | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | [LinkedIn Post](https://www.linkedin.com/posts/onuchukwu-ubani-10004741_join-the-dmi-devops-micro-internship-activity-7477757720931151872-LKNQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0) | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed<br> | ✅ Solved | https://www.linkedin.com/posts/onuchukwu-ubani-10004741_dmibypravinmishra-devops-agenticai-activity-7481586830929334272-Mazo/ https://www.linkedin.com/posts/onuchukwu-ubani-10004741_dmibypravinmishra-agenticai-claudecode-activity-7481601432354287616-OgxQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAi6A9ABP5zuoQ8QP1g4mp_mBXViSDgTxy0| https://github.com/Ubani-Onu-C/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
