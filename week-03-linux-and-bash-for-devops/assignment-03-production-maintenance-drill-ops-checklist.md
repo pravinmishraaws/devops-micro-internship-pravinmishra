@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![Task 1 - Browser](./screenshots/assignment-03/task1/Screenshot%201.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![Task 1 - ip a](./screenshots/assignment-03/task1/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![Task 1 - ss -tulpen](./screenshots/assignment-03/task1/Screenshot%203.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![Task 1 - ufw status](./screenshots/assignment-03/task1/Screenshot%204.png)
 
 ---
 
@@ -60,7 +60,7 @@ SSH is active on port 22 can be proven by running the sudo ss -tulpn command in 
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No unexpected ports were found. The server only has SSH (port 22) and HTTP (port 80) listening, which are both expected for this production setup. The firewall (ufw) is inactive, allowing all these connections.
 
 ---
 
@@ -74,19 +74,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![Task 2 - nginx status](./screenshots/assignment-03/task2/Screenshot%201.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![Task 2 - nginx -t](./screenshots/assignment-03/task2/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![Task 2 - ss port 80](./screenshots/assignment-03/task2/Screenshot%203.png)
 
 ---
 
@@ -116,19 +116,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![Task 3 - access log](./screenshots/assignment-03/task%203/Screenshot%201.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![Task 3 - error log](./screenshots/assignment-03/task%203/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![Task 3 - journalctl](./screenshots/assignment-03/task%203/Screenshot%203.png)
 
 ---
 
@@ -138,22 +138,19 @@ Answer the following in your own words:
 
 **1. Were there any errors in the logs?**
 
-- If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
-- If no, explain what it means if the error log is empty or shows no recent errors during your check.
-
-Write your answer here.
+Yes, there were errors in the error.log. The main error shown is "[error] 24669#24669: *54 directory index of "/var/www/html/" is forbidden" which appears multiple times. This error means that when someone tries to access a directory without specifying a file (like accessing just the root path), Nginx is configured to block directory listing for security reasons and is throwing a 403 (Forbidden) error.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+Since there are errors, but they are expected behavior (directory indexing is intentionally blocked for security), it indicates that the system is functioning correctly. The configuration is properly protecting the application by preventing unauthorized directory browsing while still serving the React application files successfully.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes, the access logs show successful HTTP requests with 200 and 304 response codes from various client IPs. This proves that traffic is flowing correctly through the Nginx server to the React application. The requests are being logged, processed, and responses are being returned successfully, confirming that the entire request-response cycle is working as expected.
 
 ---
 
