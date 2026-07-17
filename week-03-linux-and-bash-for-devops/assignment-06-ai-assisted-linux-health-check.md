@@ -134,25 +134,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+![Screenshot 5](screenshots/week-03-assignment-06-screenshot-05.png).
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![Screenshot 6](screenshots/week-03-assignment-06-screenshot-06.png).
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![Screenshot 7](screenshots/week-03-assignment-06-screenshot-07.png).
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+![Screenshot 8](screenshots/week-03-assignment-06-screenshot-08.png).
 
 ---
 
@@ -200,13 +200,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+![Screenshot 9](screenshots/week-03-assignment-06-screenshot-09.png).
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![Screenshot 10](screenshots/week-03-assignment-06-screenshot-10.png).
 
 ---
 
@@ -248,13 +248,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+![Screenshot 11](screenshots/week-03-assignment-06-screenshot-11.png).
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+![Screenshot 12](screenshots/week-03-assignment-06-screenshot-12.png).
 
 ---
 
@@ -296,19 +296,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+![Screenshot 13](screenshots/week-03-assignment-06-screenshot-13.png).
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+![Screenshot 14](screenshots/week-03-assignment-06-screenshot-14.png).
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+![Screenshot 15](screenshots/week-03-assignment-06-screenshot-15.png).
 
 ---
 
@@ -356,25 +356,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+![Screenshot 16](screenshots/week-03-assignment-06-screenshot-16.png).
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+![Screenshot 17](screenshots/week-03-assignment-06-screenshot-17.png).
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+![Screenshot 18](screenshots/week-03-assignment-06-screenshot-18.png).
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+![Screenshot 19](screenshots/week-03-assignment-06-screenshot-19.png).
 
 ---
 
@@ -478,13 +478,13 @@ The Bash script completed the Gather phase by collecting service, network, HTTP,
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-linux-activity-7483836820632457217-QJ03?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Screenshot ](screenshots/week-03-assignment-06-screenshot-20.png).
 
 ---
 
@@ -492,7 +492,7 @@ Add your screenshot here.
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-devops-linux-activity-7483836820632457217-QJ03?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
+`https://github.com/PeaceCloud-Solutions/devops-micro-internship-pravinmishra.git`
 
 ---
 
