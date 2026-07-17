@@ -36,7 +36,9 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 Add your answer here...
 
----
+What I learnt in one sentence
+
+A protocol in networking is a set of rules that allows computers and devices to communicate with each other correctly, just as people follow rules when having a conversation.
 
 # 🌐 Task 2: Internet and Networking
 
@@ -61,7 +63,11 @@ Write a short explanation (**100–150 words**) that includes:
 
 Add your answer here...
 
----
+When someone visits EpicReads from anywhere in the world, their request is sent across the internet using packet switching, which breaks the data into small packets for faster and more efficient delivery. 
+
+Each packet is directed to the server in Finland using its unique IP address, which identifies the server on the network. The TCP/IP protocol ensures the packets are sent, received, and reassembled correctly, so the complete webpage loads without missing information. 
+
+Finally, HTTP or the more secure HTTPS protocol is used to transfer the website's pages between the server and the user's web browser. HTTPS also encrypts the data, protecting sensitive information such as login details and payment information. Together, these technologies allow people around the world to access EpicReads reliably and securely.
 
 # 🏗️ Task 3: Application Architecture & Stack
 
@@ -102,18 +108,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* Frontend (Html/CSS/JavaScript)
+* Frontend (React)
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js/Express.js
+* Django/flask
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -144,7 +150,9 @@ In **50–100 words**, explain in your own words:
 
 Add your answer here...
 
----
+DNS (Domain Name System) is like the internet's phonebook. It translates a human-friendly domain name, such as epicreads.com, into an IP address that computers use to locate a website. 
+
+To connect epicreads.com to 52.172.142.222, an A (Address) record should be used because it maps a domain name directly to an IPv4 address. This allows users to type the domain name instead of remembering the numeric IP address.
 
 # 💻 Task 5: Visual Studio Code Setup (Hands-on)
 
@@ -220,7 +228,7 @@ Paste your LinkedIn post URL here:
 ```text
 Add your URL here...
 ```
-
+https://www.linkedin.com/posts/abraham-inwang-695a67216_weekabro-activity-7440149151411224576-i6OY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 ---
 
 ## LinkedIn Post Backup Copy
@@ -229,13 +237,39 @@ Paste the full text of your LinkedIn post here:
 
 Add your post content here...
 
----
+My DevOps Learning Journey - Week O
+
+✔ I've just completed hashtag#Week_O of the FREE DevOps for Beginners Cohort_ by Pravin Mishra 
+
+This week was all about building strong foundations in networking, architecture, and tools.
+
+1 Using ChatGPT as My Learning Assistant - Leveraged ChatGPT for explanations, diagrams, and concise notes to understand DevOps concepts better.
+
+2 Internet & Networking - Learned how protocols like HTTP, TCP, and IP work together to enable smooth communication over the internet.
+
+3 Application Architecture & Stack
+
+Two-Tier: Frontend (React) + Database (MySQL)
+
+Three-Tier: Frontend (Angular) + Backend (Node.js) + Database (MongoDB)
+
+4 Domain Name & DNS - DNS translates domains into IPs. Used
+
+an A Record to map epicreads.com → 52.172.142.222.
+
+5
+
+VS Code Setup - Installed and configured Visual Studio.
+
+Every task is another brick in my DevOps foundation.
+
+P.S This post is part of the FREE DevOps for Beginners Cohort_3 run by Pravin Mishra
 
 # Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
+Been able to understand the fundamentals of networking to guide us in the DevOps journey.
 
 ---
 
@@ -243,11 +277,11 @@ Add your answer here...
 
 Add your answer here...
 
----
+For now, nothing yet though.
 
 ### What will you improve next week?
 
-Add your answer here...
+Study time and more concentration.
 
 ---
 

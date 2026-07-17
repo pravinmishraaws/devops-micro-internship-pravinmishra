@@ -310,7 +310,7 @@ Example:
 
 Add your answer here...
 
----
+Mon–Thu: 60 min deep work
 
 ### Focus Blocks
 
@@ -336,7 +336,7 @@ Examples:
 
 Add your answer here...
 
----
+When it is time for the tasks and assignments, no disturbance at all.
 
 # Reflection – Week 1
 
