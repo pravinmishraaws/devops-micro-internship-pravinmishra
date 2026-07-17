@@ -20,25 +20,24 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-![alt text](<Screenshot 2026-07-14 121805.png>)
+![alt text](<screenshots/Screenshot 2026-07-14 121805.png>)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-![alt text](<Screenshot 2026-07-14 163242.png>)
+![alt text](<screenshots/Screenshot 2026-07-14 163242.png>)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-![alt text](<Screenshot 2026-07-14 164743.png>)
+![alt text](<screenshots/Screenshot 2026-07-14 164743.png>)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
-
-![alt text](<Screenshot 2026-07-14 201912.png>)
+![alt text](<screenshots/Screenshot 2026-07-14 201912.png>)
 
 ---
 
@@ -73,8 +72,8 @@ The process name sshd identifies the service responsible for handling SSH connec
 **3. Did you find any unexpected open ports? Explain briefly.**
 
 After reviewing the output of sudo ss -tulpen, only expected production services such as SSH (port 22) and HTTP traffic through Nginx (port 80) were exposed.
+No unexpected open ports were identifies.This is important because every listening network service increase the server's attack surface.
 
-No unexpected open ports were identified. This is important because every listening network service increases the server's attack surface.
 ---
 
 # Task 2 — Service Health & Systemd Validation (Nginx)
@@ -121,7 +120,7 @@ This validates the configuration syntax and prevents applying a broken configura
 
 **2. What's your basic rollback plan?**
 
-If a deployment or configuration change causes a failure, restore the previous known working version from backup or version control, test the configuration using nginx -t, restart Nginx, and verify that the application is available again. This minimises downtime and safely returns the production system to a stable state.
+If a deployment or configuration change causes an issue, the safest approach is to roll back to the last known working version from backup or version control. After restoring, validate the configuration with `nginx -t`, restart the Nginx service, and confirm that the application is responding normally again. This helps minimise downtime and brings the production system back to a stable state.
 ---
 
 # Task 3 — Logs & Request Trace
@@ -346,13 +345,12 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-![alt text](<screenshots/Screenshot 2026-07-14 200219.png>)
-
+![alt text](CURl-I_error.png)
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-![alt text](<screenshots/Screenshot 2026-07-14 200409.png>)
+![alt text](screenshots/Assg3-task7.png)
 
 ---
 
@@ -425,13 +423,13 @@ Unused cloud resources should be stopped or terminated to avoid unnecessary cost
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/shanmuki-reddy_dmibypravinmishra-devops-agenticai-ugcPost-7484000667553058816-gMyA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw `
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![alt text](image-2.png)
 
 ---
 
