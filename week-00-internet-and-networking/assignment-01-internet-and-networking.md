@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/SS1.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that ChatGPT can act as a quick learning companion by simplifying technical concepts into easy-to-understand explanations and real-life examples. It helps make complex topics like networking more approachable. 
 
 ---
 
@@ -59,7 +59,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+Websites can be accessed globally because of several important networking technologies. When a user visits a website, their device uses an IP address to locate a server hosted, for example, in Finland. The Internet uses packet switching, where website data is divided into small packets and sent through different network paths before being reassembled on the user’s device. Communication between devices occurs through the TCP/IP protocol suite. TCP ensures that data arrives completely and in the correct order, while IP handles the addressing and routing of packets across networks worldwide. Users access the bookstore through HTTP or HTTPS protocols using their web browser. HTTPS is especially important because it encrypts customer information such as login details and payment data, thereby making online transactions more secure. 
+
 
 ---
 
