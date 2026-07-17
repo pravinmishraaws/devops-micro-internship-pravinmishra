@@ -36,6 +36,7 @@ You will reuse this in later weeks. So do it properly once.
 I believe many people are judged too quickly for not having savings, especially when they don't have a steady source of income. In my view, it is difficult to build meaningful savings without consistent earnings. However, once you have a stable income, saving should become a priority. At the same time, I believe people should not neglect their health just to save every penny because good health is one of the greatest investments anyone can make.
 I also believe relationships play a major role in determining how far you go in life. While many people think introverts can succeed entirely on their own, I believe those who achieve exceptional success usually have a strong network or circle of people who support, challenge, and create opportunities for them. 
 Finally, I don't believe the tech industry is dying or that AI is replacing me. Instead, I see AI as a tool that will make me more productive and help me create greater value in my career.
+
 ---
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
@@ -159,7 +160,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Paste your link here:
 
-`https://medium.com/@ayomikunajayi98/from-microbiology-to-building-intelligent-cloud-systems-the-inspiring-journey-of-ayomikun-philip-9c6bf52af857`
+https://medium.com/@ayomikunajayi98/from-microbiology-to-building-intelligent-cloud-systems-the-inspiring-journey-of-ayomikun-philip-9c6bf52af857
 
 ---
 
@@ -194,6 +195,7 @@ If Yes:
 Yes.
 
 I felt guilty, disappointed, and ashamed of myself. Instead of feeling accomplished, I felt like I had cheated myself out of the opportunity to grow. It made me question my abilities and left me feeling as though I was not intelligent enough to earn success through hard work. That experience taught me that shortcuts may produce temporary results, but they also create self-doubt and rob you of the confidence that comes from knowing you genuinely earned your achievements. Since then, I have chosen to value learning and integrity over quick wins.
+
 ---
 
 # Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
@@ -417,7 +419,8 @@ Every Sunday from 6:00 PM to 7:00 PM, I will create a detailed plan for the comi
 
 Paste your LinkedIn post link here:
 
-`https://www.linkedin.com/posts/ayomikunphilip_im-excited-to-share-that-i-began-the-devops-ugcPost-7477203295124676608-hG-R/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF4cLMMBGj_ND3_b5bGU28ywvq8aZAW62fs`
+https://www.linkedin.com/posts/ayomikunphilip_im-excited-to-share-that-i-began-the-devops-ugcPost-7477203295124676608-hG-R/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF4cLMMBGj_ND3_b5bGU28ywvq8aZAW62fs
+
 ---
 
 ## 10. Proof of Work
