@@ -22,28 +22,24 @@ Verify that the deployed React application is reachable from the browser and con
 
 Add your screenshot here.
 
-[React app]
-(image-14.png)
+![React app](image-89.png)
 
 #### Screenshot 2 — Output of `ip a`
 
 Add your screenshot here.
-[ip a]
-(image-15.png)
+![ip a](image-90.png)
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
 Add your screenshot here.
 
-[sudo ss]
-(image-16.png)
+![sudo ss](image-91.png)
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
 Add your screenshot here.
 
-[sudo ufw]
-(image-17.png)
+![sudo ufw](image-17.png)
 
 ### Notes
 
@@ -83,8 +79,7 @@ I ran the command sudo ss -tulnp, and the result lists all TCP/UDP ports and the
 
 Ultimately, the expected ports on the VM are ports 22 and 80. Optionally 443, if we configured HTTPS with TLS certificates
 
-[result]
-(image-18.png)
+![result](image-92.png)
 
 # Task 2 — Service Health & Systemd Validation (Nginx)
 
@@ -98,22 +93,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 Add your screenshot here.
 
-[systemctl]
-(image-19.png)
+![systemctl](image-93.png)
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
 Add your screenshot here.
 
-[sudo]
-(image-20.png)
+![sudo](image-94.png)
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
 Add your screenshot here.
 
-[sport]
-(image-21.png)
+![sport](image-95.png)
 
 ### Notes
 
@@ -151,14 +143,12 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 Add your screenshot here.
 
-[sudo]
-(image-22.png)
+![sudo](image-96.png)
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
 Add your screenshot here.
-[sudo 1]
-(image-23.png)
+![sudo 1](image-97.png)
 
 Note that this doesn't mean the system is permanently error-free, it only reflects that no issues occurred during the time window covered by the log so far
 
@@ -166,8 +156,7 @@ Note that this doesn't mean the system is permanently error-free, it only reflec
 
 Add your screenshot here.
 
-[sudo journal]
-(image-24.png)
+![sudo journal](image-98.png)
 
 ### Notes
 
@@ -213,29 +202,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 Add your screenshot here.
 
-[uptime]
-(image-25.png)
+![uptime](image-99.png)
 
 #### Screenshot 2 — Output of `free -h`
 
 Add your screenshot here.
 
-[free -h]
-(image-26.png)
+![free -h](image-100.png)
 
 #### Screenshot 3 — Output of `df -h`
 
 Add your screenshot here.
 
-[df -h]
-(image-27.png)
+![df -h](image-101.png)
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
 Add your screenshot here.
 
-[sudo du]
-(image-28.png)
+![sudo du](image-102.png)
 
 ### Notes
 
@@ -279,22 +264,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 Add your screenshot here.
 
-[ls -lah]
-(image-29.png)
+![ls -lah](image-103.png)
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
 Add your screenshot here.
 
-[deployed]
-(image-30.png)
+![deployed](image-104.png)
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
 Add your screenshot here.
 
-[try files]
-(image-31.png)
+![try files](image-105.png)
 
 ### Notes
 
@@ -328,22 +310,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 Add your screenshot here.
 
-[broken config]
-(image-33.png)
+![broken config](image-106.png)
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
 Add your screenshot here.
 
-[fixed]
-(image-32.png)
+![fixed](image-107.png)
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
 Add your screenshot here.
 
-[200 OK]
-(image-34.png)
+![200 OK](image-108.png)
 
 ### Notes
 
@@ -387,15 +366,13 @@ Simulate missing deployment content and recover the application safely.
 
 Add your screenshot here.
 
-[non-200]
-(image-35.png)
+![non-200](image-109.png)
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
 Add your screenshot here.
 
-[200 ok]
-(image-36.png)
+![200 ok](image-110.png)
 
 ### Notes
 

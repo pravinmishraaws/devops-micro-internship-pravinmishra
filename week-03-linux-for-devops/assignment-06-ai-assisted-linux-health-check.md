@@ -7,7 +7,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 ## Purpose
 
 In this assignment, you will build a read-only Bash triage script that checks the health of your Ubuntu server and Nginx application, connect it to Claude Code as a reusable `/linux-triage` skill, simulate a controlled Nginx incident, use the skill to gather and analyze evidence, recover the service manually, and verify recovery. The workflow follows the Agentic Loop: Gather → Analyze → Human Act → Verify.
-
+ 
 ---
 
 # Task 1 — Confirm the Healthy Baseline and Create the Workspace
@@ -22,13 +22,17 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 Add your screenshot here.
 
----
+![systemctl](image-75.png)
+![ss ltd](image-76.png)
+![curl](image-77.png)
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
 Add your screenshot here.
 
----
+![pwd](image-78.png)
+![find](image-79.png)
+
 
 ### Notes
 
@@ -38,19 +42,26 @@ Answer the following in your own words:
 
 Add your answer here.
 
----
+In the process of trying to understand how to know that Nginx is listening, I ran sudo ss -tlnp | grep nginx. The result showed LISTEN 0      128    0.0.0.0:80     *:*    users:(("nginx",pid=1234,fd=6))
+
+This line proves Nginx is bound to all interfaces (0.0.0.0) on port 80.
+
+The most definitive proof is seeing 0.0.0.0:80 in the output of ss or netstat. That shows the kernel has bound Nginx to all interfaces on port 80, meaning it’s reachable from any IP assigned to the VM.
 
 **2. What proves that the server is listening for HTTP traffic?**
 
 Add your answer here.
 
----
+Security group rules: The inbound rules show port 80 (HTTP) open to 0.0.0.0/0. This means the AWS firewall allows HTTP requests from anywhere.
+
+Instance Connect session: Since we can log in, we can check if a web server process (like Apache or Nginx) is running and bound to port 80.
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
 Add your answer here.
+You must capture a healthy baseline before simulating an incident because it establishes the “normal” state of systems, behaviors, or performance. 
 
----
+Without this baseline, you cannot accurately measure the impact of the incident, identify deviations, or prove recovery.
 
 # Task 2 — Create Project Context and Safety Rules in CLAUDE.md
 

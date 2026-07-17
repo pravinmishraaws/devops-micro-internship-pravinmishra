@@ -22,8 +22,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 Add your screenshot here.
 
-![status nginx]
-(image-40.png)
+![status nginx](image-111.png)
 
 # Task 1 — Get the Website Source Code
 
@@ -37,8 +36,7 @@ Download and extract the portfolio website template.
 
 Add your screenshot here.
 
-![ls la]
-(image-41.png)
+![ls la](image-112.png)
 
 # Task 2 — Add Ownership Proof (Anti-Copy Change)
 
@@ -52,8 +50,7 @@ Update the website footer with your deployment details.
 
 Add your screenshot here.
 
-![Nano]
-!(image-43.png)
+![Nano](image-113.png)
 
 # Task 3 — Deploy Website via Nginx
 
@@ -67,15 +64,13 @@ Deploy the portfolio website to the Nginx web root.
 
 Add your screenshot here.
 
-![nginx]
-(image-44.png)
+![nginx](image-114.png)
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
 Add your screenshot here.
 
-![ls]
-(image-45.png)
+![ls](image-115.png)
 
 # Task 4 — Verify Website is Live
 
@@ -89,15 +84,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 Add your screenshot here.
 
-![curl]
-(image-46.png)
+![curl](image-116.png)
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
 Add your screenshot here.
 
-![live]
-(image-47.png)
+![live](image-117.png)
 
 # Task 5 — Mini Real DevOps Operational Check
 
@@ -111,15 +104,13 @@ Verify the deployed website and Nginx service are healthy.
 
 Add your screenshot here.
 
-![asystemctl]
-(image-48.png)
+![asystemctl](image-118.png)
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
 Add your screenshot here.
 
-![curl]
-(image-49.png)
+![curl](image-119.png)
 
 # LinkedIn Post (Mandatory)
 
@@ -137,8 +128,7 @@ https://www.linkedin.com/posts/abraham-inwang-695a67216_today-i-deployed-the-epi
 
 Add your screenshot here.
 
-![LinkedIn]
-(image-50.png)
+![LinkedIn](image-50.png)
 
 # Submission Instructions
 

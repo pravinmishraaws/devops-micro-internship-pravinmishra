@@ -22,15 +22,15 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 Add your screenshot here.
 
-![echo shell](image-51.png)
-![bash version](image-52.png)
+![echo shell](image-120.png)
+![bash version](image-121.png)
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
 Add your screenshot here.
 
-![pwd](image-53.png)
-![ls -lah](image-54.png)
+![pwd](image-122.png)
+![ls -lah](image-123.png)
 
 ### Notes
 
@@ -97,19 +97,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 Add your screenshot here.
 
-![first script](image-55.png)
+![first script](image-124.png)
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
 Add your screenshot here.
 
-![first script](image-56.png)
+![first script](image-125.png)
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
 Add your screenshot here.
 
-![ls -l](image-57.png)
+![ls -l](image-126.png)
 
 ### Notes
 
@@ -180,14 +180,14 @@ Use variables to store and display user-related information.
 #### Screenshot 1 — Content of `user-info.sh`
 
 Add your screenshot here.
-![not sure about the command requested](image-58.png)
+![not sure about the command requested](image-127.png)
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
 Add your screenshot here.
 
-![./user-info.sh](image-59.png)
+![./user-info.sh](image-128.png)
 
 ### Notes
 
@@ -242,13 +242,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 Add your screenshot here.
 
-![tools](image-60.png)
+![tools](image-129.png)
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
 Add your screenshot here.
 
-![./tools](image-61.png)
+![./tools](image-130.png)
 
 ### Notes
 
@@ -389,13 +389,13 @@ Add your screenshot here.
 
 Add your screenshot here.
 
-![file check](image-64.png)
+![file check](image-131.png)
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
 Add your screenshot here.
 
-![output](image-65.png)
+![output](image-132.png)
 
 ### Notes
 
@@ -445,29 +445,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 Add your screenshot here.
 
-![score]
-(image-66.png)
+![score](image-133.png)
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
 Add your screenshot here.
 
-![Result]
-(image-67.png)
+![Result](image-134.png)
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
 Add your screenshot here.
 
-![score]
-(image-69.png)
+![score](image-135.png)
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
 Add your screenshot here.
 
-![retry]
-(image-68.png)
+![retry](image-136.png)
 
 ### Notes
 
@@ -530,20 +526,20 @@ Create a final Bash script using functions to organize reusable code.
 
 Add your screenshot here.
 
-![content](image-70.png)
-![content 2](image-71.png)
+![content](image-137.png)
+![content 2](image-138.png)
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
 Add your screenshot here.
 
-![final](image-72.png)
+![final](image-139.png)
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
 Add your screenshot here.
 
-![ls -lah](image-73.png)
+![ls -lah](image-140.png)
 
 ### Notes
 
