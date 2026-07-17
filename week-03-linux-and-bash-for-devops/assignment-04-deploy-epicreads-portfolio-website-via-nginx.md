@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+![screenshot-0](screenshots/gideon-omole-as4-scr0.png)
 
 ---
 
@@ -34,7 +34,7 @@ Download and extract the portfolio website template.
 
 #### Screenshot 1 — Output of `ls -la` showing the extracted project folder
 
-Add your screenshot here.
+![screenshot-1](screenshots/gideon-omole-as4-scr1.png)
 
 ---
 
@@ -48,7 +48,7 @@ Update the website footer with your deployment details.
 
 #### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
 
-Add your screenshot here.
+![screenshot-2](screenshots/gideon-omole-as4-scr2.png)
 
 ---
 
@@ -62,13 +62,13 @@ Deploy the portfolio website to the Nginx web root.
 
 #### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
 
-Add your screenshot here.
+![screenshot-3](screenshots/gideon-omole-as4-scr3.png)
 
 ---
 
 #### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
 
-Add your screenshot here.
+![screenshot-4](screenshots/gideon-omole-as4-scr4.png)
 
 ---
 
@@ -82,13 +82,13 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 #### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
 
-Add your screenshot here.
+![screenshot-5](screenshots/gideon-omole-as4-scr5.png)
 
 ---
 
 #### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
 
-Add your screenshot here.
+![screenshot-6](screenshots/gideon-omole-as4-scr6.png)
 
 ---
 
@@ -102,13 +102,13 @@ Verify the deployed website and Nginx service are healthy.
 
 #### Screenshot 7 — Output of `systemctl is-enabled nginx`
 
-Add your screenshot here.
+![screenshot-7](screenshots/gideon-omole-as4-scr7.png)
 
 ---
 
 #### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
+![screenshot-8](screenshots/gideon-omole-as4-scr8.png)
 
 ---
 
@@ -120,13 +120,13 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://lnkd.in/p/eHYRQ79w`
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![screenshot-9](screenshots/gideon-omole-as4-scr9.png)
 
 ---
 

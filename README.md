@@ -133,7 +133,7 @@ Week 01 → Success Mindset
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | - | https://medium.com/@gideonomole9/the-engineer-who-turned-curiosity-into-a-career-in-devops-4186f84bf75a |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://lnkd.in/p/eQqpQG5Z  | https://medium.com/@gideonomole9/reflection-week-2-f6dc0f6fd799 |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
