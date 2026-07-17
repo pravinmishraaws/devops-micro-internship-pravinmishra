@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![echo $SHELL` and `bash --version](./screenshots/W3-SS-A5/W3-A5-SS-1.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![script dir](./screenshots/W3-SS-A5/W3-A5-SS-2.png)
 
 ---
 
@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash is a command-line shell and scripting language. It's the default shell on most Linux systems and macOS, used to execute commands and automate tasks through scripts.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+Shell is a generic command interpreter. Bash is a specific shell implementation with more features.
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Different Bash versions support different features. Checking the version ensures your script will run without compatibility errors.
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![first-script.sh](./screenshots/W3-SS-A5/W3-A5-SS-3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![./first-script.sh](./screenshots/W3-SS-A5/W3-A5-SS-4.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![ls -l first-script.sh](./screenshots/W3-SS-A5/W3-A5-SS-5.png)
 
 ---
 
@@ -84,19 +84,20 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
+The shebang line (#!/bin/bash) tells the system which interpreter to use when running the script. It specifies that Bash should execute the script.
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+chmod +x makes the script executable by adding execute permissions. Without it, the system won't allow you to run it directly.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-Add your answer here.
+./script.sh runs the script as an executable file using the interpreter specified in the shebang. bash script.sh explicitly calls Bash to run the script.
+Both work, but ./script.sh relies on execute permissions.
 
 ---
 
@@ -110,13 +111,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![user-info.sh](./screenshots/W3-SS-A5/W3-A5-SS-6.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![Output user-info.sh](./screenshots/W3-SS-A5/W3-A5-SS-7.png)
 
 ---
 
@@ -126,19 +127,19 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
+A variable is a container that stores data (text, numbers, etc.) that you can use and reference later in your script.
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
+Spaces around the = sign cause Bash to interpret it as a command instead of an assignment, resulting in an error.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
+You access a variable's value by prefixing the variable name with a dollar sign ($), like $variable_name.
 
 ---
 
@@ -152,13 +153,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![Output user-info.sh](./screenshots/W3-SS-A5/W3-A5-SS-8.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![./tools-checklist.sh](./screenshots/W3-SS-A5/W3-A5-SS-9.png)
 
 ---
 
@@ -168,25 +169,25 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
+An array is a variable that stores multiple values in a single container, allowing you to work with collections of data.
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+Arrays let you store and process multiple related values efficiently without creating separate variables for each one.
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+It expands all elements of the tools array, allowing you to access and iterate through each value.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+The for loop iterates through each element in an array, executing a set of commands for every value.
 
 ---
 
