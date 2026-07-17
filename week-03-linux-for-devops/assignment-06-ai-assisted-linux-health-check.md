@@ -132,19 +132,19 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-![alt text](<screenshots/Assg task4-01.png>)
+![alt text](screenshots/Assg-task4-01.png)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![alt text](image-1.png)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![alt text](screenshots/Assg-task5-003.png)
 
 ---
 
@@ -476,21 +476,20 @@ Verify: I reran the health checks to confirm that Nginx was active, the applicat
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+`https://www.linkedin.com/posts/shanmuki-reddy_devops-linux-ubuntu-share-7483979232591769601-qOxB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
-
+![alt text](screenshots/Linkedin-Assg6.png)
 ---
 
 # GitHub Repository URL
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`__________________________`
+`https://github.com/shanmukireddy/devops-micro-internship-pravinmishra/blob/main/week-03-linux-for-devops/assignment-06-ai-assisted-linux-health-check.md`
 
 ---
 
