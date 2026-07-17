@@ -361,7 +361,7 @@ Paste your LinkedIn post link here:
 ## 10. Proof of Work
 
 - LinkedIn Post URL: [Linked In Post](https://www.linkedin.com/posts/maneetta-antony-452075387_technologyleadership-engineeringexcellence-share-7484025912691302400--lCa/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)  
-- Blog / Medium : [Blog Post](https://dev-enthusiast.blogspot.com/)  
+- Blog / Medium : [Blog Post](https://dev-enthusiast.blogspot.com/2026/07/five-years-from-now-colleagues.html)  
 
 ---
 
