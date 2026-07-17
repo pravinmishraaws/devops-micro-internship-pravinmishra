@@ -370,7 +370,7 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+![alt text](<screenshots/assg-task-8-incident report.png>)
 
 ---
 
