@@ -420,19 +420,6 @@ Fill in all seven sections below in your own words.
 
 **1. Reported Symptom**
 
-
-# Incident Summary
-
-Fill in all seven sections below in your own words.
-
-**Full Name:** Shanmuki Reddy
-
-**Date:** 17/07/2026
-
----
-
-**1. Reported Symptom**
-
 The website hosted on the Ubuntu server could not be accessed after the Nginx service was stopped during the incident simulation. The application was unavailable and failed to respond to HTTP requests.
 
 ---
