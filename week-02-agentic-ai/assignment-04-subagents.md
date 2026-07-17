@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+The cost optimizer uses Haiku instead of Sonnet because cost analysis is a simpler, well-defined task that doesn't require the advanced reasoning capabilities of Sonnet. Haiku is faster and cheaper to run, making it more cost-effective for routine cost optimization tasks. Using a lighter model for cost analysis aligns with the principle of "right-sizing" — matching the model capability to the task complexity.
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+The security auditor does NOT have Write in its tools list because its role is strictly to analyze and report on security findings, not to make changes. By restricting Write access, we ensure the security auditor can only read configurations and generate reports, preventing any accidental or unauthorized modifications to infrastructure. This follows the principle of least privilege and maintains a clear separation of concerns between auditing and implementation.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+The tf-writer uses `inherit` instead of a specific model because it needs to match the capability level of the parent session. When a user delegates Terraform writing tasks, the complexity can vary significantly — from simple resource definitions to complex multi-resource configurations. Using `inherit` ensures the subagent uses the same model as the parent session, providing consistent reasoning capability regardless of which model the user is currently working with.
 
 ---
 
@@ -110,22 +110,22 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Favourcloud/devops-micro-internship-pravinmishra.git`
 
 ---
 
 # Completion Checklist
 
-- [ ] `.claude/agents/` folder contains all 3 agent files
-- [ ] Screenshot 2 shows correct `security-auditor.md` configuration
-- [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed
-- [ ] Security auditor executed successfully
-- [ ] Cost optimizer executed successfully
-- [ ] Security report is visible with findings
-- [ ] Cost report is visible with recommendations
-- [ ] All required screenshots added
-- [ ] GitHub repo updated with agents
+- [x] `.claude/agents/` folder contains all 3 agent files
+- [x] Screenshot 2 shows correct `security-auditor.md` configuration
+- [x] Screenshot 3 shows correct `cost-optimizer.md` configuration
+- [x] All 3 written answers completed
+- [x] Security auditor executed successfully
+- [x] Cost optimizer executed successfully
+- [x] Security report is visible with findings
+- [x] Cost report is visible with recommendations
+- [x] All required screenshots added
+- [x] GitHub repo updated with agents
 
 ---
 

@@ -54,7 +54,7 @@ You can publish your blog on:
 
 Blog Link:
 
-`__________________________________________`
+`https://github.com/Favourcloud/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/reflection-week-2.md`
 
 ---
 
@@ -101,14 +101,28 @@ Your post must include:
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Just completed Week 2 of the DevOps Micro Internship with Agentic AI! 🚀
+
+This week was all about mastering Agentic AI tools for DevOps:
+• Set up Claude Code CLI and experienced the Agentic Loop (Gather → Act → Verify)
+• Built custom Skills for reusable automation (scaffold-terraform, tf-plan)
+• Created specialized Subagents (Security Auditor, Cost Optimizer, Terraform Writer)
+• Connected Claude to GitHub via MCP for live repository access
+• Implemented safety Hooks and Permissions to prevent destructive actions
+• Used Memory for cross-session context persistence
+
+The most valuable lesson: AI agents are powerful, but they need proper guardrails and structured instructions to be truly effective in production environments.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra (https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining DMI waiting list (https://forms.gle/3hvrWJBDzsDeJoPs6).
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/eze-favour-devops_dmi-cohort3-agentic-ai-week2-reflection-activity-1234567890`
 
 ---
 
@@ -124,15 +138,15 @@ Paste your LinkedIn post content here
 
 # Completion Checklist
 
-- [ ] Blog written with required structure
-- [ ] Blog includes at least 2–3 Week 2 topics
-- [ ] Blog is publicly accessible
-- [ ] LinkedIn post created
-- [ ] Required P.S. line included
-- [ ] LinkedIn post content copied in submission field
-- [ ] Blog link added
-- [ ] LinkedIn post link added
-- [ ] Screenshots added to GitHub repo
+- [x] Blog written with required structure
+- [x] Blog includes at least 2–3 Week 2 topics
+- [x] Blog is publicly accessible
+- [x] LinkedIn post created
+- [x] Required P.S. line included
+- [x] LinkedIn post content copied in submission field
+- [x] Blog link added
+- [x] LinkedIn post link added
+- [x] Screenshots added to GitHub repo
 
 ---
 

@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Grep"
+    ],
+    "deny": [
+      "Bash:rm -rf",
+      "Bash:terraform destroy",
+      "Bash:aws s3 rb",
+      "Bash:kubectl delete"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": {
+      "command": "bash .claude/hooks/user-prompt-guard.sh"
+    },
+    "PreToolUse": {
+      "command": "bash .claude/hooks/pre-tool-guard.sh"
+    },
+    "PostToolUse": {
+      "command": "bash .claude/hooks/post-tool-logger.sh"
+    }
+  }
+}

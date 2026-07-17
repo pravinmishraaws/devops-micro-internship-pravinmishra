@@ -134,19 +134,19 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] `.claude` folder structure created correctly
-- [ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
-- [ ] `pre-tool-guard.sh` created with PreToolUse hook logic
-- [ ] `post-tool-logger.sh` created with PostToolUse logging logic
-- [ ] `settings.json` created with allow and deny permissions
-- [ ] `settings.json` configured to connect all three hooks:
-  - [ ] UserPromptSubmit
-  - [ ] PreToolUse
-  - [ ] PostToolUse
-- [ ] Destructive prompt test shows UserPromptSubmit blocked the request
-- [ ] Terraform destroy command test shows PreToolUse intercepted the command
-- [ ] Terraform validate test shows PostToolUse created the log entry
-- [ ] All required screenshots are captured
+- [x] `.claude` folder structure created correctly
+- [x] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
+- [x] `pre-tool-guard.sh` created with PreToolUse hook logic
+- [x] `post-tool-logger.sh` created with PostToolUse logging logic
+- [x] `settings.json` created with allow and deny permissions
+- [x] `settings.json` configured to connect all three hooks:
+  - [x] UserPromptSubmit
+  - [x] PreToolUse
+  - [x] PostToolUse
+- [x] Destructive prompt test shows UserPromptSubmit blocked the request
+- [x] Terraform destroy command test shows PreToolUse intercepted the command
+- [x] Terraform validate test shows PostToolUse created the log entry
+- [x] All required screenshots are captured
 
 ---
 

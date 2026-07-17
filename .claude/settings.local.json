@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "github": {
+      "env": {
+        "GITHUB_TOKEN": "ghp_xxxxxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}

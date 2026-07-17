@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/eze-favour-devops_dmi-cohort3-agentic-ai-week2-memory-activity-1234567890`
 
 ---
 
@@ -99,20 +99,20 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+`https://github.com/Favourcloud/devops-micro-internship-pravinmishra.git`
 
 ---
 
 # Completion Checklist
 
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
+- [x] Memory file path identified (Screenshot 1)
+- [x] Memory successfully saved via prompt (Screenshot 2)
+- [x] `MEMORY.md` shows stored content (Screenshot 3)
+- [x] Fresh session opened after full restart (Screenshot 4)
+- [x] Claude recalled hero colors correctly (Screenshot 5)
+- [x] Claude refused JavaScript request based on memory (Screenshot 6)
+- [x] All screenshots added and committed to GitHub repo
+- [x] Linkedin post created.
 
 ---
 
