@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/wk0-01.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned how to craft a clear, structured ChatGPT prompt that sets expectations for simplicity and real‑life examples. I also understood how to pair that prompt with a screenshot of ChatGPT’s response and summarize the interaction concisely.
 
 ---
 
@@ -59,7 +59,12 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+Hey Friend! Congrats on launching EpicReads, that’s exciting!
+Here is a simple way your website in Finland can be accessed globally:
+When someone visits your site, their device sends a request over the internet using HTTP/HTTPS (the protocol for web browsing). This request is broken into small chunks called packet switching, so the data can travel efficiently across different routes.
+Each packet carries an IP address, your server’s unique identifier in Finland and the user’s device address, so data knows where to go and where to return.
+The TCP/IP protocol ensures all packets arrive correctly, in order, and without errors. Once everything reaches the user, their browser reassembles the packets and displays your bookstore.
+That’s how someone anywhere in the world can access EpicReads seamlessly!
 
 ---
 
@@ -91,7 +96,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/wk0-02.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +107,21 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS
+
+* JavaScript / React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+
+* Python (Django)
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* AMySQL
+
+* MongoDB
 
 ---
 
@@ -142,7 +150,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The Domain Name System (DNS) is like the internet’s phonebook, it translates human-friendly domain names (such as epicreads.com) purchased by my friend into machine-readable IP addresses (like 52.172.142.222), so users can access websites easily.
+
+To connect the domain to the IP, my friend would use an A (Address) record. This record directly maps the domain name (epicreads.com) to the server’s IPv4 address (52.172.142.222), ensuring users are routed to the correct server when they visit the site.
 
 ---
 
@@ -178,7 +188,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/wk0-03.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -218,7 +228,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/oluwabunmi-olowoyeye_my-devops-learning-journey-chatgpt-leveraged-activity-7440410405161631744-6wp3?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw
 ```
 
 ---
@@ -227,7 +237,26 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+My DevOps Learning Journey 
+
+🔹 ChatGPT
+Leveraged ChatGPT to simplify complex tech concepts, structure responses clearly, and improve my understanding of networking and system design fundamentals.
+
+🌐 Internet & Networking
+Learned that communication over the internet relies on protocols like TCP/IP and HTTP/HTTPS, with data transmitted through packet switching and identified using IP addresses.
+
+🏗️ App Architecture
+Explored both Two-tier (Frontend + Database) and Three-tier (Frontend + Backend + Database) architectures, understanding how separating layers improves scalability, security, and maintainability.
+
+🌍 DNS (Domain Name System)
+Understood how DNS translates domain names into IP addresses. Learned that an A record connects a domain directly to a server IP.
+
+💻 VS Code Setup
+Already had VS Code set up and can comfortably run basic Linux commands, which supports my development and DevOps workflow.
+
+✨ This journey is strengthening my foundation in DevOps and system design, and I’m excited to keep building!
+
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
 ---
 
@@ -235,19 +264,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Understanding the foundational concepts like protocols, DNS, and basic networking felt straightforward once I broke them down into simple explanations. Using ChatGPT to refine my answers also made the learning process smoother and more interactive.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Creating diagrams and ensuring they clearly represented two‑tier and three‑tier architectures required extra effort. Summarizing everything into a polished LinkedIn post while keeping it concise and structured was also a bit challenging.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I plan to improve my hands‑on practice with tools like VS Code, networking commands, and cloud concepts. I’ll also work on making my explanations more concise and visually clear for documentation and LinkedIn posts.
 
 ---
 

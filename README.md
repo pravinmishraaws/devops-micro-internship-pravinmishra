@@ -74,10 +74,10 @@ This is not a course. It is an internship-style program — real deployments, re
  [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) 
 
 <!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+ [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
 <!-- Week 03 → Linux & Bash for DevOps -->
-<!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) -->
+ [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
 <!-- Week 04 → Git & GitHub -->
 <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
@@ -130,10 +130,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/oluwabunmi-olowoyeye_my-devops-learning-journey-chatgpt-leveraged-activity-7440410405161631744-6wp3?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/oluwabunmi-olowoyeye_devops-cloudengineering-careergrowth-activity-7477757919766421504-et9I?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw | https://medium.com/@bunmiolowoyeye20/from-support-queue-to-production-pipeline-how-oluwabunmi-engineered-her-way-into-the-cloud-3726bf46a342 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/oluwabunmi-olowoyeye_dmibypravinmishra-agenticai-claudecode-activity-7481475854104088576-ED_o?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw | https://medium.com/@bunmiolowoyeye20/week-2-reflection-devops-micro-internship-7c934f68846a |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved  | https://www.linkedin.com/posts/oluwabunmi-olowoyeye_devops-react-nginx-activity-7482793284113793025-a2dv?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
