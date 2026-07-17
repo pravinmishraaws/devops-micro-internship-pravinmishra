@@ -120,7 +120,11 @@ Verify the deployed website and Nginx service are healthy.
 
 Paste your LinkedIn post URL here:
 
+<<<<<<< HEAD
 `https://www.linkedin.com/posts/ronnie-santos-131856184_just-deployed-the-epicreads-portfolio-to-share-7483923518443712512-XdnZ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
