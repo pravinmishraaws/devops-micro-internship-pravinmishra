@@ -75,7 +75,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 Add your screenshot here.
 
----
+![CLAUDE.md](image.png)
 
 ### Notes
 
@@ -85,19 +85,21 @@ Answer the following in your own words:
 
 Add your answer here.
 
----
+Claude should receive project-specific operational rules because they help it behave consistently and produce outputs that match the needs of a particular project. 
+
+Without those rules, Claude relies only on its general training and may make assumptions that don't fit your workflow.
 
 **2. Why is the human required to execute the recovery command?**
 
 Add your answer here.
 
----
+The human is required to execute the recovery command because recovery operations often have significant or irreversible effects. Requiring a person to run the command provides an important safety check.
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
 Add your answer here.
 
----
+The rule that prevents Claude from making an unsupported diagnosis is the requirement to avoid presenting uncertain or unverified conclusions as facts and to stay within the available evidence.
 
 # Task 3 — Use Agentic AI to Plan Before Writing the Script
 
@@ -111,7 +113,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 Add your screenshot here.
 
----
+![five check plan](image-1.png)
 
 ### Notes
 
@@ -121,19 +123,23 @@ Answer the following in your own words:
 
 Add your answer here.
 
----
+The read-only inspection of the Ubuntu server corresponds to the Gather phase, where Claude executes commands to collect details about Nginx, port 80 activity, HTTP responses, disk utilization, and available memory.
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
 Add your answer here.
 
----
+Claude adhered to the instructions by performing only read‑only checks. I confirmed this by listing the workspace files and verifying that no Bash script or other new files had been created.
+
+This keeps the technical precision while making the flow more professional and concise.
 
 **3. Why is planning before coding useful in DevOps automation?**
 
 Add your answer here.
 
----
+Planning before coding in DevOps automation is essential because it ensures alignment with business goals, prevents wasted effort, and reduces risks like inefficient workflows, security gaps, and integration issues. 
+
+A well-structured plan sets the foundation for smooth automation, faster delivery, and reliable operations.
 
 # Task 4 — Build the Linux Triage Bash Script
 
@@ -147,25 +153,26 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 Add your screenshot here.
 
----
+![variables](image-2.png)
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
 Add your screenshot here.
 
----
+![middle](image-3.png)
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
 Add your screenshot here.
 
----
+![bottom](image-4.png)
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
 Add your screenshot here.
 
----
+![bash -n](image-5.png)
+![ls -l](image-6.png)
 
 ### Notes
 
@@ -175,31 +182,41 @@ Answer the following in your own words:
 
 Add your answer here.
 
----
+The checks array stores the names of the five functions that check the Nginx service, port 80, HTTP response, disk usage, and available memory.
 
 **2. How does the `for` loop use that array?**
 
 Add your answer here.
 
----
+The for loop iterates through each function name in the array, executing them sequentially. This ensures the script performs all five health checks in the specified order.
 
 **3. Why are the health checks separated into functions?**
 
 Add your answer here.
 
----
+  
+Each function is responsible for a single check, which makes the script more readable, easier to test, simpler to update, and straightforward to troubleshoot without impacting the other checks.
 
 **4. What is the purpose of `$(...)` in this script?**
 
 Add your answer here.
 
----
+The $(...) syntax executes a command and captures its output. In this script, it’s used to gather the timestamp, hostname, HTTP status code, disk usage, available memory, and recent Nginx logs.
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
 Add your answer here.
 
----
+  
+The exit code reflects the Ubuntu server’s overall status after completing the five health checks. It provides a quick way for users or automation tools to interpret the outcome without reviewing the full report:
+
+0 indicates all checks passed.
+
+1 signals that a warning was detected.
+
+2 shows that at least one check failed.
+
+This system makes it easy to gauge the severity of issues immediately after running the triage script.
 
 # Task 5 — Run and Understand the Healthy-State Report
 
@@ -213,13 +230,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 Add your screenshot here.
 
----
+![output](image-7.png)
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
 Add your screenshot here.
 
----
+![captured code](image-8.png)
 
 ### Notes
 
@@ -229,25 +246,35 @@ Answer the following in your own words:
 
 Add your answer here.
 
----
+The overall status of my baseline is Healthy. 
+
+Actually, my report contains a failed check, so I proceeded to understand why.
+
+The FAIL check detected a problem or threshold breach.
+“Root disk usage is 92%” → FAIL means disk usage is critically high and could cause 
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
 Add your answer here.
 
----
+Port 80 listening confirms that the server is ready to receive HTTP traffic. The HTTP status 200 confirms that the application responded successfully through Nginx.
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
 Add your answer here.
 
----
+The script exit code is 2 because at least one of the health checks failed.
+
+2 → One or more checks failed (critical issue found).
 
 **4. What is the difference between a warning and a failure in this script?**
 
 Add your answer here.
 
----
+A warning means the server and application are still working, but the script found a resource condition that needs attention. This happens when root disk usage is between 80% and 89%, or available memory is below 100 MB.
+
+A failure means a serious health check did not pass. This happens when Nginx is inactive, port 80 is not listening, the application does not return HTTP 200, or root disk usage reaches 90% or higher.
+
 
 # Task 6 — Create and Run the /linux-triage Skill
 
