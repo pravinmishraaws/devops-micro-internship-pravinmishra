@@ -218,7 +218,7 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![Task 5 - grep deployed by](./screenshots/assignment-03/task5/Screenshot%202.png)
 
 ---
 
@@ -260,7 +260,7 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Task 6 - curl recovery](./screenshots/assignment-03/task6/Screenshot%203.png)
 
 ---
 
@@ -374,15 +374,13 @@ Unused cloud resources incur unnecessary costs that accumulate quickly, impactin
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+[Linked in Post](https://www.linkedin.com/posts/maneetta-antony-452075387_aws-devops-nginx-activity-7484065175654821888-5b66?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![LinkedIn Post](./screenshots/assignment-03/linkedin-post.png)
 
 ---
 
