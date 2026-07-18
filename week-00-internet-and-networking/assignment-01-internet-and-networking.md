@@ -25,16 +25,15 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/chatgpt-response.png)
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learnt that it is possible and easier to use CHATGPT as a learning assistant with confirmation from several other sources.
 
 ---
 
@@ -59,7 +58,9 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When users around the world access EpicReads, their requests travel across the internet using packet switching. This means the data (like a webpage request) is broken into small packets, sent separately, and reassembled at the destination. Each packet carries an IP address, which identifies both the user’s device and the server in Finland, ensuring the data reaches the correct location.
+The communication follows the TCP/IP model. TCP ensures all packets arrive correctly and in order, while IP handles addressing and routing. On top of this, HTTP/HTTPS is used to transfer web content. HTTP delivers the website data, while HTTPS adds encryption, keeping user information secure. Together, these technologies allow anyone, anywhere, to reliably and safely access the EpicReads website.
+
 
 ---
 
@@ -91,10 +92,9 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/App-Architecture%20Diagram.png)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,18 +102,22 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* Html
+* CSS
+* Javascript
+* React/Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Python
+* Java
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* PostgreSQL
+* MongoDB
 
 ---
 
@@ -141,8 +145,9 @@ In **50–100 words**, explain in your own words:
 2. Which DNS record type should be used to connect the domain to the given IP, and why?
 
 ## Answer
+The DNS (Domain Name System) is like the internet’s phonebook—it translates human friendly domain names like epicreads.com into IP addresses such as 52.172.142.222, which computers use to locate servers.
 
-Add your answer here...
+To connect the domain to the IP, you should use an A record. This record directly maps the domain name to an IPv4 address. It’s the best choice here because you already have a fixed IP address, allowing users to access EpicReads through the domain instead of typing the numeric IP.
 
 ---
 
@@ -181,7 +186,6 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -215,19 +219,44 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+[Paste your LinkedIn post URL here: ](https://www.linkedin.com/posts/wisgeorge1_pravin-mishra-the-cloudadvisory-linkedin-activity-7445137604108505088-mFgw?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY)
 
-```text
-Add your URL here...
-```
+
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+DevOPs - My learning journey so far 
+ With each passing day, I'm growing more excited to continue the DevOps journey I embarked on. It's been an incredible experience, and here's a summary of a few of the things I've picked up so far:
+ 
+ ChatGPT - Using ChatGPT as your learning Assistant
+ChatGPT  can be a worthwhile learning assistant if properly harnessed, it helped me break down complex DevOps concepts into simple, practical explanations. I’ll give an example; I learned that a protocol networking is the language and rules that make communication between systems possible and reliable.
 
-Add your post content here...
+ Internet & Networking
+The internet is just a giant network that connects thousands of smaller networks around the world. It lets computers talk to each other and share information. These information travel in form of data broken into small packets, sent independently, and reassembled at the destination. 
+This process follows the TCP/IP model. TCP guarantees that all packets arrive intact and in the correct order, while IP manages addressing and routing. On top of this, HTTP or HTTPS handles web content transfer. HTTP delivers the website data, while HTTPS adds encryption to protect user information
+App Architecture
+ I also identified and explored two common architectures:
+ Two-tier: Frontend → Database
+ Three-tier: Frontend → Backend → Database
+ Each layer has its role:
+ Frontend: User interface (HTML, CSS, JavaScript)
+ Backend: Logic (Node.js, Java, Python)
+ Database: Storage (MySQL, PostgreSQL, MongoDB)
+DNS (Domain Name System)
+ Think of DNS as the internet's phonebook. it helps you find websites without having to memorise a bunch of random numbers. Take google.com for instance, it is pointed its server's IP address, now that's where an A record comes in, it simply tells the domain, "Hey, go here," by linking it directly to the right IP. Simple as that.
+ 
+
+VS Code Setup
+ I got my development environment set up with VS Code and added a few handy extensions to help with coding, debugging, and staying productive. It's a small step, but it's giving me a solid feel for what real DevOps workflows look like.
+Honestly, this is just the start but I'm already starting to see how everything pieces together, from the way the internet works behind the scenes to how apps are actually built and organised.
+
+ hashtag#DevOps hashtag#LearningInPublic hashtag#Networking hashtag#WebDevelopment hashtag#TechJourney
+
+P.S. This post is part of the FREE DevOps Micro Internship (DMI) Cohort 3 run by Pravin Mishra. You can be part of this learning community too. 
+ JOIN HERE (https://lnkd.in/dndNzXTb ) DMI Cohort 3: https://lnkd.in/dYXQUcH2
+ Pravin Mishra Profile: https://lnkd.in/d7Mbyxj9
 
 ---
 
@@ -235,19 +264,20 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Because of my prior knowledge of these concepts, I think everything was easy, even the CHATGPT part too.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I didn't find any difficulty doing these tasks.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+My plan for improvement is to learn, unlearn and relearn. So next week I plan to find out those things related to the concepts 
+treated here that I am unaware of that can increase my knowledge and understanding of the concepts herewith and more.
 
 ---
 
