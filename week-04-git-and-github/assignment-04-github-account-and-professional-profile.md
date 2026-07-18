@@ -20,13 +20,13 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-Add your screenshot here.
+![ss1](./screenshots/W4-SS-A4/W4-A4-SS-1.png).
 
 ---
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
+![ss2](./screenshots/W4-SS-A4/W4-A4-SS-2.png).
 
 ---
 
@@ -40,19 +40,19 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
+![ss3](./screenshots/W4-SS-A4/W4-A4-SS-3.png).
 
 ---
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
+![ss4](./screenshots/W4-SS-A4/W4-A4-SS-4.png).
 
 ---
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
+![ss5](./screenshots/W4-SS-A4/W4-A4-SS-5.png).
 
 ---
 
