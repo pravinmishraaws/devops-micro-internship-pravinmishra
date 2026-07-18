@@ -430,15 +430,13 @@ Files are validated using `-d` and `-f` tests. The main script calls functions s
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+https://www.linkedin.com/posts/ronnie-santos-131856184_bash-script-automation-drill-assignment-share-7484155565318012930-Riw9/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![LinkedIn post](./screenshots/W3-SS-A5/W3-A5-SS-19.png)
 
 ---
 
@@ -454,18 +452,18 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✓] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [✓] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [✓] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [✓] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [✓] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [✓] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
+- [✓] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [✓] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [✓] All scripts run without errors
+- [✓] Full Name visible in all required screenshots
+- [✓] LinkedIn post published and URL submitted
+- [✓] No sensitive data exposed
 
 ---
 
