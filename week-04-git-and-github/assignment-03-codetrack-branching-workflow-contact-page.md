@@ -20,7 +20,7 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-Add your screenshot here.
+![ss1](./screenshots/W4-SS-A3/W4-A3-SS-1.png).
 
 ---
 
@@ -34,7 +34,7 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-Add your screenshot here.
+![ss2](./screenshots/W4-SS-A3/W4-A3-SS-2.png).
 
 ---
 
@@ -48,19 +48,19 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-Add your screenshot here.
+![ss3](./screenshots/W4-SS-A3/W4-A3-SS-3.png).
 
 ---
 
 #### Screenshot 4 — Output of `git commit`
 
-Add your screenshot here.
+![ss4](./screenshots/W4-SS-A3/W4-A3-SS-4.png).
 
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-Add your screenshot here.
+![ss4](./screenshots/W4-SS-A3/W4-A3-SS-5.png).
 
 ---
 
@@ -100,7 +100,7 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-Add your screenshot here.
+![ss9](./screenshots/W4-SS-A3/W4-A3-SS-9.png).
 
 ---
 
@@ -120,13 +120,13 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-Add your screenshot here.
+![ss11](./screenshots/W4-SS-A3/W4-A3-SS-11.png).
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
+![ss12](./screenshots/W4-SS-A3/W4-A3-SS-12.png).
 
 ---
 
@@ -146,7 +146,7 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
+![ss14](./screenshots/W4-SS-A3/W4-A3-SS-14.png).
 
 ---
 
