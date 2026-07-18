@@ -201,13 +201,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![counter.sh](./screenshots/W3-SS-A5/W3-A5-SS-10.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![output counter.sh](./screenshots/W3-SS-A5/W3-A5-SS-11.png)
 
 ---
 
@@ -217,25 +217,32 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+A loop is a control structure in Bash that repeats a block of code multiple times. It automates executing the same commands without writing them repeatedly.
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
+We use loops to automate repetitive tasks, process multiple items efficiently, and reduce code duplication. Instead of writing the same command 5 times, a loop does it in a few lines.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
+The loop ran 5 times, iterating over the values: 1, 2, 3, 4, 5 (one iteration per number in the `for number in 1 2 3 4 5` list).
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
+```bash
+for number in 1 2 3 4 5 6 7 8 9 10
+```
+
+Or use a range (cleaner):
+```bash
+for number in {1..10}
+```
 
 ---
 
@@ -249,19 +256,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+![ls -lah ../test-folder](./screenshots/W3-SS-A5/W3-A5-SS-12.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![Content of `file-check.sh](./screenshots/W3-SS-A5/W3-A5-SS-13.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![Output of `./file-check.sh`](./screenshots/W3-SS-A5/W3-A5-SS-14.png)
 
 ---
 
@@ -277,19 +284,19 @@ Add your answer here.
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+The `-f` operator checks if a file exists and is a regular file (not a directory). It returns true if the file exists, false if it doesn't. Used in conditional statements like: `if [ -f "$filename" ]`
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+Storing paths in variables improves maintainability, reduces errors, and makes scripts reusable. If a path changes, you only update it in one place. It also protects against typos and makes the script more readable.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+If the file does not exist, the `-f` test returns false, and the code block in the `if [ -f "$file" ]` condition is skipped. Typically, an `else` block handles the missing file scenario (error message, file creation, etc.).
 
 ---
 
@@ -303,25 +310,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![score-check.sh` with `score=85`](./screenshots/W3-SS-A5/W3-A5-SS-15.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![pass](./screenshots/W3-SS-A5/W3-A5-SS-15-1.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![content 55](./screenshots/W3-SS-A5/W3-A5-SS-15-55.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![score 55](./screenshots/W3-SS-A5/W3-A5-SS-15-55-1.png)
 
 ---
 
@@ -331,25 +338,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+The purpose of if-else is to make decisions in a script. It allows code to branch based on conditions—if a condition is true, one block executes; if false, an alternative block (else) executes. This enables scripts to respond differently based on test results.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+The `-ge` operator means "greater than or equal to". It compares two numbers and returns true if the first value is greater than or equal to the second. Used in conditionals like: `if [ $age -ge 18 ]`
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+Testing with different values verifies that your conditional logic works correctly in all scenarios—true cases, false cases, and edge cases (boundary values). This prevents bugs and ensures the script behaves as intended regardless of input.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+Conditionals make automation scripts adaptive and resilient. They allow scripts to check file existence, validate input, handle errors gracefully, and take appropriate actions without manual intervention. This prevents failures and makes scripts safer and more reliable.
 
 ---
 
@@ -363,19 +370,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![Content of `final-automation.sh`](./screenshots/W3-SS-A5/W3-A5-SS-16.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![Output of `./final-automation.sh``](./screenshots/W3-SS-A5/W3-A5-SS-17.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![Output of `ls -lah`](./screenshots/W3-SS-A5/W3-A5-SS-18.png)
 
 ---
 
@@ -385,25 +392,35 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+A function is a reusable block of code that performs a specific task. It allows you to group commands together and call them by name, avoiding repetition and making scripts more organized and maintainable.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+Functions are useful because they reduce code duplication, improve readability, make scripts easier to maintain and debug, and allow you to organize complex logic into logical sections. If a function's logic needs to change, you only update it once.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+- `print_header()` — Displays a formatted header with the assignment name
+- `print_user_details()` — Shows the full name and assignment name
+- `check_files()` — Tests if a directory and file exist using `-d` and `-f` operators
+- `print_tools()` — Loops through the tools array and displays each one
+
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+The script demonstrates all concepts working together: 
+Variables store paths and metadata (full_name, assignment_name). 
+Arrays hold the tools list. 
+Functions organize the logic into reusable blocks. 
+Conditionals check if files/directories exist. 
+Loops iterate through the tools array. 
+Files are validated using `-d` and `-f` tests. The main script calls functions sequentially, creating a complete automation workflow that checks system setup, validates resources, and reports results.
 
 ---
 
