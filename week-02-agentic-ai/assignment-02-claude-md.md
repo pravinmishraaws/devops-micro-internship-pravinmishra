@@ -85,8 +85,6 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
-
 ![Claude.md on Github Repo](<screenshots/Claude.md on GitHub Repo.png>)
 
 # Submission Instructions

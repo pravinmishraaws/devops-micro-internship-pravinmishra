@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/oluwabunmi-olowoyeye_dmibypravinmishra-agenticai-claudecode-ugcPost-7481475850937405440-LAe4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABIxKt4BWOFz-d7RRyAsVUilmny_HuUV_Iw`
 
 ---
 
