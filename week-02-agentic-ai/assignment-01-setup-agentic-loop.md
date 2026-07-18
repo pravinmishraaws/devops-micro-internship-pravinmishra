@@ -61,7 +61,6 @@ Add your screenshot here.
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-Add your screenshot here.
 
 ![Claude's read files](./screenshots/SS-A1/W2-A1-SS-03-5.png)
 
@@ -78,11 +77,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-<<<<<<< HEAD
 `https://github.com/santosronnie26-sr/Ultimate-Agentic-DevOps-with-Claude-Code`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

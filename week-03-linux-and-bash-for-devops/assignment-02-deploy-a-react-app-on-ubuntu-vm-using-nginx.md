@@ -140,13 +140,8 @@ Verify the React application is publicly accessible via the server's public IP.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-<<<<<<< HEAD
 `https://www.linkedin.com/posts/ronnie-santos-131856184_week-3-checkpoint-deployed-a-react-app-on-activity-7483575054924992512-h6TW?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

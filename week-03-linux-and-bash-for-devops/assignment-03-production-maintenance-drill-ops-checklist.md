@@ -473,13 +473,7 @@ In production environments, this discipline prevents "forgotten" resources from 
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here: 
-
-<<<<<<< HEAD
 `https://www.linkedin.com/feed/update/urn:li:activity:7483769511716761600/`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 

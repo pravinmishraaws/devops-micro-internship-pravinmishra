@@ -54,11 +54,7 @@ You can publish your blog on:
 
 Blog Link:
 
-<<<<<<< HEAD
 `https://medium.com/@santosronnie1991/reflection-week-2-from-it-support-to-agentic-ai-the-paradigm-shift-a6d3e54a2894`
-=======
-`Add your URL here`
->>>>>>> upstream/main
 
 ---
 
