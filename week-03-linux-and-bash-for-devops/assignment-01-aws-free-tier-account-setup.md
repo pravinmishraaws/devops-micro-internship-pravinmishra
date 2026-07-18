@@ -60,6 +60,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
 ![AWS Account page showing account name](./screenshots/W3-SS-A1/W3-A1-SS-1.png)
+![AWS Account page showing free tier](./screenshots/W3-SS-A1/W3-A1-SS-1-1.png)
 
 ---
 
