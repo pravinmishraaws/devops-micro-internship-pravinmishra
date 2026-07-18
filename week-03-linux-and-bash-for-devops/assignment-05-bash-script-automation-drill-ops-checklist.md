@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img1.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img2.png)
 
 ---
 
@@ -65,19 +65,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img3.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img4.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img5.png)
 
 ---
 
@@ -113,13 +113,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img6.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img7.png)
 
 ---
 
@@ -155,13 +155,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img8.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img9.png)
 
 ---
 
@@ -171,25 +171,25 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
+An array in Bash is a variable that can store multiple values under a single name. Each value is stored at a specific index, allowing you to easily access and manage a collection of related data.
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+Arrays are useful in scripts because they allow you to store and manage multiple related values using one variable instead of creating many separate variables. They make it easier to loop through data, organize information, and perform operations on groups of values efficiently.
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+"${tools[@]}" is a Bash array expansion that accesses all the elements in the tools array while keeping each element as a separate item. It is commonly used in loops and commands because it preserves spaces and special characters within individual array values.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+The purpose of the for loop in the script is to go through each item in the array one by one and perform the same action on each value. It helps automate repetitive tasks without writing separate commands for every item.
 
 ---
 
@@ -203,13 +203,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img10.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img11.png)
 
 ---
 
@@ -219,25 +219,25 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+A loop is a programming structure that repeatedly executes a set of commands until a specific condition is met or until all items in a collection have been processed. It helps automate repetitive tasks and reduces the need to write the same code multiple times.
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
+We use loops in Bash scripting to automate repetitive tasks by running the same commands multiple times with different values. They make scripts shorter, faster to write, and easier to maintain when working with multiple files, users, or data.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
+Based on the output, the loop ran 5 times. Each iteration processed one step, from Step 1 to Step 5, and then the loop finished successfully.
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
+If I wanted the loop to run 10 times, I would change the numbers in the for loop from 1–5 to 1–10. This would make the script repeat the same action 10 times and display steps from Step 1 to Step 10.
 
 ---
 
@@ -251,19 +251,19 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 1 — Output of `ls -lah ../test-folder`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img12.png)
 
 ---
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img13.png)
 
 ---
 
 #### Screenshot 3 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img14.png)
 
 ---
 
@@ -273,25 +273,25 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+-d checks whether a specified path exists and is a directory in Bash. It is commonly used in conditional statements to verify that a folder is available before performing actions on it.
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+-f checks whether a specified path exists and is a regular file in Bash. It is used to confirm that a file is available before reading, modifying, or performing other operations on it.
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+File and directory paths should be stored in variables because it makes scripts easier to read, update, and maintain. If the path changes, we only need to modify the variable instead of searching through the entire script to change every occurrence.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+If the file does not exist, the script will detect that the file is missing and can display a message or perform an alternative action instead of trying to access a file that is unavailable.
 
 ---
 
@@ -305,25 +305,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img15.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img16.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img17.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img18.png)
 
 ---
 
@@ -333,25 +333,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+The purpose of if-else in Bash is to make decisions in a script by checking whether a condition is true or false. It allows the script to execute one set of commands when the condition is true and a different set of commands when the condition is false.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+-ge means "greater than or equal to" in Bash. It is used in numeric comparisons to check whether one value is greater than or equal to another value.
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+Conditions should be tested with different values to make sure the script behaves correctly in different situations. It helps identify errors and confirms that the script can handle both expected and unexpected inputs.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+Conditionals help in automation scripts by allowing the script to make decisions based on different situations. They enable scripts to perform specific actions only when certain conditions are met, making automation more flexible and reliable.
 
 ---
 
@@ -365,19 +365,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img19.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img20.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img21.png)
 
 ---
 
@@ -387,25 +387,25 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+A function in Bash is a reusable block of commands grouped together under a name. It allows you to run the same set of instructions multiple times without rewriting the code, making scripts more organized and easier to maintain.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+Functions are useful in scripts because they help organize code into smaller, reusable sections. They reduce repetition, make scripts easier to read and debug, and allow changes to be made in one place instead of multiple locations.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+In this script, I created functions that group related commands together and can be called whenever needed. The functions created were used to perform specific tasks, making the script more organized and easier to manage.
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+This final script combines variables, arrays, loops, conditionals, files, and functions by using variables to store information, arrays to manage multiple values, loops to repeat tasks, conditionals to make decisions, files to store or check data, and functions to organize reusable sections of code. Together, these features make the script more structured, efficient, and easier to maintain.
 
 ---
 
@@ -417,13 +417,13 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/kingsley-erhatiemwonmon_devops-linux-bashscripting-ugcPost-7483583814166892544-FwHj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Assignment 5 Screenshots](screenshots/assgn5-img22.png)
 
 ---
 
