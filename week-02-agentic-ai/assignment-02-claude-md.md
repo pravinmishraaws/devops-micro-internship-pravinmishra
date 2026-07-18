@@ -35,7 +35,6 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
 
 ![Claude.md](image-7.png)
 ![Claude2.md](image-8.png)
@@ -84,7 +83,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
+
 
 ![Claude.md](image-14.png)
 
@@ -98,7 +97,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+
 
 https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
 

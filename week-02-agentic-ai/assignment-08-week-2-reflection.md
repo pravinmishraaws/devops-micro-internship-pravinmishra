@@ -46,16 +46,9 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
-
----
-
 ### Submission Field
 
 Blog Link:
-
-`Add your URL here`
-
 ---
 
 # Task 2 — Create LinkedIn Post
@@ -92,23 +85,20 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
-
 ![LinkedIn post](image-43.png)
 
 ### Submission Field
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
+
+
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+
 
 https://www.linkedin.com/posts/abraham-inwang-695a67216_the-real-world-task-i-just-completed-the-ugcPost-7480587521295523840-qd0_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 

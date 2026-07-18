@@ -94,7 +94,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+
 
 https://github.com/AIN0908/devops-micro-internship-pravinmishra/tree/main/week-02-agentic-ai
 

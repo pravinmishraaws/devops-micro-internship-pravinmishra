@@ -153,10 +153,7 @@ Abraham's 2.0 version was defined by shipped projects, earned certifications, pu
  **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
 
 ### Public Link
-
-Paste your link here:
-
-(https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)
+**(https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)
 
 ---
 
@@ -283,13 +280,16 @@ Examples:
 ### Did You Do It?
 
 **Yes / No**
-
-Answer:
+Yes
 
 Complete Week 1–2 DevOps training modules.
+
 Establish daily health routine (sleep + workouts).
+
 Ship one containerized project using Docker + Kubernetes.
+
 Publish two more blogs (CI/CD + Infrastructure as Code).
+
 Review finances: savings, investments, career-related expenses.
 
 ---
@@ -307,8 +307,6 @@ Example:
 * Sun: Weekly review
 
 #### My Weekly Routine
-
-Add your answer here...
 
 Mon–Thu: 60 min deep work
 
@@ -333,10 +331,7 @@ Examples:
 * Environment setup
 
 #### My Distraction Rules
-
-Add your answer here...
-
-When it is time for the tasks and assignments, no disturbance at all.
+ it is time for the tasks and assignments, no disturbance at all.
 
 # Reflection – Week 1
 
@@ -353,16 +348,14 @@ I tend to overcommit and push myself until I feel overwhelmed, which leads to in
 I will implement a daily 60-minute deep work block at 7:00 PM dedicated to DevOps practice and documentation, ensuring consistent progress without burnout.
 
 ### LinkedIn Post
-
-Paste your LinkedIn post link here:
-
-(https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)
+**(https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **(https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)  **  
+LinkedIn Post URL: **
+(https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-share-7477374252242034689-LQxm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE)  **  
 
 - Blog / Medium : **ADD LINK HERE**  
 

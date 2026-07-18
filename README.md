@@ -128,11 +128,11 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed| ✅ Completed | ✅ Completed— | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed | ✅ Completed | — |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| ✅ Completed | — |
-| 03 | Linux for DevOps | ✅ Completed | ✅ Completed|✅ Completed | ✅ Completed
-| 04 | Bash Scripting | ✅ Completed | ✅ Completed |✅ Completed| ✅ Completed<br>
+| 00 | Internet & Networking Basics | ✅ Completed| ✅ Completed | https://www.linkedin.com/posts/abraham-inwang-695a67216_weekabro-activity-7440149151411224576-i6OY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/abraham-inwang-695a67216_join-the-dmi-devops-micro-internship-activity-7477374253215014912-L0y3?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| https://www.linkedin.com/posts/abraham-inwang-695a67216_the-real-world-task-i-just-completed-the-activity-7480587522121662464-91mJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE | — |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Completed|https://www.linkedin.com/posts/abraham-inwang-695a67216_todays-real-life-task-deploy-a-react-activity-7482784748457775104-OG6g?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE | ✅ Completed
+| 04 | Bash Scripting | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/abraham-inwang-695a67216_today-i-deployed-the-epicreads-portfolio-activity-7483260553323327488-xHCp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE| ✅ Completed<br>
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |

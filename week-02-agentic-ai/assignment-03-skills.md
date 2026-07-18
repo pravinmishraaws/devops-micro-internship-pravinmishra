@@ -20,7 +20,7 @@ Create the required `.claude/skills/` directory structure for all skills.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/skills/` folder with all 4 subfolders visible
 
-Add your screenshot here.
+
 
 ![Skills folder](image-15.png)
 
@@ -74,7 +74,7 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — Claude's `/tf-plan` response showing it ran the command and analyzed the result (pass or auth error both count)
 
-Add your screenshot here.
+
 
 ![Tf plan](image-21.png)
 
@@ -88,13 +88,13 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+
 
 https://github.com/AIN0908/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/solution-assignment-03-skills.md____`
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
+
 
 [](https://github.com/AIN0908/devops-micro-internship-pravinmishra/blob/main/week-02-agentic-ai/solution-assignment-03-skills.md)
 ---

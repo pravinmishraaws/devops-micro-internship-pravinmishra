@@ -20,7 +20,7 @@ Create the `.claude` directory structure required for team-level Claude Code con
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-Add your screenshot here.
+
 
 ![settings.json](image-35.png)
 
@@ -62,7 +62,7 @@ Verify that destructive prompts are blocked before Claude begins execution.
 
 #### Screenshot 4 — blocked prompt due to UserPromptSubmit hook
 
-Add your screenshot here.
+
 
 ---
 
@@ -91,19 +91,19 @@ Your submission must include:
 
 # Completion Checklist
 
-- [ ] `.claude` folder structure created correctly
-- [ ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
-- [ ] `pre-tool-guard.sh` created with PreToolUse hook logic
-- [ ] `post-tool-logger.sh` created with PostToolUse logging logic
-- [ ] `settings.json` created with allow and deny permissions
-- [ ] `settings.json` configured to connect all three hooks:
-  - [ ] UserPromptSubmit
-  - [ ] PreToolUse
-  - [ ] PostToolUse
-- [ ] Destructive prompt test shows UserPromptSubmit blocked the request
-- [ ] Terraform destroy command test shows PreToolUse intercepted the command
-- [ ] Terraform validate test shows PostToolUse created the log entry
-- [ ] All required screenshots are captured
+- [✅ Completed] `.claude` folder structure created correctly
+- [✅ Completed ] `user-prompt-guard.sh` created with UserPromptSubmit hook logic
+- [✅ Completed ] `pre-tool-guard.sh` created with PreToolUse hook logic
+- [✅ Completed ] `post-tool-logger.sh` created with PostToolUse logging logic
+- [✅ Completed ] `settings.json` created with allow and deny permissions
+- [✅ Completed ] `settings.json` configured to connect all three hooks:
+  - [✅ Completed ] UserPromptSubmit
+  - [✅ Completed ] PreToolUse
+  - [✅ Completed ] PostToolUse
+- [✅ Completed ] Destructive prompt test shows UserPromptSubmit blocked the request
+- [✅ Completed ] Terraform destroy command test shows PreToolUse intercepted the command
+- [✅ Completed ] Terraform validate test shows PostToolUse created the log entry
+- [✅ Completed ] All required screenshots are captured
 
 ---
 

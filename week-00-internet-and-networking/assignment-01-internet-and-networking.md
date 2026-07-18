@@ -34,8 +34,6 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
-
 What I learnt in one sentence
 
 A protocol in networking is a set of rules that allows computers and devices to communicate with each other correctly, just as people follow rules when having a conversation.
@@ -60,9 +58,6 @@ Write a short explanation (**100–150 words**) that includes:
 💡 **Tip:** You may use ChatGPT (as demonstrated in Task 1) to refine your explanation.
 
 ## Answer
-
-Add your answer here...
-
 When someone visits EpicReads from anywhere in the world, their request is sent across the internet using packet switching, which breaks the data into small packets for faster and more efficient delivery. 
 
 Each packet is directed to the server in Finland using its unique IP address, which identifies the server on the network. The TCP/IP protocol ensures the packets are sent, received, and reassembled correctly, so the complete webpage loads without missing information. 
@@ -148,8 +143,6 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
-
 DNS (Domain Name System) is like the internet's phonebook. It translates a human-friendly domain name, such as epicreads.com, into an IP address that computers use to locate a website. 
 
 To connect epicreads.com to 52.172.142.222, an A (Address) record should be used because it maps a domain name directly to an IPv4 address. This allows users to type the domain name instead of remembering the numeric IP address.
@@ -225,17 +218,12 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
 https://www.linkedin.com/posts/abraham-inwang-695a67216_weekabro-activity-7440149151411224576-i6OY?utm_source=share&utm_medium=member_desktop&rcm=ACoAADaeMREBp9wR-dEl9T_L6Ru07p5uCgcZniE
 ---
 
 ## LinkedIn Post Backup Copy
 
 Paste the full text of your LinkedIn post here:
-
-Add your post content here...
 
 My DevOps Learning Journey - Week O
 
@@ -274,8 +262,6 @@ Been able to understand the fundamentals of networking to guide us in the DevOps
 ---
 
 ### What was difficult?
-
-Add your answer here...
 
 For now, nothing yet though.
 
