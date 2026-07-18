@@ -296,13 +296,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![Task 7 - curl failure](./screenshots/assignment-03/task7/Screenshot%201.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Task 7 - curl recovery](./screenshots/assignment-03/task7/Screenshot%202.png)
 
 ---
 
@@ -312,19 +312,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke because all files in the web root directory (/var/www/html/) were deleted, simulating missing or corrupted deployment content. When Nginx tried to serve the application, it found no index.html or any static files, causing the server to return a 500 Internal Server Error. This represents a real-world scenario where a misconfigured deployment process, accidental deletion, or corrupted backup could remove critical application files without taking the service offline immediately, leading to runtime errors for all users.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I fixed the issue by restoring the application files from the backup that was created before simulating the failure. I used `sudo cp -r /var/www/html.backup/* /var/www/html/` to restore all the previously deployed React build files, including index.html, manifest.json, and the static/ directory containing CSS and JavaScript. After restoring the files, I restarted the Nginx service with `sudo systemctl restart nginx` to ensure the service reloaded with the restored content and could properly serve the application again.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To prevent this kind of issue in production: (1) Implement automated backup strategies with regular snapshots of the web root and application files, stored off-instance; (2) Use infrastructure-as-code (Terraform, CloudFormation) to manage deployments deterministically and avoid manual file operations; (3) Implement health checks and monitoring that detect missing critical files and trigger alerts immediately; (4) Use deployment tools (Jenkins, GitOps) with validation steps that verify file integrity after deployment; (5) Implement read-only filesystems where possible to prevent accidental deletions; (6) Set up automated recovery procedures that can restore from backups with minimal manual intervention; (7) Use container orchestration (Docker, Kubernetes) where application files are immutable and deployments are atomic.
 
 ---
 
@@ -402,7 +402,7 @@ Add your screenshot here.
 - [x] Task 4: Screenshots (uptime, free -h, df -h, du -sh) + Notes answered
 - [x] Task 5: Screenshots (ls html, grep deployed by, grep try_files) + Notes answered
 - [x] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
-- [ ] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
+- [x] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
 - [x] Task 8: Security & Reliability Notes answered
 - [ ] LinkedIn post published and URL submitted
 - [x] Full Name visible in all required screenshots
