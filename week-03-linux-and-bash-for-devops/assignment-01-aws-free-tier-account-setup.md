@@ -45,8 +45,6 @@ AWS Lambda: 1 million free serverless code requests and 400,000 GB-seconds of co
 
 Create a valid AWS Free Tier account and sign in to the AWS Management Console.
 
-> No screenshots required for this task. Completion is verified through Task 3.
-
 ---
 
 # Task 3 — Verify AWS Account
