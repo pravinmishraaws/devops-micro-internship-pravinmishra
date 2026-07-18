@@ -26,13 +26,15 @@ Write your answer here.
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
+AWS Free Tier is a free usage allowance on AWS that lets you try out certain services without charge, up to specified limits. It comes in three types: a 12-month free tier for services like EC2 and S3, an always-free tier for select services with no time limit, and short-term trials for specific services that expire after a set trial period
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+1. AWS Lambda (Always Free, no expiration) – 1 million requests and 400,000 GB-seconds of compute per month.
+2. Amazon DynamoDB (Always Free, no expiration) – 25 GB of storage plus 25 provisioned read/write capacity units per month.
+3. Amazon EC2 – 750 hours/month of a t2.micro or t3.micro instance. This is only free for 6 months.
 
 ---
 
@@ -56,7 +58,8 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+`Note that it is a shared IAM user`
+![alt text](image-2.png)
 
 ---
 
