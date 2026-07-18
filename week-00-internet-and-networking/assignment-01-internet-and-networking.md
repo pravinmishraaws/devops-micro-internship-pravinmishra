@@ -25,16 +25,16 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Assignment 0 Screenshots](screenshots/assgn0-img1.png)
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a networking protocol is a set of agreed rules that allows devices to communicate and exchange data correctly. Just like people follow rules during a phone conversation, network devices use protocols such as HTTP to communicate with one another.
 
 ---
 
@@ -59,7 +59,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user visits the EpicReads online bookstore from anywhere in the world, the internet uses several technologies to deliver the website quickly and correctly. First, the website hosted in Finland has an IP address, which acts like the website’s digital home address so devices can locate it online. When users request the site, the data is broken into small pieces called packets through a process known as Packet Switching. These packets travel through different internet routes and are reassembled when they reach the user’s device. The communication happens using the TCP/IP protocol suite, which ensures the data is sent accurately and reaches the correct destination. Finally, users access the bookstore through HTTP or the more secure HTTPS protocol, which allows browsers to load web pages safely, especially when customers are making payments or entering personal information.
+
 
 ---
 
@@ -91,10 +92,12 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Assignment 0 Screenshots](screenshots/assgn0-img2.png)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
+
+
+
 
 ---
 
@@ -102,18 +105,19 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS
+* React
+
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,7 +146,10 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. DNS (Domain Name System) is like the internet’s phonebook. It translates easy-to-remember domain names such as epicreads.com into IP addresses that computers use to locate websites online. Instead of typing 52.172.142.222:3000, users can simply type the domain name in their browser.
+2. To connect the domain to the server IP, an A Record should be used because it maps a domain name directly to an IPv4 address. The A Record will point epicreads.com to 52.172.142.222, allowing users worldwide to access the bookstore website easily. 
+
+
 
 ---
 
@@ -178,7 +185,8 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![Assignment 0 Screenshots](screenshots/assgn0-img3.png)
+
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,9 +225,8 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
+https://www.linkedin.com/posts/kingsley-erhatiemwonmon_my-devops-learning-journey-internship-activity-7464656740475764738-kUKp?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
+
 
 ---
 
@@ -227,7 +234,45 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+My DevOps Learning Journey – Internship Assignment Summary
+As part of my DevOps learning journey, I recently completed several foundational tasks covering networking, internet concepts, application architecture, DNS, and development tools. Here’s a summary of what I learned:
+ChatGPT & Networking Basics
+I used OpenAI ChatGPT to better understand networking concepts in beginner-friendly terms.
+One important concept I learned was network protocols. A protocol is simply a set of rules that devices follow to communicate over a network, just like people follow language rules to understand each other.
+For example, when you send a WhatsApp message or open a website, protocols ensure the information is delivered correctly between devices.
+Internet & Networking
+I learned how the internet delivers websites across the world using technologies such as:
+IP Address → The digital address of a server or website
+Packet Switching → Data is divided into smaller packets before traveling across the internet
+TCP/IP → Ensures data reaches the correct destination accurately
+HTTP/HTTPS → Protocols used by browsers to load websites securely
+For example, when users visit an online bookstore hosted in Finland, these technologies work together to ensure the website loads correctly and securely from anywhere in the world.
+Application Architecture & Stack
+Two-Tier Application
+Frontend:
+HTML/CSS
+React
+Database:
+MySQL
+PostgreSQL
+Three-Tier Application
+Frontend:
+HTML/CSS
+React
+Backend:
+Node.js
+Django
+Database:
+MySQL
+MongoDB
+I also learned that three-tier architecture is more scalable, secure, and easier to maintain because the frontend, backend, and database are separated into different layers.
+DNS (Domain Name System)
+DNS works like the Internet’s phonebook. It converts domain names such as epicreads.com into IP addresses that computers use to find websites online.
+To connect a domain name to a server IP like 52.172.142.222, an A Record is used because it maps a domain directly to an IPv4 address.
+Visual Studio Code Setup
+I also explored setting up Visual Studio Code for development tasks. VS Code is a powerful and lightweight code editor widely used for programming, debugging, terminal access, and DevOps workflows.
+This assignment helped strengthen my understanding of networking, system architecture, and essential DevOps concepts as I continue building my cloud and DevOps skills. 🚀
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
 
 ---
 
@@ -235,19 +280,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found it easy to understand basic networking concepts such as protocols, IP addresses, DNS, and how users access websites. Using ChatGPT as a learning assistant also made it easier to simplify technical concepts and understand them through real-life examples.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Understanding how the different components of the internet work together was challenging at first, especially packet switching, TCP/IP, and the difference between two-tier and three-tier application architectures. Connecting these concepts to how a real website works required additional learning and practice.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will improve my practical skills by spending more time working with technical tools and commands. I will also continue strengthening my understanding of DevOps concepts by connecting theory to real-world applications and practicing what I learn.
 
 ---
 

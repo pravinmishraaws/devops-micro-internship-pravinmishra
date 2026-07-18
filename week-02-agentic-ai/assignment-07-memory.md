@@ -94,7 +94,6 @@ Run three tests that prove Claude remembers what you told it — without you say
 Paste your Linkedin post link here:
 
 https://www.linkedin.com/posts/kingsley-erhatiemwonmon_dmibypravinmishra-agenticai-claudecode-ugcPost-7480985703556943872-D6Pp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClDkSEBa4Zo6dTWVIEEl8FJLczvH_zPHtY
-`Add your URL here`
 
 ---
 
@@ -103,7 +102,6 @@ https://www.linkedin.com/posts/kingsley-erhatiemwonmon_dmibypravinmishra-agentic
 Paste your forked repository URL here:
 
 https://github.com/solutionkingz-glitch/Ultimate-Agentic-DevOps-with-Claude-Code.git
-`Add your URL here`
 
 ---
 
