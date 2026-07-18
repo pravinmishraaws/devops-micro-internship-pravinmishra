@@ -105,7 +105,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony_pravin-mishra-the-cloudadvisory-linkedin-activity-7462191694030077954-Kqd5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | — |
+| 00 | Internet & Networking Basics | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony_pravin-mishra-the-cloudadvisory-linkedin-activity-7462191694030077954-Kqd5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://dev-enthusiast.blogspot.com/2026/07/week-0-back-to-basics-why-fundamentals.html) |
 | 01 | Success Mindset | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony-452075387_technologyleadership-engineeringexcellence-share-7484025912691302400--lCa/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://dev-enthusiast.blogspot.com/2026/07/five-years-from-now-colleagues.html) |
 | 02 | Agentic AI with Claude Code | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmibypravinmishra-agenticai-claudecode-ugcPost-7481318574037442560-3TCh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://www.linkedin.com/pulse/reflection-week-2-when-ai-meets-infrastructure-maneetta-antony-cwayc/) |
 | 03 | Linux & Bash for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
