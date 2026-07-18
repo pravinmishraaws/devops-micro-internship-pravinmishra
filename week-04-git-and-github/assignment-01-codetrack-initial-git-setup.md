@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![git init](./screenshots/W4-SS-A1/W4-A1-SS-1.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![ls -a](./screenshots/W4-SS-A1/W4-A1-SS-2.png).
 
 ---
 
@@ -34,7 +34,7 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The .git folder is a hidden directory that Git creates in the root of your project when you initialize a repository with git init. It contains all the metadata and version history for your project—essentially, it's the "brain" of your repository.
 
 ---
 
@@ -48,7 +48,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![git config --local --list](./screenshots/W4-SS-A1/W4-A1-SS-3.png).
 
 ---
 
@@ -62,7 +62,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![git config --global --list](./screenshots/W4-SS-A1/W4-A1-SS-3.png).
 
 ---
 
@@ -76,11 +76,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [ ] Explanation of the `.git` folder written in your own words
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] No sensitive data exposed
+- [✓] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
+- [✓] Explanation of the `.git` folder written in your own words
+- [✓] Local `user.name` and `user.email` configured and verified (Screenshot 3)
+- [✓] Global `user.name` and `user.email` configured and verified (Screenshot 4)
+- [✓] No sensitive data exposed
 
 ---
 
