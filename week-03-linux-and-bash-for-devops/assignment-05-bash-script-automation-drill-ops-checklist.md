@@ -413,6 +413,7 @@ print_tools
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
 The script uses variables to store the name, assignment name, and file paths. It uses an array to store Bash tools, a loop to print each tool, conditionals to check whether the file and directory exist, and functions to organize each task into reusable sections.
+
 ---
 
 # LinkedIn Post (Required)

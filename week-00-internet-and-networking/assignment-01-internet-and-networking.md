@@ -1,4 +1,4 @@
-# Week 00 - Internet and Networking
+    # Week 00 - Internet and Networking
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![book1](screenshots/00.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a network protocol is a set of agreed rules that devices follow when communicating. Just like people follow rules during a phone conversation, computers use protocols to make sure information is sent, received, and understood correctly.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user opens the EpicReads website, the device uses an IP address to locate the server hosted in Finland. The request is divided into smaller units called packets through packet switching. These packets may travel through different routers and routes across the internet before reaching the server. TCP/IP controls this communication: IP handles the addressing and routing of packets, while TCP ensures that the packets arrive correctly and in the right order. The browser then uses HTTP or HTTPS to request the website content from the server. HTTPS is more secure because it encrypts the information exchanged between the user and the website. The server processes the request and sends the website data back in packets, which the browser combines and displays to the user.
 
 ---
 
@@ -91,8 +91,9 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![book1](screenshots/==.png)
 
+![book1](screenshots/--.png)
 
 Replace `task-3-diagram.png` with your actual diagram file name.
 
@@ -102,18 +103,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React
+* Angular
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,7 +143,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS, or Domain Name System, translates a human-readable domain name such as epicreads.com into an IP address that computers use to locate the website server. To connect epicreads.com to the IPv4 address 52.172.142.222, an A record should be created. An A record maps a domain name directly to an IPv4 address. The port number 3000 is not added to the DNS record because DNS only connects the domain to the server’s IP address. The application or a reverse proxy would handle the port separately.
 
 ---
 
@@ -178,7 +179,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![book1](screenshots/''.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -218,7 +219,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/tim-obi-40688a3a7_devops-micro-internship-dmi-by-pravin-activity-7440164044625584128-2txY?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs
 ```
 
 ---
@@ -227,7 +228,37 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🚀 My DevOps Learning Journey – Task Progress Update
+
+I’ve been diving into DevOps fundamentals, and here’s a summary of what I’ve learned so far:
+
+🔹 ChatGPT
+Using ChatGPT has been really helpful in breaking down complex DevOps concepts into simple, easy-to-understand explanations.
+
+🌐 Internet & Networking
+I learned how communication over the internet works using:
+IP addresses (like digital home addresses)
+TCP/IP (rules for sending data reliably)
+HTTP/HTTPS (how browsers communicate with servers securely)
+
+🏗️ Application Architecture
+Two-tier: Frontend connects directly to the database
+Three-tier: Frontend → Backend → Database (more secure and scalable)
+
+🌍 DNS (Domain Name System)
+DNS acts like the internet’s phonebook, converting domain names into IP addresses.
+I also learned how A records connect a domain to a server.
+
+💻 VS Code Setup
+Set up my development environment and practiced using the terminal inside VS Code.
+This journey is helping me build a solid foundation in DevOps, and I’m excited to keep learning and growing! 🚀
+
+
+
+P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra . You can start your DevOps journey for free from his YouTube Playlist👇 
+(https://lnkd.in/d3VD-Cuj).
+
+hashtag#DevOps hashtag#LearningJourney hashtag#TechSkills hashtag#Networking hashtag#CloudComputing
 
 ---
 
@@ -235,19 +266,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found it easy to understand the role of ChatGPT as a learning assistant and to use basic commands in the VS Code terminal. The explanations and practical examples made the concepts easier to follow.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The most difficult part was understanding how packet switching, TCP/IP, DNS, and application architecture work together. Creating clear diagrams for the two-tier and three-tier applications also required careful thinking.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will improve my time management, study each concept more deeply, and complete my assignments earlier. I will also practise using the terminal more often so that I become more confident with command-line tasks.
 
 ---
 
