@@ -108,7 +108,7 @@ Paste your LinkedIn post content here
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+`__________________________________________`
 
 ---
 
