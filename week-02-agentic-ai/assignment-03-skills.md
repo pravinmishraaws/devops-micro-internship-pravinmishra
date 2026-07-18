@@ -92,14 +92,11 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
 
 `https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra`
 `https://github.com/santosronnie26-sr/Ultimate-Agentic-DevOps-with-Claude-Code`
 
 ## LinkedIn post URL
-
-Paste your LinkdIn URL here:
 
 `https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-share-7481255639109881856-jX0I/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
 ---
