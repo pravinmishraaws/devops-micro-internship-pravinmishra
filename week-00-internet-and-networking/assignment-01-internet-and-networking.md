@@ -23,18 +23,16 @@ Take a screenshot of your interaction showing:
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
+Prompt: I'm refreshing my DevOps Concepts. Help me with clear explanations like I am starting from scratch. I am planning to join a DevOps course which can help me to achieve my goal. Keeping this in mind , answer my queries with relevant examples and details. I am technical; so I can use technical terminologies at a basic level. Now help me with the query : What is a protocol in networking? Explain with a simple real-life example
+ 
 
 ![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
-
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+ChatGPT helped me understand that protocols are standardized rules enabling communication between systems, much like real-world protocols (e.g., mail delivery systems). I learned that detailed, context-specific prompts significantly improve the quality and relevance of AI-generated explanations. This approach of providing clear expectations and background will be valuable when I encounter technical concepts throughout my DevOps learning journey.
 
 ---
 
@@ -59,7 +57,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When people around the world visit the EpicReads website hosted in Finland, their devices connect through the internet using TCP/IP, a set of communication rules that allows computers to exchange data. Every device and website has a unique IP Address, similar to a home address, which the Internet Protocol (IP) uses to identify devices and route information to the correct destination across the internet. When a user opens the website, the browser sends an HTTP request, or HTTPS for a secure connection, to the EpicReads server. The data travels using packet switching, where information is divided into small packets that move through different network routes before being reassembled. TCP ensures the packets arrive correctly and in order, while HTTPS encrypts sensitive information like passwords and payment details to keep user data secure.
 
 ---
 
@@ -89,12 +87,7 @@ EpicReads bookstore has two application versions:
 
 ## Diagram Screenshot / Photo
 
-Save your diagram image in the `screenshots` folder and update the file name below.
-
 ![Application Architecture Diagram](screenshots/task-3-diagram.png)
-
-
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,18 +95,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React, Vue, Angular
+* HTML5, CSS3, JavaScript
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js, Python (Flask/Django), Java (Spring Boot)
+* REST APIs, GraphQL
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* PostgreSQL, MySQL
+* MongoDB, DynamoDB
 
 ---
 
@@ -142,7 +135,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+The Domain Name System (DNS) works like the internet’s phonebook. Instead of remembering an IP address like 52.172.142.222:3000, users can simply type epicreads.com in their browser. DNS translates the domain name into the server’s IP address so the browser can find the correct website. To connect the domain to the server, an A Record should be used because it maps a domain name directly to an IPv4 address. This allows users worldwide to access EpicReads using an easy-to-remember website name instead of a numeric IP address.
 
 ---
 
@@ -176,12 +169,7 @@ ls
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
-
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -215,19 +203,21 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-```text
-Add your URL here...
-```
+[Linked In Post](https://www.linkedin.com/posts/maneetta-antony_pravin-mishra-the-cloudadvisory-linkedin-activity-7462191694030077954-Kqd5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
 ---
 
 ## LinkedIn Post Backup Copy
+As part of preparing to refresh and strengthen my DevOps fundamentals, I recently revisited several core technology concepts that continue to be highly relevant in modern software and infrastructure environments.
+🔹 ChatGPT — Understanding how AI-powered conversational systems support technical problem-solving and information retrieval.
+🔹 Internet & Networking — Reviewing IP addresses, protocols, and client-server communication fundamentals.
+🔹 App Architecture — Revisiting how frontend applications, backend services, APIs, and databases interact within modern systems.
+🔹 DNS — Refreshing concepts around domain-to-IP resolution and DNS records such as A Records.
+🔹 VS Code Setup — Re-exploring development environment configuration, extensions, and terminal integration.
+Technology evolves rapidly, but strong fundamentals remain essential. Revisiting these concepts has been a valuable step in preparing for the next phase of my DevOps learning journey.
+P.S. This post is part of the DevOps Micro Internship Cohort run by Pravin Mishra [https://lnkd.in/e3knf-G8]. You can start your DevOps journey from his YouTube Playlist [https://lnkd.in/e6_Yaieq]
+#DevOps #Networking #DNS #SoftwareArchitecture #VSCode #ContinuousLearning
 
-Paste the full text of your LinkedIn post here:
-
-Add your post content here...
 
 ---
 
@@ -235,19 +225,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Understanding the fundamental concepts of internet and networking, particularly how DNS works as a translation mechanism between domain names and IP addresses. The concept of packet switching was also straightforward once I connected it to real-world delivery systems.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The initial understanding of TCP/IP protocols and the three-tier application architecture required deeper focus. Distinguishing between different application layers and their specific responsibilities took some thought, but the explanation in Task 2 helped clarify the data flow.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I want to deepen my understanding of security protocols (HTTPS/SSL) and how encryption works at the protocol level. Additionally, I'd like to explore more about load balancing and scalability in the context of application architecture.
 
 ---
 
