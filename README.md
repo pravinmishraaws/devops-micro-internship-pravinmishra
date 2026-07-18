@@ -65,8 +65,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+<Week 00 → Internet & Networking Basics -->
+[[Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
 
 <Week 01 → Success Mindset -->
 [[Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
@@ -128,10 +128,10 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ✅ Completed | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | ✅ Completed | — |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | ✅ Completed | — |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |✅ Completed<br>
+| 00 | Internet & Networking Basics | ✅ Completed| ✅ Completed | ✅ Completed— | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | ✅ Completed | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed| ✅ Completed | — |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Completed| — | — |✅ Completed<br>
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |✅ Completed<br>
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
