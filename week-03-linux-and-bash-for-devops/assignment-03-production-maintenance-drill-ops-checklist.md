@@ -402,7 +402,7 @@ Unused cloud resources incur unnecessary costs that accumulate quickly, impactin
 - [x] Task 6: Screenshots (nginx -t fail, nginx -t pass, curl recovery) + Notes answered
 - [x] Task 7: Screenshots (curl failure, curl recovery) + Notes answered
 - [x] Task 8: Security & Reliability Notes answered
-- [ ] LinkedIn post published and URL submitted
+- [x] LinkedIn post published and URL submitted
 - [x] Full Name visible in all required screenshots
 - [x] No sensitive data exposed
 
