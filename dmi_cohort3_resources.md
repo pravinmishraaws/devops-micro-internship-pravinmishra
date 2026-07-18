@@ -156,7 +156,7 @@ Week-1 is **one assignment file** (`assignment-01-mindset-os.md`) containing 7 r
 
 | S. No. | Item                                | Comments                                                                                         | Link                                                    |
 | ------ | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| 1 | Week-2 Class Recording | ⚠️ Link needs fixing — this currently points to the same video as the Week-1 recording above | [YouTube](https://youtube.com/live/nxFy-HoDqu4?feature=share) |
+| 1 | Week-2 Class Recording | Watch the recording of the week-2 live class on YouTube | [YouTube](https://youtube.com/live/rCtwsHFPirw?feature=share) |
 
 
 ---
@@ -213,3 +213,31 @@ Week-3 is **6 assignment files**, each graded pass/fail — your blog post for t
 | — | Blog post | 30 |
 | **Total** | | **160** |
 
+---
+
+## Week-4 — Git & GitHub
+
+| S. No. | Item | Comments | Link |
+|--------|------|----------|------|
+| 1 | Week-3 Class Recording | Watch the recording of the Week-4 live class on YouTube | [YouTube](https://youtube.com/live/Se_oYfWBHF8?feature=share) |
+
+---
+
+### Week 4: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
+
+* **Deadline - Friday, 24th of July 11:59 PM (your local time)**
+
+* **Assignment Submission Form:**: [Click here](https://forms.gle/aqd6ihjeBTZkRuE39)
+
+Week-4 is **5 assignment files**, each graded pass/fail — your blog post for the week is scored separately below, it isn't a 6th assignment file:
+
+| Assignment | Name | Points |
+|------------|------|:------:|
+| Assignment-1 | CodeTrack initial Git setup (local only) | 20 |
+| Assignment-2 | CodeTrack tracking, staging, committing, and deployment to EC2 | 20 |
+| Assignment-3 | CodeTrack branching workflow: Contact page | 20 |
+| Assignment-4 | GitHub account, exploration, and professional profile | 20 |
+| Assignment-5 | GitHub fork, clone, sync, and pull request | 20 |
+| — | LinkedIn post | 10 |
+| — | Blog post | 30 |
+| **Total** | | **140** |
