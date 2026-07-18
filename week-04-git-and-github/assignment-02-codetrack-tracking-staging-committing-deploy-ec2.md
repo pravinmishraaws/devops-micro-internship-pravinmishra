@@ -20,13 +20,13 @@ Confirm that Git works and that you are inside the correct `CodeTrack` repositor
 
 #### Screenshot 1 — Output of `pwd` showing you're inside `CodeTrack`
 
-Add your screenshot here.
+![pwd](./screenshots/W4-SS-A2/W4-A2-SS-1.png).
 
 ---
 
 #### Screenshot 2 — Output of `git status` showing no "not a git repository" error
 
-Add your screenshot here.
+![git status](./screenshots/W4-SS-A2/W4-A2-SS-2.png).
 
 ---
 
@@ -40,7 +40,7 @@ Create the two starter UI files inside `CodeTrack`.
 
 #### Screenshot 3 — Output of `ls` showing `index.html` and `style.css`
 
-Add your screenshot here.
+![ls](./screenshots/W4-SS-A2/W4-A2-SS-3.png).
 
 ---
 
@@ -54,7 +54,8 @@ Copy the provided starter HTML and CSS content into your local `index.html` and 
 
 #### Screenshot 4 — Your editor showing the contents of `index.html` and `style.css`
 
-Add your screenshot here.
+![index  style](./screenshots/W4-SS-A2/W4-A2-SS-4-1.png).
+![style](./screenshots/W4-SS-A2/W4-A2-SS-4-2.png).
 
 ---
 
@@ -68,13 +69,14 @@ Confirm both files show as untracked, then stage them individually with `git add
 
 #### Screenshot 5 — Output of `git status` showing both files as untracked
 
-Add your screenshot here.
+![git status](./screenshots/W4-SS-A2/W4-A2-SS-5.png).
 
 ---
 
 #### Screenshot 6 — Output of `git status` showing both files staged under "Changes to be committed"
 
-Add your screenshot here.
+
+![git add](./screenshots/W4-SS-A2/W4-A2-SS-6.png).
 
 ---
 
@@ -88,13 +90,13 @@ Commit the staged starter files using the message `Initial UI scaffold: add inde
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+![git add](./screenshots/W4-SS-A2/W4-A2-SS-7.png).
 
 ---
 
 #### Screenshot 8 — Output of `git log --oneline` showing the first commit
 
-Add your screenshot here.
+![git log](./screenshots/W4-SS-A2/W4-A2-SS-8.png).
 
 ---
 
@@ -108,25 +110,25 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 9 — Browser showing the updated page with your Student Name and Group Name visible
 
-Add your screenshot here.
+![updated name and group](./screenshots/W4-SS-A2/W4-A2-SS-9-modified.png).
 
 ---
 
 #### Screenshot 10 — Output of `git status` showing `index.html` as modified
 
-Add your screenshot here.
+![index modified](./screenshots/W4-SS-A2/W4-A2-SS-10.png).
 
 ---
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+![index commit](./screenshots/W4-SS-A2/W4-A2-SS-11.png).
 
 ---
 
 #### Screenshot 12 — Output of `git log --oneline` showing two commits
 
-Add your screenshot here.
+![index log](./screenshots/W4-SS-A2/W4-A2-SS-12.png).
 
 ---
 
@@ -140,19 +142,18 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output showing Nginx `active (running)`
 
-Add your screenshot here.
-
+![nginx running](./screenshots/W4-SS-A2/W4-A2-SS-13.png).
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
 
-Add your screenshot here.
+![http 200 ok](./screenshots/W4-SS-A2/W4-A2-SS-14.png).
 
 ---
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-Add your screenshot here.
+![CodeTrack Site](./screenshots/W4-SS-A2/W4-A2-SS-16.png).
 
 ---
 
@@ -185,14 +186,14 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` repository verified with `git status` (Screenshots 1–2)
-- [ ] `index.html` and `style.css` created and populated (Screenshots 3–4)
-- [ ] Starter files staged and committed in the first commit (Screenshots 5–8)
-- [ ] Student Name and Group Name updated in `index.html` (Screenshot 9)
-- [ ] Second controlled commit created (Screenshots 10–12)
-- [ ] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
+- [✓] `CodeTrack` repository verified with `git status` (Screenshots 1–2)
+- [✓] `index.html` and `style.css` created and populated (Screenshots 3–4)
+- [✓] Starter files staged and committed in the first commit (Screenshots 5–8)
+- [✓] Student Name and Group Name updated in `index.html` (Screenshot 9)
+- [✓] Second controlled commit created (Screenshots 10–12)
+- [✓] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
 - [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [✓] No sensitive data exposed
 
 ---
 
