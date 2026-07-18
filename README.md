@@ -132,8 +132,8 @@ Week 03 → Linux & Bash for DevOps
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | - | https://medium.com/@gideonomole9/the-engineer-who-turned-curiosity-into-a-career-in-devops-4186f84bf75a |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | https://lnkd.in/p/eQqpQG5Z  | https://medium.com/@gideonomole9/reflection-week-2-f6dc0f6fd799 |
-| 03 | Linux for DevOps | ✅ Completed | ✅ Completed | ✅ Completed | https://medium.com/@gideonomole9/from-infrastructure-basics-to-ai-assisted-incident-response-f424de7504e1?sharedUserId=gideonomole9 |
+| 02 | Agentic AI with Claude Code | ✅ Completed |  | https://lnkd.in/p/eQqpQG5Z  | https://medium.com/@gideonomole9/reflection-week-2-f6dc0f6fd799 |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/gideon-omole-5ba318180_bash-linux-devops-ugcPost-7483568470526361600-IRhJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACrC7l4BK-z0pGwSRQMO8ZJ5pFZyqybbIk4 | https://medium.com/@gideonomole9/from-infrastructure-basics-to-ai-assisted-incident-response-f424de7504e1?sharedUserId=gideonomole9 |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
