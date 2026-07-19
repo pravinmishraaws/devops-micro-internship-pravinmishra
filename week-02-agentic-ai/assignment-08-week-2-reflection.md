@@ -55,7 +55,6 @@ You can publish your blog on:
 Blog Link:
 
 https://kingzcloud.hashnode.dev/devops-training-reflection
-`Add your URL here`
 
 ---
 
