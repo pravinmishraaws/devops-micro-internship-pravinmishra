@@ -20,7 +20,7 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-![Screenshot 1](screenshots/week-02-assignment-05-screenshot-01.png).
+![Task 1](screenshots/week-02-assignment-05-screenshot-01.png).
 
 ---
 
@@ -34,7 +34,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-![Screenshot 2](screenshots/week-02-assignment-05-screenshot-02.png).
+![Task 2](screenshots/week-02-assignment-05-screenshot-02.png).
 
 ---
 
@@ -48,7 +48,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-![Screenshot 3](screenshots/week-02-assignment-05-screenshot-03.png).
+![Task 3](screenshots/week-02-assignment-05-screenshot-03.png).
 
 ---
 
@@ -62,7 +62,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-![Screenshot 4](screenshots/week-02-assignment-05-screenshot-04.png).
+![Task 4](screenshots/week-02-assignment-05-screenshot-04.png).
 
 ---
 
@@ -76,7 +76,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-![Screenshot 5](screenshots/week-02-assignment-05-screenshot-05.png).
+![Task 5](screenshots/week-02-assignment-05-screenshot-05.png).
 
 ---
 
@@ -94,7 +94,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 Paste your forked repository URL here:
 
-**https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git**
+`https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 

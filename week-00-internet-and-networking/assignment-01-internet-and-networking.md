@@ -232,7 +232,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-**https://www.linkedin.com/posts/peace-offor-aa736a147_week-0-devops-micro-internship-key-takeaways-activity-7462543993420197888-nsVG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**
+`https://www.linkedin.com/posts/peace-offor-aa736a147_week-0-devops-micro-internship-key-takeaways-activity-7462543993420197888-nsVG?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 ```
 
 ---

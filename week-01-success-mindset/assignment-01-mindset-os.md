@@ -222,34 +222,34 @@ Choose books that improve:
 ## Book List
 
 1. _Atomic Habits_ by James Clear
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-01.jpg)
+![Book](screenshots/week-01-screenshot-01.jpg)
 
 2. _Deep Work_ by Cal Newport
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.jpg)
+![Book](screenshots/week-01-screenshot-02.jpg)
 
 3. _How to Win Friends and Influence People_ by Dale Carnegie
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.jpg)
+![Book](screenshots/week-01-screenshot-03.jpg)
 
 4. _Mastering AWS DevOps_ by Pravin Mishra
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.jpg)
+![Book](screenshots/week-01-screenshot-04.jpg)
 
 5. _The 7 Habits of Highly Effective People_ by Stephen R. Covey
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-05.jpg)
+![Book](screenshots/week-01-screenshot-05.jpg)
 
 6. _The DevOps Handbook_ by Gene Kim, Jez Humble, Patrick Debois & John Willis
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-06.jpg)
+![Book](screenshots/week-01-screenshot-06.jpg)
 
 7. _The First 90 Days_ by Michael D. Watkins
- ![Assignment 5 Screenshot](screenshots/week-01-screenshot-07.png)
+ ![Book](screenshots/week-01-screenshot-07.png)
 
 8. _The Lean Startup_ by Eric Ries
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-08.jpg)
+![Book](screenshots/week-01-screenshot-08.jpg)
 
 9. _The Pragmatic Programmer_ by David Thomas & Andrew Hunt
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-09.jpg)
+![Book](screenshots/week-01-screenshot-09.jpg)
 
 10. _The Psychology of Money_ by Morgan Housel
-![Assignment 5 Screenshot](screenshots/week-01-screenshot-10.jpg)
+![Book](screenshots/week-01-screenshot-10.jpg)
 
 ---
 
@@ -393,9 +393,11 @@ Paste your LinkedIn post link here: https://www.linkedin.com/posts/peace-offor-a
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-ugcPost-7478434369045630976-89Kg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ**  
-- Blog / Medium : **https://medium.com/@poffor762/my-first-week-in-the-devops-micro-internship-cohort-3-lessons-beyond-git-and-github-a5df809422f6?sharedUserId=poffor762**  
-- Self Written Blog / Twitter : **https://x.com/girle_pea/status/2072700232249274869?s=46&t=GvsF1YPuhxtQba7dpNm_PQ**  
+- LinkedIn Post URL: `https://www.linkedin.com/posts/peace-offor-aa736a147_devops-git-github-ugcPost-7478434369045630976-89Kg/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
+
+- Blog / Medium : `https://medium.com/@poffor762/my-first-week-in-the-devops-micro-internship-cohort-3-lessons-beyond-git-and-github-a5df809422f6?sharedUserId=poffor762`
+
+- Self Written Blog / Twitter : `https://x.com/girle_pea/status/2072700232249274869?s=46&t=GvsF1YPuhxtQba7dpNm_PQ` 
 ---
 
 ## 📌 About DMI & CloudAdvisory

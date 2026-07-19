@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-![Screenshot 1](screenshots/week-02-assignment-07-screenshot-01.png).
+![Task 1](screenshots/week-02-assignment-07-screenshot-01.png).
 
 ---
 
@@ -34,13 +34,13 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-![Screenshot 2](screenshots/week-02-assignment-07-screenshot-02.png).
+![Task 2.A](screenshots/week-02-assignment-07-screenshot-02.png).
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-![Screenshot 3](screenshots/week-02-assignment-07-screenshot-03.png).
+![Task 2.B](screenshots/week-02-assignment-07-screenshot-03.png).
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-![Screenshot 4](screenshots/week-02-assignment-07-screenshot-04.png).
+![Task 3](screenshots/week-02-assignment-07-screenshot-04.png).
 
 ---
 
@@ -68,13 +68,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-![Screenshot 5](screenshots/week-02-assignment-07-screenshot-05.png).
+![Task 4.A](screenshots/week-02-assignment-07-screenshot-05.png).
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-![Screenshot 6](screenshots/week-02-assignment-07-screenshot-06.png).
+![Task 4.B](screenshots/week-02-assignment-07-screenshot-06.png).
 
 ---
 
@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 Paste your Linkedin post link here:
 
-`__________________________`
+`https://www.linkedin.com/posts/peace-offor-aa736a147_dmibypravinmishra-agenticai-claudecode-activity-7481361121216589824-56Vz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACN4g58BM2OoiPOU_M6YmR_9gplw4hlL_RQ`
 
 ---
 
@@ -99,13 +99,12 @@ Paste your Linkedin post link here:
 
 Paste your forked repository URL here:
 
-**https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git**
+`https://github.com/PeaceCloud-Solutions/Ultimate-Agentic-DevOps-with-Claude-Code.git`
 
 ---
 
 # Completion Checklist
 
-<<<<<<< HEAD
 - [-] Memory file path identified (Screenshot 1)
 - [-] Memory successfully saved via prompt (Screenshot 2)
 - [-] `MEMORY.md` shows stored content (Screenshot 3)
@@ -113,16 +112,7 @@ Paste your forked repository URL here:
 - [-] Claude recalled hero colors correctly (Screenshot 5)
 - [-] Claude refused JavaScript request based on memory (Screenshot 6)
 - [-] All screenshots added and committed to GitHub repo
-=======
-- [ ] Memory file path identified (Screenshot 1)
-- [ ] Memory successfully saved via prompt (Screenshot 2)
-- [ ] `MEMORY.md` shows stored content (Screenshot 3)
-- [ ] Fresh session opened after full restart (Screenshot 4)
-- [ ] Claude recalled hero colors correctly (Screenshot 5)
-- [ ] Claude refused JavaScript request based on memory (Screenshot 6)
-- [ ] All screenshots added and committed to GitHub repo
-- [ ] Linkedin post created.
->>>>>>> upstream/main
+- [-] Linkedin post created.
 
 ---
 
