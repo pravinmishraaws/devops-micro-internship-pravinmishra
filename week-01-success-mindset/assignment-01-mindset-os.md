@@ -162,7 +162,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 ## Your Article
 
@@ -199,7 +199,11 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 Paste your link here:
 
+<<<<<<< HEAD
 `https://medium.com/@gideonomole9/the-engineer-who-turned-curiosity-into-a-career-in-devops-4186f84bf75a`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -442,7 +446,11 @@ Every weekday evening at **7:00 PM**, I am going to shut down all communication 
 
 Paste your LinkedIn post link here:
 
+<<<<<<< HEAD
 `https://lnkd.in/p/e9vdTuFa`
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
