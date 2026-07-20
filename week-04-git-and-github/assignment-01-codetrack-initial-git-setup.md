@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![Git init](screenshots/wk4-a1-s1.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![la -a](screenshots/wk4-a1-s2.png)
 
 ---
 
@@ -34,7 +34,18 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The .git folder is a hidden directory that Git creates when you initialize a repository with git init or clone an existing repository. It contains all of the repository's version control data and metadata.
+
+It matters because it stores everything Git needs to track your project's history, including:
+
+Commit history – Records every commit made to the repository.
+Branches and tags – Keeps track of different development branches and release tags.
+Configuration – Stores repository-specific Git settings.
+Staging area (index) – Holds changes that have been staged before committing.
+References (refs) – Points to branches, tags, and commits.
+Objects – Stores the actual content of files, commits, trees, and blobs.
+
+Without the .git folder, a project is just a regular directory of files. Git would no longer know the project's history, branches, or tracked changes, and version control features such as commits, branching, merging, and reverting would no longer work.
 
 ---
 
@@ -48,7 +59,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Git config - local](screenshots/wk4-a1-s3.png)
 
 ---
 
@@ -62,7 +73,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Git config - global](screenshots/wk4-a1-s4.png)
 
 ---
 
