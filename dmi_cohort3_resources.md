@@ -20,7 +20,15 @@
 
 ## IMPORTANT FOR LINKEDIN AND BLOG POSTS - Always add the below line and the hashtags
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining the DMI waiting list: https://forms.gle/3hvrWJBDzsDeJoPs6**
+**For LinkedIn posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+
+**For blog posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
+Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 
 #DMIByPravinMishra 
 
@@ -31,7 +39,7 @@ Pravin Mishra [Linkedin profile](https://www.linkedin.com/in/pravin-mishra-aws-t
 | Group | Comentors |
 |-------|-----------|
 | Lead Co-Mentor | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) |
-| Group-1 Comentors | [Nkechi Ahanonye](https://www.linkedin.com/in/nkechiahanonye/), [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
+| Group-1 Comentors | [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
 | Group-2 Comentors | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/), [Joy Ukpabi](https://www.linkedin.com/in/joyukpabi/) |
 | Group-3 Comentors | [Bhupendra Bhati](https://www.linkedin.com/in/bhupendrabhati/), [Ranbir Kaur](https://www.linkedin.com/in/ranbirkaur/) |
 
@@ -46,27 +54,72 @@ Go through the [Onboarding](./onboarding) folder for complete assignment guideli
 
 ## 📌 How You're Scored
 
-Same rules apply every week, no exceptions. Here's exactly what we're checking, from your folder names down to your written content:
+These rules apply **every week** without exception. Every submission is reviewed using the same criteria to ensure consistency and fairness.
 
-**1. Folder and file names must match the template exactly.**
-Don't rename anything yourself. Sync your fork with `upstream` regularly (see the onboarding guide) so your structure always matches the current template — a folder or file that doesn't match exactly is treated as missing.
+### 1. Folder and File Structure
 
-**2. Each assignment file is worth 20 points — pass or fail, no partial credit.** To pass, a file must:
-- Be genuinely filled in — not left as an untouched copy of the template
-- Have none of the placeholder text still in it: *"Add your answer here"*, *"Add your screenshot here."*, *"Add your URL here"*, *"Add your post content here"*
-- Contain at least 50 words of your own writing
+Your folder and file names **must match the official template exactly**.
 
-We're not marking whether your answer is *correct* — only that it's real, complete, original work, not a stub.
+* Do **not** rename folders or files.
+* Regularly sync your fork with the upstream repository (refer to the onboarding guide) to ensure you have the latest template.
+* Any folder or file that does not match the required structure will be treated as **missing**.
 
-**3. LinkedIn post — 10 points, once per week.**
-The link in your README's progress table must be an actual post URL, starting with `https://www.linkedin.com/posts/` (a profile link or a shortened URL doesn't count), and the post itself must include the required **P.S. credit line and hashtag** (see the top of this doc).
+### 2. Assignment Files (20 Points Each)
 
-**4. Blog post — 30 points, once per week.**
-The link must load, the post must be at least 200 words, and it must include the **P.S. credit line** — the same one required on your LinkedIn post — mentioning "DevOps Micro Internship", "DMI", or "Pravin Mishra".
+Each assignment file is graded on a **pass/fail** basis. There is **no partial credit**.
 
-**5. Attendance — 10 points per Saturday session slot** (Morning / Mid / Evening), up to 30 points a week. **Starts from Week 4** — Weeks 1-3 don't include attendance points.
+To receive the full **20 points**, the file must:
 
-**6. Screenshots are required as proof, even though they aren't separately scored.** An empty `screenshots/` folder gets flagged for review.
+* Be genuinely completed and **not** remain an untouched copy of the template.
+* Replace **every placeholder** with the required content. This includes placeholders such as:
+
+  * "Add your answer here"
+  * "Add your screenshot here."
+  * "Add your URL here"
+  * "Add your post content here"
+* Contain **at least 50 words of your own original writing**.
+
+**Important:** Every placeholder must be replaced with the appropriate required content. If **any** placeholder is left unchanged, missing, or contains incorrect or incomplete content, the **entire assignment file will be marked as Failed**.
+
+### 3. LinkedIn Post (10 Points)
+
+One LinkedIn post is required each week.
+
+To earn the points:
+
+* The link in your **README progress table** must be a valid LinkedIn **post** URL beginning with:
+  `https://www.linkedin.com/posts/`
+* Profile links, feed links, or shortened URLs will **not** be accepted.
+* Your LinkedIn post must include the required **P.S. credit line** and **hashtag** specified at the top of this document.
+
+### 4. Blog Post (30 Points)
+
+One blog post is required each week.
+
+To receive full credit:
+
+* The link must be accessible and load successfully.
+* The post must contain **at least 200 words**.
+* It must include the required **P.S. credit line**, the same one required for your LinkedIn post, mentioning **"DevOps Micro Internship," "DMI," or "Pravin Mishra."**
+
+### 5. Attendance (Up to 30 Points)
+
+Attendance is worth **10 points** for each Saturday session:
+
+* Morning Session – 10 points
+* Mid Session – 10 points
+* Evening Session – 10 points
+
+You can earn a maximum of **30 attendance points per week**.
+
+**Note:** Attendance grading begins in **Week 4**. **Weeks 1–3 do not include attendance points.**
+
+### 6. Screenshots
+
+Screenshots are a **mandatory requirement** for every assignment.
+
+* Ensure the `screenshots/` folder contains **all required screenshots** as proof of your completed work.
+* If **any required screenshot is missing** or the `screenshots/` folder is empty, the **entire assignment will be marked as Failed**.
 
 ---
 
@@ -111,7 +164,7 @@ Week-1 is **one assignment file** (`assignment-01-mindset-os.md`) containing 7 r
 
 | S. No. | Item                                | Comments                                                                                         | Link                                                    |
 | ------ | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| 1 | Week-2 Class Recording | ⚠️ Link needs fixing — this currently points to the same video as the Week-1 recording above | [YouTube](https://youtube.com/live/nxFy-HoDqu4?feature=share) |
+| 1 | Week-2 Class Recording | Watch the recording of the week-2 live class on YouTube | [YouTube](https://youtube.com/live/rCtwsHFPirw?feature=share) |
 
 
 ---
@@ -168,3 +221,32 @@ Week-3 is **6 assignment files**, each graded pass/fail — your blog post for t
 | — | Blog post | 30 |
 | **Total** | | **160** |
 
+---
+
+## Week-4 — Git & GitHub
+
+| S. No. | Item | Comments | Link |
+|--------|------|----------|------|
+| 1 | Week-3 Class Recording | Watch the recording of the Week-4 live class on YouTube | [YouTube](https://youtube.com/live/Se_oYfWBHF8?feature=share) |
+
+---
+
+### Week 4: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
+
+* **Deadline - Friday, 24th of July 11:59 PM (your local time)**
+
+* **Assignment Submission Form:**: [Click here](https://forms.gle/aqd6ihjeBTZkRuE39)
+
+Week-4 is **5 assignment files**, each graded pass/fail — your blog post for the week is scored separately below, it isn't a 6th assignment file:
+
+| Assignment | Name | Points |
+|------------|------|:------:|
+| Assignment-1 | CodeTrack initial Git setup (local only) | 20 |
+| Assignment-2 | CodeTrack tracking, staging, committing, and deployment to EC2 | 20 |
+| Assignment-3 | CodeTrack branching workflow: Contact page | 20 |
+| Assignment-4 | GitHub account, exploration, and professional profile | 20 |
+| Assignment-5 | GitHub fork, clone, sync, and pull request | 20 |
+| Assignment-6 | Building an AI-Assisted Git Safety Net (PR Ready Check) | 20 |
+| — | LinkedIn post | 10 |
+| — | Blog post | 30 |
+| **Total** | | **160** |
