@@ -20,7 +20,15 @@
 
 ## IMPORTANT FOR LINKEDIN AND BLOG POSTS - Always add the below line and the hashtags
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining the DMI waiting list: https://forms.gle/3hvrWJBDzsDeJoPs6**
+**For LinkedIn posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+
+**For blog posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
+Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 
 #DMIByPravinMishra 
 
@@ -31,7 +39,7 @@ Pravin Mishra [Linkedin profile](https://www.linkedin.com/in/pravin-mishra-aws-t
 | Group | Comentors |
 |-------|-----------|
 | Lead Co-Mentor | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) |
-| Group-1 Comentors | [Nkechi Ahanonye](https://www.linkedin.com/in/nkechiahanonye/), [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
+| Group-1 Comentors | [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
 | Group-2 Comentors | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/), [Joy Ukpabi](https://www.linkedin.com/in/joyukpabi/) |
 | Group-3 Comentors | [Bhupendra Bhati](https://www.linkedin.com/in/bhupendrabhati/), [Ranbir Kaur](https://www.linkedin.com/in/ranbirkaur/) |
 

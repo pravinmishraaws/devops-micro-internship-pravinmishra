@@ -17,32 +17,37 @@ This mirrors the Agentic Loop from Week 3's Linux triage assignment: **Gather �
 
 ---
 
-# Task 1 — Create a Branch with Realistic Risk
+# Task 0 — Confirm Your Fork and Create a Feature Branch
+
+## Goal
+
+Confirm you are working in your own fork, then create a dedicated branch for this assignment.
+
+### Evidence
+
+#### Screenshot 1 — Output of git remote -v and git branch showing the new branch
+
+Add your screenshot here.
+
+---
+
+### Notes
+
+**1. Why create a dedicated branch instead of doing this work on main?**
+
+Add your answer here.
+
+---
+
+# Task 1 — Stage a Change With Realistic Risk
 
 ## Goal
 
 On your own fork of this repository (the one you've been submitting your DMI work in since onboarding), create a new branch and stage a change that a real reviewer should catch: a hardcoded-looking secret and a leftover debug statement.
 
-### What to do
-
-```bash
-git checkout -b feature/ai-pr-ready
-```
-
-Create a file `scripts/notify.sh` (or edit any existing script) that includes a fake AWS-style key and a debug `echo`, for example:
-
-```bash
-#!/bin/bash
-# demo only — fake credential for this assignment, never a real key
-AWS_ACCESS_KEY_ID=AKIAABCDEFGHIJKLMNOP
-echo "DEBUG: token is $AWS_ACCESS_KEY_ID"
-```
-
-Stage it with `git add`.
-
 ### Evidence
 
-#### Screenshot 1 — `git status` showing the staged file on your new branch
+#### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
 Add your screenshot here.
 
@@ -61,43 +66,6 @@ Add your answer here.
 ## Goal
 
 Create a tracked, shareable pre-commit hook that blocks a commit containing secret-like patterns or files over 1MB.
-
-### What to do
-
-Create `hooks/pre-commit` (tracked in the repo, not `.git/hooks/`, so teammates get it too):
-
-```bash
-#!/bin/bash
-# hooks/pre-commit — blocks commits with likely secrets or oversized files
-set -e
-
-staged=$(git diff --cached --name-only --diff-filter=ACM)
-blocked=0
-
-for file in $staged; do
-  if git diff --cached -- "$file" | grep -qE 'AKIA[0-9A-Z]{16}|-----BEGIN (RSA|OPENSSH|PRIVATE) KEY-----'; then
-    echo "BLOCKED: possible secret in $file"
-    blocked=1
-  fi
-  size=$(git cat-file -s "$(git rev-parse ":$file")" 2>/dev/null || echo 0)
-  if [ "$size" -gt 1000000 ]; then
-    echo "BLOCKED: $file is $(($size / 1000000))MB — over the 1MB limit"
-    blocked=1
-  fi
-done
-
-if [ "$blocked" -eq 1 ]; then
-  echo "Commit rejected. Fix the issues above and try again."
-  exit 1
-fi
-```
-
-Point Git at the tracked hooks folder and make it executable:
-
-```bash
-chmod +x hooks/pre-commit
-git config core.hooksPath hooks
-```
 
 ### Evidence
 
@@ -161,33 +129,6 @@ Add your answer here.
 
 Create a manually invoked Claude Code skill that reads your staged changes and produces a PR-readiness report and a draft PR description — without writing, committing, or pushing anything itself.
 
-### What to do
-
-Create `.claude/skills/pr-ready/SKILL.md` with frontmatter restricting it to read-only inspection tools:
-
-```markdown
----
-name: pr-ready
-description: Reviews staged Git changes and drafts a PR title, description, and risk report. Never commits, pushes, or opens PRs.
-allowed-tools: Bash, Read, Grep
-disable-model-invocation: true
----
-
-You are reviewing staged changes before a Pull Request is opened.
-
-1. Run `git diff --cached` and `git status` to see exactly what is staged.
-2. Report any of the following if present: secrets or credential-shaped
-   strings, debug print/echo statements, TODO/FIXME left in code, a diff
-   that mixes unrelated concerns, or a change with no corresponding notes.
-3. Draft a PR title that starts with a short word like `feat:` or `fix:`
-   telling the reader what kind of change this is, and a 3-5 sentence PR
-   description explaining what changed and why.
-4. Never run `git commit`, `git push`, or `gh pr create`. Never edit files.
-   Your output is a draft for a human to review and use.
-```
-
-Run it with `/pr-ready`.
-
 ### Evidence
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
@@ -244,7 +185,7 @@ Add your answer here.
 
 ---
 
-# Task 6 — Open the Pull Request Using the AI Draft
+# Task 6 — Push and Open a Pull Request Using the AI Draft
 
 ## Goal
 
