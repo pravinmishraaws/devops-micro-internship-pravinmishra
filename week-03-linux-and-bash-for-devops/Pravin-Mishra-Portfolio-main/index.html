@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pravin Mishra</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+
+      <!-- Logo -->
+      <div class="nav-logo" onclick="goToSection('home')">
+        <img src="images/logo.png" alt="Logo" />
+      </div>
+
+
+
+      <!-- Desktop Menu -->
+      <div class="nav-links">
+        <a href="#home">Home</a>
+
+        <a href="https://university.pravinmishra.in/learn" target="_blank">University</a>
+
+        <a href="https://blog.pravinmishra.com/" target="_blank">Blog</a>
+
+        <a href="#book">Book</a>
+
+        <a href="#courses">Courses</a>
+
+        <a href="#contact" class="contact-btn">Contact</a>
+      </div>
+
+
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+
+    </div>
+    <div id="mobileMenu" class="mobile-menu">
+      <button onclick="goToSection('home')">Home</button>
+      <a href="https://university.pravinmishra.in/learn" target="_blank">University</a>
+      <a href="https://blog.pravinmishra.com/" target="_blank">Blog</a>
+      <button onclick="goToSection('book')">Book</button>
+      <button onclick="goToSection('courses')">Courses</button>
+      <button class="mobile-contact" onclick="goToSection('contact')">Contact</button>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+
+    <img src="images/image.png" alt="Hero Banner" class="hero-bg" loading="lazy">
+
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>
+        “Empowering thousands of students<br>
+        towards success.”
+      </h1>
+    </div>
+
+  </section>
+  <section id="about" class="about-section">
+    <div class="about-container">
+
+
+      <h1 class="about-title">Pravin Mishra</h1>
+
+      <p class="about-subtitle">
+        Pravin is a Cloud, DevOps, Data, and AI Consultant helping companies modernize
+        their systems, build scalable cloud architectures, and train thousands of
+        professionals globally. His aim is to make cloud adoption simple, practical,
+        and accessible to everyone.
+      </p>
+      <div class="about-signature">
+        <img src="images/signature.png" alt="signature" />
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-card">
+          <i class="fa-solid fa-briefcase"></i>
+          <h3>Cloud Consultant</h3>
+          <p>
+            Delivering modern cloud solutions on AWS and Azure. Helping companies scale,
+            secure, and optimize their infrastructure.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-book-open"></i>
+          <h3>Educator</h3>
+          <p>
+            Training 1000+ professionals in AWS, DevOps, Kubernetes, CI/CD pipelines, and cloud automation.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fa-solid fa-pen-nib"></i>
+          <h3>Content Creator</h3>
+          <p>
+            Creating high-impact cloud & DevOps content consumed by thousands of learners worldwide.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <i class="fas fa-user-tie"></i>
+          <h3>Founder</h3>
+          <p>
+            Founder of <strong>The CloudAdvisory</strong>, transforming cloud adoption through consulting and training.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services-section">
+
+    <div class="services-container">
+
+      <!-- Header -->
+      <div class="services-header">
+        <span class="services-tag">Services</span>
+        <div class="services-line"></div>
+        <h2>What I Offer</h2>
+        <p>
+          Comprehensive solutions to accelerate your cloud and DevOps transformation
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="services-grid">
+
+        <!-- Card 1 -->
+        <div class="service-card">
+          <span class="badge blue">Most Popular</span>
+
+          <div class="icon blue">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+
+          <h3>Courses on DevOps</h3>
+          <p>
+            Hands-on, industry-ready courses designed to upskill learners in Cloud,
+            DevOps, automation, and modern infrastructure practices.
+          </p>
+
+          <ul>
+            <li>AWS, Azure & GCP Certifications</li>
+            <li>Kubernetes & Docker Mastery</li>
+            <li>CI/CD Pipeline Implementation</li>
+            <li>Infrastructure as Code (Terraform)</li>
+            <li>Real-world Projects & Labs</li>
+          </ul>
+
+          <a href="#courses" class="service-btn">
+            Learn More →
+          </a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <span class="badge yellow">Best Seller</span>
+
+          <div class="icon yellow">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+
+          <h3>Books on DevOps</h3>
+          <p>
+            Deeply insightful books focused on DevOps concepts, real-world implementations,
+            and career guidance for aspiring cloud engineers.
+          </p>
+
+          <ul>
+            <li>Comprehensive DevOps Guides</li>
+            <li>Real-world Case Studies</li>
+            <li>Career Development Strategies</li>
+            <li>Best Practices & Patterns</li>
+            <li>Interview Preparation</li>
+          </ul>
+
+          <a href="#book" class="service-btn">
+            Learn More →
+          </a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <span class="badge blue">Enterprise Grade</span>
+
+          <div class="icon blue">
+            <i class="fa-solid fa-users"></i>
+          </div>
+
+          <h3>Consulting Services</h3>
+          <p>
+            Helping brands and businesses with Cloud solution architecture,
+            DevOps adoption, infrastructure modernization, and strategic technology consulting.
+          </p>
+
+          <ul>
+            <li>Cloud Migration Strategy</li>
+            <li>DevOps Transformation</li>
+            <li>Architecture Design & Review</li>
+            <li>Cost Optimization</li>
+            <li>Team Training & Mentorship</li>
+          </ul>
+
+          <a href="#contact" class="service-btn">
+            Learn More →
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- COURSES -->
+  <section id="courses">
+    <h2 class="courses-title">Courses</h2>
+
+    <div class="courses-grid">
+
+      <!-- Course Card -->
+      <div class="course-card">
+        <img src="images/dmi-course.jpg" alt="Course" />
+        <h3>DMI – Cloud & DevOps Masterclass (Classroom Program)</h3>
+        <p class="duration">Duration: 20 hours</p>
+        <p class="price">Included in DMI Program</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.youtube.com/playlist?list=PLVOdqXbCs7bX88JeUZmK4fKTq2hJ5VS89" target="_blank">Enroll Now
+          →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/5492716_8a93_5.jpg" alt="Course" />
+        <h3>AWS DevOps & CI/CD with AWS CodePipeline</h3>
+        <p class="duration">Duration: 15 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/mastering-aws-devops-for-cloud-engineers/?referralCode=FA3DC2FC7EF76DE1A211"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/5403140_ce56_12.jpg" alt="Course" />
+        <h3>Linux for DevOps, Cloud, and SRE Engineers</h3>
+        <p class="duration">Duration: 5 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/linux-for-cloud-engineers-a-complete-project-based-learning/?referralCode=9209159005B8D7A6B399"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/5403140_ce56_12.jpg" alt="Course" />
+        <h3>AWS Fundamentals with 2 Projects: Cloud for Beginners [2025]"</h3>
+        <p class="duration">Duration: 22.5 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/aws-fundamentals-amazon-web-services-for-beginners/?referralCode=D403975F7C1326B2BFA2"
+          target="_blank">Enroll Now →</a>
+      </div>
+      <!-- Course -->
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/5536474_9535_5.jpg" alt="">
+        <h3>Git & GitHub for Absolute Beginners with Project</h3>
+        <p class="duration">Duration: 2.5 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/git-and-github-for-beginners-start-coding-collaboratively/?referralCode=2D07E24EAB31E15FC5A4"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/6836427_cc7c.jpg" alt="">
+        <h3>AWS Cloud Projects for Data & AI Engineers: 5 Projects</h3>
+        <p class="duration">Duration: 4 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/aws-cloud-projects-for-data-ai-engineers-5-projects/?referralCode=4BCA2DC4C6950BF447FF"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/6462549_5d25_4.jpg" alt="">
+        <h3>DevOps for beginners: Docker, K8s, Cloud, CI/CD & 4 Projects</h3>
+        <p class="duration">Duration: 43.5 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/?referralCode=C5BA8236CCE9FE004F98"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/6362029_fba1_4.jpg" alt="">
+        <h3>AWS Cloud Projects for Engineers: 5 Real-World Projects</h3>
+        <p class="duration">Duration: 11.5 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/aws-mastery-hands-on-cloud-projects-for-engineers/?referralCode=4143F31DC85951744CEB"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/6048441_ce3f_8.jpg" alt="">
+        <h3>[NEW] AWS Certified Cloud Practitioner CLF-C02 for Beginner</h3>
+        <p class="duration">Duration: 32.5 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/aws-certified-cloud-practitioner-clf-c02-aws-certification/?referralCode=E4CA6B2630644DB7A93E"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img-c.udemycdn.com/course/480x270/6020724_2668_4.jpg" alt="">
+        <h3>Cloud Computing with AWS for Absolute Beginners</h3>
+        <p class="duration">Duration: 10.2 hours</p>
+        <p class="price">€9.99</p>
+        <span class="badge live">Live</span>
+        <a href="https://www.udemy.com/course/aws-cloud-computing-for-absolute-beginners/?referralCode=6798C46926888865BFD4"
+          target="_blank">Enroll Now →</a>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- BOOKS -->
+  <section id="book" class="books">
+
+    <!-- Decorative blobs -->
+    <div class="glow glow-yellow" aria-hidden="true"></div>
+    <div class="glow glow-blue" aria-hidden="true"></div>
+
+    <header class="books-header">
+      <h2 class="books-title">
+        Featured Books
+        <span class="underline"></span>
+      </h2>
+    </header>
+
+    <div class="books-wrapper">
+
+      <!-- Book 1 -->
+      <article class="book-row">
+        <div class="book-img">
+          <img src="images/Git.jpg" alt="Ultimate Git and GitHub book cover" loading="lazy">
+        </div>
+
+        <div class="book-content">
+          <h3>Ultimate Git and GitHub for Modern Software Development</h3>
+          <p>Master Git, GitHub workflows, version control, and real-world team collaboration techniques.</p>
+          <p class="signature">“P. Mishra”</p>
+          <p class="author">— Pravin Mishra</p>
+          <div class="rating">⭐ 4.9 <span>(14 reviews)</span></div>
+          <a href="https://www.amazon.in/dp/8197223831" target="_blank" rel="noopener">Get Your Copy →</a>
+        </div>
+      </article>
+
+      <!-- Book 2 -->
+      <article class="book-row reverse">
+        <div class="book-img">
+          <img src="images/awsCloud.jpg" alt="Cloud Computing with AWS book cover" loading="lazy">
+        </div>
+
+        <div class="book-content">
+          <h3>Cloud Computing with AWS</h3>
+          <p>A beginner-friendly guide to mastering AWS fundamentals.</p>
+          <p class="signature">“P. Mishra”</p>
+          <p class="author">— Pravin Mishra</p>
+          <div class="rating">⭐ 4.3 <span>(21 reviews)</span></div>
+          <a href="https://www.amazon.in/dp/1484291719" target="_blank" rel="noopener">Get Your Copy →</a>
+        </div>
+      </article>
+
+      <!-- Book 3 -->
+      <article class="book-row">
+        <div class="book-img">
+          <img src="images/Devops.jpg" alt="Mastering DevOps book cover" loading="lazy">
+        </div>
+
+        <div class="book-content">
+          <h3>Mastering DevOps</h3>
+          <p>Your path to building, deploying, and scaling applications with AWS DevOps.</p>
+          <p class="signature">“P. Mishra”</p>
+          <p class="author">— Pravin Mishra</p>
+          <div class="rating">⭐ 5.0 <span>(1 review)</span></div>
+          <a href="https://www.amazon.in/dp/9356484880" target="_blank" rel="noopener">Get Your Copy →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+
+  <!-- LEARNERS TRUST -->
+  <section id="community" class="trust-section">
+
+    <!-- Header -->
+    <header class="trust-header">
+      <span>Community</span>
+      <h2>Trusted by Learners Worldwide</h2>
+      <p>
+        A growing global community of cloud aspirants, engineers, and professionals
+        learning with Pravin Mishra.
+      </p>
+    </header>
+
+    <!-- Cards -->
+    <div class="trust-grid">
+
+      <a href="https://www.amazon.in/s?k=Pravin+Mishra&i=stripbooks" target="_blank" rel="noopener" class="trust-card">
+        <i class="fa-brands fa-amazon amazon"></i>
+        <h3>Amazon Author Page</h3>
+        <p>Explore all books written by Pravin</p>
+        <div class="line"></div>
+      </a>
+
+      <a href="https://www.youtube.com/@awswithpravinmishra" target="_blank" rel="noopener" class="trust-card">
+        <i class="fa-brands fa-youtube youtube"></i>
+        <h3>13K+ YouTube Subscribers</h3>
+        <p>Weekly hands-on cloud tutorials</p>
+        <div class="line"></div>
+      </a>
+
+      <a href="https://www.linkedin.com/in/pravin-mishra-aws-trainer/" target="_blank" rel="noopener"
+        class="trust-card">
+        <i class="fa-brands fa-linkedin linkedin"></i>
+        <h3>20K+ LinkedIn Followers</h3>
+        <p>Daily cloud insights & updates</p>
+        <div class="line"></div>
+      </a>
+
+      <a href="https://www.instagram.com/awspravinmishra/" target="_blank" rel="noopener" class="trust-card">
+        <i class="fa-brands fa-instagram instagram"></i>
+        <h3>2K+ Instagram Followers</h3>
+        <p>Behind the scenes of cloud teaching</p>
+        <div class="line"></div>
+      </a>
+
+      <a href="https://github.com/pravinmishraaws" target="_blank" rel="noopener" class="trust-card">
+        <i class="fa-solid fa-book book"></i>
+        <h3>Author of 3 Books</h3>
+        <p>Published on Apress & Amazon</p>
+        <div class="line"></div>
+      </a>
+
+    </div>
+
+    <!-- Stats (JS removed, real values shown) -->
+    <div class="trust-stats">
+      <div>
+        <h3>33K+</h3>
+        <p>Total Followers</p>
+      </div>
+      <div>
+        <h3>13K+</h3>
+        <p>YouTube Subs</p>
+      </div>
+      <div>
+        <h3>20K+</h3>
+        <p>LinkedIn Network</p>
+      </div>
+      <div>
+        <h3>3</h3>
+        <p>Published Books</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact-section">
+
+    <div class="contact-container">
+
+      <div class="contact-header">
+        <span>Get In Touch</span>
+        <h2>Let's Start Your Cloud Journey</h2>
+        <p>
+          Ready to transform your skills or business? Contact us anytime.
+        </p>
+      </div>
+
+      <!-- Grid -->
+      <div class="contact-grid">
+
+        <!-- Contact Info Card -->
+        <div class="contact-card-dark">
+          <h3>Contact Information</h3>
+
+          <div class="contact-item">
+            <div class="icon-box yellow">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <small>Email</small>
+              <p>mail@pravinmishra.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon-box blue">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <small>Phone</small>
+              <p>+358 (550) 5138-XXXX</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon-box yellow">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <small>Location</small>
+              <p>Global Remote Services</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Response -->
+        <div class="contact-card-yellow">
+          <h3>Quick Response</h3>
+          <p>
+            We typically respond within 24 hours.
+            For urgent inquiries, please contact us directly via email or phone.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-grid">
+
+        <!-- BRAND -->
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="Pravin Mishra" class="footer-logo" />
+
+          <p>
+            Empowering individuals and organizations with cutting-edge Cloud
+            and DevOps expertise through courses, books, and consulting.
+          </p>
+
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/pravin-mishra-aws-trainer/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/pravinmishra88" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/pravinmishraaws" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:contact@pravinmishra.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com/awspravinmishra/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@awswithpravinmishra" target="_blank"><i
+                class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- SERVICES -->
+        <div>
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#services">Cloud Courses</a></li>
+            <li><a href="#services">DevOps Books</a></li>
+            <li><a href="#services">Consulting</a></li>
+            <li><a href="#services">Corporate Training</a></li>
+          </ul>
+        </div>
+
+        <!-- QUICK LINKS -->
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Pravin Mishra. All rights reserved.</p>
+        <p>Crafted with <span>cloud</span> excellence by Pravin Mishra</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>

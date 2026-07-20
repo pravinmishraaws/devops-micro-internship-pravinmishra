@@ -20,19 +20,30 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
+
+An AWS account is the basic environment where AWS resources are created, stored, and managed. It also acts as a security and billing boundary, so access and costs stay organised. At this stage, we need it to start the EpicReads cloud onboarding, sign in to the AWS Console, and begin using Free Tier services safely. It is also necessary for the DMI internship because the programme is practical, and we need a real AWS account to complete labs, build cloud confidence, and show hands-on DevOps experience.
+
 
 ---
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
+AWS Free Tier is AWS’s starter offering that lets new users explore cloud services without paying, as long as they stay within the defined usage limits. After 15 July 2025, AWS changed the signup model for new accounts: instead of the older 12-month trial structure, new customers now begin with a credit-based Free Plan that gives up to $200 in credits, with $100 available at sign-up and the remaining credits earned by completing selected onboarding activities. This updated plan is designed to help beginners learn AWS safely, test services, and build confidence before moving to a paid setup.
 
-Write your answer here.
+For new accounts, the Free Plan lasts up to 6 months, or until the credits are fully used, whichever happens first. During that period, users can still access a set of Always Free services within their monthly limits, but broader AWS usage may require upgrading to the Paid Plan. For the DMI internship, this matters because it gives you a real AWS environment to complete labs, practise cloud setup, and show hands-on DevOps skills while keeping costs under control.
 
 ---
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
+**Amazon S3** is an object storage service that lets users store and retrieve files such as documents, images, backups, and website content in the cloud. It is highly durable, scalable, and easy to access, which makes it useful for both learning and real-world projects. In the Free Tier, S3 is a good option for practising basic cloud storage concepts and understanding how AWS handles storage and requests.
+Under the Free Tier, Amazon S3 includes 5 GB of standard storage, 20,000 GET requests, and 2,000 PUT requests per month. A key limitation is that these free limits only apply while your usage stays within the allowed amount, and extra storage or extra requests can lead to charges. Also, the Free Tier does not mean unlimited use, so users should monitor their storage size and request activity carefully.
+
+**AWS Lambda** is a serverless compute service that lets you run code without managing servers. It is commonly used for automating tasks, processing files, building APIs, and reacting to events from other AWS services. One of its main advantages is that it scales automatically, so you only focus on the code rather than infrastructure.In the Free Tier, AWS Lambda includes 1 million requests per month and 400,000 GB-seconds of compute time per month. A limitation is that the free usage only applies within those monthly limits, and running longer functions or making more requests can result in charges. It is also best suited for short, event-driven workloads rather than long-running applications.
+
+**Amazon EC2** 750 hours per month of a micro instance, which is enough to run one small server continuously for a month.
+
+---
+
 
 ---
 
@@ -56,7 +67,7 @@ Confirm that your AWS account setup is complete by navigating to the Account sec
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
+![alt text](<screenshots/AWS acc.png>)
 
 ---
 
