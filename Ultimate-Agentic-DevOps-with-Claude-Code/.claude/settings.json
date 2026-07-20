@@ -1,0 +1,55 @@
+{
+  "alwaysThinkingEnabled": true,
+  "permissions": {
+    "allow": [
+      "Bash(cd terraform && terraform init*)",
+      "Bash(cd terraform && terraform plan*)",
+      "Bash(cd terraform && terraform output*)",
+      "Bash(cd terraform && terraform show*)",
+      "Bash(cd terraform && terraform fmt*)",
+      "Bash(cd terraform && terraform validate*)",
+      "Bash(aws s3 ls*)",
+      "Bash(aws cloudfront get-distribution*)",
+      "Bash(aws sts get-caller-identity)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(aws iam *)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "matcher": "",
+            "type": "command",
+            "command": "bash .claude/hooks/user-prompt-guard.sh"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/pre-tool-guard.sh"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash .claude/hooks/post-tool-logger.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

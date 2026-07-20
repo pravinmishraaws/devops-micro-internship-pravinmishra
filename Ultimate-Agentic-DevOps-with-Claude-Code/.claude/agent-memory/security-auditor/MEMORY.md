@@ -1,0 +1,2 @@
+- [Infra Shape](infra_shape.md) — what exists in terraform/ today (S3+CloudFront only, no IAM/OIDC/backend yet)
+- [Open Findings 2026-07-09](open_findings_2026-07-09.md) — unresolved audit findings to re-check in next review
