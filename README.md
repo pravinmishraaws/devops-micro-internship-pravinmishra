@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Shanmuki Reddy |
-| **LinkedIn** | [www.linkedin.com/in/shanmuki-reddy](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
+| **LinkedIn** | [www.linkedin.com/in/shanmuki-reddy] |
 | **Location** | Coventry, UK |
 | **Background** | Career Change |
 | **Goal** | AI DevOps Engineer |
@@ -49,7 +49,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 <!-- Add your cohort leaderboard rank here as you progress -->
 
-> 🥇 Cohort 3 Rank: **#37** <!-- Update this each week -->
+> 🥇 Cohort 3 Rank: **# 88 ** <!-- Update this each week -->
 
 ---
 
@@ -57,7 +57,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 *Earn a badge each week. To unlock: remove the `<!--` and `-->` from the badge line below.*
 
-*Share your stack:* `https://github.com/shanmukireddy/devops-micro-internship-pravinmishra#my-devops-stack`
+*Share your stack:* `https://github.com/YOUR-USERNAME/devops-micro-internship-pravinmishra#my-devops-stack`
 
 **Preview — what your full stack looks like:**
 
@@ -67,22 +67,20 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-Week 00 → Internet & Networking Basics 
-![Week 00 – Networking](./badges/week-00.svg)
- 
+ Week 00 → Internet & Networking Basics 
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) 
 
-Week 01 → Success Mindset
-![Week 01 – Mindset](./badges/week-01.svg)
+ Week 01 → Success Mindset 
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
+ Week 02 → Agentic AI with Claude Code 
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
-Week 02 → Agentic AI with Claude Code 
-[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) 
+ Week 03 → Linux & Bash for DevOps 
+[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) 
 
-Week 03 → Linux & Bash for DevOps 
-[![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
-
-Week 04 → Git & GitHub
-[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
+Week 04 → Git & GitHub 
+ [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) 
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -132,21 +130,20 @@ Week 04 → Git & GitHub
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | -| - |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_devops-devops-cloudcomputing-activity-7469138436348776448-9O7e?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw | |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_from-intern-to-innovator-the-making-of-an-activity-7477756458416377856-3mnj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw  | https://medium.com/@shivasmukkala/week-1-of-my-devops-journey-f9b42094bcce?sharedUserId=shivasmukkala |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | — | — |
-| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_devops-linux-aws-share-7484020436989685761-n9MJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw | https://medium.com/@shivasmukkala/week-03-linux-for-devops-my-hands-on-journey-into-real-production-ops-d575ecac85e6 |
-| 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
-| 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 08 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_dmibypravinmishra-agenticai-claudecode-activity-7481471618846818305-iGM9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw | https://medium.com/@shivasmukkala/        week-02-i-built-my-first-agentic-ai-system-using-claude-and-it-taught-me-new-engineering-skills-62d635458599 |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shanmuki-reddy_devops-linux-aws-share-7484020436989685761-n9MJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE0LbgwBcO3gizrVfuqLPvGD60OHg7LFHRw | https://medium.com/@shivasmukkala/week-03-linux-for-devops-my-hands-on-journey-into-real-production-ops-d575ecac85e6 |
+| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
+| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
+| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
+| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
