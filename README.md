@@ -130,12 +130,11 @@ Week 03 → Linux & Bash for DevOps
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | — | — |
-<<<<<<< HEAD
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_pravinmishra-devops-cloudcomputing-share-7478792094447382528-yDzR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/the-making-of-a-cloud-devsecops-engineer-a-3-year-journey-c5e84230e8f3 |
-| 02 | Agentic AI with Claude Code | ✅ Completed| ✅ Solved | https://www.linkedin.com/posts/share-7481852621096468481-FU1i/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/reflection-week-2-104593d11eda |
-| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/activity-7484897311895150592-LbhJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/successfully-deployed-a-production-ready-static-website-on-ubuntu-with-nginx-77bd0df7fe84 |
-| 04 | Bash Scripting | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/activity-7485032646671220736-MMpg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/refining-my-bash-scripting-skills-for-better-devops-automation-3c42a3c4de06?sharedUserId=timothyolubiyi |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_homepage-activity-7408877918619090944-XybC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/timothy-olubiyi-05b9ba123_pravinmishra-devops-cloudcomputing-share-7478792094447382528-yDzR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/the-making-of-a-cloud-devsecops-engineer-a-3-year-journey-c5e84230e8f3
+| 02 | Agentic AI with Claude Code | ✅ Completed| ✅ Solved | https://www.linkedin.com/posts/share-7481852621096468481-FU1i/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/reflection-week-2-104593d11eda
+| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/activity-7484897311895150592-LbhJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/successfully-deployed-a-production-ready-static-website-on-ubuntu-with-nginx-77bd0df7fe84
+| 04 | Bash Scripting | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/activity-7485032646671220736-MMpg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw | https://medium.com/@timothyolubiyi/refining-my-bash-scripting-skills-for-better-devops-automation-3c42a3c4de06?sharedUserId=timothyolubiyi 
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
@@ -146,7 +145,6 @@ Week 03 → Linux & Bash for DevOps
 | 12 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 14 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
-=======
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
@@ -160,7 +158,6 @@ Week 03 → Linux & Bash for DevOps
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
->>>>>>> upstream/main
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved
