@@ -173,6 +173,7 @@ The most common mistake teams make when adopting agentic AI is building one larg
 
 Complete all tasks in sequence.
 
+<<<<<<< HEAD
 Your submission must include:
 - All 6 required screenshots
 - 3 written answers in the Google Doc (from Task 2)
@@ -180,6 +181,9 @@ Your submission must include:
 
 Submit only a Google Doc link.
 Follow the Assignment Submission Guidelines — (LINK)
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

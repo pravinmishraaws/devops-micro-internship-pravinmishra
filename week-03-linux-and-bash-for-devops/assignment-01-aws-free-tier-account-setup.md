@@ -47,10 +47,6 @@ The free tier general last for 6 months with a $100 free credit on it that incre
 3. AWS Lambda
    Includes 1 million free requests per month and 400,000 GB-seconds of compute time every month under the Always Free tier.
  
-
-
-
-
 ---
 
 # Task 2 — Create AWS Free Tier Account
@@ -58,8 +54,6 @@ The free tier general last for 6 months with a $100 free credit on it that incre
 ## Goal
 
 Create a valid AWS Free Tier account and sign in to the AWS Management Console.
-
-> No screenshots required for this task. Completion is verified through Task 3.
 
 ---
 

@@ -402,9 +402,8 @@ Cloud resources should be stopped or terminated when they are no longer needed t
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here: <https://www.linkedin.com/posts/wisgeorge1_devops-cloudengineering-linux-share-7483977181497380864-lnCV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY>
-
-`__________________________`
+Paste your LinkedIn post URL here: 
+<https://www.linkedin.com/posts/wisgeorge1_devops-cloudengineering-linux-share-7483977181497380864-lnCV/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY>
 
 ---
 

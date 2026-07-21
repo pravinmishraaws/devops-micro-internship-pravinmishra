@@ -138,7 +138,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 
 # What 5 Years of Consistency Did for This DevOps Engineer Will Inspire You
@@ -173,6 +173,10 @@ Today George Epebifie is known for more than being good at cloud architecture. H
 https://www.linkedin.com/pulse/what-5-years-consistency-did-devops-engineer-inspire-you-epebifie-o7cpf
 https://cloudly.hashnode.dev/what-5-years-of-consistency-did-for-this-devops-engineer-will-inspire-you
 
+<<<<<<< HEAD
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -388,6 +392,10 @@ Every weekday from ***7:00 PM to 9:00 PM***, I will complete one uninterrupted d
 LinkedIn post link: https://www.linkedin.com/posts/wisgeorge1_join-the-dmi-devops-micro-internship-share-7478224574527098880-Eoco/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY
 
 
+<<<<<<< HEAD
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

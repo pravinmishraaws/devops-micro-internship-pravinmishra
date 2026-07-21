@@ -47,6 +47,7 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 
 - Node.js and npm installed (`node --version` works)
 
+<<<<<<< HEAD
   ![nodejs-npm-version](/week-02-agentic-ai/screenshots/nodejs-npm-version.png)
 
 - Git installed and configured (Verify using `git --version`)
@@ -63,6 +64,9 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 ![vscode-version](/week-02-agentic-ai/screenshots/vscode-version-app.png)
 
 - Claude subscription (Pro plan minimum)
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

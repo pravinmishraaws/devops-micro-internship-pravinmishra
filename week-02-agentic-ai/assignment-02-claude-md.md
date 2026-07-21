@@ -103,6 +103,10 @@ What is this project and how should I deploy it?
 - Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 ![claude1](/week-02-agentic-ai/screenshots/claude-md.png)
 
+<<<<<<< HEAD
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

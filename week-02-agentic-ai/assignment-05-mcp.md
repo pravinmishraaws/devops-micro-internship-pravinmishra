@@ -63,6 +63,7 @@ Each task must be completed sequentially.
 
 **Goal:** Generate a GitHub PAT that the MCP server will use to authenticate with your GitHub account.
 
+<<<<<<< HEAD
 **Steps:**
 1. Go to GitHub → **Settings** → **Developer Settings** → **Personal Access Tokens** → **Tokens (classic)**
 2. Click **Generate new token (classic)**
@@ -80,6 +81,9 @@ Each task must be completed sequentially.
 - Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 ![token-creation-page](/week-02-agentic-ai/screenshots/token-creation-1.png)
 ![token-creation-page](/week-02-agentic-ai/screenshots/token-creation-2.png)
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

@@ -182,7 +182,33 @@ Then in Claude Code:
 
 ## 8. Industry Insight
 
+<<<<<<< HEAD
 The tool restriction pattern in skills — giving each skill only the tools it actually needs — is called the principle of least privilege. It applies everywhere in DevOps: IAM roles, Kubernetes RBAC, Linux file permissions. A skill that can only read files cannot corrupt your infrastructure even if it runs a thousand times. A skill that can write files needs to earn that permission. The same thinking that keeps your cloud infrastructure safe applies directly to how you configure your AI tools.
+=======
+Paste your forked repository URL here:
+
+`Add your URL here`
+
+## LinkedIn post URL
+
+Paste your forked repository URL here:
+
+`Add your URL here`
+---
+
+# Completion Checklist
+
+- [ ] `.claude/skills/` folder created with all 4 skill folders
+- [ ] All skill files placed correctly
+- [ ] `tf-plan/SKILL.md` shows correct `allowed-tools` restrictions
+- [ ] `/scaffold-terraform` executed successfully
+- [ ] Terraform files generated inside `terraform/` folder
+- [ ] `terraform init` executed successfully
+- [ ] `/tf-plan` executed and output analyzed by Claude
+- [ ] All required screenshots added
+- [ ] GitHub repository URL included
+- [ ] LinkedIn post URL included
+>>>>>>> upstream/main
 
 ---
 

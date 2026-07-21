@@ -85,6 +85,7 @@ Where does your memory file live for this project? Show me the full path.
 
 **Goal:** Teach Claude three specific facts about the project and instruct it to save them to the memory file.
 
+<<<<<<< HEAD
 **Steps:**
 1. In Claude Code, type the prompt below exactly as written
 2. Watch Claude confirm it saved the memory
@@ -106,6 +107,9 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 - Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
 ![memory-file-vscode-display](/week-02-agentic-ai/screenshots/memory-md-code-display.png)
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -131,6 +135,10 @@ Remember the following for all future sessions: The CSS hero section uses a dark
 
 ![no-previous-claude-convo](/week-02-agentic-ai/screenshots/no-previous-claude-convo.png)
 
+<<<<<<< HEAD
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

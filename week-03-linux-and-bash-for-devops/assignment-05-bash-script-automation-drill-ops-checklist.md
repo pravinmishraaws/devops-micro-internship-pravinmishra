@@ -416,9 +416,9 @@ The script uses variables to store important values, the script uses Arrays to s
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:<https://www.linkedin.com/posts/wisgeorge1_devops-cloudengineering-bashscripting-share-7483983597662642176-fwCr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY>
+Paste your LinkedIn post URL here:
 
-`__________________________`
+<https://www.linkedin.com/posts/wisgeorge1_devops-cloudengineering-bashscripting-share-7483983597662642176-fwCr/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADp8HhoB_UGFhHiID8Ba-4DVResYfMJJsuY>`
 
 ---
 

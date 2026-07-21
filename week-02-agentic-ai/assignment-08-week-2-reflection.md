@@ -99,6 +99,7 @@ Your reflection must include the following sections.
 
 #### 1. Biggest technical insight I got this week
 
+<<<<<<< HEAD
 Write about the biggest thing you understood this week.
 For example, you can write about:
 
@@ -110,6 +111,9 @@ For example, you can write about:
 * What MCP adds to an AI-powered DevOps workflow
 * Why hooks and permissions are important for safety
 * How memory helps make the workflow more consistent
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
@@ -214,7 +218,15 @@ Use this line in your post:
 
 P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
 
+<<<<<<< HEAD
 Hashtags:
+=======
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+
+---
+
+### Suggested Hashtags
+>>>>>>> upstream/main
 
 #DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
 
@@ -233,7 +245,65 @@ Hashtags:
 
 ## 12. Completion Checklist
 
+<<<<<<< HEAD
 Before submission, verify:
+=======
+LinkedIn Post Content (copy-paste here):
+
+```
+Paste your LinkedIn post content here
+```
+
+---
+
+### LinkedIn Post Link:
+
+`Add your URL here`
+
+---
+
+# Submission Instructions
+
+* Blog must be publicly accessible
+* LinkedIn post must be visible (public or unlisted where applicable)
+* All required fields must be filled
+* Screenshot proofs must be added to GitHub repository
+* Do not include sensitive information in blog or post
+
+---
+
+# Completion Checklist
+
+* [ ] Blog written with required structure
+* [ ] Blog includes at least 2–3 Week 2 topics
+* [ ] Blog is publicly accessible
+* [ ] LinkedIn post created
+* [ ] Required P.S. line included
+* [ ] LinkedIn post content copied in submission field
+* [ ] Blog link added
+* [ ] LinkedIn post link added
+* [ ] Screenshots added to GitHub repo
+
+---
+
+# About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory), focused on real-world execution, systems thinking, and agentic AI workflows.
+
+It helps learners build strong DevOps foundations through hands-on experience.
+
+---
+
+# Resources
+
+* 🌐 DMI Official Website: [https://pravinmishra.com/dmi](https://pravinmishra.com/dmi)
+* 🎓 DevOps for Beginners (Udemy): [https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/](https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/)
+* 🎓 Agentic AI DevOps with Claude Code: [https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/](https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/)
+* 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: [https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/](https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/)
+* ▶️ YouTube Playlist: [https://www.youtube.com/playlist?list=PLFeSNDtI4Cho](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho)
+* 🔗 Pravin Mishra (LinkedIn): [https://www.linkedin.com/in/pravin-mishra-aws-trainer/](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
+* 🏢 CloudAdvisory (LinkedIn): [https://www.linkedin.com/company/thecloudadvisory/](https://www.linkedin.com/company/thecloudadvisory/)
+>>>>>>> upstream/main
 
 * [ ] Reflection title is included
 * [ ] Full name is visible
