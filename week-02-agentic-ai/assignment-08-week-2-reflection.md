@@ -55,7 +55,6 @@ You can publish your blog on:
 
 Blog Link: https://medium.com/@timothyolubiyi/reflection-week-2-104593d11eda
 
-`Add your URL here`
 
 ---
 
@@ -93,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![screenshot_2](screenshots/post1.jpg)
 
 ---
 
@@ -128,7 +127,6 @@ Looking forward to Week 3!
 
 LinkedIn Post Link:  https://www.linkedin.com/posts/share-7481852621096468481-FU1i/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw
 
-`Add your URL here`
 
 ---
 

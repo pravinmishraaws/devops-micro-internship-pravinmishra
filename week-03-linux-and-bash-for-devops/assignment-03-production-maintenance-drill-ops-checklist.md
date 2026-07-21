@@ -167,7 +167,7 @@ Overall, there were no critical errors in the error.log. The absence of recent e
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+No errors
 
 ---
 
@@ -426,8 +426,7 @@ Cloud resources should be stopped or terminated when they are no longer needed t
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
-
-[`Add your URL here`](https://www.linkedin.com/posts/share-7484860818119917568-DlJ8/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7484860821433458688&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw)
+(https://www.linkedin.com/posts/share-7484860818119917568-DlJ8/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7484860821433458688&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw)
 
 ---
 

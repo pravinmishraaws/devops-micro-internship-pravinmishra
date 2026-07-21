@@ -424,7 +424,6 @@ The final script combines variables to store data, arrays to manage multiple val
 
 (https://www.linkedin.com/posts/ugcPost-7485032645484081152-rucZ/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7485032646671220736&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=share&utm_medium=member_desktop&rcm=ACoAAB6VGscB2AplIT7PcrwZvA0ECup4mNaUoIw)
 
-`Add your URL here`
 
 ---
 
