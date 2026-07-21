@@ -128,7 +128,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 https://github.com/ToluFemiTayo/Ultimate-Agentic-DevOps-with-Claude-Code.git
 
-`__________________________`
+`Add your URL here`
 
 ---
 

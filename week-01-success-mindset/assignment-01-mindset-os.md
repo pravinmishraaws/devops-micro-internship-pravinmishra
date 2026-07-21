@@ -156,9 +156,9 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### Public Link
 
-Paste your link here:
-
 https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478925261078495233-RAbA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY
+
+`__________________________`
 
 ---
 
@@ -415,7 +415,7 @@ Every morning, before opening any tutorial or docs, I open my terminal first and
 
 Paste your LinkedIn post link here:
 
-https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478919392680919040-S4dk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY
+`__________________________`
 
 ---
 
