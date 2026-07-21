@@ -267,7 +267,7 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 #### Screenshot 2 — Content of `file-check.sh`
 
-Add your screenshot here.
+![alt text](image-60.png)
 
 ---
 
