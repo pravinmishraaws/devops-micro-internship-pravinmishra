@@ -20,15 +20,15 @@ Confirm that you have a working GitHub account and can access your GitHub dashbo
 
 #### Screenshot 1 — GitHub dashboard or Home page showing you're signed in, with your username visible
 
-Add your screenshot here.
 
----
+
+![Github](image.png)
 
 #### Screenshot 2 (Optional but Recommended) — Your GitHub profile with `https://github.com/<username>` visible in the browser address bar
 
-Add your screenshot here.
 
----
+
+![github](image-1.png)
 
 # Task 2 — Explore GitHub Like a Professional
 
@@ -40,21 +40,21 @@ Browse Trending, search for a public project, star at least one repository, and 
 
 #### Screenshot 3 — GitHub Trending page visible in the browser
 
-Add your screenshot here.
 
----
+
+![trending](image-3.png)
 
 #### Screenshot 4 — A repository page showing the Star button in the Starred state
 
-Add your screenshot here.
 
----
+
+![star](image-2.png)
 
 #### Screenshot 5 — Your forked repository page with your username and repository name visible in the URL
 
-Add your screenshot here.
 
----
+
+![forked](image-4.png)
 
 # Task 3 — Update Your GitHub Profile (Professional Setup)
 
@@ -66,9 +66,9 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
 
----
+
+![Github](image-5.png)
 
 # Submission Instructions
 
@@ -80,21 +80,17 @@ Add your screenshot here.
 
 ## GitHub Profile URL
 
-Paste your GitHub profile URL here:
-
-`Add your URL here`
-
----
+https://github.com/AIN0908
 
 # Completion Checklist
 
-- [ ] GitHub account created or existing account confirmed (Screenshot 1)
-- [ ] Trending repositories explored (Screenshot 3)
-- [ ] At least one repository starred (Screenshot 4)
-- [ ] At least one public repository forked (Screenshot 5)
-- [ ] Professional bio added to your GitHub profile (Screenshot 6)
-- [ ] GitHub profile URL included
-- [ ] No passwords, codes, or authentication secrets exposed
+- [✅ Completed ] GitHub account created or existing account confirmed (Screenshot 1)
+- [✅ Completed ] Trending repositories explored (Screenshot 3)
+- [✅ Completed ] At least one repository starred (Screenshot 4)
+- [✅ Completed ] At least one public repository forked (Screenshot 5)
+- [✅ Completed ] Professional bio added to your GitHub profile (Screenshot 6)
+- [✅ Completed ] GitHub profile URL included
+- [✅ Completed ] No passwords, codes, or authentication secrets exposed
 
 ---
 
