@@ -20,9 +20,9 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-Add your screenshot here.
 
----
+
+![git status](image-1.png)
 
 # Task 2 — Create and Switch to a Feature Branch
 
@@ -34,9 +34,9 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-Add your screenshot here.
 
----
+
+![git checkout](image-2.png)
 
 # Task 3 — Add contact.html on the Feature Branch
 
@@ -48,21 +48,21 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-Add your screenshot here.
 
----
+
+![ls](image-3.png)
 
 #### Screenshot 4 — Output of `git commit`
 
-Add your screenshot here.
 
----
+
+![git commit](image-4.png)
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-Add your screenshot here.
 
----
+
+![git log](image-5.png)
 
 # Task 4 — Add the Contact Link to index.html
 
@@ -74,21 +74,21 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
 
----
+
+![git status](image-6.png)
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
 
----
+
+![git commit](image-7.png)
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
 
----
+
+![contact](image-8.png)
 
 # Task 5 — Verify Isolation (Prove the Default Branch Is Unchanged)
 
@@ -100,9 +100,9 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-Add your screenshot here.
 
----
+
+![contact](image-9.png)
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
@@ -120,21 +120,21 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-Add your screenshot here.
 
----
+
+![git merge](image-10.png)
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
 
----
+
+![ls](image-18.png)
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
 
----
+
+![contact](image-19.png)
 
 # Task 7 — Inspect History (Graph View)
 
@@ -146,9 +146,9 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
 
----
+
+![git log](image-20.png)
 
 # Task 8 — Optional Cleanup (Delete the Feature Branch)
 
@@ -160,9 +160,9 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
 
----
+
+![deleted](image-21.png)
 
 # Submission Instructions
 
@@ -175,15 +175,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Repository confirmed clean on the default branch (Screenshot 1)
-- [ ] `feature/contact-page` created and checked out (Screenshot 2)
-- [ ] `contact.html` added in its own commit (Screenshots 3–5)
-- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
-- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
-- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
-- [ ] Graph history reviewed (Screenshot 14)
-- [ ] Optional cleanup completed (Screenshot 15)
-- [ ] No sensitive data exposed
+- [✅ Completed ] Repository confirmed clean on the default branch (Screenshot 1)
+- [✅ Completed ] `feature/contact-page` created and checked out (Screenshot 2)
+- [✅ Completed ] `contact.html` added in its own commit (Screenshots 3–5)
+- [✅ Completed ] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [✅ Completed ] Default branch proven unchanged before merge (Screenshots 9–10)
+- [✅ Completed ] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [✅ Completed ] Graph history reviewed (Screenshot 14)
+- [✅ Completed ] Optional cleanup completed (Screenshot 15)
+- [✅ Completed ] No sensitive data exposed
 
 ---
 
