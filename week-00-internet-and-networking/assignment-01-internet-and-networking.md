@@ -23,12 +23,7 @@ Take a screenshot of your interaction showing:
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
-
 ![Task 1 Screenshot](screenshots/Week-00-TASK1.png)
-
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
@@ -89,12 +84,7 @@ EpicReads bookstore has two application versions:
 
 ## Diagram Screenshot / Photo
 
-Save your diagram image in the `screenshots` folder and update the file name below.
-
 ![Application Architecture Diagram](screenshots/Week-00-TASK3.png)
-
-
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -178,12 +168,8 @@ ls
 
 ## Screenshot
 
-Save your screenshot in the `screenshots` folder and update the file name below.
-
 ![VS Code Setup Screenshot](screenshots/Week-00-TASK5.png)
 
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -233,12 +219,16 @@ Week 0 – DevOps Micro Internship Summary
 
 💡 ChatGPT
 I used ChatGPT as my learning assistant to understand networking protocols through a simple real‑life example — ordering food at a restaurant. This analogy helped me see how communication follows a structured set of rules, just like protocols in networking.
+
 🌐 Internet & Networking
 When someone visits EpicReads, their request travels across the internet using packet switching. Each packet carries the website’s IP address, ensuring it reaches the correct server. TCP/IP guarantees reliable delivery, while HTTPS secures the connection through encryption — enabling fast and safe global access.
+
 🏗️ App Architecture
 I explored how applications are built using two‑tier and three‑tier architectures. The two‑tier model connects the client directly to the database, while the three‑tier model separates the frontend, backend, and database layers — improving scalability, security, and maintainability.
+
 🌍 DNS
 DNS acts as the internet’s phonebook, translating domain names into IP addresses. To connect epicreads.com to 52.172.142.222, an A record is used because it maps a domain directly to an IPv4 address — the standard way to point a domain to its server.
+
 💻 VS Code Setup
 I installed Visual Studio Code, opened the integrated terminal, ran basic commands, and customized the theme. This setup prepares me for coding, automation, and future DevOps tasks.
 
