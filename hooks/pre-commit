@@ -1,0 +1,44 @@
+#!/bin/bash
+# Pre-commit hook: Block commits containing secret-like patterns or files over 1MB
+# This hook is tracked in the repository at hooks/pre-commit
+# Configure with: git config core.hooksPath hooks
+
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+echo "🔍 Running pre-commit hook checks..."
+
+BLOCKED=0
+
+# Check for files over 1MB
+while IFS= read -r file; do
+    size=$(stat -f%z "$file" 2>/dev/null)
+    if [ "$size" -gt 1048576 ]; then
+        echo -e "${RED}⛔ BLOCKED: $file is over 1MB ($((size / 1048576))MB)${NC}"
+        BLOCKED=1
+    fi
+done < <(git diff --cached --name-only)
+
+# Check staged changes for secret-like patterns
+while IFS= read -r file; do
+    if [ -f "$file" ]; then
+        # Check for AWS Access Key pattern (AKIA...)
+        if grep -q "AKIA[0-9A-Z]\{16\}" "$file" 2>/dev/null; then
+            echo -e "${RED}⛔ BLOCKED: Possible AWS Access Key found in $file${NC}"
+            BLOCKED=1
+        fi
+        # Check for secret/key/password assignments
+        if grep -qE "(SECRET|PASSWORD|PRIVATE_KEY)\s*=\s*['\"][A-Za-z0-9+/=]{20,}" "$file" 2>/dev/null; then
+            echo -e "${RED}⛔ BLOCKED: Possible secret found in $file${NC}"
+            BLOCKED=1
+        fi
+    fi
+done < <(git diff --cached --name-only)
+
+if [ "$BLOCKED" -eq 1 ]; then
+    echo -e "${RED}❌ Commit blocked. Please fix the issues above and try again.${NC}"
+    exit 1
+fi
+
+echo "✅ All checks passed. Proceeding with commit."
+exit 0
