@@ -134,7 +134,7 @@ Week 03 → Linux & Bash for DevOps
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/solaibinuolapo_techleadership-cloudcomputing-devops-share-7478719953358028800-3-S0/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM |https://medium.com/@hesolaroyal/unveiling-my-2-0-self-the-journey-of-total-resetting-a7037c36520e?sharedUserId=hesolaroyal |
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/solaibinuolapo_techleadership-cloudcomputing-devops-share-7483045008934219776-OrVL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM | https://medium.com/@hesolaroyal/dmi-cohort-3-reflection-week-2-9f3e1dc2128e?sharedUserId=hesolaroyal |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/solaibinuolapo_devops-cloudengineering-nginx-share-7484636857381654529-aKUk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM | https://hesolaroyal.medium.com/what-breaking-my-own-server-on-purpose-taught-me-about-production-systems-75e47f2f1e1c |
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Git & GitHub | 🔄 In Progress | 🔄 In Progress | https://www.linkedin.com/posts/solaibinuolapo_git-github-opensource-share-7485658788113485824-W0zo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADUrROwBSs3BHxwzwdeWVUk2kf9iszgkWjM | https://hesolaroyal.medium.com/deepening-my-work-on-git-and-github-mastery-ce09dcd2fcbc |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
