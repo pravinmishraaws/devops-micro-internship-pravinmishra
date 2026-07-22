@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-1%2F14-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F14-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./onboarding) first — how to fork, fill in, and submit your assignments.
 > Find all the required links & assignment guidelines from here [Required links](./dmi_cohort3_resources.md)
@@ -72,7 +72,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) |
 | 01 | Success Mindset | [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) |
 | 02 | Agentic AI with Claude Code | [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) |
-| 03 | Linux & Bash for DevOps | <!-- [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) --> |
+| 03 | Linux & Bash for DevOps | [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/) |
 | 04 | Git & GitHub | <!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) --> |
 | 05 | DevOps Lifecycle & Agile | <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) --> |
 | 06 | AWS Cloud | <!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) --> |
@@ -108,7 +108,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 00 | Internet & Networking Basics | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony_pravin-mishra-the-cloudadvisory-linkedin-activity-7462191694030077954-Kqd5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://dev-enthusiast.blogspot.com/2026/07/week-0-back-to-basics-why-fundamentals.html) |
 | 01 | Success Mindset | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony-452075387_technologyleadership-engineeringexcellence-share-7484025912691302400--lCa/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://dev-enthusiast.blogspot.com/2026/07/five-years-from-now-colleagues.html) |
 | 02 | Agentic AI with Claude Code | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmibypravinmishra-agenticai-claudecode-ugcPost-7481318574037442560-3TCh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://www.linkedin.com/pulse/reflection-week-2-when-ai-meets-infrastructure-maneetta-antony-cwayc/) |
-| 03 | Linux & Bash for DevOps | 🔄 In Progress | ⏳ Pending | — | — |
+| 03 | Linux & Bash for DevOps | ✅ Completed |  ✅ Solved | [Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmi-cohort-4-live-micro-internship-waiting-share-7484101331813617664-QLfh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo) | [Blog](https://dev-enthusiast.blogspot.com/2026/07/week-3-bulletproof-incident-response.html) |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
