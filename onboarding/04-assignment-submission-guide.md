@@ -105,35 +105,53 @@ Then click on the copy icon to copy the repository link.
 
 ---
 
-## 9. Open Git Bash or Terminal
+## 9. Create Your Working Directory (Create a folder where you want to **download (clone) the GitHub repository**.)
 
-Open **Git Bash** or any terminal on your computer.
+1. Create a folder named **DMI** (or any name you prefer) in any preferred location of your local machine.
 
-If you are using a **Windows machine**, it is recommended to use **Git Bash**, because it supports Unix-style commands which we will use in this assignment workflow.
+![Create folder](images/ss74_1.png)
 
-Git Bash makes it easier to run Git commands consistently across different systems.
+2. Right-click the folder and select **Copy as path**.
+
+![Create folder](images/ss74_2.png)
+
+
+## 10. Open Git Bash
+
+Open **Git Bash** terminal on your computer.
 
 ![Open Git Bash](images/ss74.png)
 
----
 
-## 10. Navigate to Your Working Directory
+Run:
 
-Move to the folder where you want to **download (clone) the GitHub repository**.
+ ```bash
+
+ cd "paste_copied_path_here"
+
+```
+
+Example:
 
 ```bash
-cd folder_path
+
+cd "D:\DMI"
+
 ```
 
 ![folder_path](images/ss75.png)
 
-To check your current location, run:
+
+Verify your location using:
 
 ```bash
+
 pwd
+
 ```
 
 ![folder_verification](images/ss76.png)
+
 
 ---
 
@@ -497,15 +515,21 @@ In the VS Code Explorer panel, locate the folder named:
 
 Click on the highlighted dropdown to expand the folder.
 
-Inside this folder, you will see the assignment files, including the **README.md** file.
+Inside this folder, you will see the assignment file:
+
+**assignment-01-mindset-os.md**
 
 ![expand](images/ss102.png)
 
-Click on the **README.md** file to open it.
+Click on the **assignment-01-mindset-os.md** file to open it.
 
 ![README](images/ss103.png)
 
 This is the file where you will complete your Week 01 assignment.
+
+> ℹ️ Every week works the same way: your answers always go in the
+> `assignment-*.md` files inside the week folder (some weeks have more than
+> one). Week folders do not use README.md for answers.
 
 ---
 
@@ -645,9 +669,21 @@ Once you add your own images, it is no longer needed.
 
 ### ⚠️ Important Note
 
-For **this week's assignment**, you do NOT need to add screenshots.
+For **this week's assignment**, you do **not** need to add any screenshots.
 
-This step is only to help you understand how images will be added in future assignments.
+This section is included to help you understand how screenshots should be added in future assignments when they are required.
+
+When naming screenshot files, avoid using spaces in the file name.
+
+**❌ Examples:**
+- Atomic Habits.jpg
+- My Screenshot.png
+
+**✅ Use hyphens (`-`) or underscores (`_`) instead:**
+- Atomic-Habits.jpg
+- Atomic_Habits.jpg
+- My-Screenshot.png
+- My_Screenshot.png
 
 ---
 
@@ -1044,8 +1080,8 @@ You can update this message depending on the week and task you are working on.
 ### 📝 Example commit messages:
 
 * `Week 02 - Agentic AI assignment completed`
-* `Week 03 - Linux for DevOps assignment completed`
-* `Week 04 - Bash Scripting assignment completed`
+* `Week 03 - Linux & Bash for DevOps assignment completed`
+* `Week 04 - Git & GitHub assignment completed`
 
 ---
 
@@ -1095,11 +1131,11 @@ Navigate to the forked repositry on browser
 
 ![Succeeded](images/ss147.png)
 
-Select week-01-success-mindset file
+Select week-01-success-mindset folder
 
 ![Succeeded](images/ss148.png)
 
-Go inside the file -> Select README.md file
+Go inside the folder -> Select the assignment-01-mindset-os.md file
 
 ![Succeeded](images/ss149.png)
 
@@ -1187,7 +1223,6 @@ Before starting a new assignment (Every Saturday after the live session), run th
 ```bash
 git fetch upstream
 git merge upstream/main
-git push origin main
 ```
 
 ---
