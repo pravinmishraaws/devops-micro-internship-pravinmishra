@@ -216,7 +216,7 @@ As part of preparing to refresh and strengthen my DevOps fundamentals, I recentl
 🔹 VS Code Setup — Re-exploring development environment configuration, extensions, and terminal integration.
 Technology evolves rapidly, but strong fundamentals remain essential. Revisiting these concepts has been a valuable step in preparing for the next phase of my DevOps learning journey.
 P.S. This post is part of the DevOps Micro Internship Cohort run by Pravin Mishra [https://lnkd.in/e3knf-G8]. You can start your DevOps journey from his YouTube Playlist [https://lnkd.in/e6_Yaieq]
-#DevOps #Networking #DNS #SoftwareArchitecture #VSCode #ContinuousLearning
+#DevOps #Networking #DNS #SoftwareArchitecture #VSCode #ContinuousLearning #DMI
 
 
 ---

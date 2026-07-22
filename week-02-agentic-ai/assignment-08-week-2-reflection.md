@@ -111,7 +111,7 @@ My CLAUDE.md became a security playbook, not just prompts.
 
 Key takeaway: powerful tools need powerful frameworks.
 
-#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic 
 
 P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/gEX4Js5t ).
 ```
