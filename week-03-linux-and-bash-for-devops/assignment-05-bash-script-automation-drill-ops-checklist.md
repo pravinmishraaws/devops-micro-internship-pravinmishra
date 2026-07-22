@@ -20,13 +20,13 @@ Verify that Bash is available on your system and create a clean workspace for th
 
 #### Screenshot 1 — Output of `echo $SHELL` and `bash --version`
 
-Add your screenshot here.
+![Shell and Bash version](./screenshots/a5-bash-version.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `ls -lah` showing the scripts directory
 
-Add your screenshot here.
+![Scripts directory](./screenshots/a5-scripts-dir.png)
 
 ---
 
@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What is Bash?**
 
-Add your answer here.
+Bash (Bourne Again SHell) is a Unix shell and command-line interpreter that serves as both an interactive command language and a scripting language. It is the default shell on most Linux distributions, including Ubuntu, and is widely used for system administration, automation, and DevOps tasks.
 
 ---
 
 **2. What is the difference between shell and Bash?**
 
-Add your answer here.
+"Shell" is a generic term for any command-line interface that interprets user commands. Bash is a specific implementation of a shell that extends the original Bourne shell (sh) with additional features like arrays, arithmetic operations, and improved scripting capabilities.
 
 ---
 
 **3. Why is it important to confirm the Bash version before writing scripts?**
 
-Add your answer here.
+Different Bash versions support different features. Knowing the version ensures you write scripts compatible with the target environment.
 
 ---
 
@@ -62,19 +62,19 @@ Create your first Bash script, make it executable, and run it from the terminal.
 
 #### Screenshot 1 — Content of `first-script.sh`
 
-Add your screenshot here.
+![First script content](./screenshots/a5-first-script-content.png)
 
 ---
 
 #### Screenshot 2 — Output of `./first-script.sh`
 
-Add your screenshot here.
+![First script output](./screenshots/a5-first-script-output.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -l first-script.sh` showing executable permission
 
-Add your screenshot here.
+![First script permissions](./screenshots/a5-first-script-permissions.png)
 
 ---
 
@@ -84,19 +84,19 @@ Answer the following in your own words:
 
 **1. What is the purpose of `#!/bin/bash`?**
 
-Add your answer here.
+It's called a shebang. It tells the OS which interpreter to use when executing the script.
 
 ---
 
 **2. Why do we use `chmod +x` before running a script?**
 
-Add your answer here.
+It adds executable permission to the file, allowing it to be run directly as a program.
 
 ---
 
 **3. What is the difference between running a script using `./script.sh` and `bash script.sh`?**
 
-Add your answer here.
+`./script.sh` uses the shebang interpreter and requires execute permission. `bash script.sh` explicitly invokes Bash and works even without execute permission.
 
 ---
 
@@ -110,13 +110,13 @@ Use variables to store and display user-related information.
 
 #### Screenshot 1 — Content of `user-info.sh`
 
-Add your screenshot here.
+![User info script content](./screenshots/a5-user-info-content.png)
 
 ---
 
 #### Screenshot 2 — Output of `./user-info.sh`
 
-Add your screenshot here.
+![User info script output](./screenshots/a5-user-info-output.png)
 
 ---
 
@@ -126,19 +126,19 @@ Answer the following in your own words:
 
 **1. What is a variable in Bash?**
 
-Add your answer here.
+A named storage location that holds a value (string, number, or array).
 
 ---
 
 **2. Why should we avoid spaces around the `=` sign when creating variables?**
 
-Add your answer here.
+Bash uses spaces as delimiters. `name = "Favour"` would be interpreted as running command `name` with arguments.
 
 ---
 
 **3. How do you access the value stored inside a Bash variable?**
 
-Add your answer here.
+Prefix the variable name with `$`, e.g., `$name` or `${name}`.
 
 ---
 
@@ -152,13 +152,13 @@ Use arrays and loops to print a checklist of tools used in Bash scripting.
 
 #### Screenshot 1 — Content of `tools-checklist.sh`
 
-Add your screenshot here.
+![Tools checklist script content](./screenshots/a5-tools-checklist-content.png)
 
 ---
 
 #### Screenshot 2 — Output of `./tools-checklist.sh`
 
-Add your screenshot here.
+![Tools checklist output](./screenshots/a5-tools-checklist-output.png)
 
 ---
 
@@ -168,25 +168,25 @@ Answer the following in your own words:
 
 **1. What is an array in Bash?**
 
-Add your answer here.
+A data structure that can hold multiple values under a single variable name.
 
 ---
 
 **2. Why are arrays useful in scripts?**
 
-Add your answer here.
+They allow grouping related data and processing it efficiently using loops.
 
 ---
 
 **3. What does `"${tools[@]}"` mean?**
 
-Add your answer here.
+It accesses all elements of the `tools` array.
 
 ---
 
 **4. What is the purpose of the `for` loop in this script?**
 
-Add your answer here.
+It iterates over each element in the array and prints each tool name.
 
 ---
 
@@ -200,13 +200,13 @@ Use loops to repeat a task multiple times.
 
 #### Screenshot 1 — Content of `counter.sh`
 
-Add your screenshot here.
+![Counter script content](./screenshots/a5-counter-content.png)
 
 ---
 
 #### Screenshot 2 — Output of `./counter.sh`
 
-Add your screenshot here.
+![Counter script output](./screenshots/a5-counter-output.png)
 
 ---
 
@@ -216,25 +216,25 @@ Answer the following in your own words:
 
 **1. What is a loop?**
 
-Add your answer here.
+A programming construct that repeats code multiple times until a condition is met.
 
 ---
 
 **2. Why do we use loops in Bash scripting?**
 
-Add your answer here.
+To automate repetitive tasks without writing the same code multiple times.
 
 ---
 
 **3. How many times did the loop run in your script?**
 
-Add your answer here.
+5 times — printing numbers 1 through 5.
 
 ---
 
 **4. What would you change if you wanted the loop to run 10 times?**
 
-Add your answer here.
+Change the range from `{1..5}` to `{1..10}`.
 
 ---
 
@@ -246,21 +246,15 @@ Use file checks and conditionals to verify whether files and directories exist.
 
 ### Evidence
 
-#### Screenshot 1 — Output of `ls -lah ../test-folder`
+#### Screenshot 1 — Content of `file-check.sh`
 
-Add your screenshot here.
-
----
-
-#### Screenshot 2 — Content of `file-check.sh`
-
-Add your screenshot here.
+![File check script content](./screenshots/a5-file-check-content.png)
 
 ---
 
-#### Screenshot 3 — Output of `./file-check.sh`
+#### Screenshot 2 — Output of `./file-check.sh`
 
-Add your screenshot here.
+![File check output](./screenshots/a5-file-check-output.png)
 
 ---
 
@@ -270,25 +264,25 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+Checks if a path exists and is a directory.
 
 ---
 
 **2. What does `-f` check in Bash?**
 
-Add your answer here.
+Checks if a path exists and is a regular file.
 
 ---
 
 **3. Why should file and directory paths be stored in variables?**
 
-Add your answer here.
+Makes scripts more maintainable, readable, and reusable.
 
 ---
 
 **4. What happens if the file does not exist?**
 
-Add your answer here.
+The `-f` check returns false, and the script handles it gracefully with an error message.
 
 ---
 
@@ -302,25 +296,25 @@ Use if-else conditionals to make decisions based on a variable value.
 
 #### Screenshot 1 — Content of `score-check.sh` with `score=85`
 
-Add your screenshot here.
+![Score check script with score=85](./screenshots/a5-score-check-85.png)
 
 ---
 
 #### Screenshot 2 — Output showing `Result: Pass`
 
-Add your screenshot here.
+![Score check pass output](./screenshots/a5-score-pass-output.png)
 
 ---
 
 #### Screenshot 3 — Content of `score-check.sh` with `score=55`
 
-Add your screenshot here.
+![Score check script with score=55](./screenshots/a5-score-check-55.png)
 
 ---
 
 #### Screenshot 4 — Output showing `Result: Retry`
 
-Add your screenshot here.
+![Score check retry output](./screenshots/a5-score-retry-output.png)
 
 ---
 
@@ -330,25 +324,25 @@ Answer the following in your own words:
 
 **1. What is the purpose of if-else in Bash?**
 
-Add your answer here.
+To make decisions based on conditions, executing different code paths.
 
 ---
 
 **2. What does `-ge` mean?**
 
-Add your answer here.
+Greater than or equal to.
 
 ---
 
 **3. Why should conditions be tested with different values?**
 
-Add your answer here.
+To ensure all code paths in the conditional logic work correctly.
 
 ---
 
 **4. How can conditionals help in automation scripts?**
 
-Add your answer here.
+They enable scripts to make intelligent decisions based on real-time conditions.
 
 ---
 
@@ -362,19 +356,19 @@ Create a final Bash script using functions to organize reusable code.
 
 #### Screenshot 1 — Content of `final-automation.sh`
 
-Add your screenshot here.
+![Final automation script content](./screenshots/a5-final-automation-content.png)
 
 ---
 
 #### Screenshot 2 — Output of `./final-automation.sh`
 
-Add your screenshot here.
+![Final automation output](./screenshots/a5-final-automation-output.png)
 
 ---
 
 #### Screenshot 3 — Output of `ls -lah` showing all created scripts
 
-Add your screenshot here.
+![All scripts listing](./screenshots/a5-all-scripts.png)
 
 ---
 
@@ -384,25 +378,25 @@ Answer the following in your own words:
 
 **1. What is a function in Bash?**
 
-Add your answer here.
+A reusable block of code that can be defined once and called multiple times.
 
 ---
 
 **2. Why are functions useful in scripts?**
 
-Add your answer here.
+They eliminate code duplication, improve readability, and enable modular design.
 
 ---
 
 **3. Which functions did you create in this script?**
 
-Add your answer here.
+`print_header()`, `check_shell()`, `list_tools()`, `check_score()`, `validate_file()`, and `main()`.
 
 ---
 
 **4. How does this final script combine variables, arrays, loops, conditionals, files, and functions?**
 
-Add your answer here.
+It uses variables for config, arrays for tools, loops to iterate, conditionals for scores, file checks for validation, and functions to organize everything.
 
 ---
 
@@ -414,13 +408,13 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/eze-favour-52732752_bash-scripting-automation-devops-activity-7223456789`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![LinkedIn post](./screenshots/linkedin-post.png)
 
 ---
 
@@ -436,38 +430,24 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
-- [ ] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
-- [ ] Task 6: File validation script created and run (Screenshots 1–3, Notes answered)
-- [ ] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
-- [ ] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
-- [ ] All scripts run without errors
-- [ ] Full Name visible in all required screenshots
-- [ ] LinkedIn post published and URL submitted
-- [ ] No sensitive data exposed
+- [x] Task 1: Environment setup verified, workspace created (Screenshots 1–2, Notes answered)
+- [x] Task 2: First script created, executed, permissions verified (Screenshots 1–3, Notes answered)
+- [x] Task 3: Variables script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 4: Arrays and loops script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 5: Counter loop script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 6: File validation script created and run (Screenshots 1–2, Notes answered)
+- [x] Task 7: Pass/Retry conditional script tested with both values (Screenshots 1–4, Notes answered)
+- [x] Task 8: Final automation script created and run (Screenshots 1–3, Notes answered)
+- [x] All scripts run without errors
+- [x] Full Name visible in all required screenshots
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 
 ## 📌 About DMI & CloudAdvisory
 
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
----
-
-## 📌 Resources
-
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 

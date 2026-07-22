@@ -20,7 +20,7 @@ Verify the Ubuntu VM and Nginx are ready for deployment.
 
 #### Screenshot 0 — Output of `sudo systemctl status nginx --no-pager` showing Active (running)
 
-Add your screenshot here.
+![Nginx service status](./screenshots/a4-nginx-status.png)
 
 ---
 
@@ -32,9 +32,15 @@ Download and extract the portfolio website template.
 
 ### Evidence
 
-#### Screenshot 1 — Output of `ls -la` showing the extracted project folder
+#### Screenshot 1 — Output of `ls -la` showing the `Pravin-Mishra-Portfolio-main` directory with portfolio files
 
-Add your screenshot here.
+![Portfolio source files](./screenshots/a4-portfolio-files.png)
+
+---
+
+#### Screenshot 2 — Output of `ls -la` inside `Pravin-Mishra-Portfolio-main` showing `index.html`, `style.css`, `images/`, etc.
+
+![Portfolio directory contents](./screenshots/a4-portfolio-ls.png)
 
 ---
 
@@ -46,9 +52,9 @@ Update the website footer with your deployment details.
 
 ### Evidence
 
-#### Screenshot 2 — Nano editor open with the updated footer showing your Full Name, Group, Week, and Date
+#### Screenshot 3 — Nano editor open with the updated footer showing "Deployed by: Eze Favour", "Group: DMI Cohort 3", "Week: 4", "Date: July 16, 2026"
 
-Add your screenshot here.
+![Footer update in nano](./screenshots/a4-footer-update.png)
 
 ---
 
@@ -60,15 +66,15 @@ Deploy the portfolio website to the Nginx web root.
 
 ### Evidence
 
-#### Screenshot 3 — Output of `sudo nginx -t` showing configuration test successful
+#### Screenshot 4 — Output of `sudo nginx -t` showing configuration syntax is ok and test is successful
 
-Add your screenshot here.
+![Nginx configuration test](./screenshots/a4-nginx-t.png)
 
 ---
 
-#### Screenshot 4 — Output of `ls /var/www/html` showing deployed website files
+#### Screenshot 5 — Output of `sudo rm -rf /var/www/html/*`, `sudo cp -r * /var/www/html/`, and `ls /var/www/html` showing deployed files
 
-Add your screenshot here.
+![Deploy portfolio files to web root](./screenshots/a4-deploy-files.png)
 
 ---
 
@@ -80,15 +86,15 @@ Verify the deployed website is publicly accessible and the footer contains your 
 
 ### Evidence
 
-#### Screenshot 5 — Output of `curl ifconfig.me` showing the server's public IP address
+#### Screenshot 6 — Output of `curl ifconfig.me` showing the public IP `54.167.8.10`
 
-Add your screenshot here.
+![Public IP retrieval](./screenshots/a4-public-ip.png)
 
 ---
 
-#### Screenshot 6 — Browser showing the live website with your Full Name and deployment details in the footer
+#### Screenshot 7 — Browser showing the live Pravin Mishra Portfolio website at `http://54.167.8.10` with "Deployed by: Eze Favour", "Group: DMI Cohort 3", "Week: 4", "Date: July 16, 2026" in the footer
 
-Add your screenshot here.
+![Live portfolio website in browser](./screenshots/a4-browser-live.png)
 
 ---
 
@@ -100,15 +106,15 @@ Verify the deployed website and Nginx service are healthy.
 
 ### Evidence
 
-#### Screenshot 7 — Output of `systemctl is-enabled nginx`
+#### Screenshot 8 — Output of `systemctl is-enabled nginx` showing "enabled"
 
-Add your screenshot here.
+![Nginx enabled on boot](./screenshots/a4-nginx-enabled.png)
 
 ---
 
-#### Screenshot 8 — Output of `curl -I http://localhost` showing 200 OK
+#### Screenshot 9 — Output of `curl -I http://localhost` showing HTTP/1.1 200 OK
 
-Add your screenshot here.
+![Localhost curl 200 OK](./screenshots/a4-curl-localhost.png)
 
 ---
 
@@ -120,13 +126,13 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/eze-favour-52732752_devops-linux-ubuntu-ugcPost-7483907365629620224-zVDP/`
 
 ---
 
 #### Screenshot — Published LinkedIn post showing the live website with your Full Name in the footer
 
-Add your screenshot here.
+![LinkedIn post](./screenshots/linkedin-post.png)
 
 ---
 
@@ -141,18 +147,19 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Screenshot 0: Nginx service status (active/running)
-- [ ] Screenshot 1: Website files downloaded and extracted
-- [ ] Screenshot 2: Footer updated with Full Name, Group, Week, and Date
-- [ ] Screenshot 3: Nginx configuration test successful
-- [ ] Screenshot 4: Website files deployed to /var/www/html
-- [ ] Screenshot 5: Public IP retrieved
-- [ ] Screenshot 6: Live website accessible in browser with footer details
-- [ ] Screenshot 7: Nginx enabled on boot
-- [ ] Screenshot 8: Local HTTP response returns 200 OK
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots
-- [ ] No sensitive data exposed
+- [x] Screenshot 0: Nginx service status (active/running)
+- [x] Screenshot 1: Portfolio source files downloaded and extracted
+- [x] Screenshot 2: Portfolio directory contents verified
+- [x] Screenshot 3: Footer updated with Full Name, Group, Week, and Date
+- [x] Screenshot 4: Nginx configuration test successful
+- [x] Screenshot 5: Website files deployed to /var/www/html
+- [x] Screenshot 6: Public IP retrieved
+- [x] Screenshot 7: Live portfolio website accessible in browser with footer details
+- [x] Screenshot 8: Nginx enabled on boot
+- [x] Screenshot 9: Local HTTP response returns 200 OK
+- [x] LinkedIn post published and URL submitted
+- [x] Full Name visible in all required screenshots
+- [x] No sensitive data exposed
 
 ---
 

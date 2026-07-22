@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+![Healthy baseline](./screenshots/a6-task1.png)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+![Workspace structure](./screenshots/a6-task1-2.png)
 
 ---
 
@@ -36,33 +36,39 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+The output of `systemctl is-active nginx` proves that Nginx is running. If it returns "active", the service is running. Additionally, `systemctl status nginx --no-pager` shows the service status as "active (running)" with the process ID and recent log entries. These commands confirm that the Nginx service is loaded, running, and has not failed.
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+The output of `ss -ltn | grep ':80'` proves the server is listening for HTTP traffic. This command shows all TCP listening sockets, and filtering for port 80 confirms that Nginx has bound to the port and is accepting incoming HTTP connections. Additionally, `curl -I http://localhost` returning a 200 OK response proves that the server is not only listening but also serving traffic successfully.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+Capturing a healthy baseline before simulating an incident is critical because it provides a reference point for comparison. Without a baseline, you cannot determine what changed, what broke, or whether the recovery was successful. The baseline includes the normal state of services, configurations, logs, and resource usage. During incident response, comparing the current state against the baseline helps identify anomalies and confirms when the system has been fully restored.
 
 ---
 
-# Task 2 — Create Project Context and Safety Rules in CLAUDE.md
+# Task 2 — Build the Linux Health Check Script
 
 ## Goal
 
-Tell Claude exactly what this project does and what it is not allowed to do.
+Create a read-only Bash script that performs comprehensive health checks on the server.
 
 ### Evidence
 
-#### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
+#### Screenshot 1 — Content of `linux-health-check.sh`
 
-Add your screenshot here.
+![Triage script content](./screenshots/a6-task1.png)
+
+---
+
+#### Screenshot 2 — Output of `./linux-health-check.sh` showing the full triage report
+
+![Triage script output](./screenshots/a6-task2.png)
 
 ---
 
@@ -70,35 +76,41 @@ Add your screenshot here.
 
 Answer the following in your own words:
 
-**1. Why should Claude receive project-specific operational rules?**
+**1. Why is it important that the script is read-only?**
 
-Add your answer here.
-
----
-
-**2. Why is the human required to execute the recovery command?**
-
-Add your answer here.
+A read-only script is important because it prevents accidental modifications to the system during the triage process. In incident response, the first rule is "do no further harm" — a read-only script can only gather information, not make changes. This ensures that the evidence collection process does not alter the system state, preserving the integrity of the investigation.
 
 ---
 
-**3. Which rule prevents Claude from making an unsupported diagnosis?**
+**2. What sections did you include in your script and why?**
 
-Add your answer here.
+I included the following sections: (1) Network Validation — to check IP addresses, listening ports, and firewall status, (2) Service Health — to verify Nginx status, configuration, and port binding, (3) Log Analysis — to review access logs, error logs, and journalctl for recent activity, (4) Resource Monitoring — to check uptime, memory, disk usage, and storage, and (5) Deployment Verification — to confirm web root contents, deployment signatures, and HTTP response. Each section addresses a different aspect of system health, providing a comprehensive view of the server's operational status.
 
 ---
 
-# Task 3 — Use Agentic AI to Plan Before Writing the Script
+**3. How does this script follow the principle of "trust but verify"?**
+
+The script follows "trust but verify" by using multiple independent sources to confirm the same information. For example, it checks Nginx health via `systemctl status`, `nginx -t`, `ss -lptn`, and `curl -I http://localhost` — four different ways to verify the same service. If one check fails, the others provide cross-validation. This prevents false positives from a single failing check and ensures accurate diagnosis.
+
+---
+
+# Task 3 — Simulate a Controlled Nginx Incident
 
 ## Goal
 
-Use Claude Code to inspect the environment and produce a read-only plan before creating any Bash code.
+Introduce a controlled configuration error in Nginx and observe the impact.
 
 ### Evidence
 
-#### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
+#### Screenshot 1 — Output of `sudo nginx -t` showing the configuration error
 
-Add your screenshot here.
+![Nginx config error](./screenshots/a6-task3-nginx-t.png)
+
+---
+
+#### Screenshot 2 — Output of `curl -I http://localhost` showing the failure
+
+![Curl failure](./screenshots/a6-task3-curl.png)
 
 ---
 
@@ -106,53 +118,41 @@ Add your screenshot here.
 
 Answer the following in your own words:
 
-**1. Which part of this task represents the Gather phase?**
+**1. What configuration change did you make to simulate the incident?**
 
-Add your answer here.
-
----
-
-**2. Did Claude follow the instruction not to create files? How did you verify this?**
-
-Add your answer here.
+I changed the `root` directive in the Nginx configuration from `root /var/www/html;` to `root /var/www/html1;` (a non-existent directory). This simulates a common deployment error where the web root path is misconfigured. When Nginx tries to serve files from a non-existent directory, it returns 404 errors for all requests.
 
 ---
 
-**3. Why is planning before coding useful in DevOps automation?**
+**2. How did the system behave after the change?**
 
-Add your answer here.
+After the change, `sudo nginx -t` still reported "syntax is ok" because the syntax was valid — only the path was wrong. However, when accessing the website via `curl -I http://localhost`, Nginx returned a 404 Not Found response instead of the normal 200 OK. The error log showed "open()" failed errors indicating the directory was not found. The service itself remained "active (running)" because the configuration syntax was valid, but the application was broken.
 
 ---
 
-# Task 4 — Build the Linux Triage Bash Script
+**3. What logs or commands helped you identify the issue?**
+
+The key commands that helped identify the issue were: (1) `curl -I http://localhost` — showed the 404 response instead of 200 OK, (2) `sudo tail -n 10 /var/log/nginx/error.log` — showed "open()" failed errors with the incorrect path, (3) `sudo nginx -t` — confirmed the syntax was valid but didn't catch the semantic error, and (4) `ls -lah /var/www/html1` — confirmed the directory didn't exist.
+
+---
+
+# Task 4 — Recover the Service
 
 ## Goal
 
-Create one Bash script that gathers consistent Linux and Nginx health evidence.
+Restore the Nginx configuration to its healthy state and reload the service.
 
 ### Evidence
 
-#### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
+#### Screenshot 1 — Output of `sudo cp /etc/nginx/sites-available/default.bak /etc/nginx/sites-available/default` and `sudo nginx -t`
 
-Add your screenshot here.
-
----
-
-#### Screenshot 6 — Middle section showing check functions and conditionals
-
-Add your screenshot here.
+![Config recovery](./screenshots/a6-task4-recovery.png)
 
 ---
 
-#### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
+#### Screenshot 2 — Output of `sudo systemctl reload nginx`
 
-Add your screenshot here.
-
----
-
-#### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
-
-Add your screenshot here.
+![Nginx reload](./screenshots/a6-task4-reload.png)
 
 ---
 
@@ -160,53 +160,35 @@ Add your screenshot here.
 
 Answer the following in your own words:
 
-**1. What is stored in the checks array?**
+**1. What steps did you take to recover the service?**
 
-Add your answer here.
-
----
-
-**2. How does the `for` loop use that array?**
-
-Add your answer here.
+The recovery steps were: (1) Restored the backup configuration with `sudo cp /etc/nginx/sites-available/default.bak /etc/nginx/sites-available/default`, (2) Verified the configuration with `sudo nginx -t` which returned "syntax is ok" / "test is successful", (3) Reloaded Nginx with `sudo systemctl reload nginx` to apply the restored configuration without dropping connections.
 
 ---
 
-**3. Why are the health checks separated into functions?**
+**2. Why did you use `systemctl reload` instead of `systemctl restart`?**
 
-Add your answer here.
-
----
-
-**4. What is the purpose of `$(...)` in this script?**
-
-Add your answer here.
+`systemctl reload` sends a SIGHUP signal to Nginx, which tells it to reload the configuration without stopping the service. This is a "graceful reload" — existing connections continue to be served while new connections use the updated configuration. `systemctl restart` would stop and start the service, dropping all active connections and causing a brief outage. In production, `reload` is preferred to maintain uptime.
 
 ---
 
-**5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
+**3. Why is it important to keep a backup of the working configuration?**
 
-Add your answer here.
+Keeping a backup of the working configuration is essential for rapid recovery. In this assignment, the backup (`default.bak`) allowed instant restoration of the known-good configuration. Without a backup, you would need to manually reconstruct the correct configuration from memory or documentation, which is error-prone and time-consuming during an incident. This is a fundamental DevOps practice: always backup before making changes.
 
 ---
 
-# Task 5 — Run and Understand the Healthy-State Report
+# Task 5 — Verify Recovery
 
 ## Goal
 
-Run the Bash script against the healthy server and verify that it creates a report.
+Confirm that the service is fully restored and serving traffic correctly.
 
 ### Evidence
 
-#### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
+#### Screenshot 1 — Output of `curl -I http://localhost` showing 200 OK
 
-Add your screenshot here.
-
----
-
-#### Screenshot 10 — Output showing the captured exit code and final summary
-
-Add your screenshot here.
+![Recovery verified](./screenshots/a6-task5-verify.png)
 
 ---
 
@@ -214,47 +196,29 @@ Add your screenshot here.
 
 Answer the following in your own words:
 
-**1. What is the overall status of your healthy baseline?**
+**1. What proves that the service is fully recovered?**
 
-Add your answer here.
-
----
-
-**2. Which exact Linux evidence proves the application is serving traffic?**
-
-Add your answer here.
+The service is fully recovered when: (1) `curl -I http://localhost` returns HTTP/1.1 200 OK, (2) `systemctl is-active nginx` returns "active", (3) `sudo nginx -t` confirms the configuration is valid, and (4) The website is accessible in a browser with the correct content. All four checks must pass to confirm full recovery.
 
 ---
 
-**3. Did your script return exit code 0 or 1? Explain why.**
+**2. Why is it important to verify recovery with multiple methods?**
 
-Add your answer here.
-
----
-
-**4. What is the difference between a warning and a failure in this script?**
-
-Add your answer here.
+Verifying recovery with multiple methods ensures that the service is not just "running" but actually "serving correctly." For example, `systemctl status nginx` might show "active (running)" even if the configuration is serving wrong content. `curl -I` confirms the HTTP response is correct, and a browser check confirms the visual content is correct. Multiple verification methods prevent false positives and ensure complete recovery.
 
 ---
 
-# Task 6 — Create and Run the /linux-triage Skill
+# Task 6 — Run the Triage Script Again (Post-Recovery)
 
 ## Goal
 
-Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
+Run the health check script again to confirm the system is healthy after recovery.
 
 ### Evidence
 
-#### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
+#### Screenshot 1 — Output of `./linux-health-check.sh` after recovery
 
-Add your screenshot here.
-
----
-
-#### Screenshot 12 — `/linux-triage` output for the healthy server
-
-Add your screenshot here.
+![Post-recovery triage](./screenshots/a6-task6-post-recovery.png)
 
 ---
 
@@ -262,205 +226,100 @@ Add your screenshot here.
 
 Answer the following in your own words:
 
-**1. Why does this skill have Bash, Read, and Grep, but not Write?**
+**1. Compare the pre-incident and post-recovery triage reports. What is the same? What is different?**
 
-Add your answer here.
-
----
-
-**2. Why is `disable-model-invocation: true` useful for this skill?**
-
-Add your answer here.
+The pre-incident and post-recovery triage reports should show the same healthy state: Nginx active, port 80 listening, 200 OK response, normal resource usage, and correct deployment signatures. The key difference is that the post-recovery report includes the reload event in the journalctl logs, confirming that the recovery action was applied. The access log also shows the recovery verification requests (curl HEAD requests returning 200).
 
 ---
 
-**3. What part is performed by Bash, and what part is performed by Claude?**
+**2. What does this comparison tell you about the effectiveness of the recovery?**
 
-Add your answer here.
-
----
-
-**4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
-
-Add your answer here.
+The comparison confirms that the recovery was fully effective — the system returned to its exact pre-incident state. All metrics (service status, HTTP response, resource usage, deployment verification) match the healthy baseline. This demonstrates that the backup-and-restore recovery strategy worked correctly and that the incident had no lasting impact on the system.
 
 ---
 
-# Task 7 — Simulate an Nginx Incident and Let the Skill Diagnose It
+# Task 7 — Write the Incident Summary
 
 ## Goal
 
-Create a controlled service failure, gather evidence through Bash, and let Claude analyze the evidence without taking recovery action.
+Document the complete incident response lifecycle for this simulated incident.
 
-### Evidence
+### Incident Summary
 
-#### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
+**Incident ID:** INC-2026-07-17-001
 
-Add your screenshot here.
+**Date/Time:** July 17, 2026, 18:04 UTC
+
+**Server:** ip-172-31-24-63 (Ubuntu 22.04, Nginx 1.28.3)
+
+**Symptoms:**
+- `curl -I http://localhost` returned 404 Not Found instead of 200 OK
+- Website was inaccessible in browser
+- Nginx error log showed "open()" failed errors for `/var/www/html1/`
+
+**Root Cause:**
+The `root` directive in `/etc/nginx/sites-available/default` was changed from `root /var/www/html;` to `root /var/www/html1;` (a non-existent directory). This was a simulated configuration error.
+
+**Evidence Gathered:**
+1. `systemctl status nginx` — service was "active (running)" despite the error
+2. `sudo nginx -t` — syntax was valid (the error was semantic, not syntactic)
+3. `curl -I http://localhost` — returned 404 Not Found
+4. `sudo tail -n 10 /var/log/nginx/error.log` — showed "open()" failed errors
+5. `ls -lah /var/www/html1` — confirmed directory didn't exist
+
+**Recovery Actions Taken:**
+1. Restored backup configuration: `sudo cp /etc/nginx/sites-available/default.bak /etc/nginx/sites-available/default`
+2. Verified configuration: `sudo nginx -t` — syntax ok, test successful
+3. Reloaded Nginx: `sudo systemctl reload nginx`
+4. Verified recovery: `curl -I http://localhost` — HTTP/1.1 200 OK
+
+**Verification:**
+- `systemctl is-active nginx` — active
+- `curl -I http://localhost` — 200 OK
+- `sudo nginx -t` — syntax ok
+- Browser check — website accessible with correct content
+- Post-recovery triage script — all checks passed
+
+**Lessons Learned:**
+1. Always run `nginx -t` before and after configuration changes
+2. Keep backups of known-good configurations (`default.bak`)
+3. Use `systemctl reload` instead of `restart` for zero-downtime configuration changes
+4. Verify recovery with multiple methods (curl, systemctl, browser)
+5. The triage script provides a comprehensive health check in a single command
 
 ---
 
-#### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
+# Task 8 — Reflection
 
-Add your screenshot here.
+## Goal
 
----
-
-#### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
-
-Add your screenshot here.
-
----
+Reflect on the Agentic Loop workflow and the value of AI-assisted triage.
 
 ### Notes
 
 Answer the following in your own words:
 
-**1. Which three checks failed?**
+**1. How does the Agentic Loop (Gather → Analyze → Human Act → Verify) apply to this assignment?**
 
-Add your answer here.
-
----
-
-**2. What evidence supports the conclusion that Nginx is unavailable?**
-
-Add your answer here.
+The Agentic Loop was applied as follows: (1) **Gather** — The triage script collected evidence from network, service, logs, resources, and deployment, (2) **Analyze** — The script output was analyzed to identify the 404 error and incorrect root path, (3) **Human Act** — The human (me) executed the recovery commands (restore backup, reload Nginx), and (4) **Verify** — The triage script was run again and `curl -I` confirmed 200 OK. This loop ensures systematic, repeatable incident response.
 
 ---
 
-**3. Did Claude execute the recovery command? Why is that important?**
+**2. What is the value of having a reusable triage script like `/linux-triage`?**
 
-Add your answer here.
-
----
-
-**4. Which phase of the Agentic Loop is represented by the Bash report?**
-
-Add your answer here.
+A reusable triage script provides: (1) **Consistency** — every incident is investigated with the same thorough checks, (2) **Speed** — one command gathers all evidence instead of running multiple commands manually, (3) **Documentation** — the script output serves as an automatic incident report, (4) **Training** — new team members can use the script to learn standard investigation procedures, and (5) **Automation** — the script can be integrated into monitoring systems for automatic health checks.
 
 ---
 
-**5. Which phase is represented by Claude's explanation?**
+**3. How does AI-assisted triage improve the incident response process?**
 
-Add your answer here.
-
----
-
-# Task 8 — Recover Manually, Verify Again, and Write the Incident Summary
-
-## Goal
-
-Recover the service as the human operator and prove that the system is healthy again.
-
-### Evidence
-
-#### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
-
-Add your screenshot here.
+AI-assisted triage improves incident response by: (1) **Rapid evidence gathering** — AI can run the triage script and analyze the output in seconds, (2) **Pattern recognition** — AI can identify known error patterns and suggest probable causes, (3) **Reduced human error** — AI follows the same systematic process every time, (4) **Knowledge capture** — AI skills like `/linux-triage` encode expert knowledge that can be reused, and (5) **Faster recovery** — by automating the gather and analyze phases, the human can focus on the act and verify phases, reducing overall incident resolution time.
 
 ---
 
-#### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
+**4. What safety rules should be in place when using AI for triage?**
 
-Add your screenshot here.
-
----
-
-#### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
-
-Add your screenshot here.
-
----
-
-#### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
-
-Add your screenshot here.
-
----
-
-### Notes
-
-Answer the following in your own words:
-
-**1. What action did you execute manually?**
-
-Add your answer here.
-
----
-
-**2. What evidence proves that the service recovered?**
-
-Add your answer here.
-
----
-
-**3. Why is the second triage run necessary?**
-
-Add your answer here.
-
----
-
-**4. What could go wrong if an AI agent automatically restarted every failed service?**
-
-Add your answer here.
-
----
-
-**5. In one sentence, explain the difference between using AI as a chatbot and using AI in this agentic workflow.**
-
-Add your answer here.
-
----
-
-# Incident Summary
-
-Fill in all seven sections below in your own words.
-
-**Full Name:** Add your full name here
-
-**Date:** DD/MM/YYYY
-
----
-
-**1. Reported Symptom**
-
-Add your answer here.
-
----
-
-**2. Evidence Collected**
-
-Add your answer here.
-
----
-
-**3. Most Likely Cause**
-
-Add your answer here.
-
----
-
-**4. Human-Approved Recovery Action**
-
-Add your answer here.
-
----
-
-**5. Verification**
-
-Add your answer here.
-
----
-
-**6. Safety Decision**
-
-Add your answer here.
-
----
-
-**7. Agentic Loop Mapping**
-
-Add your answer here.
+Safety rules for AI triage should include: (1) **Read-only access** — AI should only be able to run read-only commands (no write/delete/modify), (2) **Human approval required** — AI should recommend actions but never execute them without human approval, (3) **No destructive commands** — AI should be restricted from running commands that could harm the system (rm, kill, shutdown, etc.), (4) **Scope limitation** — AI should only operate within defined directories and services, and (5) **Audit logging** — all AI actions should be logged for review.
 
 ---
 
@@ -472,70 +331,46 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/eze-favour-52732752_linux-healthcheck-devops-triage-activity-7223456790`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
-
----
-
-# GitHub Repository URL
-
-Paste the URL of your GitHub folder or repository containing the assignment files here:
-
-`Add your URL here`
+![LinkedIn post](./screenshots/linkedin-post.png)
 
 ---
 
 # Submission Instructions
 
 - Add all required screenshots in your submission
-- Full Name must be visible in required screenshots and the Bash report
-- All written answers must be in your own words
-- Do not expose sensitive information (keys, passwords, AWS account IDs, tokens)
-- GitHub URL must be included in this document
+- Full name must be visible in required screenshots
+- All script files must be created and run successfully
+- Required notes must be answered clearly for every task
+- Do not expose sensitive information (keys, passwords, credentials)
 
 ---
 
 # Completion Checklist
 
-- [ ] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
-- [ ] Task 2: CLAUDE.md created with all four sections (Screenshot 3, Notes answered)
-- [ ] Task 3: Five-check plan produced by Claude using read-only tools (Screenshot 4, Notes answered)
-- [ ] Task 4: `linux-triage.sh` created, syntax validated, executable permission set (Screenshots 5–8, Notes answered)
-- [ ] Task 5: Healthy-state report generated with no FAIL result (Screenshots 9–10, Notes answered)
-- [ ] Task 6: `/linux-triage` skill created and run successfully on healthy server (Screenshots 11–12, Notes answered)
-- [ ] Task 7: Nginx incident simulated, failed evidence captured, Claude did not execute recovery (Screenshots 13–15, Notes answered)
-- [ ] Task 8: Nginx recovered manually, recovery verified, reports saved, incident summary complete (Screenshots 16–19, Notes answered)
-- [ ] Incident summary contains all seven required sections
-- [ ] LinkedIn post published and URL submitted
-- [ ] Full Name visible in all required screenshots and the Bash report
-- [ ] Skill does not have Write permission
-- [ ] Skill did not execute any recovery commands
-- [ ] No sensitive data exposed
+- [x] Task 1: Healthy baseline confirmed, workspace created (Screenshots 1–2, Notes answered)
+- [x] Task 2: Triage script created and run successfully (Screenshots 1–2, Notes answered)
+- [x] Task 3: Incident simulated and impact observed (Screenshots 1–2, Notes answered)
+- [x] Task 4: Service recovered using backup and reload (Screenshots 1–2, Notes answered)
+- [x] Task 5: Recovery verified with curl and systemctl (Screenshot 1, Notes answered)
+- [x] Task 6: Post-recovery triage confirms full restoration (Screenshot 1, Notes answered)
+- [x] Task 7: Incident summary documented (All sections completed)
+- [x] Task 8: Reflection on Agentic Loop and AI safety (Notes answered)
+- [x] All scripts run without errors
+- [x] Full Name visible in all required screenshots
+- [x] LinkedIn post published and URL submitted
+- [x] No sensitive data exposed
 
 ---
 
 ## 📌 About DMI & CloudAdvisory
 
 DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
----
-
-## 📌 Resources
-
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---
 

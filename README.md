@@ -3,7 +3,7 @@
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge)
-![Weeks](https://img.shields.io/badge/Weeks_Completed-0%2F15-green?style=for-the-badge)
+![Weeks](https://img.shields.io/badge/Weeks_Completed-4%2F15-green?style=for-the-badge)
 
 > 👋 **New here?** Read the [submission instructions](./INSTRUCTIONS.md) first — how to fork, fill in, and submit your assignments.
 
@@ -60,56 +60,53 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Preview — what your full stack looks like:**
 
-[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-bash-scripting/)[![Week 05](./badges/week-05.svg)](./week-05-github/)[![Week 06](./badges/week-06.svg)](./week-06-devops-lifecycle/)[![Week 07](./badges/week-07.svg)](./week-07-aws-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-azure-cloud/)[![Week 09](./badges/week-09.svg)](./week-09-terraform/)[![Week 10](./badges/week-10.svg)](./week-10-ansible/)[![Week 11](./badges/week-11.svg)](./week-11-azure-devops/)[![Week 12](./badges/week-12.svg)](./week-12-docker/)[![Week 13](./badges/week-13.svg)](./week-13-kubernetes/)[![Week 14](./badges/week-14.svg)](./week-14-final-project/)
+[![Week 00](./badges/week-00.svg)](./week-00-internet-and-networking/)[![Week 01](./badges/week-01.svg)](./week-01-success-mindset/)[![Week 02](./badges/week-02.svg)](./week-02-agentic-ai/)[![Week 03](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)[![Week 04](./badges/week-04.svg)](./week-04-git-and-github/)[![Week 05](./badges/week-05.svg)](./week-05-devops-lifecycle/)[![Week 06](./badges/week-06.svg)](./week-06-aws-cloud/)[![Week 07](./badges/week-07.svg)](./week-07-azure-cloud/)[![Week 08](./badges/week-08.svg)](./week-08-terraform/)[![Week 09](./badges/week-09.svg)](./week-09-ansible/)[![Week 10](./badges/week-10.svg)](./week-10-azure-devops/)[![Week 11](./badges/week-11.svg)](./week-11-docker/)[![Week 12](./badges/week-12.svg)](./week-12-kubernetes/)[![Week 13](./badges/week-13.svg)](./week-13-final-project/)
 
 ---
 
 **Your stack (uncomment each badge as you earn it):**
 
- Week 00 → Internet & Networking Basics
+Week 00 → Internet & Networking Basics
 [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
 Week 01 → Success Mindset
- Week 01 – Mindset badges/week-01.svg week-01-success-mindset
+[![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/)
 
-<!-- Week 02 → Agentic AI with Claude Code -->
-<!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
+Week 02 → Agentic AI with Claude Code
+[![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/)
 
-<!-- Week 03 → Linux for DevOps -->
-<!-- [![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-for-devops/) -->
+Week 03 → Linux for DevOps
+[![Week 03 – Linux](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Bash Scripting -->
-<!-- [![Week 04 – Bash](./badges/week-04.svg)](./week-04-bash-scripting/) -->
+<!-- Week 04 → Git & GitHub -->
+<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
 
-<!-- Week 05 → Git & GitHub -->
-<!-- [![Week 05 – Git](./badges/week-05.svg)](./week-05-github/) -->
+<!-- Week 05 → DevOps Lifecycle -->
+<!-- [![Week 05 – Lifecycle](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
 
-<!-- Week 06 → DevOps Lifecycle & Agile -->
-<!-- [![Week 06 – Agile](./badges/week-06.svg)](./week-06-devops-lifecycle/) -->
+<!-- Week 06 → AWS Cloud -->
+<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
 
-<!-- Week 07 → AWS Cloud -->
-<!-- [![Week 07 – AWS](./badges/week-07.svg)](./week-07-aws-cloud/) -->
+<!-- Week 07 → Azure Cloud -->
+<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
 
-<!-- Week 08 → Azure Cloud -->
-<!-- [![Week 08 – Azure](./badges/week-08.svg)](./week-08-azure-cloud/) -->
+<!-- Week 08 → Terraform -->
+<!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
 
-<!-- Week 09 → Terraform -->
-<!-- [![Week 09 – Terraform](./badges/week-09.svg)](./week-09-terraform/) -->
+<!-- Week 09 → Ansible -->
+<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
 
-<!-- Week 10 → Ansible -->
-<!-- [![Week 10 – Ansible](./badges/week-10.svg)](./week-10-ansible/) -->
+<!-- Week 10 → Azure DevOps CI/CD -->
+<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
 
-<!-- Week 11 → Azure DevOps CI/CD -->
-<!-- [![Week 11 – CI/CD](./badges/week-11.svg)](./week-11-azure-devops/) -->
+<!-- Week 11 → Docker -->
+<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
 
-<!-- Week 12 → Docker -->
-<!-- [![Week 12 – Docker](./badges/week-12.svg)](./week-12-docker/) -->
+<!-- Week 12 → Kubernetes -->
+<!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
 
-<!-- Week 13 → Kubernetes -->
-<!-- [![Week 13 – K8s](./badges/week-13.svg)](./week-13-kubernetes/) -->
-
-<!-- Week 14 → Final Project / Capstone -->
-<!-- [![Week 14 – Capstone](./badges/week-14.svg)](./week-14-final-project/) -->
+<!-- Week 13 → Final Project -->
+<!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
 
 *Complete a week → uncomment the badge → watch your stack grow.*
 
@@ -134,8 +131,8 @@ Week 01 → Success Mindset
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | ✅ Completed | ✅ Completed |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | ✅ Completed  | ✅ Completed  |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | ✅ [LinkedIn Post](https://www.linkedin.com/in/eze-favour-52732752/) | ✅ [Blog Post](./week-02-agentic-ai/reflection-week-2.md) |
+| 03 | Linux for DevOps | ✅ Completed | ✅ Solved | ✅ [LinkedIn Post](https://www.linkedin.com/in/eze-favour-52732752/) | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
