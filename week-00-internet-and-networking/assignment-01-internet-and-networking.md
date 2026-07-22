@@ -27,14 +27,11 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 
 ![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
 
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
-
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a network protocol is like a set of rules that devices follow to communicate with each other, similar to how two people speaking the same language can understand each other. Protocols like TCP/IP ensure data is sent, received, and acknowledged correctly across networks. ChatGPT helped me understand this with the analogy of mailing a letter — the address (IP), the language (protocol), and the delivery confirmation (ACK) all work together.
 
 ---
 
@@ -59,7 +56,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user in Nigeria visits EpicReads (hosted in Finland), their request is broken into small data chunks called **packets** — this is **packet switching**. Each packet contains the destination **IP address** (e.g., 52.172.142.222) so routers across the internet can forward it toward the Finland server. The **TCP/IP** protocol suite ensures packets arrive in the correct order and any lost packets are retransmitted. Once the server receives the request, it responds using **HTTP/HTTPS** — the protocol that web browsers and servers use to communicate. HTTPS adds encryption (SSL/TLS) so that sensitive data like login credentials or payment info is secure during transit. The response is also split into packets, routed back through the internet, and reassembled by the user's browser into the EpicReads webpage they see on screen.
 
 ---
 
@@ -93,27 +90,24 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 
 ![Application Architecture Diagram](screenshots/task-3-diagram.png)
 
-
-Replace `task-3-diagram.png` with your actual diagram file name.
-
 ---
 
 ## Technologies Used
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* React.js
+* HTML / CSS / JavaScript
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js / Express
+* Python / Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* PostgreSQL
+* MongoDB
 
 ---
 
@@ -142,7 +136,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+**DNS (Domain Name System)** is like the phonebook of the internet — it translates human-friendly domain names (like epicreads.com) into machine-readable IP addresses (like 52.172.142.222). Without DNS, users would have to memorize IP addresses to visit websites. To connect epicreads.com to the server's IP address, an **A Record (Address Record)** should be used. An A Record maps a domain name directly to an IPv4 address, which is exactly what we need here since the server has a fixed IP address (52.172.142.222).
 
 ---
 
@@ -156,12 +150,6 @@ Take a screenshot of your VS Code environment showing:
 
 * Terminal open inside VS Code
 * Running a basic command:
-
-### Windows
-
-```powershell
-dir
-```
 
 ### Linux / macOS
 
@@ -179,9 +167,6 @@ ls
 Save your screenshot in the `screenshots` folder and update the file name below.
 
 ![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
-
-
-Replace `task-5-vscode.png` with your actual screenshot file name.
 
 ---
 
@@ -209,7 +194,7 @@ Clearly structure your post into the following sections:
 
 Add the following credit note at the end of your post:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/Favourcloud.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
@@ -218,7 +203,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/in/eze-favour-52732752/
 ```
 
 ---
@@ -227,27 +212,41 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+🌐 Week 00 of the DevOps Micro Internship — Internet & Networking Basics
+
+This week I explored the fundamentals that power the internet:
+
+🧑‍💻 ChatGPT as a Learning Assistant — Used AI to understand network protocols with real-life analogies. A protocol is like a common language devices use to communicate.
+
+🌍 Internet & Networking — Learned how packet switching, IP addresses, TCP/IP, and HTTP/HTTPS work together to deliver websites globally. Your request is broken into packets, routed across the internet, and reassembled — all in seconds!
+
+🏗️ Application Architecture — Compared Two-Tier (Frontend + Database) vs Three-Tier (Frontend + Backend + Database) architectures. Each layer has specific technologies like React, Node.js, and PostgreSQL.
+
+🌐 DNS — The Domain Name System translates human-friendly names like epicreads.com into IP addresses. An A Record maps the domain to the server's IPv4 address.
+
+💻 VS Code Setup — Got my development environment ready with VS Code, terminal configured, and my preferred theme.
+
+#DevOps #CloudComputing #Networking #DNS #VSCODE #DMI #AgenticAI
 
 ---
 
-# Reflection – Week 0
+## Reflection – Week 0
 
 ### What did you find easy?
 
-Add your answer here...
+The VS Code setup and ChatGPT interaction were straightforward since I already had experience with both tools. Understanding the high-level concepts of DNS and how websites are accessed also came naturally.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Drawing the architecture diagrams and clearly distinguishing between Two-Tier and Three-Tier applications took some thought. Explaining packet switching in simple terms without oversimplifying was also a bit challenging.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I will focus on providing more detailed answers with concrete examples. I also want to improve my diagramming skills and ensure all screenshots are clear and properly labeled before submission.
 
 ---
 
