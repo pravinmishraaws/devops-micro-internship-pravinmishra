@@ -119,4 +119,4 @@ git push
 
 ---
 
-> Questions? Ask in the Discord: https://discord.pravinmishra.com
+> Questions? Ask in the Discord: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme

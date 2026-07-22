@@ -81,12 +81,12 @@ Week-1 contains 7 assignments
 | 1 | DMI Cohort-3 Orientation Video | Watch the orientation video to get started with Cohort-3 | [YouTube](https://youtu.be/PTSkAR7iMpQ) |
 | 2 | YouTube Playlist - Cohort-3 | Watch the weekly live class recordings of Cohort-3 on YouTube | [Playlist](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho) |
 | 3 | How to write blogs? | Watch the video to learn how to write better blogs that people actually read in the age of AI content | [YouTube](https://www.youtube.com/watch?v=tyIsCkPVYjw), [YouTube](https://youtube.com/live/QNL-zW4dp8g?feature=share) |
-| 4 | DMI Website | Visit the official DevOps Micro Internship website | [Website](https://dmi.pravinmishra.com/) |
+| 4 | DMI Website | Visit the official DevOps Micro Internship website | [Website](https://dmi.pravinmishra.com/?utm_source=github&utm_medium=readme) |
 | 5 | The Cloud Advisory | Follow The Cloud Advisory on LinkedIn | [LinkedIn](https://www.linkedin.com/company/thecloudadvisory) |
 
 ---
 
-## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html)
+## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html?utm_source=github&utm_medium=readme)
 
 ---
 
