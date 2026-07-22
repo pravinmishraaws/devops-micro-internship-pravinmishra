@@ -33,13 +33,8 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-<<<<<<< HEAD
-I believe career is my first priority because it’s both my passion and my identity. Money matters, but I always choose learning over short‑term earnings. I don’t believe in “learn first, do later”; modern life demands doing and learning simultaneously. I value discipline and planning, even though relationships sometimes suffer when I focus on growth. People say health comes first, but I often skip meals when I’m deeply engaged in work. Failure hits me hard because success genuinely matters to me. When everything is structured, life becomes smooth. And in today’s tech industry, competition and politics are unavoidable realities.
-=======
-Add your answer here...
->>>>>>> upstream/main
+ I believe career is my first priority because it’s both my passion and my identity. Money matters, but I always choose learning over short‑term earnings. I don’t believe in “learn first, do later”; modern life demands doing and learning simultaneously. I value discipline and planning, even though relationships sometimes suffer when I focus on growth. People say health comes first, but I often skip meals when I’m deeply engaged in work. Failure hits me hard because success genuinely matters to me. When everything is structured, life becomes smooth. And in today’s tech industry, competition and politics are unavoidable realities.
 
----
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
 
@@ -53,7 +48,6 @@ Write each truth in this format:
 
 **Evidence from my life:** (2–4 lines: what you tried + what happened)
 
----
 
 ## Truth #1
 
@@ -65,8 +59,6 @@ Doing Creates More Learning Than Planning Ever Will
 
 After spending nearly sixteen years in mainframe legacy systems, I repeatedly tried to learn other technologies by “studying first.” Every attempt failed within days. The breakthrough happened only when a migration project forced me to act first and learn alongside the work. That experience proved to me that real growth comes from doing, not from endless preparation
 
----
-
 ## Truth #2
 
 ### Truth
@@ -77,7 +69,6 @@ A Growing Network Is Essential for Career Progress
 
 I started my IT career as an introvert, and it held me back in ways I didn’t understand at the time. Over the years, I realised that building a strong professional network is not optional — it’s a core part of learning, collaboration, and career advancement. Once I began connecting with people, new opportunities appeared that I would never have reached alone.
 
----
 
 ## Truth #3
 
@@ -135,7 +126,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ ).
 
 ## Your Article
 
@@ -157,9 +148,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### Public Link
 
-Paste your link here:
-
-`https://medium.com/p/667f645e4196?postPublishedType=initial`
+Paste your link here: https://medium.com/p/667f645e4196?postPublishedType=initial
 
 ---
 
@@ -218,29 +207,26 @@ Choose books that improve:
 
 ## Book List
 
-<<<<<<< HEAD
 1. Meditations By Marcus Aurelius
+![book1](screenshots/Week-01-Screenshot-01.png)
 2. The Art of War By Sun Tzu
+![book1](screenshots/Week-01-Screenshot-02.png)
 3. Think and Grow Rich By Napoleon Hill
+![book1](screenshots/Week-01-Screenshot-03.png)
 4. The Science of Getting Rich By Wallace D. Wattles
+![book1](screenshots/Week-01-Screenshot-04.png)
 5. As a Man Thinketh By James Allen
+![book1](screenshots/Week-01-Screenshot-05.png)
 6. How to Win Friends and Influence People By Dale Carnegie
+![book1](screenshots/Week-01-Screenshot-06.png)
 7. Man’s Search for Meaning By Viktor E. Frankl
+![book1](screenshots/Week-01-Screenshot-07.png)
 8. Atomic Habits By James Clear
+![book1](screenshots/Week-01-Screenshot-08.png)
 9. The 7 Habits of Highly Effective People By Stephen R. Covey
+![book1](screenshots/Week-01-Screenshot-09.png)
 10. The Power of Now By Eckhart Tolle
-=======
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
->>>>>>> upstream/main
+![book1](screenshots/Week-01-Screenshot-10.png)
 
 ---
 
@@ -300,7 +286,6 @@ Examples:
 Answer:
 
 Yes
-
 ---
 
 ## Step 2: Your 5-Month Routine + Focus Blocks
@@ -323,7 +308,6 @@ Sun - DMI learning and weekly review
 
 Mon-Sun - Spend extra 1 hr daily to gather information for learning each week topic in deep.
 
-
 ---
 
 ### Focus Blocks
@@ -336,7 +320,7 @@ Sun - Evening 3 hrs minimum
 
 #### How Many Sessions Per Week?
 
-32 - 40 hrs in a week
+7 focused learning sessions per week: (5 weekday sessions, 1 Saturday session, and 1 weekly review session).
 
 ---
 
@@ -375,9 +359,7 @@ Daily 1 hr exercise, early morning 1 hr learning time before getting ready for w
 
 Paste your LinkedIn post link here:
 
-`_https://www.linkedin.com/posts/vivek-satheeshbabu-454bb2408_join-the-dmi-devops-micro-internship-share-7478919372154224640-TsHT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgdzwABbNstL2kSo9lujHSi1sZJFd95mgQ `
-
----
+https://www.linkedin.com/posts/vivek-satheeshbabu-454bb2408_join-the-dmi-devops-micro-internship-share-7478919372154224640-TsHT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgdzwABbNstL2kSo9lujHSi1sZJFd95mgQ
 
 ## 10. Proof of Work
 

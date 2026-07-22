@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/Week-00-TASK1.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a protocol is a set of agreed rules that allows computers and devices to communicate with each other correctly. Just like people follow rules when talking, driving, or ordering food, computers follow networking protocols to exchange information. Understanding protocols helps me see how applications, servers, and networks communicate, which is a fundamental concept in DevOps and networking.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When someone visits EpicReads from anywhere in the world, their request travels across the internet using packet switching, where data is broken into small pieces called packets and sent separately. Each packet knows where to go because of the website’s IP address, which is like the home address of the server in Finland. The communication follows TCP/IP, a set of rules that ensures all packets are delivered correctly and reassembled in the right order. Finally, HTTP/HTTPS is used to load the website in the browser—HTTPS also keeps the connection secure by encrypting the data. Together, these technologies allow users globally to access EpicReads quickly and safely. 
 
 ---
 
@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/Week-00-TASK3.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +102,19 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML
+* CSS
+* Javascript
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* MongoDB
 
 ---
 
@@ -142,7 +143,8 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. DNS (Domain Name System) is like internet’s phonebook.  When we type the domain epicread.com on the browser, DNS converts it into IP addresses and we don’t need to remember numbers for all domain.
+2. To connect epicreads.com to 52.172.142.222, we should use an A record. An A record maps a domain name to an IPv4 address, making it the correct and standard way to point a domain to a server running on that IP. 
 
 ---
 
@@ -178,7 +180,7 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/Week-00-TASK5.png)
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,9 +219,7 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
-```
+https://www.linkedin.com/posts/vivek-satheeshbabu-454bb2408_to-start-my-career-in-devops-i-just-finished-share-7458267851905376256-iJjK/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGgdzwABbNstL2kSo9lujHSi1sZJFd95mgQ
 
 ---
 
@@ -227,7 +227,23 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+To start my career in Devops, I just finished Week 0 of the DevOps Micro‑Internship, and here’s what I learned in each task.
+
+Week 0 – DevOps Micro Internship Summary
+
+💡 ChatGPT
+I used ChatGPT as my learning assistant to understand networking protocols through a simple real‑life example — ordering food at a restaurant. This analogy helped me see how communication follows a structured set of rules, just like protocols in networking.
+🌐 Internet & Networking
+When someone visits EpicReads, their request travels across the internet using packet switching. Each packet carries the website’s IP address, ensuring it reaches the correct server. TCP/IP guarantees reliable delivery, while HTTPS secures the connection through encryption — enabling fast and safe global access.
+🏗️ App Architecture
+I explored how applications are built using two‑tier and three‑tier architectures. The two‑tier model connects the client directly to the database, while the three‑tier model separates the frontend, backend, and database layers — improving scalability, security, and maintainability.
+🌍 DNS
+DNS acts as the internet’s phonebook, translating domain names into IP addresses. To connect epicreads.com to 52.172.142.222, an A record is used because it maps a domain directly to an IPv4 address — the standard way to point a domain to its server.
+💻 VS Code Setup
+I installed Visual Studio Code, opened the integrated terminal, ran basic commands, and customized the theme. This setup prepares me for coding, automation, and future DevOps tasks.
+
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://lnkd.in/eHpkPx4v · Start your DevOps journey: https://lnkd.in/ePzqKf65
 
 ---
 
@@ -235,19 +251,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+All topics are explained clearly in this DMI. People with technical and non technical background can follow and learn easily.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+I am new in using the tools like VS Code and Posting a blog in linkedin. But i will get used to it and doing it regularly will make things easy and increase my confidence.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+I will spend more time on hands on by doing each assignment repeatedly and revising my notes
 
 ---
 
