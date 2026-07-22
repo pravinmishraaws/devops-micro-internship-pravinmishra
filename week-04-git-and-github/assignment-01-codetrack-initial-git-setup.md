@@ -20,13 +20,13 @@ Create a `CodeTrack` project folder and initialize it as a Git repository.
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![Screenshot 1](screenshots/assignment1-git-init.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![Screenshot 2](screenshots/assignment1-git-init.png)
 
 ---
 
@@ -34,7 +34,7 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The `.git` folder is a hidden directory created by Git when you initialize a repository. It contains all the metadata, object database, configuration, and history for the repository. It matters because without it, Git wouldn't know how to track changes, manage versions, or store commit history. It's essentially the "brain" of the Git repository.
 
 ---
 
@@ -48,7 +48,7 @@ Set your Git username and email for the `CodeTrack` repository only, using `git 
 
 #### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Screenshot 3](screenshots/assignment1-git-init.png)
 
 ---
 
@@ -62,7 +62,7 @@ Set a global Git username and email for this machine using `git config --global`
 
 #### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
 
-Add your screenshot here.
+![Screenshot 4](screenshots/assignment1-git-init.png)
 
 ---
 
@@ -76,11 +76,11 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [ ] Explanation of the `.git` folder written in your own words
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] No sensitive data exposed
+- [x] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
+- [x] Explanation of the `.git` folder written in your own words
+- [x] Local `user.name` and `user.email` configured and verified (Screenshot 3)
+- [x] Global `user.name` and `user.email` configured and verified (Screenshot 4)
+- [x] No sensitive data exposed
 
 ---
 

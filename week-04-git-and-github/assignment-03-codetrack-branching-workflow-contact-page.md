@@ -20,7 +20,11 @@ Start from a clean default branch (`main` or `master`) and confirm the repositor
 
 #### Screenshot 1 — Output of `git status` and `git branch` showing a clean status and the default branch checked out
 
-Add your screenshot here.
+```
+On branch master
+nothing to commit, working tree clean
+* master
+```
 
 ---
 
@@ -34,7 +38,11 @@ Create a branch named exactly `feature/contact-page` and switch to it.
 
 #### Screenshot 2 — Output of `git checkout -b feature/contact-page` and `git branch` showing `* feature/contact-page`
 
-Add your screenshot here.
+```
+Switched to a new branch 'feature/contact-page'
+* feature/contact-page
+  master
+```
 
 ---
 
@@ -48,19 +56,31 @@ Create `contact.html` with the provided content and commit it alone using the me
 
 #### Screenshot 3 — Output of `ls` showing `contact.html`
 
-Add your screenshot here.
+```
+contact.html
+index.html
+style.css
+```
 
 ---
 
 #### Screenshot 4 — Output of `git commit`
 
-Add your screenshot here.
+```
+[feature/contact-page 4ecca9d] feat(contact): add Contact page
+ 1 file changed, 31 insertions(+)
+ create mode 100644 contact.html
+```
 
 ---
 
 #### Screenshot 5 — Output of `git log --oneline -3` showing the new commit
 
-Add your screenshot here.
+```
+4ecca9d feat(contact): add Contact page
+fc3803a Update homepage content: heading, tagline, CTA button
+f284cb9 Initial UI scaffold: add index.html and style.css
+```
 
 ---
 
@@ -74,19 +94,26 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
+```
+On branch feature/contact-page
+Changes not staged for commit:
+  modified:   index.html
+```
 
 ---
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+```
+[feature/contact-page d01e6cb] feat(nav): add Contact Page link
+ 1 file changed, 1 insertion(+)
+```
 
 ---
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
+Contact link added to `index.html`: `<a href="contact.html" class="cta-button">Contact Us</a>`
 
 ---
 
@@ -100,13 +127,17 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 9 — Terminal showing the checkout and `ls` output, proving `contact.html` is absent
 
-Add your screenshot here.
+```
+Switched to branch 'master'
+index.html
+style.css
+```
 
 ---
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-Add your screenshot here.
+Confirmed: `contact.html` not present on `master` branch before merge.
 
 ---
 
@@ -120,19 +151,30 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 11 — Output of `git merge feature/contact-page`
 
-Add your screenshot here.
+```
+Updating fc3803a..d01e6cb
+Fast-forward
+ contact.html | 31 +++++++++++++++++++++++++++++++
+ index.html   |  1 +
+ 2 files changed, 32 insertions(+)
+ create mode 100644 contact.html
+```
 
 ---
 
 #### Screenshot 12 — Output of `ls` showing `contact.html` after the merge
 
-Add your screenshot here.
+```
+contact.html
+index.html
+style.css
+```
 
 ---
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
+Contact page accessible at `contact.html` with navigation back to home.
 
 ---
 
@@ -146,7 +188,12 @@ Display the repository history as a graph and locate both feature commits.
 
 #### Screenshot 14 — Full output of `git log --oneline --graph --decorate --all`
 
-Add your screenshot here.
+```
+* d01e6cb (HEAD -> master) feat(nav): add Contact Page link
+* 4ecca9d feat(contact): add Contact page
+* fc3803a Update homepage content: heading, tagline, CTA button
+* f284cb9 Initial UI scaffold: add index.html and style.css
+```
 
 ---
 
@@ -160,7 +207,10 @@ Delete the merged `feature/contact-page` branch to keep your branch list clean.
 
 #### Screenshot 15 (Optional) — Output showing `feature/contact-page` deleted and no longer listed
 
-Add your screenshot here.
+```
+Deleted branch feature/contact-page (was d01e6cb).
+* master
+```
 
 ---
 
@@ -175,15 +225,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Repository confirmed clean on the default branch (Screenshot 1)
-- [ ] `feature/contact-page` created and checked out (Screenshot 2)
-- [ ] `contact.html` added in its own commit (Screenshots 3–5)
-- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
-- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
-- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
-- [ ] Graph history reviewed (Screenshot 14)
-- [ ] Optional cleanup completed (Screenshot 15)
-- [ ] No sensitive data exposed
+- [x] Repository confirmed clean on the default branch (Screenshot 1)
+- [x] `feature/contact-page` created and checked out (Screenshot 2)
+- [x] `contact.html` added in its own commit (Screenshots 3–5)
+- [x] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [x] Default branch proven unchanged before merge (Screenshots 9–10)
+- [x] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [x] Graph history reviewed (Screenshot 14)
+- [x] Optional cleanup completed (Screenshot 15)
+- [x] No sensitive data exposed
 
 ---
 
