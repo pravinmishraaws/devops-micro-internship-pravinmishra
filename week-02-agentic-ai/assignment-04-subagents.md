@@ -40,13 +40,13 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+Because its job is only to inspect the code and report security issues. It shouldn't change files automatically, so removing Write helps prevent accidental or unwanted changes.
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+Using inherit allows the skill to use the same model as the current Claude Code session. This keeps the behaviour consistent and avoids locking the skill to one specific model.
 
 ---
 

@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![alt text](screenshots/image1.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a networking protocol is a set of rules that allows computers and devices to communicate correctly. I also learned that protocols such as HTTP, HTTPS, and TCP/IP each have different roles in making Internet communication reliable and secure.
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+![alt text](screenshots/image2.png)
 
 ---
 
@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![alt text](screenshots/image3.png)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML, CSS
+* React, Javascript
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js
+* Spring Boot
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* PostgreSQL
 
 ---
 
@@ -142,7 +142,13 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+1. What is DNS (Domain Name System)?
+
+DNS (Domain Name System) is like the Internet's phonebook. It translates a domain name, such as epicreads.com, into an IP address so web browsers can locate and connect to the correct web server.
+
+2. Which DNS record type should be used to connect the domain to the given IP, and why?
+
+An A record should be used because it maps a domain name directly to an IPv4 address (for example, 52.172.142.222). This allows users to access the website using the domain name instead of remembering the numerical IP address.
 
 ---
 
@@ -178,7 +184,8 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![alt text](screenshots/image4.png)
+
 
 
 Replace `task-5-vscode.png` with your actual screenshot file name.
@@ -217,17 +224,8 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-```text
-Add your URL here...
+https://www.linkedin.com/posts/ibitoye-oloni_devops-micro-internship-dmi-by-pravin-share-7439000013386612736-gnf7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABp_1YBcUgsxYJIdRCX9CFvm17K_adeV6E
 ```
-
----
-
-## LinkedIn Post Backup Copy
-
-Paste the full text of your LinkedIn post here:
-
-Add your post content here...
 
 ---
 
@@ -235,19 +233,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+The most challenging part was understanding how all the networking concepts work together to allow users to access a website. I also spent some time formatting the diagrams and screenshots correctly.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+The most challenging part was understanding how all the networking concepts work together to allow users to access a website. I also spent some time formatting the diagrams and screenshots correctly.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I will improve my understanding of networking concepts through more practice and pay closer attention to organizing my files, screenshots, and Git workflow to complete assignments more efficiently.
 
 ---
 
