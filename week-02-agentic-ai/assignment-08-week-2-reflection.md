@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![LinkedIn](./screenshots/W2-A8-SS-1.png)
 
 ---
 
@@ -101,14 +101,35 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Exploring Agentic AI—a paradigm shift in automation. 🧠⚡ 
+
+What does Agentic AI actually look like in practice? It's not just running commands—it's designing systems where AI agents think, iterate, and refine solutions autonomously. 
+
+Claude Code with structured workflows is fascinating: instead of manual step-by-step tasks, you're orchestrating intelligent processes that adapt and improve. The concept alone challenges everything I thought about problem-solving in DevOps and infrastructure automation. 
+
+Still early in this journey, but the potential feels enormous.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://lnkd.in/gzRGWeMz ).
+
+I also want to appreciate our lead co-mentor, Anjana Muthunayake https://lnkd.in/gD7Bjfgs
+, and our mentors Faith Samson https://lnkd.in/gfGpeAAG
+Joy Ukpabi https://lnkd.in/g2uk4sRU
+Rukevwe Ubioworo https://lnkd.in/gVpSJczC
+
+hashtag#DevOps 
+hashtag#CloudComputing 
+hashtag#AWS 
+hashtag#LearningInPublic
+hashtag#CareerGrowth hashtag
+hashtag#AgenticAI
+
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
+`https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-activity-7486078653282295808-w-cN?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
 
 ---
 
@@ -127,11 +148,11 @@ Paste your LinkedIn post content here
 * [✓] Blog written with required structure
 * [✓] Blog includes at least 2–3 Week 2 topics
 * [✓] Blog is publicly accessible
-* [ ] LinkedIn post created
-* [ ] Required P.S. line included
-* [ ] LinkedIn post content copied in submission field
+* [✓] LinkedIn post created
+* [✓] Required P.S. line included
+* [✓] LinkedIn post content copied in submission field
 * [✓] Blog link added
-* [ ] LinkedIn post link added
+* [✓] LinkedIn post link added
 * [✓] Screenshots added to GitHub repo
 
 ---
