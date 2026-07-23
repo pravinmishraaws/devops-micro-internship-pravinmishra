@@ -278,7 +278,7 @@ Answer the following in your own words:
 
 **1. What does `-d` check in Bash?**
 
-Add your answer here.
+While -d most often represents a directory test, it serves a completely different function when used as an option for the Bash built-in read command. In that context, -d stands for delimiter and specifies the character used to terminate the input line.
 
 ---
 
