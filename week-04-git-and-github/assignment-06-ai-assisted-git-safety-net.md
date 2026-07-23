@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-Add your screenshot here.
+![Screenshot 1](./screenshots/assignment-06/Screenshot%201.png)
 
 ---
 
@@ -49,7 +49,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-Add your screenshot here.
+![Screenshot 2](./screenshots/assignment-06/Screenshot%202.png)
 
 ---
 
@@ -311,7 +311,7 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement
+- [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement (Screenshots 1-2)
 - [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
 - [ ] `core.hooksPath` configured to point at `hooks/`
 - [ ] Pre-commit hook shown blocking the risky commit
@@ -322,7 +322,7 @@ Paste your forked repository URL here:
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [ ] Agentic Loop mapping (Task 7) completed in your own words
 - [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added
+- [ ] All required screenshots added (2/9+ complete)
 - [ ] GitHub repository URL provided
 
 ---
