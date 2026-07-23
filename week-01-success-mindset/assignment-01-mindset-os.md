@@ -400,14 +400,13 @@ This system is designed to build consistency, improve my technical skills, and e
 
 https://www.linkedin.com/posts/abihail-osahon-096564232_week-1-of-my-dmi-cohort-3-agentic-ai-i-share-7478915801887105024-feVa/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU
 
-`__________________________`
-
 ---
 
 ## 10. Proof of Work
 
 - https://www.linkedin.com/posts/abihail-osahon-096564232_proof-of-work-is-not-what-i-say-it-is-what-share-7478929976751390720-3AD8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU 
-- Blog / Medium : **ADD LINK HERE**  
+
+- Blog / Medium : https://abihail.hashnode.dev/proof-of-work-is-not-what-i-say
 
 ---
 

@@ -20,7 +20,8 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-Add your screenshot here.
+![token scopes](.\screenshots\week2assignment\assignment5\assignment5image1a.png)
+![token scopes](.\screenshots\week2assignment\assignment5\assignment5image1b.png)
 
 ---
 
@@ -34,7 +35,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
+![mcp configuration](.\screenshots\week2assignment\assignment5\assignment5image2.png)
 
 ---
 
@@ -48,7 +49,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
+![settings local json and token](.\screenshots\week2assignment\assignment5\assignment5image3.png)
 
 ---
 
@@ -62,7 +63,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+![mcp connected](.\screenshots\week2assignment\assignment5\assignment5image4.png)
 
 ---
 
@@ -76,7 +77,10 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
+![github query](.\screenshots\week2assignment\assignment5\assignment5a.png)
+![github query response](./screenshots/week2assignment/assignment5/assignment5image5ab.png)
+![mcb response](.\screenshots\week2assignment\assignment5\assignment5image5b.png)
+![mcb response](.\screenshots\week2assignment\assignment5\assignment5image5b2.png)
 
 ---
 
@@ -92,7 +96,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+(https://github.com/abihail22558/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 `__________________________`
 

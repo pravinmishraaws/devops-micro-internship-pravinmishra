@@ -20,7 +20,7 @@ Discover exactly where Claude Code stores memory for this project.
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+![ss1](.\screenshots\week2assignment\assignment7\A7ss1.png)
 
 ---
 
@@ -34,13 +34,14 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
+![ss2](.\screenshots\week2assignment\assignment7\A7ss2.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+![ss3a](.\screenshots\week2assignment\assignment7\A7ss3a.png)
+![ss3b](.\screenshots\week2assignment\assignment7\A7ss3b.png)
 
 ---
 
@@ -54,7 +55,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+![ss4](.\screenshots\week2assignment\assignment7\A7ss4.png)
 
 ---
 
@@ -68,13 +69,13 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
+![ss5](.\screenshots\week2assignment\assignment7\A7ss5.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+![ss6](.\screenshots\week2assignment\assignment7\A7ss6.png)
 
 ---
 
@@ -89,7 +90,7 @@ Add your screenshot here.
 
 ## Linkedin Post Link
 
-Paste your Linkedin post link here:
+https://www.linkedin.com/posts/abihail-osahon-096564232_devops-agenticai-claudecode-share-7485468163879608320-Fan7/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU
 
 `__________________________`
 
@@ -97,7 +98,7 @@ Paste your Linkedin post link here:
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+https://github.com/abihail22558/Ultimate-Agentic-DevOps-with-Claude-Code
 
 `__________________________`
 
@@ -130,8 +131,8 @@ It helps learners build strong DevOps foundations with hands-on experience.
 - 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
 - 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
 - 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho    
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/
 - 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
 
 ---

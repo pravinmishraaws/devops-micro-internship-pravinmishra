@@ -46,13 +46,13 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![hashnode](.\screenshots\week2assignment\assignment8\Hashnode.png)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+Blog Link: https://abihail.hashnode.dev/reflection-week-2
 
 `__________________________________________`
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![Linkedin](.\screenshots\week2assignment\assignment8\W2Linkedin.png)
 
 ---
 
@@ -101,12 +101,28 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 Reflection – Building with Agentic AI, Learning Through Challenges
+
+Week 2 of the DevOps Micro Internship (DMI) Cohort 3 – Agentic AI has been one of the most challenging and rewarding learning experiences of my DevOps journey so far.
+
+Throughout Assignments 1–7, I explored the capabilities of Claude Code, including CLAUDE.md, Skills, Subagents, Model Context Protocol (MCP), Hooks, Permissions, and Project Memory. While learning these concepts was exciting, the real growth came from overcoming the challenges I encountered along the way.
+
+One of the first lessons was understanding that setting up AI tools correctly is just as important as using them. As I worked with Hooks, I faced issues with logging and script execution. By carefully tracing the scripts, validating file paths, and testing each step, I was able to identify the root cause and get the automation working as expected.
+
+The biggest challenge came while implementing Project Memory. After saving my project's design constraints, Claude was expected to recall them in a new session. Instead, it searched the project files. Rather than assuming something was wrong, I investigated how the memory system worked, verified the project directory, checked the MEMORY.md index, compared my results with the instructor's demonstration, and experimented until I understood why the behaviour differed. That process taught me far more than simply completing the assignment.
+
+I also strengthened my Git workflow by reviewing staged files, updating .gitignore, and ensuring only the necessary project files were committed.
+My biggest takeaway from Week 2 is that engineering is not about avoiding problems, it is about understanding them, investigating them, and solving them systematically. I am excited to carry this mindset into the next phase of my DevOps journey.
+
+P.S. **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://lnkd.in/dcwzmXYW). You can start your DevOps journey by joining [DMI waiting list](https://lnkd.in/euCxPZ5B) (https://lnkd.in/eh4vgWhW)
+
+#DevOps #AgenticAI #ClaudeCode #Terraform #Git #GitHub #MCP #Automation #ArtificialIntelligence #CloudComputing #Azure #VSCode #ContinuousLearning #ProblemSolving #DevOpsMicroInternship
 ```
 
 ---
 
 ### LinkedIn Post Link:
+ https://www.linkedin.com/posts/abihail-osahon-096564232_devops-agenticai-claudecode-ugcPost-7486148866518687744-xuhu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU
 
 `__________________________________________`
 

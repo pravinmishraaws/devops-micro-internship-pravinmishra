@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
+
 
 ![Claudegenericresponse1](.\screenshots\week2assignment2\assignment2image1a.png)
 ![claudegenericresponse2](.\screenshots\week2assignment2\assingment2image1b.png)
@@ -38,7 +38,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
+
 
 ![claudemd1](.\screenshots\week2assignment2\assignment2image2a.png)
 ![claudemd2](.\screenshots\week2assignment2\assignment2image2b.png)
@@ -56,7 +56,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+
 
 ![claudemdedited](.\screenshots\week2assignment2\assignment2image3.png)
 
@@ -72,7 +72,7 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+
 ![Claudechaneges](.\screenshots\week2assignment2\assignment2image4T1a.png)
 ![Claudechanges2](.C:\screenshots\week2assignment2\assignment2image4T1b.png)
 
@@ -80,7 +80,7 @@ Add your screenshot here.
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+
 ![Clauderefusal](.\screenshots\week2assignment2\assignment2image5.png)
 ---
 
@@ -110,8 +110,6 @@ Add your screenshot here.
 ---
 
 ## GitHub Repository URL
-
-Paste your forked repository URL here:
 
 https://github.com/abihail22558/devops-micro-internship-pravinmishra.git
 
