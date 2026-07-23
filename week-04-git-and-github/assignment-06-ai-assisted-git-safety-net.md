@@ -171,21 +171,29 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-
+![git commit](image-20.png)
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
 
 
----
+![pr-ready](image-19.png)
 
 ### Notes
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
+Two separate changes were needed:
 
+Removed the hardcoded credential from scripts/notify.sh. 
 
----
+The original script had AWS_ACCESS_KEY_ID=<fake-key-redacted> written directly in the file. I replaced this by loading the value from a .env file instead (source .env), and added .env to .gitignore so it's never tracked or committed. 
+
+The script now references $AWS_ACCESS_KEY_ID as an environment variable rather than containing the literal value.
+
+Fixed a bug in the pre-commit hook itself. The hook's regex check ran against the full git diff --cached output, which includes both added (+) and removed (-) lines. 
+
+This meant that deleting the old hardcoded key still triggered a block, because the diff showed the key text on a - line and the grep didn't distinguish it from a + line. I scoped the check to only added lines:
 
 # Task 6 — Push and Open a Pull Request Using the AI Draft
 
