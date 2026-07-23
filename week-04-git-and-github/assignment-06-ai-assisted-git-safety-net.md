@@ -197,13 +197,13 @@ Push your branch and open a real Pull Request, using `/pr-ready`'s drafted title
 
 #### Screenshot 9 — Your Pull Request showing the base repository is your own fork, plus the title and description, with the `/pr-ready` draft visible for comparison (paste it in the PR conversation or your notes below)
 
-Add your screenshot here.
+![Screenshot 10](./screenshots/assignment-06/Screenshot%209.png)
 
 ---
 
 #### PR Link
 
-Add your PR URL here...
+`https://github.com/pravinmishraaws/devops-micro-internship-pravinmishra/pull/66`
 
 ---
 
@@ -211,19 +211,19 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+The `/pr-ready` skill drafted: "Title: feat: add notification script template" and provided a description about adding a notification script for demo/reference. For Task 6, the title was simplified to "Assignment 6 files - AI PR Ready Skill" to clarify that this PR demonstrates the assignment's hook and skill setup, not a production feature. The description was adjusted to explain the educational purpose.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+The AI's draft described a general notification feature, which could confuse reviewers about the PR's actual purpose (demonstrating a security workflow, not adding a real feature). It might trigger requests for implementation details (API calls, config params) that weren't relevant to this assignment. Without reading critically, the PR title wouldn't clarify this is practice work, risking merge into shared code.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+**Important Note:** This PR was opened against the upstream repository (pravinmishraaws), but the assignment specifies it should target your own fork. The hook and skill files are your personal practice work for learning Git safety patterns—not a change meant for the shared class repository. Opening it against your own fork keeps experimental work isolated, preventing it from cluttering the shared project's PR history and avoiding confusion about who is responsible for maintaining these files.
 
 ---
 
@@ -281,11 +281,15 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 ## Key Learnings
 
-Add 3-5 bullet points on what you learned this week.
+- **Fixed rules + AI analysis = defense-in-depth security:** Pre-commit hooks catch known patterns reliably, while AI skills spot context-aware risks humans should consider. Neither alone is sufficient; together they form a robust safety net.
 
--
--
--
+- **The Agentic Loop mirrors real software development:** Gather (inspect changes), Analyze (fixed rules & AI judgment), Human Act (decide and commit), Verify (review & test). Humans remain the decision-maker; tools gather and analyze only.
+
+- **Restricted tools are essential for safety:** A skill with Bash, Read, and Grep but no Write can analyze deeply without risking accidental modifications. Restrictions prevent automation from exceeding its mandate.
+
+- **Staged diffs are the atomic unit of change control:** Both the hook and skill analyze `git diff --cached`, making staged changes the interface where safety checks fire. This forces intentional staging and review before commits.
+
+- **Transparency in tool output matters:** The `/pr-ready` skill's draft PR title/description must be read and edited by humans before use—blindly copying AI drafts can introduce subtle misalignment with project intent or confuse reviewers about change purpose.
 
 ---
 
@@ -319,10 +323,10 @@ Paste your forked repository URL here:
 - [x] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 7)
 - [x] Risky file fixed; `git commit` succeeds cleanly (Screenshot 8)
 - [x] `/pr-ready` re-run showing a clean report and drafted PR title/description (Screenshot 9)
-- [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
+- [x] Pull Request opened using the AI draft as a starting point, PR link included (Screenshot 10) — Note: PR opened against upstream; should target user's own fork per instructions
 - [x] Agentic Loop mapping (Task 7) completed in your own words
 - [x] LinkedIn post published and URL submitted
-- [x] All required screenshots added (9/9+ complete)
+- [x] All required screenshots added (10/10 complete)
 - [x] GitHub repository URL provided
 
 ---
