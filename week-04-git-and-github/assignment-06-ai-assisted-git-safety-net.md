@@ -133,13 +133,13 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![Screenshot 6](./screenshots/assignment-06/Screenshot%205.png)
 
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+*Screenshot 7 not yet captured - Awaiting /pr-ready skill output demonstration*
 
 ---
 
@@ -147,13 +147,13 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+The `/pr-ready` skill is restricted to read-only operations (`Bash` for git commands, `Read` for file inspection, `Grep` for pattern search) because it's designed to analyze and report, never to modify. Excluding `Write` ensures the skill can't accidentally commit, stage, or push changes—it only gathers information and drafts recommendations for human review and action.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+Both flagged the fake AWS key (AKIA pattern). The pre-commit hook caught it through fixed pattern matching and blocked the commit immediately. The `/pr-ready` skill could provide additional context: it could flag the `DEBUG:` statement as leftover logging, suggest better variable naming, explain why AWS keys shouldn't be in code, and provide a human-readable risk report—context the hook's simple rules cannot provide.
 
 ---
 
@@ -315,14 +315,14 @@ Paste your forked repository URL here:
 - [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`) (Screenshot 3)
 - [x] `core.hooksPath` configured to point at `hooks/` (Screenshot 4)
 - [x] Pre-commit hook shown blocking the risky commit (Screenshot 5)
-- [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues
+- [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true` (Screenshot 6)
+- [ ] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 7 pending)
 - [ ] Risky file fixed; `git commit` succeeds cleanly
 - [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [ ] Agentic Loop mapping (Task 7) completed in your own words
 - [x] LinkedIn post published and URL submitted
-- [ ] All required screenshots added (5/9+ complete)
+- [ ] All required screenshots added (6/9+ complete)
 - [x] GitHub repository URL provided
 
 ---
