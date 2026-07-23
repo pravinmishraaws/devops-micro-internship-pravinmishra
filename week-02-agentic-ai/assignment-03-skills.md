@@ -92,7 +92,6 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 ## GitHub Repository URL
 
-
 `https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra`
 `https://github.com/santosronnie26-sr/Ultimate-Agentic-DevOps-with-Claude-Code`
 
