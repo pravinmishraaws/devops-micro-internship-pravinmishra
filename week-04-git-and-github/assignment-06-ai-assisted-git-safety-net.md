@@ -139,7 +139,7 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-*Screenshot 7 not yet captured - Awaiting /pr-ready skill output demonstration*
+![Screenshot 7](./screenshots/assignment-06/Screenshot%206.png)
 
 ---
 
@@ -167,13 +167,13 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+![Screenshot 8](./screenshots/assignment-06/Screenshot%207.png)
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+*Screenshot 9 not yet captured - Awaiting clean /pr-ready output after fix*
 
 ---
 
@@ -181,7 +181,7 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+Removed the hardcoded AWS key assignment and the debug echo statement from `scripts/notify.sh`. The hook blocks any commit containing the pattern `AKIA[0-9A-Z]{16}` (AWS access key format) or private key headers. By deleting those lines, the file no longer matches any of the hook's secret patterns, allowing the commit to succeed.
 
 ---
 
@@ -316,13 +316,13 @@ Paste your forked repository URL here:
 - [x] `core.hooksPath` configured to point at `hooks/` (Screenshot 4)
 - [x] Pre-commit hook shown blocking the risky commit (Screenshot 5)
 - [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true` (Screenshot 6)
-- [ ] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 7 pending)
-- [ ] Risky file fixed; `git commit` succeeds cleanly
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
+- [x] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 7)
+- [x] Risky file fixed; `git commit` succeeds cleanly (Screenshot 8)
+- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description (Screenshot 9 pending)
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [ ] Agentic Loop mapping (Task 7) completed in your own words
 - [x] LinkedIn post published and URL submitted
-- [ ] All required screenshots added (6/9+ complete)
+- [ ] All required screenshots added (8/9+ complete)
 - [x] GitHub repository URL provided
 
 ---
