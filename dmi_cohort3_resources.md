@@ -9,18 +9,26 @@
 | 1 | DMI Cohort-3 Orientation Video | Watch the orientation video to get started with Cohort-3 | [YouTube](https://youtu.be/PTSkAR7iMpQ) |
 | 2 | YouTube Playlist - Cohort-3 | Watch the weekly live class recordings of Cohort-3 on YouTube | [Playlist](https://www.youtube.com/playlist?list=PLFeSNDtI4Cho) |
 | 3 | How to write blogs? | Watch the video to learn how to write better blogs that people actually read in the age of AI content | [YouTube](https://www.youtube.com/watch?v=tyIsCkPVYjw), [YouTube](https://youtube.com/live/QNL-zW4dp8g?feature=share) |
-| 4 | DMI Website | Visit the official DevOps Micro Internship website | [Website](https://dmi.pravinmishra.com/) |
+| 4 | DMI Website | Visit the official DevOps Micro Internship website | [Website](https://dmi.pravinmishra.com/?utm_source=github&utm_medium=readme) |
 | 5 | The Cloud Advisory | Follow The Cloud Advisory on LinkedIn | [LinkedIn](https://www.linkedin.com/company/thecloudadvisory) |
 
 ---
 
-## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html)
+## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html?utm_source=github&utm_medium=readme)
 
 ---
 
 ## IMPORTANT FOR LINKEDIN AND BLOG POSTS - Always add the below line and the hashtags
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining the DMI waiting list: https://forms.gle/3hvrWJBDzsDeJoPs6**
+**For LinkedIn posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+
+**For blog posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
+Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 
 #DMIByPravinMishra 
 
@@ -31,7 +39,7 @@ Pravin Mishra [Linkedin profile](https://www.linkedin.com/in/pravin-mishra-aws-t
 | Group | Comentors |
 |-------|-----------|
 | Lead Co-Mentor | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) |
-| Group-1 Comentors | [Nkechi Ahanonye](https://www.linkedin.com/in/nkechiahanonye/), [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
+| Group-1 Comentors | [Tanisha Borana](https://www.linkedin.com/in/tanisha-borana-552797233/), [Anuradha Iyer](https://www.linkedin.com/in/iyeranuradha/) |
 | Group-2 Comentors | [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/), [Joy Ukpabi](https://www.linkedin.com/in/joyukpabi/) |
 | Group-3 Comentors | [Bhupendra Bhati](https://www.linkedin.com/in/bhupendrabhati/), [Ranbir Kaur](https://www.linkedin.com/in/ranbirkaur/) |
 
@@ -156,7 +164,7 @@ Week-1 is **one assignment file** (`assignment-01-mindset-os.md`) containing 7 r
 
 | S. No. | Item                                | Comments                                                                                         | Link                                                    |
 | ------ | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
-| 1 | Week-2 Class Recording | ⚠️ Link needs fixing — this currently points to the same video as the Week-1 recording above | [YouTube](https://youtube.com/live/nxFy-HoDqu4?feature=share) |
+| 1 | Week-2 Class Recording | Watch the recording of the week-2 live class on YouTube | [YouTube](https://youtube.com/live/rCtwsHFPirw?feature=share) |
 
 
 ---
@@ -213,3 +221,32 @@ Week-3 is **6 assignment files**, each graded pass/fail — your blog post for t
 | — | Blog post | 30 |
 | **Total** | | **160** |
 
+---
+
+## Week-4 — Git & GitHub
+
+| S. No. | Item | Comments | Link |
+|--------|------|----------|------|
+| 1 | Week-3 Class Recording | Watch the recording of the Week-4 live class on YouTube | [YouTube](https://youtube.com/live/Se_oYfWBHF8?feature=share) |
+
+---
+
+### Week 4: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
+
+* **Deadline - Friday, 24th of July 11:59 PM (your local time)**
+
+* **Assignment Submission Form:**: [Click here](https://forms.gle/aqd6ihjeBTZkRuE39)
+
+Week-4 is **5 assignment files**, each graded pass/fail — your blog post for the week is scored separately below, it isn't a 6th assignment file:
+
+| Assignment | Name | Points |
+|------------|------|:------:|
+| Assignment-1 | CodeTrack initial Git setup (local only) | 20 |
+| Assignment-2 | CodeTrack tracking, staging, committing, and deployment to EC2 | 20 |
+| Assignment-3 | CodeTrack branching workflow: Contact page | 20 |
+| Assignment-4 | GitHub account, exploration, and professional profile | 20 |
+| Assignment-5 | GitHub fork, clone, sync, and pull request | 20 |
+| Assignment-6 | Building an AI-Assisted Git Safety Net (PR Ready Check) | 20 |
+| — | LinkedIn post | 10 |
+| — | Blog post | 30 |
+| **Total** | | **160** |
