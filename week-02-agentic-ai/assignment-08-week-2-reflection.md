@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-![hashnode](.\screenshots\week2assignment\assignment8\Hashnode.png)
+![hashnode](./screenshots/week2assignment/assignment8/Hashnode.png)
 
 ---
 
@@ -92,7 +92,7 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-![Linkedin](.\screenshots\week2assignment\assignment8\W2Linkedin.png)
+![Linkedin](./screenshots/week2assignment/assignment8/W2Linkedin.png)
 
 ---
 

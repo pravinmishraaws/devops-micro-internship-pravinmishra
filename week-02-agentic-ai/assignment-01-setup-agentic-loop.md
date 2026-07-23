@@ -20,11 +20,11 @@ Install the Claude Code CLI globally and authenticate it using your Anthropic ac
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-![claude](.\screenshots\Image1.png)
+![claude](./screenshots/week2assignment/2assignment3/assignment3image1.png)
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-![claudeauthentication](.\screenshots\Image2.png)
+![claudeauthentication](./screenshots/week2assignment/assignment1/Image2.png)
 
 # Task 2 — Fork and Clone the Starter Repository
 
@@ -36,7 +36,7 @@ Fork the provided GitHub repository, clone it to your local machine, and open it
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-![vscodewithprojectopen](.\screenshots\Image3.png)
+![vscodewithprojectopen](./screenshots/week2assignment/assignment1/Image3.png)
 
 # Task 3 — Observe the Agentic Loop
 
@@ -48,14 +48,14 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-![clauderesponsetothefirstquestio](.\screenshots\Image4.png)
-![clauderesponse](.\screenshots\Image4b.png)
-![clauderesponse](.\screenshots\Image4c.png)
-![clauderesponse](.\screenshots\Image4d.png)
+![clauderesponsetothefirstquestio](./screenshots/week2assignment/assignment1/Image4.png)
+![clauderesponse](./screenshotsweek2assignment/assignment1/Image4b.png)
+![clauderesponse](./screenshots/week2assignment/assignment1/Image4c.png)
+![clauderesponse](./screenshots/week2assignment/assignment1/Image4d.png)
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-![clauderesponsetothesecoundquestion](.\screenshots\Image5.png)
+![clauderesponsetothesecoundquestion](./screenshots/week2assignment/assignment1/Image5.png)
 
 # Submission Instructions
 
