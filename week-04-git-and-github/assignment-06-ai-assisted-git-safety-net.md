@@ -173,7 +173,7 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-*Screenshot 9 not yet captured - Awaiting clean /pr-ready output after fix*
+![Screenshot 9](./screenshots/assignment-06/Screenshot%208.png)
 
 ---
 
@@ -237,31 +237,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+Gather happens in two places: The pre-commit hook runs `git diff --cached` to scan staged files for patterns. The `/pr-ready` skill runs `git diff --cached` and reads the file contents to understand what's being committed. Both are gathering raw information about the changes.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+The pre-commit hook analyzes against fixed rules (secret patterns, file size limits) and returns pass/fail. The `/pr-ready` skill analyzes the diff with AI judgment: it reads the context, understands intent, flags ambiguities (debug statements, unclear purpose), and suggests improvements. Both analyze but with different methods—one deterministic, one contextual.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Human Act is when the developer decides to commit, push, and open the PR. A human must do this because the system gathers and analyzes but doesn't decide—only humans understand the full business context, can accept risk, and take responsibility for the code entering version control and review. Automating this would bypass human judgment.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verify is when reviewers on GitHub examine the PR, run CI checks, and decide whether to merge. After the human acts, verification confirms the fix was correct and that no new issues emerged when the code was tested in the broader system.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The hook catches known patterns reliably and fast (no ambiguity), while the skill catches context-aware risks the hook can't see (unclear purpose, mixed concerns, incomplete logic). Together they form defense-in-depth: the hook stops obvious mistakes, the skill flags subtle ones humans should consider before committing.
 
 ---
 
@@ -318,11 +318,11 @@ Paste your forked repository URL here:
 - [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true` (Screenshot 6)
 - [x] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 7)
 - [x] Risky file fixed; `git commit` succeeds cleanly (Screenshot 8)
-- [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description (Screenshot 9 pending)
+- [x] `/pr-ready` re-run showing a clean report and drafted PR title/description (Screenshot 9)
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
-- [ ] Agentic Loop mapping (Task 7) completed in your own words
+- [x] Agentic Loop mapping (Task 7) completed in your own words
 - [x] LinkedIn post published and URL submitted
-- [ ] All required screenshots added (8/9+ complete)
+- [x] All required screenshots added (9/9+ complete)
 - [x] GitHub repository URL provided
 
 ---
