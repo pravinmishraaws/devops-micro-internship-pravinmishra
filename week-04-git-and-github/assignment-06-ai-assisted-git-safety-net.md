@@ -35,7 +35,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 **1. Why create a dedicated branch instead of doing this work on main?**
 
-Add your answer here.
+A dedicated branch isolates the experimental work (the risky staged file and the hook testing) from the main branch. This keeps main clean and deployable, and allows the work to be reviewed independently. It also demonstrates the Git workflow used in real teams where main is protected and all changes go through feature branches and pull requests.
 
 ---
 
@@ -57,7 +57,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 **1. Why does this assignment use an obviously fake key instead of a real one?**
 
-Add your answer here.
+A real credential would be dangerous to commit to any repository, even a teaching exercise. A fake key like `AKIA0-9AZ` is recognizable as a pattern-matching target, allowing the hook to demonstrate secret detection without risking actual credential leakage. It proves the rule works without the security risk.
 
 ---
 
@@ -71,13 +71,13 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+![Screenshot 3](./screenshots/assignment-06/Screenshot%203.png)
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+![Screenshot 4](./screenshots/assignment-06/Screenshot%204.png)
 
 ---
 
@@ -85,13 +85,13 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Tracked hooks in a `hooks/` directory are shareable with the entire team. Hooks in `.git/hooks/` are local and not version-controlled, so teammates wouldn't have the same safety checks. Using a tracked `hooks/` directory ensures all collaborators run the same pre-commit rules when cloning the repository.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+Both intercept risky actions before they happen. `PreToolUse` hooks (Claude Code) block dangerous Claude tools before they execute. Pre-commit hooks block commits before they're created. Both are preventive gatekeepers: they gather information, check against fixed rules, and refuse the action if it violates those rules—no ambiguity, same result every time.
 
 ---
 
@@ -105,7 +105,7 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+*Screenshot 5 not yet captured - Awaiting commit attempt with hook verification*
 
 ---
 
@@ -113,13 +113,13 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+Line 7 of the hook matches the pattern: `if git diff --cached -- "$file" | grep -qE 'AKIA[0-9A-Z]{16}|-----BEGIN (RSA|OPENSSH|PRIVATE) KEY-----'`. This pattern detects AWS access key IDs (AKIA prefix followed by 16 alphanumeric chars) and private key headers, which are common secret formats that should never be committed.
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+No—the hook only catches pattern-based secrets (AKIA keys, private key headers, etc.). A variable named `api_key="secret_value"` would slip through. This shows fixed rules are necessary but insufficient: they catch obvious patterns reliably but miss context-aware risks. That's why the `/pr-ready` skill complements the hook—AI can spot suspicious variable names and logic, not just patterns.
 
 ---
 
@@ -312,8 +312,8 @@ Paste your forked repository URL here:
 # Completion Checklist
 
 - [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement (Screenshots 1-2)
-- [ ] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`)
-- [ ] `core.hooksPath` configured to point at `hooks/`
+- [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`) (Screenshot 3)
+- [x] `core.hooksPath` configured to point at `hooks/` (Screenshot 4)
 - [ ] Pre-commit hook shown blocking the risky commit
 - [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
 - [ ] `/pr-ready` run against the risky diff and shown flagging issues
@@ -322,7 +322,7 @@ Paste your forked repository URL here:
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [ ] Agentic Loop mapping (Task 7) completed in your own words
 - [ ] LinkedIn post published and URL submitted
-- [ ] All required screenshots added (2/9+ complete)
+- [ ] All required screenshots added (4/9+ complete)
 - [ ] GitHub repository URL provided
 
 ---
