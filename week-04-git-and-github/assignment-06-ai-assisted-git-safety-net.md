@@ -275,7 +275,13 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-[Linked in Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmi-cohort-4-live-micro-internship-waiting-activity-7485911546624098304-kHDi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
+`https://www.linkedin.com/posts/maneetta-antony-452075387_building-a-safer-smarter-git-workflow-ugcPost-7485927097236910080-wH6G/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo`
+
+---
+
+#### LinkedIn Post Screenshot
+
+![LinkedIn Post](./screenshots/assignment-06/linkedin-post.png)
 
 ---
 
@@ -315,19 +321,21 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement (Screenshots 1-2)
-- [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`) (Screenshot 3)
-- [x] `core.hooksPath` configured to point at `hooks/` (Screenshot 4)
-- [x] Pre-commit hook shown blocking the risky commit (Screenshot 5)
-- [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true` (Screenshot 6)
-- [x] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 7)
-- [x] Risky file fixed; `git commit` succeeds cleanly (Screenshot 8)
-- [x] `/pr-ready` re-run showing a clean report and drafted PR title/description (Screenshot 9)
-- [x] Pull Request opened using the AI draft as a starting point, PR link included (Screenshot 10) — Note: PR opened against upstream; should target user's own fork per instructions
-- [x] Agentic Loop mapping (Task 7) completed in your own words
-- [x] LinkedIn post published and URL submitted
-- [x] All required screenshots added (10/10 complete)
+- [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement (Screenshots 1a-1b)
+- [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`) (Screenshot 2)
+- [x] `core.hooksPath` configured to point at `hooks/` (Screenshot 3)
+- [x] Pre-commit hook shown blocking the risky commit (Screenshot 4)
+- [x] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true` (Screenshot 5)
+- [x] `/pr-ready` run against the risky diff and shown flagging issues (Screenshot 6)
+- [x] Risky file fixed; `git commit` succeeds cleanly (Screenshot 7)
+- [x] `/pr-ready` re-run showing a clean report and drafted PR title/description (Screenshot 8)
+- [x] Pull Request opened using the AI draft as a starting point, PR link included (Screenshot 9)
+- [x] Agentic Loop mapping (Task 7) completed in your own words (5/5 questions answered)
+- [x] LinkedIn post published and URL submitted (Screenshot: linkedin-post.png)
+- [x] All required screenshots added (11/11 complete including LinkedIn)
 - [x] GitHub repository URL provided
+- [x] All Task notes and question answers completed
+- [x] Key learnings documented (5 points)
 
 ---
 
