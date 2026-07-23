@@ -27,7 +27,7 @@ Confirm you are working in your own fork, then create a dedicated branch for thi
 
 #### Screenshot 1 — Output of git remote -v and git branch showing the new branch
 
-![Screenshot 1](./screenshots/assignment-06/Screenshot%201.png)
+![Screenshot 1](./screenshots/assignment-06/Screenshot%201a.png)
 
 ---
 
@@ -49,7 +49,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-![Screenshot 2](./screenshots/assignment-06/Screenshot%202.png)
+![Screenshot 2](./screenshots/assignment-06/Screenshot%201b.png)
 
 ---
 
@@ -71,13 +71,13 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-![Screenshot 3](./screenshots/assignment-06/Screenshot%203.png)
+![Screenshot 3](./screenshots/assignment-06/Screenshot%202.png)
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-![Screenshot 4](./screenshots/assignment-06/Screenshot%204.png)
+![Screenshot 4](./screenshots/assignment-06/Screenshot%203.png)
 
 ---
 
@@ -105,7 +105,7 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-*Screenshot 5 not yet captured - Awaiting commit attempt with hook verification*
+![Screenshot 5](./screenshots/assignment-06/Screenshot%204.png)
 
 ---
 
@@ -314,7 +314,7 @@ Paste your forked repository URL here:
 - [x] Branch `feature/ai-pr-ready` created with a staged file containing a fake secret and a debug statement (Screenshots 1-2)
 - [x] `hooks/pre-commit` created and tracked in the repo (not only in `.git/hooks/`) (Screenshot 3)
 - [x] `core.hooksPath` configured to point at `hooks/` (Screenshot 4)
-- [ ] Pre-commit hook shown blocking the risky commit
+- [x] Pre-commit hook shown blocking the risky commit (Screenshot 5)
 - [ ] `.claude/skills/pr-ready/SKILL.md` created with correct `allowed-tools` (no `Write`) and `disable-model-invocation: true`
 - [ ] `/pr-ready` run against the risky diff and shown flagging issues
 - [ ] Risky file fixed; `git commit` succeeds cleanly
@@ -322,7 +322,7 @@ Paste your forked repository URL here:
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [ ] Agentic Loop mapping (Task 7) completed in your own words
 - [x] LinkedIn post published and URL submitted
-- [ ] All required screenshots added (4/9+ complete)
+- [ ] All required screenshots added (5/9+ complete)
 - [x] GitHub repository URL provided
 
 ---
