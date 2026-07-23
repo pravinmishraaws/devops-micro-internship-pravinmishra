@@ -275,7 +275,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-`https://www.linkedin.com/posts/maneetta-antony-452075387_dmi-cohort-4-live-micro-internship-waiting-activity-7485911546624098304-kHDi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo`
+[Linked in Post](https://www.linkedin.com/posts/maneetta-antony-452075387_dmi-cohort-4-live-micro-internship-waiting-activity-7485911546624098304-kHDi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
 ---
 

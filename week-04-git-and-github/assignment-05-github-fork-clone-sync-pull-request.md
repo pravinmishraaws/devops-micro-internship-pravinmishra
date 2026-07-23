@@ -126,9 +126,7 @@ Paste your Pull Request URL here:
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`https://www.linkedin.com/posts/maneetta-antony-452075387_taking-another-step-forward-on-my-devops-share-7485903183198715905-pWYS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo`
+[Linkedin Post](https://www.linkedin.com/posts/maneetta-antony-452075387_taking-another-step-forward-on-my-devops-share-7485903183198715905-pWYS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo)
 
 ---
 
