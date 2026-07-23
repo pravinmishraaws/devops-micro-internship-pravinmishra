@@ -275,7 +275,7 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+`https://www.linkedin.com/posts/maneetta-antony-452075387_dmi-cohort-4-live-micro-internship-waiting-activity-7485911546624098304-kHDi?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo`
 
 ---
 
@@ -305,7 +305,7 @@ Add 3-5 bullet points on what you learned this week.
 
 Paste your forked repository URL here:
 
-`Add your URL here`
+`https://github.com/dev-enthusiast-84/devops-micro-internship-pravinmishra`
 
 ---
 
@@ -321,9 +321,9 @@ Paste your forked repository URL here:
 - [ ] `/pr-ready` re-run showing a clean report and drafted PR title/description
 - [ ] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [ ] Agentic Loop mapping (Task 7) completed in your own words
-- [ ] LinkedIn post published and URL submitted
+- [x] LinkedIn post published and URL submitted
 - [ ] All required screenshots added (4/9+ complete)
-- [ ] GitHub repository URL provided
+- [x] GitHub repository URL provided
 
 ---
 
