@@ -128,13 +128,13 @@ Paste your Pull Request URL here:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/maneetta-antony-452075387_taking-another-step-forward-on-my-devops-share-7485903183198715905-pWYS/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF86Sz4BPT7sueDLOfQEmLqLbCo5V7ah-Jo`
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-*LinkedIn screenshot not found in submission folder*
+![LinkedIn Post](./screenshots/assignment-05/linkedin-post.png)
 
 ---
 
@@ -164,7 +164,7 @@ Paste your fork URL here:
 - [x] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
 - [x] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
 - [x] Fork URL and Pull Request URL included
-- [ ] LinkedIn post published and URL submitted
+- [x] LinkedIn post published and URL submitted
 - [x] No PAT, password, private key, or authentication secret exposed
 
 ---
