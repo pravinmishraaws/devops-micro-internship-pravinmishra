@@ -102,13 +102,13 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
-*Screenshot 8 not found in submission folder*
+![Screenshot 8](./screenshots/assignment-05/Screenshot%208.png)
 
 ---
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-*Screenshot 9 not found in submission folder*
+![Screenshot 9](./screenshots/assignment-05/Screenshot%209.png)
 
 ---
 
@@ -116,7 +116,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 Paste your Pull Request URL here:
 
-`Add your URL here`
+`https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/346`
 
 ---
 
@@ -162,8 +162,8 @@ Paste your fork URL here:
 - [x] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
 - [x] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
 - [x] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
-- [ ] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
-- [x] Fork URL and Pull Request URL included (Fork URL added; PR URL pending)
+- [x] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
+- [x] Fork URL and Pull Request URL included
 - [ ] LinkedIn post published and URL submitted
 - [x] No PAT, password, private key, or authentication secret exposed
 
