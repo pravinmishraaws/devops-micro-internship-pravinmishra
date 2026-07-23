@@ -106,9 +106,7 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-Add your screenshot here.
-
----
+![no contact](image-10.png)
 
 # Task 6 — Merge the Feature Branch into the Default Branch
 

@@ -1,4 +1,10 @@
 #!/bin/bash
-# demo only — fake credential for this assignment, never a real key
-AWS_ACCESS_KEY_ID=AKIAABCDEFGHIJKLMNOP
+# demo only – credentials stored in .env, not in repo
+
+# load environment variables
+source .env
+
 echo "DEBUG: token is $AWS_ACCESS_KEY_ID"
+
+
+

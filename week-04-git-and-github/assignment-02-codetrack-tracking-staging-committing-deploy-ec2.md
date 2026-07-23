@@ -121,7 +121,7 @@ Follow the instruction comment inside `index.html` to update the Student Name an
 
 #### Screenshot 11 — Output of `git commit`
 
-Add your screenshot here.
+
 
 ![git commit](image-2.png)
 
