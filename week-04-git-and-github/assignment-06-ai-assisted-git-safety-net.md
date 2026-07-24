@@ -50,7 +50,7 @@ On your own fork of this repository (the one you've been submitting your DMI wor
 
 #### Screenshot 1 — Output of  `git status` showing the staged file on feature/ai-pr-ready
 
-![Task 1](<screenshots/week 04-assignment 06-screenshot 2.png>).
+![Task 1](<screenshots/week 04-assignment 06-screenshot 1.png>).
 
 ---
 
@@ -72,13 +72,13 @@ Create a tracked, shareable pre-commit hook that blocks a commit containing secr
 
 #### Screenshot 2 — `hooks/pre-commit` open in VS Code showing the full script
 
-Add your screenshot here.
+![Task 2.A](<screenshots/week 04-assignment 06-screenshot 2.png>).
 
 ---
 
 #### Screenshot 3 — Output of `git config core.hooksPath` confirming it points to `hooks`
 
-Add your screenshot here.
+![Task 2.B](<screenshots/week 04-assignment 06-screenshot 3.png>).
 
 ---
 
@@ -86,13 +86,13 @@ Add your screenshot here.
 
 **1. Why is `hooks/pre-commit` tracked in the repo instead of living only in `.git/hooks/`?**
 
-Add your answer here.
+Tracking hooks/pre-commit in the repository allows everyone working on the project to use the same hook. It becomes part of the version-controlled codebase, making it easier to share, review, and update. If the hook existed only inside .git/hooks/, it would remain local to my machine and would not be available to other contributors.
 
 ---
 
 **2. Compare this to `PreToolUse` from Week 2 Assignment 6. What does each one intercept, and what do they have in common?**
 
-Add your answer here.
+The Git pre-commit hook intercepts a commit before Git records it in the repository, while the PreToolUse hook intercepts a tool request before Claude executes it. Although they operate in different environments, both serve the same purpose: preventing unsafe actions before they happen by enforcing predefined safety rules.
 
 ---
 
@@ -106,7 +106,7 @@ Attempt to commit the staged file from Task 1 and show the hook rejecting it.
 
 #### Screenshot 4 — Terminal showing `git commit` rejected with the hook's "BLOCKED" message naming the exact file
 
-Add your screenshot here.
+![Task 3](<screenshots/week 04-assignment 06-screenshot 4.png>).
 
 ---
 
@@ -114,13 +114,13 @@ Add your screenshot here.
 
 **1. Which line in `hooks/pre-commit` matched your fake key, and why did it match?**
 
-Add your answer here.
+The line that searched for the pattern AKIA[0-9A-Z]{16} matched my fake key. It worked because the sample key was intentionally written to follow the same format as an AWS Access Key ID, allowing the hook to detect it through pattern matching..
 
 ---
 
 **2. Could this hook have caught a poorly-named variable that stores a secret without the `AKIA` prefix? What does that tell you about the limits of a fixed rule like this?**
 
-Add your answer here.
+No. The hook only checks for predefined patterns, so it would miss a secret that doesn't match those rules. This highlights that fixed-rule detection is reliable for known patterns but cannot understand context or identify every possible security risk.
 
 ---
 
@@ -134,13 +134,13 @@ Create a manually invoked Claude Code skill that reads your staged changes and p
 
 #### Screenshot 5 — `SKILL.md` frontmatter showing `allowed-tools: Bash, Read, Grep` (no `Write`) and `disable-model-invocation: true`
 
-Add your screenshot here.
+![Task 4.A](<screenshots/week 04-assignment 06-screenshot 5.png>).
 
 ---
 
 #### Screenshot 6 — `/pr-ready` output while the risky file is still staged, showing it flagged the secret and/or debug statement
 
-Add your screenshot here.
+![Task 4.B](<screenshots/week 04-assignment 06-screenshot 6.png>).
 
 ---
 
@@ -148,13 +148,13 @@ Add your screenshot here.
 
 **1. Why does `/pr-ready` have `Bash` and `Read` but not `Write`?**
 
-Add your answer here.
+The skill only needs permission to inspect the staged changes and generate recommendations. Removing Write ensures it cannot modify files, create commits, or change the repository, leaving those actions under my control.
 
 ---
 
 **2. The pre-commit hook and `/pr-ready` both looked at the same staged diff. Did they flag the same things? What did one catch that the other didn't?**
 
-Add your answer here.
+Both detected the fake secret and debug statement. However, the pre-commit hook simply blocked the commit based on fixed rules, while /pr-ready also reviewed the overall quality of the staged changes and suggested improvements to the Pull Request title, description, and readiness before submission.
 
 ---
 
@@ -168,13 +168,13 @@ Remove the secret and debug statement, then prove both gates now pass clean.
 
 #### Screenshot 7 — `git commit` succeeding after the fix (no BLOCKED message)
 
-Add your screenshot here.
+![Task 5](<screenshots/week 04-assignment 06-screenshot 7.png>).
 
 ---
 
 #### Screenshot 8 — Second `/pr-ready` run showing a clean risk report and a drafted PR title + description
 
-Add your screenshot here.
+![Task 5.B](<screenshots/week 04-assignment 06-screenshot 8.png>).
 
 ---
 
@@ -182,7 +182,7 @@ Add your screenshot here.
 
 **1. What exactly did you change to satisfy the pre-commit hook?**
 
-Add your answer here.
+I removed the fake AWS-style access key and deleted the debug statement from the staged file. After staging the corrected version, the hook no longer detected any blocked patterns, allowing the commit to complete successfully.
 
 ---
 
@@ -212,19 +212,19 @@ Add your PR URL here...
 
 **1. What, if anything, did you edit in the AI's drafted PR description before using it? Why?**
 
-Add your answer here.
+I reviewed the AI-generated draft and made small edits to improve clarity and ensure it accurately described the work I completed. This helped make the Pull Request more precise and better reflected my actual changes.
 
 ---
 
 **2. If you had blindly copy-pasted the AI's draft without reading it, what could go wrong?**
 
-Add your answer here.
+The draft might contain inaccurate details, omit important information, or describe changes that weren't actually made. Reviewing it before submission ensures the Pull Request is accurate, complete, and appropriate for reviewers.
 
 ---
 
 **3. Why does this PR need to target your own fork instead of the shared upstream repository?**
 
-Add your answer here.
+This assignment is practice work created in my own repository. Opening the Pull Request against my fork keeps the shared upstream repository clean and ensures only intended class contributions are submitted to the original project.
 
 ---
 
@@ -238,31 +238,31 @@ Explain this assignment's workflow using the same Gather → Analyze → Human A
 
 **1. Which step(s) represent Gather?**
 
-Add your answer here.
+The Gather stage occurs when the pre-commit hook and the /pr-ready skill inspect the staged changes using Git and repository files to collect the information needed for review.
 
 ---
 
 **2. Which step(s) represent Analyze?**
 
-Add your answer here.
+Analyze happens when the pre-commit hook checks the staged files against predefined security rules and when /pr-ready evaluates the staged changes to identify potential issues and prepare a Pull Request draft.
 
 ---
 
 **3. Which step is Human Act, and why must a human — not Claude — run `git commit`, `git push`, and open the PR?**
 
-Add your answer here.
+Human Act is when I review the findings, decide whether changes are needed, commit the code, push the branch, and open the Pull Request. These actions remain my responsibility because they permanently affect the repository and require human judgment and accountability.
 
 ---
 
 **4. Which step is Verify?**
 
-Add your answer here.
+Verify happens after fixing the identified issues by running the pre-commit hook and /pr-ready again, confirming that the commit succeeds and the Pull Request is ready for submission.
 
 ---
 
 **5. In one or two sentences: why do you need *both* the fixed-rule pre-commit hook and the AI skill? Isn't one enough?**
 
-Add your answer here.
+The pre-commit hook reliably blocks known risks such as secrets and oversized files using fixed rules, while the AI skill provides broader review by evaluating context, clarity, and Pull Request quality. Together, they combine consistent automated enforcement with intelligent human-focused guidance, creating a more complete review process.
 
 ---
 
