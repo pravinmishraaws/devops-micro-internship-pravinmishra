@@ -74,13 +74,13 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 6 — Output of `git status` showing `index.html` as modified before staging
 
-Add your screenshot here.
+![ss6](./screenshots/W4-SS-A3/W4-A3-SS-6.png).
 
 ---
 
 #### Screenshot 7 — Output of `git commit`
 
-Add your screenshot here.
+![ss6](./screenshots/W4-SS-A3/W4-A3-SS-7.png).
 
 ---
 
@@ -106,7 +106,7 @@ Switch back to the default branch and confirm that `contact.html` and the Contac
 
 #### Screenshot 10 — Browser showing the homepage on the default branch with no Contact Page link
 
-Add your screenshot here.
+![ss9](./screenshots/W4-SS-A3/W4-A3-SS-10.png).
 
 ---
 
@@ -132,7 +132,9 @@ Merge `feature/contact-page` into your default branch and confirm the Contact pa
 
 #### Screenshot 13 — Browser showing the Contact page opened from the homepage link on the default branch
 
-Add your screenshot here.
+
+![ss13](./screenshots/W4-SS-A3/W4-A3-SS-13-1.png)
+![ss13](./screenshots/W4-SS-A3/W4-A3-SS-13.png)
 
 ---
 
@@ -175,15 +177,15 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Repository confirmed clean on the default branch (Screenshot 1)
-- [ ] `feature/contact-page` created and checked out (Screenshot 2)
-- [ ] `contact.html` added in its own commit (Screenshots 3–5)
-- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
-- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
-- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
-- [ ] Graph history reviewed (Screenshot 14)
-- [ ] Optional cleanup completed (Screenshot 15)
-- [ ] No sensitive data exposed
+- [✓] Repository confirmed clean on the default branch (Screenshot 1)
+- [✓] `feature/contact-page` created and checked out (Screenshot 2)
+- [✓] `contact.html` added in its own commit (Screenshots 3–5)
+- [✓] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [✓] Default branch proven unchanged before merge (Screenshots 9–10)
+- [✓] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [✓] Graph history reviewed (Screenshot 14)
+- [✓] Optional cleanup completed (Screenshot 15)
+- [✓] No sensitive data exposed
 
 ---
 
