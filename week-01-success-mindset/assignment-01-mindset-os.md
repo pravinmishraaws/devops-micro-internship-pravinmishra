@@ -131,7 +131,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/ToluFemiTayo.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3.**
 
 ## Your Article
 
@@ -156,9 +156,12 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### Public Link
 
-https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478925261078495233-RAbA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY
+Linkedin: https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478925261078495233-RAbA/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY
 
-`__________________________`
+Blog / Medium: https://medium.com/@omodarafemi2123/devops-micro-internship-cohort-3-what-my-version-2-0-looks-like-5f2ee7932826?postPublishedType=repub
+
+`Linkedin: https://www.linkedin.com/feed/update/urn:li:activity:7478925262823542784/
+Blog / Medium: https://medium.com/@omodarafemi2123/devops-micro-internship-cohort-3-what-my-version-2-0-looks-like-5f2ee7932826?postPublishedType=repub=-`
 
 ---
 
@@ -192,7 +195,7 @@ If Yes:
 
 Yes
 
-The environment where I grew up and my parents wouldn't permit cutting cutting conrners, either legally or illegal. Also, there is an adage that says that one should learn from other people's experiences so that one won't fall victim of such. However, I cut corner and I paid for it. It is about my car.
+The environment where I grew up and my parents wouldn't permit cutting conrners, either legally or illegal. Also, there is an adage that says that one should learn from other people's experiences so that one won't fall victim of such. However, I cut corner and I paid for it. It is about my car.
 I have a particular mechanic who asked me to give him certain amount to buy some spare parts, including workmanship. Now, I did not listen to him because I was facing financial challenges at that time. I looked for someone else whose price was far way cheaper than my Main mechanic. In my mind, I was saying that is it not same spare parts how to fix them. Now, funnily, this second person did the work and even faster to deliver my car because he had a very few other cars to fix. I was happy, more also, my main mechanic had a lot of cars to fix, which means he won't deliver my car in good time.
 Now, the result was that my car developed same fault and worse because other things were damaged. My eyes were cleared, I felt really bad for not going with the main mechanic. However, I was humbled and went back to the main mechanic to fix my car. I spent more and waited more. Though I did not go back to him immediately because of shame but I am glad that I eventually did. Lots of lessons learnt.
 
@@ -335,8 +338,6 @@ Examples:
 
 **Yes / No**
 
-Answer:
-
 Yes
 
 ---
@@ -415,14 +416,14 @@ Every morning, before opening any tutorial or docs, I open my terminal first and
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+`https://www.linkedin.com/feed/update/urn:li:activity:7478925262823542784/`
 
 ---
 
 ## 10. Proof of Work
 
 - LinkedIn Post URL: https://www.linkedin.com/feed/update/urn:li:activity:7478925262823542784/
-- Blog / Medium : https://www.linkedin.com/posts/omodara-tolulope-136262158_join-the-dmi-devops-micro-internship-share-7478919392680919040-S4dk/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACXEzDoBu_flS_3Aw8e2ppRFF7K4vr7GiMY
+- Blog / Medium : https://medium.com/@omodarafemi2123/devops-micro-internship-cohort-3-what-my-version-2-0-looks-like-5f2ee7932826?postPublishedType=repub
 
 ---
 
