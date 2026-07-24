@@ -20,7 +20,7 @@ Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub a
 
 #### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+![ss1](./screenshots/W4-SS-A5/W4-A5-SS-1.png).
 
 ---
 
@@ -34,8 +34,8 @@ Configure one authentication method — HTTPS with a Personal Access Token, or S
 
 #### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
-Add your screenshot here.
-
+![ss2](./screenshots/W4-SS-A5/W4-A5-SS-2.png).
+![ss2](./screenshots/W4-SS-A5/W4-A5-SS-2-1.png).
 ---
 
 # Task 2 — Clone Your Fork and Configure Remotes
@@ -48,7 +48,7 @@ Clone your fork locally, then add the original repository as `upstream`.
 
 #### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
 
-Add your screenshot here.
+![ss3](./screenshots/W4-SS-A5/W4-A5-SS-3.png).
 
 ---
 
