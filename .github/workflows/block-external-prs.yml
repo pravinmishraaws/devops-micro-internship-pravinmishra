@@ -1,0 +1,38 @@
+name: Block External Pull Requests
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  block-non-collaborator-prs:
+    runs-on: ubuntu-latest
+    if: |
+      github.event.pull_request.author_association != 'OWNER' &&
+      github.event.pull_request.author_association != 'MEMBER' &&
+      github.event.pull_request.author_association != 'COLLABORATOR'
+    steps:
+      - name: Close PR with explanation
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: pr.number,
+              body: [
+                "Thanks for checking out the program, but this repo is a **template** — each student forks it and does all their work (and submits assignments) in their own fork.",
+                "",
+                "Pull requests against this repo directly aren't accepted, so this one is being closed automatically. If you're a student, please open PRs against your own forked repository instead.",
+              ].join("\n"),
+            });
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: pr.number,
+              state: "closed",
+            });
