@@ -165,13 +165,13 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-share-7486307100151881729-uNyi/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8`
 
 ---
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-Add your screenshot here.
+![LinkedIn CodeTrack Site](./screenshots/W4-SS-A2/W4-A2-SS-18.png).
 
 ---
 
@@ -192,7 +192,7 @@ Add your screenshot here.
 - [✓] Student Name and Group Name updated in `index.html` (Screenshot 9)
 - [✓] Second controlled commit created (Screenshots 10–12)
 - [✓] Nginx active on the EC2 instance and CodeTrack reachable via its public IP (Screenshots 13–15)
-- [ ] LinkedIn post published and URL submitted
+- [✓] LinkedIn post published and URL submitted
 - [✓] No sensitive data exposed
 
 ---
