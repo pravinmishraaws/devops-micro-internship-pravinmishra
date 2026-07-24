@@ -35,7 +35,7 @@ Configure one authentication method — HTTPS with a Personal Access Token, or S
 #### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
 ![ss2](./screenshots/W4-SS-A5/W4-A5-SS-2.png).
-![ss2](./screenshots/W4-SS-A5/W4-A5-SS-2-1.png).
+
 ---
 
 # Task 2 — Clone Your Fork and Configure Remotes
@@ -62,13 +62,13 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
 
-Add your screenshot here.
+![ss4](./screenshots/W4-SS-A5/W4-A5-SS-4.png).
 
 ---
 
 #### Screenshot 5 — Output of `git commit`
 
-Add your screenshot here.
+![ss5](./screenshots/W4-SS-A5/W4-A5-SS-5.png).
 
 ---
 
@@ -82,13 +82,13 @@ Fetch and merge `upstream/main` into your local default branch, rebase your feat
 
 #### Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
 
-Add your screenshot here.
+![ss6](./screenshots/W4-SS-A5/W4-A5-SS-6.png).
 
 ---
 
 #### Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
 
-Add your screenshot here.
+![ss7](./screenshots/W4-SS-A5/W4-A5-SS-7.png).
 
 ---
 
@@ -102,13 +102,13 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
-Add your screenshot here.
+![ss8](./screenshots/W4-SS-A5/W4-A5-SS-8.png).
 
 ---
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-Add your screenshot here.
+![ss9](./screenshots/W4-SS-A5/W4-A5-SS-9.png).
 
 ---
 
@@ -116,7 +116,7 @@ Add your screenshot here.
 
 Paste your Pull Request URL here:
 
-`Add your URL here`
+`https://github.com/santosronnie26-sr/devops-micro-internship-interviews/pull/new/feature-readme-update`
 
 ---
 
