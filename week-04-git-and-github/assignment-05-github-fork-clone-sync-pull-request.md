@@ -128,13 +128,13 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/367
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/posts/tim-obi-40688a3a7_another-milestone-completed-in-my-devops-activity-7486187706163761154-lvWj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs`
+https://www.linkedin.com/posts/tim-obi-40688a3a7_another-milestone-completed-in-my-devops-activity-7486187706163761154-lvWj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGOencYBw8GQRmlEqrn_AHS24OqmBpkIlVs
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+![book1](screenshots/mui.png)
 
 ---
 
@@ -151,7 +151,7 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`https://github.com/timobi784/devops-micro-internship-interviews`
+https://github.com/timobi784/devops-micro-internship-interviews
 
 ---
 
