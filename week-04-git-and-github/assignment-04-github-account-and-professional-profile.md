@@ -66,7 +66,7 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 #### Screenshot 6 — Your public GitHub profile showing your username and professional bio
 
-Add your screenshot here.
+![ss6](./screenshots/W4-SS-A4/W4-A4-SS-6.png).
 
 ---
 
@@ -82,19 +82,19 @@ Add your screenshot here.
 
 Paste your GitHub profile URL here:
 
-`Add your URL here`
+`https://github.com/santosronnie26-sr`
 
 ---
 
 # Completion Checklist
 
-- [ ] GitHub account created or existing account confirmed (Screenshot 1)
-- [ ] Trending repositories explored (Screenshot 3)
-- [ ] At least one repository starred (Screenshot 4)
-- [ ] At least one public repository forked (Screenshot 5)
-- [ ] Professional bio added to your GitHub profile (Screenshot 6)
-- [ ] GitHub profile URL included
-- [ ] No passwords, codes, or authentication secrets exposed
+- [✓] GitHub account created or existing account confirmed (Screenshot 1)
+- [✓] Trending repositories explored (Screenshot 3)
+- [✓] At least one repository starred (Screenshot 4)
+- [✓] At least one public repository forked (Screenshot 5)
+- [✓] Professional bio added to your GitHub profile (Screenshot 6)
+- [✓] GitHub profile URL included
+- [✓] No passwords, codes, or authentication secrets exposed
 
 ---
 
