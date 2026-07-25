@@ -116,7 +116,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 Paste your Pull Request URL here:
 
-`https://github.com/santosronnie26-sr/devops-micro-internship-interviews/pull/new/feature-readme-update`
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/390
 
 ---
 
@@ -151,21 +151,21 @@ Add your screenshot here.
 
 Paste your fork URL here:
 
-`Add your URL here`
+https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra.git
 
 ---
 
 # Completion Checklist
 
-- [ ] Upstream repository forked to your GitHub account (Screenshot 1)
-- [ ] GitHub authentication configured securely (Screenshot 2)
-- [ ] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
-- [ ] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
-- [ ] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
-- [ ] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
-- [ ] Fork URL and Pull Request URL included
+- [✓] Upstream repository forked to your GitHub account (Screenshot 1)
+- [✓] GitHub authentication configured securely (Screenshot 2)
+- [✓] Fork cloned locally with `origin` and `upstream` configured (Screenshot 3)
+- [✓] Only `pull_request.md` modified, with your own entry added (Screenshots 4–5)
+- [✓] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
+- [✓] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
+- [✓] Fork URL and Pull Request URL included
 - [ ] LinkedIn post published and URL submitted
-- [ ] No PAT, password, private key, or authentication secret exposed
+- [✓] No PAT, password, private key, or authentication secret exposed
 
 ---
 
