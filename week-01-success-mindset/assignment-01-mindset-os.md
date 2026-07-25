@@ -149,9 +149,11 @@ By consistently building projects, publishing his work, contributing to the comm
 
 ### Public Link
 
-Paste your link here:
+Paste your link here:Paste your LinkedIn post URL here:
 
-https://www.linkedin.com/feed/update/urn:li:activity:7478878317400506368/
+`https://www.linkedin.com/feed/update/urn:li:activity:7478878317400506368/`
+
+
 
 ---
 
@@ -390,7 +392,7 @@ Small daily improvements can lead to big results over time. I'm excited to conti
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **https://www.linkedin.com/feed/update/urn:li:activity:7478878317400506368/,https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/**  
+- LinkedIn Post URL: **https://www.linkedin.com/feed/update/urn:li:activity:7478878317400506368/,**  
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
