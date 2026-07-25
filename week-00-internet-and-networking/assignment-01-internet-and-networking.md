@@ -218,8 +218,7 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/`
-
+https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/
 ---
 
 ## LinkedIn Post Backup Copy
