@@ -218,7 +218,7 @@ Add the following credit note at the end of your post:
 
 Paste your LinkedIn post URL here:
 
-`https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/`
+`https://www.linkedin.com/posts/supun-jayathilake-375186193_devops-continuouslearning-careergrowth-share-7478899005142241282-ye1Q/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1o7okBGlRoZq6paoKkrlga7gA-D0y_-tk`
 
 ---
 
