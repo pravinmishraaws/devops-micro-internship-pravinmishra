@@ -218,7 +218,7 @@ Add the following credit note at the end of your post:
 
 ## Evidence
 
-#### LinkedIn Post URL
+#### LinkedIn Post UR
 
 Paste your LinkedIn post URL here:
 
