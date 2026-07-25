@@ -1,4 +1,6 @@
+
 # Configuration file for CodeTrack
+# Loaded securely from environment variables
 import os
 AWS_ACCESS_KEY = os.environ.get("AWS_ACCESS_KEY", "")
 DEBUG_MODE = False

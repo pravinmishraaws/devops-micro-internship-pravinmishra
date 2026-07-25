@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Pre-commit hook: blocks commits containing secret-like patterns or oversized files
+
+BLOCKED=0
+
+# Check staged files for secret-like patterns
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM)
+
+for FILE in $STAGED_FILES; do
+    if [ -f "$FILE" ]; then
+        # Check for common secret patterns
+        if grep -qE "AKIA[0-9A-Z]{16}|AWS_SECRET|password\s*=\s*['\"]|api[_-]?key\s*=\s*['\"]" "$FILE"; then
+            echo "BLOCKED: $FILE contains a secret-like pattern (e.g. AWS key, password, or API key)."
+            BLOCKED=1
+        fi
+
+        # Check file size (1MB = 1048576 bytes)
+        FILESIZE=$(wc -c < "$FILE")
+        if [ "$FILESIZE" -gt 1048576 ]; then
+            echo "BLOCKED: $FILE is larger than 1MB ($FILESIZE bytes)."
+            BLOCKED=1
+        fi
+    fi
+done
+
+if [ "$BLOCKED" -eq 1 ]; then
+    echo ""
+    echo "Commit blocked by pre-commit hook. Fix the issues above before committing."
+    exit 1
+fi
+
+exit 0
