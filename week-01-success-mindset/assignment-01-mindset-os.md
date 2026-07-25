@@ -386,13 +386,14 @@ Small daily improvements can lead to big results over time. I'm excited to conti
 #DevOps #ContinuousLearning #CareerGrowth #CloudComputing #AWS #Linux #Docker #LearningJourney
 **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://lnkd.in/dkPeb7Nm). You can start your DevOps journey by joining this [Discord community](https://lnkd.in/d3sQDC3J) ( https://lnkd.in/d3sQDC3J )
 
-`https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/
+`https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **https://www.linkedin.com/feed/update/urn:li:activity:7478878317400506368/,**  
+- LinkedIn Post URL: **`https://www.linkedin.com/feed/update/urn:li:activity:7478878317400506368/`,`https://www.linkedin.com/feed/update/urn:li:activity:7478899006819975168/`
+**  
 - Blog / Medium : **ADD LINK HERE**  
 
 ---
