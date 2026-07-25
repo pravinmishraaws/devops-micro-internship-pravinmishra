@@ -86,7 +86,7 @@ Add the provided Contact Page link to `index.html` and commit it separately usin
 
 #### Screenshot 8 — Browser showing the Contact Page link on the homepage while on `feature/contact-page`
 
-Add your screenshot here.
+![ss6](./screenshots/W4-SS-A3/W4-A3-SS-8.png).
 
 ---
 
