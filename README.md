@@ -133,7 +133,7 @@ Week 03 → Linux & Bash for DevOps -->
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ✅ Completed| ✅ Solved| https://www.linkedin.com/posts/abihail-osahon-096564232_proof-of-work-is-not-what-i-say-it-is-what-share-7478929976751390720-3AD8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU |  https://abihail.hashnode.dev/proof-of-work-is-not-what-i-say|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved| https://www.linkedin.com/posts/abihail-osahon-096564232_devops-agenticai-claudecode-ugcPost-7486148866518687744-xuhu/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU | https://abihail.hashnode.dev/reflection-week-2 |
-| 03 | Linux & Bash for DevOps |  | 🔄 In Progress | — | — |
+| 03 | Linux & Bash for DevOps | ✅ Completed |✅ Solved  | https://www.linkedin.com/posts/abihail-osahon-096564232_devops-linux-bash-share-7487207516091793408-Estp/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU | https://hashnode.com/edit/cms24kdwv00000ahp59qy2lzk |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
