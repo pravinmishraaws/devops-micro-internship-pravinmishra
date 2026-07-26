@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![react app](./screenshots/week3assignment3/assignment1image1.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![ip a](./screenshots/week3assignment3/assignment1image2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![sudo ss -tulpen](./screenshots/week3assignment3/assignment1image3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![sudo ufw](./screenshots/week3assignment3/assignment1image4.png)
 
 ---
 
@@ -48,19 +48,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+What proves Nginx is listening on 0.0.0.0:80 is the output from sudo ss -tulpen. It shows 0.0.0.0:80 in the LISTEN state with Nginx using that port, which means Nginx is ready to accept HTTP requests from any network interface on the server.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+The output from sudo ss -tulpen also proves that SSH is active on port 22. It shows 0.0.0.0:22 in the LISTEN state with the sshd process attached, which confirms that the SSH service is running and ready to accept remote connections.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No, I did not find any unexpected open ports. The only open ports were 22 for SSH and 80 for Nginx, which are expected for this server. The other entries shown, like port 53 for DNS and 323 for the Chrony time service, are system services used by Ubuntu and are not unexpected.
 
 ---
 
@@ -74,19 +74,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![nginx no-pager](./screenshots/week3assignment3/task2image1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![sudo nginx -t](./screenshots/week3assignment3/task2image2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![sudo ss -lptn](./screenshots/week3assignment3/task2image3.png)
 
 ---
 
@@ -96,13 +96,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+If Nginx fails to restart in production, the website or application will become unavailable to users because it will stop serving HTTP requests. This can lead to downtime, affect the user experience, and may require immediate troubleshooting to restore the service.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+My basic rollback plan is to first check what caused Nginx to fail, fix any configuration issues, and test the configuration with sudo nginx -t. If the problem started after a recent change, I would restore the last working Nginx configuration or redeploy the previous stable version of the application, then restart Nginx and verify that the website is accessible again.
 
 ---
 
@@ -116,19 +116,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![sudo tail access.log](./screenshots/week3assignment3/task3image1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![sudo tail error](./screenshots/week3assignment3/task3image2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![journalctl](./screenshots/week3assignment3/task3image3.png)
 
 ---
 
@@ -141,19 +141,23 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+I did not find any actual errors in the Nginx error log. The only message I saw was:
+
+2026/07/24 16:51:52 [notice] 26287#26287: using inherited sockets from "5;6;"
+
+This is an informational notice, not an error. It means Nginx reused existing network sockets during a restart or reload, which helps keep the service running smoothly without interrupting active connections. Since there were no error messages, it indicates that Nginx was operating normally during my checks.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+If there are no errors in the log, it indicates that the system is running normally. It means Nginx handled requests without any issues during my checks, and there were no problems serious enough to be recorded in the error log.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes, my curl requests were visible in the access log. This proves that the requests successfully reached the Nginx server, were processed, and were recorded in the log. It confirms that traffic is flowing correctly between the client and the server and that Nginx is handling incoming requests as expected.
 
 ---
 
@@ -167,25 +171,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![uptime](./screenshots/week3assignment3/task4image1.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+1[Free -h](./screenshots/week3assignment3/task4image2.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![df -h](./screenshots/week3assignment3/task4image3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![-sh /var/ * sort -h](./screenshots/week3assignment3/task4image4.png)
 
 ---
 
@@ -195,13 +199,13 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
+Out of the three resources, disk usage looks the most critical right now. The root partition is using about 60% of its available space, while the CPU load is 0.00 and memory still has around 548 MB available. Although 60% is not a problem yet, I would keep an eye on it to make sure the disk does not fill up over time, especially as logs and application files continue to grow.
 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If the disk becomes 100% full, the server can start having serious problems. Applications may not be able to write files, logs may stop updating, new data cannot be saved, and some services could fail or crash. In a production environment, this can lead to downtime and affect users until enough disk space is freed.
 
 ---
 
@@ -215,19 +219,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![head -n 20](./screenshots/week3assignment3/Task5assignment1.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![output of grep-r](./screenshots/week3assignment3/Task5image2.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![grep -n](./screenshots/week3assignment3/Task5image3.png)
 
 ---
 
@@ -237,7 +241,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+I confirm that the correct version of the application is deployed by opening it in the browser and checking that the expected changes are visible. I also verify that Nginx is serving the application correctly and, if needed, compare the deployed files with the latest version in the project to make sure they match.
 
 ---
 
@@ -251,19 +255,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![syntax error](./screenshots/week3assignment3/Task6image1.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+!![syntax fixed](./screenshots/week3assignment3/Task6image2.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![confirming recovery](./screenshots/week3assignment3/Task6image3.png)
 
 ---
 
@@ -273,19 +277,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The configuration failed because I removed the semicolon at the end of the try_files directive. Since Nginx requires each directive to end with a semicolon, the missing semicolon caused a syntax error, which was detected when I ran sudo nginx -t.
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I fixed the issue by adding the missing semicolon back to the try_files directive, saving the configuration file, and running sudo nginx -t again. The test returned "syntax is ok" and "test is successful," confirming that the configuration was valid again.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+To avoid this kind of issue in a real production system, I would always test the Nginx configuration with sudo nginx -t before restarting or reloading the service. I would also review configuration changes carefully and, if possible, test them in a staging environment before applying them to the production server.
 
 ---
 
@@ -299,13 +303,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![curl -I+ip showing failure](./screenshots/week3assignment3/Task7image1.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![curl -I+ip confirming recovery](./screenshots/week3assignment3/Task7image2.png)
 
 ---
 
@@ -315,19 +319,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+The application broke because there was a server-side configuration issue. In this scenario, the Nginx configuration had been intentionally modified during the assignment, which caused the server to return a 500 Internal Server Error instead of serving the application. This shows that an incorrect server configuration can prevent the application from working properly.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I fixed the issue by correcting the Nginx configuration, saving the file, and running sudo nginx -t to verify that the configuration was valid. After the test returned "syntax is ok" and "test is successful," I reloaded Nginx. I then confirmed the application was restored by running curl -I http://34.207.200.44, which returned HTTP/1.1 200 OK, showing that the application was serving requests successfully again.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To prevent this kind of issue in a real production system, I would always test the Nginx configuration with sudo nginx -t before reloading or restarting the service. I would also review configuration changes carefully, keep backups of working configurations, and test changes in a staging environment before deploying them to production. This helps catch errors early and reduces the risk of downtime.
 
 ---
 
@@ -343,31 +347,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH key-based authentication is more secure because it uses a pair of cryptographic keys instead of a password that can be guessed or stolen. It also reduces the risk of brute-force attacks and makes it harder for unauthorized users to gain access to the server.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Only the required ports should be open to reduce the server's attack surface. Keeping unnecessary ports closed helps prevent unauthorized access and lowers the risk of attackers exploiting services that are not needed.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+Enabling Nginx on boot ensures that the web server starts automatically whenever the server restarts. This helps keep the application available without requiring someone to manually start the service after every reboot.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Sharing secrets, API keys, passwords, or credentials publicly can allow unauthorized users to access systems, steal data, make unwanted changes, or misuse cloud resources. It can also lead to security breaches and unexpected costs if the credentials are abused.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Cloud resources should be stopped or terminated when they are no longer needed to avoid unnecessary charges and reduce security risks. Removing unused resources also helps keep the cloud environment clean and easier to manage.
 
 ---
 
@@ -377,7 +381,7 @@ Write your answer here.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/abihail-osahon-096564232_devops-aws-linux-ugcPost-7486687149120118784-iCwR/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADoaXXIBPrMQ_TL1SPeACNDTKQQWRcfVxDU
 
 `__________________________`
 
@@ -385,7 +389,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Linkedin](./screenshots/week3assignment3/Linkedpost.png)
 
 ---
 
