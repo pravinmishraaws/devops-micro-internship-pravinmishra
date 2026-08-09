@@ -1,4 +1,4 @@
-# DevOps Micro Internship with Agentic AI — My Journey
+        # DevOps Micro Internship with Agentic AI — My Journey
 
 ![Cohort](https://img.shields.io/badge/Cohort-3-blue?style=for-the-badge)
 ![Program](https://img.shields.io/badge/DevOps_Micro_Internship-Pravin_Mishra-orange?style=for-the-badge)
@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/chioma-nwosu-878788143_devops-cloudcomputing-aws-activity-7490734865529774080-Rss0?utm_source=share&utm_medium=member_desktop&rcm=ACoAACLSBtwB-QIbIm4359qMpRmDY8MP58tJ5i4 | https://chiomanwosu.hashnode.dev/why-cloud-engineers-need-networking |
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | `https://www.linkedin.com/posts/chioma-nwosu-878788143_careertransition-cloudcomputing-devops-ugcPost-7490081684361650176-xkCB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACLSBtwB-QIbIm4359qMpRmDY8MP58tJ5i4 `
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/chioma-nwosu-878788143_careertransition-cloudcomputing-devops-ugcPost-7490081684361650176-xkCB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACLSBtwB-QIbIm4359qMpRmDY8MP58tJ5i4
  | https://chiomanwosu.hashnode.dev/version-2-career-transition-cloud-engineering |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
