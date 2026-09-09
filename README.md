@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Sabharish C |
+| **LinkedIn** | [sabharish-c](www.linkedin.com/in/sabharish-c) |
+| **Location** | Tamilnadu, India |
+| **Background** | LLM Security, Full stack development, AI engineering|
+| **Goal** | To Become SDE |
 
 ---
 
@@ -67,8 +67,8 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+ Week 00 → Internet & Networking Basics 
+[![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/)
 
 <!-- Week 01 → Success Mindset -->
 <!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->

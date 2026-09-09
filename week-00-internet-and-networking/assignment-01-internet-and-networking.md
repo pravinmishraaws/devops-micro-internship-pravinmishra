@@ -34,7 +34,8 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that a protocol is a set of rules that allows computers to communicate and exchange data correctly.
+It’s similar to traffic rules where we all follow the same rules to communicate in a safe and smooth way.
 
 ---
 
@@ -59,7 +60,11 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+Every time a person in any part of the world visits EpicReads, their request is broken down into small bits of data known as packets. This process is called packet switching and means that packets are routed through different networks and routes until they reach the website server in Finland.
+
+The server has a unique IP address . This helps identify the location of the server and make sure the packets go to the right destination . TCP/IP provides the rules of communication. IP is concerned with addressing and routing . TCP is concerned with reliable and ordered delivery of packets .
+
+Then, HTTP/HTTPS is used to request and transfer web pages, images, and other content between the user and the server . HTTPS encrypts the communication, so the user data is more secure.
 
 ---
 
@@ -102,18 +107,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS
+* React
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Nodejs
+* Django
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL
+* PostgreSQL
 
 ---
 
@@ -142,7 +147,9 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+DNS (Domain Name System) is like the internet’s phonebook. It turns easy-to-remember domain names, like epicreads.com, into the IP addresses that computers use to find servers.
+
+For EpicReads, a A record is used as it associates the domain name epicreads.com with the IPv4 address 52.172.142.222. When a user types epicreads.com the DNS looks up the IP address and sends the standard query to the EpicReads server . The :3000 is a port number, not part of the DNS record.
 
 ---
 
@@ -211,16 +218,16 @@ Use the credit note that matches your track:
 
 Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/SabharishC98.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 
 Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/SabharishC98.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
 
 Add the following credit note at the end of your post **(If you are DMI Campus student)**:
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/SabharishC98.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=campus**
 
 Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 ---
@@ -230,7 +237,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://lnkd.in/p/gnrxVBBD
 ```
 
 ---
@@ -239,7 +246,28 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+Week 0 of my DevOps Micro Internship (DMI) Cohort 3 with Agentic AI is completed.
+
+This week, I learned the fundamentals of the Internet, Networking, Application Architecture, DNS, and VS Code.
+
+ChatGPT
+I learned how networking protocols work and how they act as rules that allow computers to communicate with each other.
+
+Internet & Networking
+I learned about packet switching, IP addresses, TCP/IP, and HTTP/HTTPS, and how these technologies work together to deliver a website to users globally.
+
+App Architecture
+I explored two-tier and three-tier application architectures and learned about frontend, backend, and database layers.
+
+DNS
+I learned how DNS converts human-readable domain names into IP addresses and how an A record can connect a domain to an IPv4 address.
+
+VS Code Setup
+I configured my VS Code environment, opened the integrated terminal, and practiced basic commands.
+
+This week helped me build a stronger foundation for my DevOps journey. Looking forward to learning and building more in the upcoming weeks.
+
+P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by Pravin Mishra. My graded progress is public: https://dmi.pravinmishra.com/s/SabharishC98.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3
 
 ---
 
@@ -247,19 +275,22 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I found the basic networking concepts such as protocols, IP addresses, DNS, and HTTP/HTTPS easy to understand. Using ChatGPT as a learning assistant also helped me understand technical concepts through simple real-life examples.
+
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Understanding how different networking concepts work together was initially difficult, especially packet switching, TCP/IP, and DNS. Creating and understanding the difference between two-tier and three-tier application architecture also required some practice.
+
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Next week, I want to improve my practical DevOps skills by spending more time working with Linux commands, Git, networking, and cloud-related tools. I also want to understand the concepts by implementing them rather than only learning the theory.
+
 
 ---
 
