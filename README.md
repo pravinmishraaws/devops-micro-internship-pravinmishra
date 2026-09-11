@@ -15,7 +15,7 @@
 | | |
 |---|---|
 | **Name** | Shivam Sharma |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/shivamsharma-builds/) |
+| **LinkedIn** | [Shivam Sharma](https://www.linkedin.com/in/shivamsharma-builds/) |
 | **Location** | Jamtara, Jharkhand, India |
 | **Background** | Durgapur Institute of Advanced Technology and Management 155 |
 | **Goal** | Become a professional Agentic AI Engineer |
