@@ -242,7 +242,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://lnkd.in/p/dBEAHJqG
 ```
 
 ---
@@ -251,7 +251,23 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+Completed Assignment 1 of the DevOps Micro Internship (DMI) by Pravin Mishra 🚀
+This module covered key fundamental concepts behind modern DevOps and cloud software systems:
+1️⃣ ChatGPT as a Learning Assistant
+Used targeted prompting to break down complex system concepts into clear mental models and real-world examples.
+2️⃣ Internet & Networking Fundamentals
+Covered data transmission basics:
+Protocols & Packet Switching: How data is chunked, routed, and reassembled across networks.
+TCP/IP & Protocols: Reliable transport mechanics, handshakes, and the security roles of HTTP/HTTPS.
+3️⃣ App Architecture
+2-Tier: Direct client-to-database connections (simple, but hard to scale and secure).
+3-Tier: Adds an intermediate Backend/API layer for business logic, security, and independent database scaling.
+4️⃣ DNS Essentials
+How hierarchical name resolution maps domains to IP addresses.
+The explicit role of A records for IPv4 routing and CNAMEs for aliasing.
+5️⃣ VS Code Environment
+Configured a workstation setup with git integration and CLI extensions ready for infrastructure and scripting tasks.
+Excited to build on these core principles as we move into DevOps pipelines, cloud, containerization, and automation. 🚀
 
 ---
 
@@ -259,19 +275,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+I understood the fundamental concept of Internet and Networking, App architecture and stack as well as Domain and DNS.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Troubleshooting; due to my insufficient knowledge of AWS.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Dive deeper into using ChatGPT to its fullest and also tune my learning approach with the AI Tools.
 
 ---
 
