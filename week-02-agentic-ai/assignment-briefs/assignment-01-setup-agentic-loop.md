@@ -138,36 +138,37 @@ How many lines of CSS does this project have?
 
 ### Task 4 — Share Your First Agentic AI Achievement
 
-**Goal:** Celebrate your first Agentic AI milestone and share your learning progress with your professional network.
+**Goal:** Celebrate your first Agentic AI session and share your learning progress with your professional network.
+
+Great work—you have successfully completed your first Agentic AI session! You installed Claude Code, explored a real project, and observed the **Gather → Act → Verify** Agentic Loop in action.
+
+Now, share this achievement on LinkedIn.
 
 **Steps:**
 
 1. Go to the **DMI Leaderboard**.
-2. Find your name.
-3. Select **Share your progress**.
+2. Find your name on the leaderboard.
+3. You can see the **Share your progress** section under your name.
 4. Click the **LinkedIn icon**.
-5. LinkedIn will open with your automatically generated leaderboard progress link.
-6. Copy and paste the post content provided below.
-7. Keep the automatically generated leaderboard link in your post.
-8. Review and publish your post.
+5. Share your progress using the caption below. Make sure the DMI Leaderboard link or achievement card is included in your post.
 
-**LinkedIn Post Content:**
+**LinkedIn Caption:**
 
-```text
-I’ve completed my first Agentic AI session! 🚀
+I’ve completed my first Agentic AI session as part of DMI! 🚀
 
-I installed and authenticated Claude Code, explored a real project, and observed the Agentic Loop—Gather, Act, and Verify—in action.
+I installed and authenticated Claude Code, explored a real project, and observed the Agentic Loop - Gather, Act, and Verify in action.
 
 This is my first step toward using Agentic AI in real-world DevOps workflows.
 
-You can view my learning progress on the DMI Leaderboard using the link below.
+You can view my learning progress on the DMI Leaderboard.
 
-#AgenticAI #ClaudeCode #DevOps #DMI #ContinuousLearning
-```
+#DMIByPravinMishra #AgenticAI #ClaudeCode
 
-**Expected Output:** A published LinkedIn post describing your first Agentic AI session and containing your automatically generated DMI Leaderboard progress link.
+**Expected Output:** A published LinkedIn post sharing your achievement and DMI Leaderboard progress.
 
-**Evidence Required:** No additional screenshot is required for this task.
+**Screenshot Required:**
+
+* Screenshot 6 — Your published LinkedIn post showing the caption and shared leaderboard progress
 
 ---
 

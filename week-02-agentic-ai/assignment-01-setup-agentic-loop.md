@@ -64,6 +64,21 @@ Add your screenshot here.
 
 ---
 
+# Task 4 — Share Your First Agentic AI Achievement
+
+## Goal
+
+Share your completed Agentic AI session and DMI Leaderboard progress on LinkedIn.
+
+### Evidence
+
+#### Screenshot 6 — Published LinkedIn post showing the caption and shared DMI Leaderboard progress
+
+Add your screenshot here.
+
+---
+
+
 # Submission Instructions
 
 - Add all required screenshots in your GitHub repository submission
