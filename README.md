@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Shivam Sharma |
+| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/shivamsharma-builds/) |
+| **Location** | Jamtara, Jharkhand, India |
+| **Background** | Durgapur Institute of Advanced Technology and Management 155 |
+| **Goal** | Become a professional Agentic AI Engineer |
 
 ---
 
