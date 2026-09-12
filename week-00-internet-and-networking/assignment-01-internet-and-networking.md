@@ -25,7 +25,8 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/![Uploading WhatsApp Image 2026-09-12 at 3.38.01 PM.jpeg…]()
+ )
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
