@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://lnkd.in/p/dBEAHJqG | https://medium.com/@shivamsharma123jmt/demystifying-the-web-what-really-happens-when-you-type-a-url-into-your-browsers-ccabba19859a |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/shivamsharma-builds_completed-assignment-1-of-the-devops-micro-activity-7504218848993169409-J_c4?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFjV8ZYB_WqxLsiWN-Hz_euHg_8jctBR7PI&utm_campaign=copy_link | https://medium.com/@shivamsharma123jmt/demystifying-the-web-what-really-happens-when-you-type-a-url-into-your-browsers-ccabba19859a |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
