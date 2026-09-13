@@ -242,7 +242,7 @@ Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your p
 Paste your LinkedIn post URL here:
 
 ```text
-https://lnkd.in/p/dBEAHJqG
+https://www.linkedin.com/posts/shivamsharma-builds_completed-assignment-1-of-the-devops-micro-activity-7504218848993169409-J_c4?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAFjV8ZYB_WqxLsiWN-Hz_euHg_8jctBR7PI&utm_campaign=copy_link
 ```
 
 ---
@@ -252,19 +252,25 @@ https://lnkd.in/p/dBEAHJqG
 Paste the full text of your LinkedIn post here:
 
 Completed Assignment 1 of the DevOps Micro Internship (DMI) by Pravin Mishra 🚀
+
 This module covered key fundamental concepts behind modern DevOps and cloud software systems:
+
 1️⃣ ChatGPT as a Learning Assistant
 Used targeted prompting to break down complex system concepts into clear mental models and real-world examples.
+
 2️⃣ Internet & Networking Fundamentals
 Covered data transmission basics:
 Protocols & Packet Switching: How data is chunked, routed, and reassembled across networks.
 TCP/IP & Protocols: Reliable transport mechanics, handshakes, and the security roles of HTTP/HTTPS.
+
 3️⃣ App Architecture
 2-Tier: Direct client-to-database connections (simple, but hard to scale and secure).
 3-Tier: Adds an intermediate Backend/API layer for business logic, security, and independent database scaling.
+
 4️⃣ DNS Essentials
 How hierarchical name resolution maps domains to IP addresses.
 The explicit role of A records for IPv4 routing and CNAMEs for aliasing.
+
 5️⃣ VS Code Environment
 Configured a workstation setup with git integration and CLI extensions ready for infrastructure and scripting tasks.
 Excited to build on these core principles as we move into DevOps pipelines, cloud, containerization, and automation. 🚀
