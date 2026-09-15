@@ -33,7 +33,9 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+I believe that "consistent learning is more valuable than natural talent". Many people around me think you need to be exceptionally intelligent or have a perfect academic background to build a successful career in technology. I disagree with that. I believe that showing up every day, practicing regularly, and improving a little at a time creates better long-term results than relying on talent alone.
+
+This belief is the reason I am learning DevOps step by step. Even when I don't understand a concept immediately, I continue studying, asking questions, and applying what I learn. For me, discipline is not about being perfect—it is about staying committed when progress feels slow. I believe that persistence eventually beats potential.
 
 ---
 
@@ -55,11 +57,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Consistency produces better results than working only when I feel motivated.
 
 ### Evidence from my life
 
-Add your answer here...
+While learning Python and beginning my DevOps internships,I studied a little every day instead of waiting for the perfect mood.I completed assignments on time and understood concepts more clearly because regular practice built confidence.
 
 ---
 
@@ -67,11 +69,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+The fastest way to build a technical skill is by building and fixing real projects.
 
 ### Evidence from my life
 
-Add your answer here...
+I created a Python weather application and faced errors with APIs and code.Instead of giving up,I debbuged the problems and corrected them.That experience taught me more than simply reading theory or watching tutorials.
 
 ---
 
@@ -79,11 +81,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Asking questions early saves more time than struggling in silence.
 
 ### Evidence from my life
 
-Add your answer here...
+Whatever I confused about networking,DNS,DevOps concepts,I asked questions and clarified my doubts immediately.as a result understood the topics faster and was able to complete practical tasks with greater accuracy.
 
 ---
 
@@ -153,13 +155,55 @@ Hashtags:
 
 ## Your Article
 
-Add your answer here...
+From Local Projects to Production Systems: My 5-Year Blueprint as a Software Engineer
+
+Every developer reaches a point where they ask themselves a critical question: How am I going to stand out in an increasingly crowded tech landscape?
+
+For me, the answer isn't just writing more lines of code or learning the latest trendy syntax. It’s about fundamental shift in scope—moving from building isolated, local projects to designing resilient, production-ready systems that scale.
+
+Here is the exact blueprint for my next 5 years, how I’m approaching the transition, and why building in public is my primary catalyst.
+
+1. Bridging the Gap: Developer vs. Production Engineer
+Building locally is about making things work. Production engineering is about making things last.
+
+To bridge this gap, my focus centers on three core infrastructure pillars:
+ * Cloud Infrastructure & DevOps: Moving past single-instance deployments into scalable cloud environments, container orchestration, and Infrastructure as Code (IaC).
+ * Automated Pipelines (CI/CD): Replacing manual testing and deployment with robust automated pipelines that deliver code safely and predictably.
+ * Reliability, Monitoring & Security: Systems must fail gracefully. I’m deep-diving into observability (metrics, logs, traces), threat modeling, and proactive system health design.
+
++-----------------------------------------------------------------------+
+|                        THE EVOLUTION PATH                             |
++-----------------------------------------------------------------------+
+|  Local Developer        --->  Production-Grade Systems Engineer        |
+|  • Making it work             • Making it scalable, safe, & reliable  |
+|  • Manual deployments         • Automated CI/CD pipelines             |
+|  • Local environments         • Cloud infrastructure & IaC            |
++-----------------------------------------------------------------------+
+
+2. Beyond Code: Architectural Decision-Making & Leadership
+Technical competence is only half the battle. Long-term impact comes from how you collaborate and guide technical direction.
+Over the next 5 years, I am intentionally cultivating:
+ * Architectural Judgment: Evaluating trade-offs objectively—balancing performance, complexity, speed-to-market, and cost.
+ * Technical Leadership: Taking ownership of end-to-end features, writing clear technical specifications, and driving projects from concept to production.
+ * Mentorship: Bridging the gap for developers behind me by breaking down complex system concepts into clear, actionable pathways.
+
+3. Why I'm Documenting the Journey Publicly
+Having a target completely changes how you approach daily work. When you build with production in mind, every bug, architecture choice, and deployment failure becomes a lesson worth analyzing.
+I’m documenting this process publicly to hold myself accountable, refine my understanding through writing, and connect with engineers on a similar path.
+Current Tracker & Context:
+ * Program: DevOps & Systems Engineering Track
+ * Progress Dashboard: Track My Journey
+A special thanks to Pravin Mishra and Anjana Muthunayake for their mentorship, guidance, and continuous support as I build out this foundation.
+What does the professional you want to become look like?
+
+Are you aiming to deepen your domain expertise, pivot into system architecture, or transition into engineering leadership? Drop your thoughts in the comments below—I’d love to learn about your path!
+
 
 ### Public Link
 
 Paste your link here:
 
-`Add your URL here`
+`https://medium.com/@shivamsharma123jmt/from-local-projects-to-production-systems-my-5-year-blueprint-as-a-software-engineer-7374df043b18`
 
 ---
 
@@ -191,7 +235,11 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes 
+
+There was a time when I chose a shortcut instead of fully understanding a task. Although it helped me finish quickly, I did not feel satisfied afterward. I felt guilty because I knew the result did not truly reflect my ability or effort. The biggest emotion was regret, not because of the outcome, but because I missed an opportunity to learn something valuable.
+
+That experience changed my mindset. I realized that shortcuts may save a few minutes, but they often delay real growth. Since then, I have tried to complete my work honestly, ask questions when I do not understand something, and focus on building genuine skills rather than only finishing the task.
 
 ---
 
@@ -217,16 +265,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+2. Deep Work — Cal Newport
+3. The Psychology of Money — Morgan Housel
+4. The 7 Habits of Highly Effective People — Stephen R. Covey
+5. So Good They Can't Ignore You — Cal Newport
+6. The Lean Startup — Eric Ries
+7. The Effective Engineer — Edmond Lau
+8. Start With Why — Simon Sinek
+9. Mindset: The New Psychology of Success — Carol S. Dweck
+10. The DevOps Handbook — Gene Kim, Jez Humble, Patrick Debois & John Willis
 
 ---
 
@@ -255,16 +303,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Learning hours per week
+* DevOps and cloud skills completed
+* GitHub projects shipped and documented
+* Medium/LinkedIn technical articles published
+* Deep work and focused study sessions
+* Daily screen time and distraction tracking
+* Sleep hours and overall energy level
+* Exercise and physical activity
+* Monthly savings and personal spending tracker
+* Certifications and portfolio milestones achieved
 
 ---
 
@@ -290,7 +338,9 @@ Examples:
 
 Answer:
 
-Add your answer here...
+Yes 
+
+I wrote down my pending tasks, study goals, internship work, personal responsibilities, worries, ideas, and messages that needed attention. This helped me clear my mind and prioritize what is most important.
 
 ---
 
@@ -308,7 +358,9 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Monday–Friday: 7:00–8:30 PM — DevOps/DMI deep work and hands-on practice
+* Saturday: Attend DMI session and complete weekly assignment
+* Sunday: Review the week's progress, update GitHub, and write one learning note or blog
 
 ---
 
@@ -316,11 +368,13 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+* Days: Monday to Friday
+* Time: 7:00 PM – 8:30 PM
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+* 5 focused sessions (90 minutes each)
+* 1 weekly review session on Sunday
 
 ---
 
@@ -334,7 +388,11 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+* Keep my phone on Do Not Disturb during study sessions.
+* Do not open Instagram, YouTube, or other social media until the daily DMI task is completed.
+* Study only at my desk with VS Code and required learning resources open.
+* Follow the 50–10 focus rule: 50 minutes of deep work followed by a 10-minute break.
+* Record completed tasks before ending each study session to maintain consistency.
 
 ---
 
@@ -342,28 +400,50 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+The biggest insight I discovered is that I learn best through consistency rather than intensity. I do not need perfect conditions or long study hours to make progress. When I practice every day, build small projects, and document what I learn, my confidence and understanding improve much faster
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+My biggest weakness is overthinking before starting a task. Sometimes I spend too much time worrying about making mistakes instead of beginning the work. I noticed that once I start, the fear disappears, so my focus should be on taking the first step immediately.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+* Habit: 90 minutes of uninterrupted DevOps deep work with my phone on Do Not Disturb.
+
+* Time: Monday to Friday, 7:00 PM – 8:30 PM.
 
 ### LinkedIn Post
 
-Paste your LinkedIn post link here:
+🚀The common question everyone asks themselves is how they want to stand out from the crowd in the future.
+✅​To answer that, I mapped out my vision for the next 5 years: transitioning from a developer building local projects to an engineer who designs reliable, production-ready systems.
 
-`Add your URL here`
+​My goal isn't just to write code, but to understand how scalable systems work end-to-end:
+​Cloud Infrastructure & DevOps
+​Automated Pipelines & CI/CD
+​Reliability, Monitoring & Security
+
+​Beyond technical skills, I want to grow into a strong collaborator who can make sound architectural decisions, lead projects, and eventually mentor other developers transition from basic tutorials to real-world engineering.
+​I still have a lot to learn, but having a clear target changes how I approach every project today. I’m documenting this journey publicly—the learnings, challenges, and systems I build along the way.
+
+​📖 Read my full vision post here: https://lnkd.in/dFfgGBb8
+
+​Special thanks to Pravin Mishra and Anjana Muthunayake  for their guidance and support.
+
+​P.S. This post is part of https://lnkd.in/duy8n4ys
+You can track my progress here: https://lnkd.in/dMzjnr8Q
+
+​What does the professional you want to become look like? I'd love to hear your thoughts in the comments!
+
+​#SoftwareEngineering #DevOps #CloudComputing #CareerGrowth #BuildInPublic #TechJourney
+
+`https://lnkd.in/p/diayiswt`
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: **https://lnkd.in/p/diayiswt**  
+- Blog / Medium : **https://medium.com/@shivamsharma123jmt/from-local-projects-to-production-systems-my-5-year-blueprint-as-a-software-engineer-7374df043b18**  
 
 ---
 
