@@ -1,4 +1,4 @@
-# Assignment 6 — Capstone: Deploy the Book Review App with Docker Compose
+# Assignment 6 — Deploy the Book Review App with Docker Compose
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
