@@ -476,15 +476,15 @@ Week-10 is **5 assignment files**, each graded pass/fail — your LinkedIn post 
 
 | S. No. | Item | Comments | Link |
 |--------|------|----------|------|
-| 1 | Week-11 Class Recording | Watch the recording of the Week-11 live class on YouTube | - |
+| 1 | Week-11 Class Recording | Watch the recording of the Week-11 live class on YouTube | [YouTube](https://youtube.com/live/fscPDqPwewA?feature=share) |
 
 ---
 
 ### Week 11: Assignments Submission Guidelines – DevOps Micro Internship (DMI) Cohort-3
 
-* **Deadline - __**
+* **Deadline - 02 October 2026**
 
-Week-11 is **7 assignment files**, each graded pass/fail — your LinkedIn post and blog post for the week are scored separately below:
+Week-11 is **8 assignment files**, each graded pass/fail — your LinkedIn post and blog post for the week are scored separately below:
 
 | Assignment | Name | Points |
 |------------|------|:------:|
@@ -493,8 +493,9 @@ Week-11 is **7 assignment files**, each graded pass/fail — your LinkedIn post 
 | Assignment-3 | Docker Networking | 20 |
 | Assignment-4 | Docker Volumes | 20 |
 | Assignment-5 | Sharing the Docker Container on Docker Hub | 20 |
-| Assignment-6 | Capstone: Deploy a Production-Grade Stack for EpicBook | 20 |
-| Assignment-7 | AI-Assisted Docker Container Hardening Audit | 20 |
+| Assignment-6 | Deploy the Book Review App with Docker Compose | 20 |
+| Assignment-7 | Capstone: Deploy a Production-Grade Stack for The EpicBook | 20 |
+| Assignment-8 | AI-Assisted Docker Container Hardening Audit | 20 |
 | — | LinkedIn post | 10 |
 | — | Blog post | 30 |
 | **Total** | | **180** |
