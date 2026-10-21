@@ -38,7 +38,7 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task1-screenshot1.JPG>)
 
 ---
 
@@ -46,7 +46,7 @@ Add your screenshot here.
 
 Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
-Add your screenshot here, or write “Not applicable — using YAML manifests.”
+
 
 ---
 
@@ -60,7 +60,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task2-screenshot3.JPG>)
 
 ---
 
@@ -74,13 +74,13 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task3-screenshot4.JPG>)
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task3-screenshot5.JPG>)
 
 ---
 
@@ -94,13 +94,13 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task4-screenshot6.JPG>)
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task4-screenshot7.JPG>)
 
 ---
 
@@ -114,15 +114,15 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 12-assignment 10-task5-screenshot8.JPG>)
 ---
 
 #### Screenshot 9 — Backend startup logs and database connectivity evidence
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task5-screenshot9.JPG>)
 
 ---
 
@@ -136,13 +136,13 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task6-screenshot10.JPG>)
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task6-screenshot11.JPG>)
 
 ---
 
@@ -156,13 +156,13 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task7-screenshot12.JPG>)
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task7-screenshot13.JPG>)
 
 ---
 
@@ -176,31 +176,32 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task8-screenshot14.JPG>)
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task8-screenshot15.JPG>)
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 12-assignment 10-task8-screenshot16.JPG>)
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 10-task8-screenshot17.JPG>)
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -216,7 +217,7 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
-Add your screenshot here, or write “Not attempted.”
+![alt text](<screenshots/week 12-assignment 10-task9-screenshot19.JPG>)
 
 ---
 
@@ -230,11 +231,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+
 
 ---
 
@@ -244,31 +245,30 @@ Add your published LinkedIn post URL here.
 
 Describe the application components and user flows you successfully deployed and tested.
 
-Add your summary here.
+
 
 ## Issues and Fixes
 
 Describe the main issues encountered, their causes, and how you resolved them.
 
-Add your summary here.
+
 
 ## Tools and Sources Used
 
 List the documentation and tools that helped you complete the assignment.
 
-Add your tools and sources here.
 
 ## Optional Improvements
 
 Describe any optional improvements implemented, or write “Not attempted.”
 
-Add your summary here.
+
 
 ## Cleanup or Reuse Plan
 
 State which resources were removed or why the environment is being retained.
 
-Add your cleanup status or reuse plan here.
+
 
 ---
 

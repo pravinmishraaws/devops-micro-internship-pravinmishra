@@ -20,7 +20,7 @@ Create a clean working directory for all Pod-related files used in this lab.
 
 #### Screenshot 01 — Output of `pwd` showing the current directory ending in `/k8s-labs/pods`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 1-task1-screenshot1.JPG>)
 
 ---
 
@@ -34,14 +34,14 @@ Create an NGINX Pod directly from the command line, verify that it is running, a
 
 #### Screenshot 02 — Output of `kubectl run nginx-pod --image=nginx` showing the creation message, and `kubectl get pods` showing `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`, before deletion
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 1-task2-screenshot2.JPG>)
 
 ---
 
 #### Screenshot 03 — Output of `kubectl delete pod nginx-pod` showing the successful deletion message
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 12-assignment 1-task2-screenshot3.JPG>)
 ---
 
 # Task 3 — Create a Pod Declaratively Using YAML
@@ -54,19 +54,19 @@ Define the NGINX Pod in a YAML file, apply the manifest, and verify the resultin
 
 #### Screenshot 04 — The filename `nginx-pod.yaml` and the complete YAML manifest with clear, readable indentation
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 1-task3-screenshot4.JPG>)
 
 ---
 
 #### Screenshot 05 — Output of `kubectl apply -f nginx-pod.yaml` showing the successful creation message
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 12-assignment 1-task3-screenshot5.JPG>)
 ---
 
 #### Screenshot 06 — Output of `kubectl get pods` showing the declarative `nginx-pod` with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 1-task3-screenshot6.JPG>)
 
 ---
 
@@ -74,7 +74,9 @@ Add your screenshot here.
 
 **1. What is the difference between imperative and declarative Pod creation?**
 
-Add your answer here.
+Imperative Approach (kubectl run): Commands are executed directly against the Kubernetes API server from the command line. This method is fast, efficient, and ideal for quick experiments, ad-hoc testing, and troubleshooting. However, it lacks reproducibility, auditability, and history tracking.
+
+Declarative Approach (kubectl apply -f): The desired state of the workload is defined in a reusable configuration file (YAML). This allows configurations to be stored in version control systems (like Git), peer-reviewed by team members, shared across different environments, and reapplied consistently to ensure the cluster matches the desired state.
 
 ---
 
@@ -88,13 +90,13 @@ Inspect the running Pod, view its logs, and open a shell inside the NGINX contai
 
 #### Screenshot 07 — Output of `kubectl describe pod nginx-pod` showing the Pod name, `app=nginx` label, `Running` status, container name, and NGINX image
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 1-task4-screenshot7.JPG>)
 
 ---
 
 #### Screenshot 08 — Output of `kFilename: `08-pod-logs.png`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 1-task4-screenshot8.JPG>)
 
 If no logs appear, add a caption stating that the command completed without output.
 
@@ -102,8 +104,8 @@ If no logs appear, add a caption stating that the command completed without outp
 
 #### Screenshot 09 — Container shell opened using `kubectl exec -it nginx-pod -- /bin/bash`, showing `cd /usr/share/nginx/html`, `pwd`, and `ls -la`, with the directory path and default NGINX files visible before exiting
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 12-assignment 1-task4-screenshot9.JPG>)
 ---
 
 ### Task 5 — Share Your First Kubernetes Pod on WhatsApp Status

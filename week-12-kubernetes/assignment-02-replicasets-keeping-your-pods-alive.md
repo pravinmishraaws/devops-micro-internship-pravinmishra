@@ -32,7 +32,7 @@ Create and enter a dedicated directory for this ReplicaSet lab.
 
 #### Screenshot 01 — Output of `pwd` showing the working directory ending in `/k8s-labs/replicasets`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task1-screenshot1.JPG>)
 
 ---
 
@@ -40,13 +40,13 @@ Add your screenshot here.
 
 **1. Why is it useful to keep Kubernetes manifests in organized directories?**
 
-Add your answer here.
+Keeping manifests organized in dedicated directories (such as ~/k8s-labs/replicasets) ensures clean version control, makes it easier to apply and manage configurations per lab assignment, and prevents resource name collisions or accidental overwrites across different projects.
 
 ---
 
 **2. What file will you create in this directory for this assignment?**
 
-Add your answer here.
+I will create your ReplicaSet YAML configuration file (such as 01-replicaset.yaml or your specific lab manifest files) to define the desired state for your pods and replica counts.
 
 ---
 
@@ -60,39 +60,38 @@ Create a ReplicaSet that maintains three NGINX Pods.
 
 #### Screenshot 02 — Completed `nginx-replicaset.yaml` manifest showing `replicas: 3`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task2-screenshot2.JPG>)
 
 ---
 
 #### Screenshot 03 — Output of `kubectl apply -f nginx-replicaset.yaml`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task2-screenshot3.JPG>)
 
 ---
 
 #### Screenshot 04 — Output of `kubectl get pods` showing three NGINX Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 12-assignment 2-task2-screenshot4.JPG>)
 ---
 
 ### Notes
 
 **1. What does `replicas: 3` mean in this manifest?**
 
-Add your answer here.
+It instructs Kubernetes to ensure that exactly three identical instances (pods) of the NGINX application are running at all times. If a pod crashes or is deleted, the ReplicaSet will automatically spin up a replacement to maintain the desired count of three.
 
 ---
 
 **2. Why must `selector.matchLabels` match `template.metadata.labels`?**
 
-Add your answer here.
+Kubernetes uses selector.matchLabels to identify which pods fall under the management of this ReplicaSet. These labels must exactly match the pod template labels (template.metadata.labels) so that the ReplicaSet knows which newly created pods it is responsible for tracking and controlling.
 
 ---
 
 **3. What image and image tag are used for the NGINX container?**
 
-Add your answer here.
+The official NGINX image (nginx) with the latest tag is used in this configuration.
 
 ---
 
@@ -106,19 +105,18 @@ Delete one Pod managed by the ReplicaSet and observe Kubernetes automatically cr
 
 #### Screenshot 05 — Output of the command deleting one ReplicaSet-managed Pod
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task3-screenshot5.JPG>)
 
 ---
 
 #### Screenshot 06 — Output of `kubectl get pods` showing the replacement Pod with a different name from the deleted Pod
 
-Add your screenshot here.
-
+![alt text](<screenshots/week 12-assignment 2-task3-screenshot6.JPG>)
 ---
 
 #### Screenshot 07 — Output showing three NGINX Pods with `1/1` under `READY` and `Running` under `STATUS` again
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task3-screenshot7.JPG>)
 
 ---
 
@@ -126,19 +124,20 @@ Add your screenshot here.
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+Kubernetes immediately detected that the active pod count dropped below the desired count of 3, prompting the ReplicaSet controller to automatically create a brand new replacement pod.
+
 
 ---
 
 **2. How does the ReplicaSet know that a replacement Pod is needed?**
 
-Add your answer here.
+The ReplicaSet controller continuously monitors the cluster state through the API server. When it compares the actual number of pods matching its selector.matchLabels against the replicas specification (3), it triggers creation or deletion actions to reconcile the difference.
 
 ---
 
 **3. What proves that auto-healing worked successfully?**
 
-Add your answer here.
+The active pod list returned to exactly three running instances, and the newly created pod possessed a distinct random suffix/name while achieving Running status and 1/1 readiness.
 
 ---
 
@@ -152,13 +151,13 @@ Scale the ReplicaSet from three NGINX Pods to five NGINX Pods by changing the YA
 
 #### Screenshot 08 — Updated `nginx-replicaset.yaml` showing `replicas: 5`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task4-screenshot8.JPG>)
 
 ---
 
 #### Screenshot 09 — Output of `kubectl get pods` showing five NGINX Pods with `1/1` under `READY` and `Running` under `STATUS`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 2-task4-screenshot9.JPG>)
 
 ---
 
@@ -166,19 +165,19 @@ Add your screenshot here.
 
 **1. What change did you make to scale the ReplicaSet?**
 
-Add your answer here.
+I updated the replicas field in the nginx-replicaset.yaml manifest file from 3 to 5 and reapplied it using kubectl apply
 
 ---
 
 **2. Did you manually create the additional Pods? Explain why or why not.**
 
-Add your answer here.
+No, I did not manually create the additional pods. The ReplicaSet controller automatically detected the new desired state (replicas: 5) and dynamically provisioned two new pods to reconcile the difference.
 
 ---
 
 **3. What would happen if you changed the replica count from five back to three?**
 
-Add your answer here.
+The ReplicaSet controller would automatically select and terminate two of the running pods to bring the active count back down to the desired total of three.
 
 ---
 
@@ -200,13 +199,13 @@ Do not share sensitive information, cluster credentials, tokens, or kubeconfig d
 
 #### Screenshot 10 — Published LinkedIn post showing your name, the required explanation, and the attached Pod screenshot
 
-Add your screenshot here.
+
 
 ---
 
 ### Post Link
 
-Add the URL of your published LinkedIn post here.
+
 
 ---
 

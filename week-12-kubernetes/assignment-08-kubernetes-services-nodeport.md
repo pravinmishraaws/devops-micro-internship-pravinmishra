@@ -20,17 +20,19 @@ Create and enter a dedicated directory for the NodePort Service lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/services/nodeport`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task1-screenshot1.JPG>)
 
 ### Notes
 
 **1. What is the difference between ClusterIP and NodePort?**
 
-Add your answer here.
+ClusterIP is the default Kubernetes Service type that exposes the service on an internal, cluster-scoped IP address. It is only reachable from within the cluster while
+
+NodePort builds on top of ClusterIP by allocating a static port (typically in the 30000–32767 range) across every cluster node. Any traffic sent to <node-ip>:<node-port> is automatically routed to the internal ClusterIP service and then to the backend Pods, enabling external traffic to enter the cluster.
 
 **2. What does a NodePort Service allow users to do?**
 
-Add your answer here.
+A NodePort Service allows external clients, systems, and users outside the Kubernetes cluster to access applications running inside Pods using a node's IP address combined with the assigned port number, without requiring a cloud-provider load balancer.
 
 ---
 
@@ -44,27 +46,27 @@ Create a healthy NGINX Deployment that can act as the backend for the NodePort S
 
 #### Screenshot 2 — Completed `00-nginx-deploy.yaml` manifest
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task2-screenshot2.JPG>)
 
 ---
 
 #### Screenshot 3 — Output showing successful rollout and two ready NGINX Pods
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task2-screenshot3.JPG>)
 
 ### Notes
 
 **1. Which label will the NodePort Service use to find the NGINX Pods?**
 
-Add your answer here.
+The NodePort Service will use the label selector app: nginx, which matches the labels defined on the Deployment template and pods.
 
 **2. Why must the Pods be ready before they can receive Service traffic?**
 
-Add your answer here.
+Pods must pass their readiness probe to ensure the application inside is fully initialized and capable of serving web requests. If a pod is not ready, Kubernetes excludes its IP address from the Service's endpoint list, preventing clients from hitting broken or starting-up containers.
 
 **3. What port does the NGINX container listen on?**
 
-Add your answer here.
+The NGINX container listens on port 80.
 
 ---
 
@@ -78,32 +80,37 @@ Create a NodePort Service that exposes the NGINX application through a port on e
 
 #### Screenshot 4 — Completed `01-nginx-svc-nodeport.yaml` manifest
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task3-screenshot4.JPG>)
 
 ---
 
 #### Screenshot 5 — Output showing the NodePort Service and its endpoints or EndpointSlices
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task3-screenshot5.JPG>)
 
 ### Notes
 
 **1. What is the purpose of `type: NodePort`?**
 
-Add your answer here.
+type: NodePort instructs Kubernetes to open a specific port across all cluster worker nodes, forwarding incoming traffic on that port directly to the Service.
+
+
 
 **2. What is the difference between `port`, `targetPort`, and `nodePort`?**
 
-Add your answer here.
+port: The virtual port exposed internally by the ClusterIP service for other pods within the cluster to use.
+
+targetPort: The port on the backend Pod container where the application (NGINX) is listening.
+
+nodePort: The external port opened on every cluster node IP that external clients connect to.
 
 **3. What NodePort was assigned or selected in your environment?**
 
-Add your answer here.
+(Example output) 31245 (Your assigned port will vary depending on what Kubernetes auto-assigns in the 30000-32767 range).
 
 **4. Why do Service endpoints need ready Pods?**
 
-Add your answer here.
-
+Endpoints map traffic to healthy backend instances. If a Pod is not ready, routing traffic to it would result in connection errors, timeouts, or HTTP 5xx errors for users.
 ---
 
 # Task 4 — Find a Node IP and Test the NodePort
@@ -116,13 +123,13 @@ Find a reachable node IP and access the NodePort Service.
 
 #### Screenshot 6 — Output of `kubectl get nodes -o wide`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task4-screenshot6.JPG>)
 
 ---
 
 #### Screenshot 7 — Output showing the `tester` Pod running
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task4-screenshot7.JPG>)
 
 ---
 
@@ -130,21 +137,28 @@ Add your screenshot here.
 
 If neither route is supported by your environment, include the failed request output and ready endpoint evidence, and explain the limitation in your Notes.
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task4-screenshot8.JPG>)
 
 ### Notes
 
 **1. Which node IP and NodePort did you test?**
 
-Add your answer here.
+Node Internal IP:192.168.49.2
+  
+
+NodePort:  32614
+
+
 
 **2. Was your laptop able to reach the NodePort directly? Explain your result.**
 
-Add your answer here.
+Depending on the environment (like Minikube, kind, or Docker Desktop), direct laptop access might require a specific tunneling command (e.g., minikube service) or port forwarding because the nodes run inside isolated Docker containers or virtual machines. When testing via the in-cluster tester pod using the node internal IP, requests succeed directly because the container shares the internal cluster network path.
 
 **3. Why can external NodePort access behave differently in Minikube, kind, Docker Desktop, and cloud clusters?**
 
-Add your answer here.
+Minikube / kind / Docker Desktop: Nodes run as containerized instances or VMs on a local host, meaning their internal IPs are often not routable directly from your physical laptop unless port forwarding, node port tunnels, or specific Docker network routing bridges are configured.
+
+Cloud Clusters (AWS EKS, Azure AKS, GCP GKE): Nodes are provisioned with routable cloud VPC IPs or virtual network interfaces where security groups, firewalls, and cloud load balancers govern external accessibility.
 
 ---
 
@@ -160,33 +174,33 @@ Complete the Evidence and Notes below only if you attempted this optional task.
 
 #### Screenshot 9 — `02-nginx-svc-selector-broken.yaml` showing the incorrect selector
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task5-screenshot9.JPG>)
 
 ---
 
 #### Screenshot 10 — Empty endpoints or EndpointSlice output after applying the broken selector
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 12-assignment 8-task5-screenshot10.JPG>)
 ---
 
 #### Screenshot 11 — Restored endpoints or EndpointSlices after applying the original Service manifest
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task5-screenshot11.JPG>)
 
 ### Notes
 
 **1. Why did the Service endpoints become empty?**
 
-Add your answer here.
+The Service uses its label selector (app: does-not-match) to dynamically query active Pods. Because no running NGINX pods possessed that specific label, the control plane removed all target IP endpoints from the Service.
 
 **2. Why is NodePort only useful when matching ready Pods exist?**
 
-Add your answer here.
+A NodePort service acts as a routing gateway; without active backend endpoints, incoming packets hitting the node port have nowhere to be forwarded, leading to connection timeouts.
 
 **3. How did you restore the backend connectivity?**
 
-Add your answer here.
+By reapplying the original manifest containing the correct selector (app: nginx), which re-establishes the endpoint mappings to the running NGINX pods.
 
 ---
 
@@ -200,27 +214,28 @@ Delete one NGINX Pod and observe its replacement while the Service continues rou
 
 #### Screenshot 12 — Output of the Pod deletion command
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task6-screenshot12.JPG>)
 
 ---
 
 #### Screenshot 13 — Output showing the replacement Pod and two running, ready Pods
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment 8-task6-screenshot13.JPG>)
 
 ### Notes
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+The deleted pod terminated immediately, dropping the active replica count to 1. The Kubernetes control plane detected the discrepancy against the desired replica count of 2 and immediately scheduled a brand new replacement Pod.
+
 
 **2. Which Kubernetes resource created the replacement Pod?**
 
-Add your answer here.
+The Deployment's underlying ReplicaSet managed the lifecycle loop and created the replacement pod
 
 **3. Why can the NodePort Service continue working during Pod churn?**
 
-Add your answer here.
+Because the Deployment maintains multiple replicas (rolling updates with maxUnavailable: 0), at least one healthy NGINX pod remains running and ready to handle incoming requests while the replacement pod initializes. Additionally, EndpointSlices dynamically update to route traffic only to healthy, ready pods.
 
 ---
 
@@ -234,11 +249,11 @@ Share what you learned about NodePort Services, backend Pods, and network access
 
 #### Screenshot 14 — Published LinkedIn post about your NodePort Service lab
 
-Add your screenshot here.
+
 
 #### Linkedin post link
 
-Add your Linkdin post link.
+
 
 ---
 

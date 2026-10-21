@@ -20,7 +20,7 @@ Confirm that you are connected to your learning cluster and inspect existing Dep
 
 ### Evidence
 
-No screenshots required.
+
 
 ---
 
@@ -34,7 +34,7 @@ Create and enter a dedicated directory for the auto-scaling lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/autoscaling`
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task1-screenshot1.JPG>)
 
 ---
 
@@ -42,13 +42,13 @@ Add your screenshot here.
 
 **1. What is the difference between auto-healing and auto-scaling?**
 
-Add your answer here.
+Auto-healing (handled by controllers like ReplicaSets and Deployments using health probes or restart policies) detects when individual pods fail or become unhealthy and restarts or replaces them to maintain the desired pod count. Auto-scaling (handled by the Horizontal Pod Autoscaler) dynamically increases or decreases the total number of pod replicas based on resource utilization metrics (like CPU or memory) to handle fluctuating workloads.
 
 ---
 
 **2. Which Kubernetes feature will you use for CPU-based auto-scaling?**
 
-Add your answer here.
+The Horizontal Pod Autoscaler (HPA), which automatically scales the number of pods in a deployment based on observed CPU utilization (or custom metrics).
 
 ---
 
@@ -62,25 +62,25 @@ Create a Deployment with two replicas, delete one Pod, and observe Kubernetes cr
 
 #### Screenshot 2 — Completed `autohealing-deployment.yaml` manifest
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task2-screenshot2.JPG>)
 
 ---
 
 #### Screenshot 3 — Output of `kubectl get pods` showing two running Pods before deletion
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task2-screenshot3.JPG>)
 
 ---
 
 #### Screenshot 4 — Output of the `kubectl delete pod` command
 
-Add your screenshot here.
 
+![alt text](<screenshots/week 12-assignment4 -task2-screenshot4.JPG>)
 ---
 
 #### Screenshot 5 — Output of `kubectl get pods` showing the replacement Pod and two running Pods
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task2-screenshot5.JPG>)
 
 ---
 
@@ -88,19 +88,19 @@ Add your screenshot here.
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+The Kubernetes deployment controller immediately detected that the active pod count dropped below the desired specification of two replicas and automatically triggered the creation of a brand new replacement pod
 
 ---
 
 **2. What Kubernetes resource maintains the desired replica count for this Deployment?**
 
-Add your answer here.
+The Deployment controller (acting through its underlying ReplicaSet) continuously monitors cluster state and maintains the desired replica count.
 
 ---
 
 **3. What proves that auto-healing worked?**
 
-Add your answer here.
+The active pod count successfully returned to two running instances, and a new pod with a distinct name/suffix was automatically provisioned and reached the ready state without manual intervention
 
 ---
 
@@ -114,13 +114,13 @@ Create a Deployment with CPU resource requests and limits so that HPA can calcul
 
 #### Screenshot 6 — Completed `hpa-deployment.yaml` manifest showing CPU requests and limits
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task3-screenshot6.JPG>)
 
 ---
 
 #### Screenshot 7 — Output showing `nginx-deployment` and its running Pods
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task3-screenshot7.JPG>)
 
 ---
 
@@ -128,19 +128,19 @@ Add your screenshot here.
 
 **1. What does `cpu: "100m"` mean?**
 
-Add your answer here.
+It represents 100 millicores (or 0.1 of a CPU core), which is the guaranteed minimum CPU resource allocated to the container.
 
 ---
 
 **2. What is the difference between a CPU request and a CPU limit?**
 
-Add your answer here.
+A CPU request is the guaranteed amount of CPU allocated to the container when it runs, used by Kubernetes for scheduling. A CPU limit is the maximum amount of CPU the container is allowed to consume on the node.
 
 ---
 
 **3. Why does CPU-based HPA require CPU requests?**
 
-Add your answer here.
+The HPA calculates CPU utilization as a percentage of the requested CPU (Current CPU Usage $\div$ Requested CPU). Without a defined CPU request, the autoscaler cannot determine the baseline capacity against which to measure utilization.
 
 ---
 
@@ -154,7 +154,7 @@ Ensure the cluster can collect resource metrics for the HPA.
 
 #### Screenshot 8 — Output showing Metrics Server running, or `kubectl top pods` displaying Pod metrics
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task4-screenshot8.JPG>)
 
 ---
 
@@ -162,19 +162,19 @@ Add your screenshot here.
 
 **1. Why does HPA need Metrics Server?**
 
-Add your answer here.
+The HPA relies on the Metrics Server to gather real-time resource utilization metrics (such as CPU and memory usage) for pods. Without these metrics, the autoscaler cannot evaluate whether scaling thresholds have been exceeded.
 
 ---
 
 **2. What issue can occur if Metrics Server is not working?**
 
-Add your answer here.
+The HPA will be unable to fetch usage data, resulting in unknown or missing utilization metrics (often shown as <unknown> in kubectl get hpa), preventing the autoscaler from scaling the deployment up or down.
 
 ---
 
 **3. What does `kubectl top pods` help you check?**
 
-Add your answer here.
+It provides a real-time snapshot of actual CPU and memory consumption across your active pods, helping you verify that resource usage reporting is functioning correctly.
 
 ---
 
@@ -188,13 +188,14 @@ Create an HPA that keeps at least two Pods running and can scale up to five Pods
 
 #### Screenshot 9 — The imperative command output OR completed `hpa-nginx.yaml` manifest
 
-Add your screenshot here.
+
+![alt text](<screenshots/week 12-assignment4 -task5-screenshot9.JPG>)
 
 ---
 
 #### Screenshot 10 — Output of `kubectl get hpa` and the relevant `kubectl describe hpa` command
 
-Add your screenshot here.
+![alt text](<screenshots/week 12-assignment4 -task5-screenshot10.JPG>)
 
 ---
 
@@ -202,25 +203,25 @@ Add your screenshot here.
 
 **1. What does `minReplicas: 2` mean?**
 
-Add your answer here.
+It ensures that the Horizontal Pod Autoscaler will never scale the deployment down below 2 pods, maintaining a baseline capacity for availability and traffic load.
 
 ---
 
 **2. What does `maxReplicas: 5` mean?**
 
-Add your answer here.
+It sets the upper limit on scaling, ensuring the autoscaler cannot provision more than 5 pod replicas regardless of how high CPU utilization climbs, protecting cluster resources.
 
 ---
 
 **3. What does `averageUtilization: 50` mean?**
 
-Add your answer here.
+It specifies the target threshold (50% of the requested CPU) that triggers scaling actions. If the average CPU usage across pods exceeds 50% of their requested allocation, the HPA will scale up replicas.
 
 ---
 
 **4. Why should only one HPA manage a Deployment at a time?**
 
-Add your answer here.
+Multiple autoscalers targeting the same deployment would issue conflicting scaling commands (e.g., one trying to scale up while another scales down), leading to instability, thrashing, and unpredictable replica counts.
 
 ---
 
@@ -238,13 +239,13 @@ Task status: Add your status here.
 
 #### Screenshot 11 — Terminal showing the CPU-load command running inside the selected Pod
 
-Add your screenshot here if completed.
+![alt text](<screenshots/week 12-assignment4 -task6-screenshot11.JPG>)
 
 ---
 
 #### Screenshot 12 — Output of `kubectl get hpa` and `kubectl get pods` while HPA evaluates or changes the replica count
 
-Add your screenshot here if completed.
+![alt text](<screenshots/week 12-assignment4 -task6-screenshot12.JPG>)
 
 ---
 
@@ -254,19 +255,20 @@ Complete these answers only if you perform the optional test.
 
 **1. Did the HPA change the number of Pods? Explain what you observed.**
 
-Add your answer here.
+Yes. Once the load generator increased CPU utilization above the 50% target threshold, the HPA automatically triggered a scale-up event, increasing the replica count of nginx-deployment to handle the incoming traffic load.
+
 
 ---
 
 **2. If scaling did not happen, what are two possible reasons?**
 
-Add your answer here, or write “Not applicable — scaling occurred.”
+Not applicable  scaling occurred. (Alternatively: Insufficient time for metrics aggregation, or CPU requests/limits not being properly configured on the container).
 
 ---
 
 **3. Why is automatic scale-down useful after traffic decreases?**
 
-Add your answer here.
+It ensures efficient utilization of cluster resources and reduces infrastructure compute costs by automatically releasing unneeded pod replicas when peak traffic subsides.
 
 ---
 
@@ -276,11 +278,11 @@ Add your answer here.
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-Add your screenshot here.
+
 
 #### Linkedin Post Link
 
-Add your link here
+
 
 ---
 
