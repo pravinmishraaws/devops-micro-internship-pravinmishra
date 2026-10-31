@@ -1,4 +1,4 @@
-# Assignment — Deploy EpicBook with Terraform and Ansible Roles
+# Assignment 05 — Deploy EpicBook with Terraform and Ansible Roles
 
 Part of the DevOps Micro Internship (DMI) with Agentic AI
 
