@@ -150,6 +150,24 @@ Add your screenshot here.
 
 ---
 
+# Task 9 — Share Your Progress on WhatsApp
+
+## Goal
+
+Publish a WhatsApp Status showing a screenshot of your active Python virtual environment and Ansible version, a short caption about what you completed and learned, and your personal DMI progress link.
+
+Get your progress link from **DMI Leaderboard → Your name → Share your progress**.
+
+### Evidence
+
+#### Screenshot 13 — Published WhatsApp Status showing your Ansible workstation screenshot, caption, and personal DMI progress link
+
+Add your screenshot here.
+
+> **Privacy Note:** Do not display private keys, credentials, private messages, phone numbers, or other sensitive information.
+
+---
+
 # Assignment Questions
 
 Answer the following in your own words:
@@ -230,7 +248,8 @@ Confirm that the following files are included in your assignment workspace:
 - [ ] Task 7: `pre-commit run --all-files` completes successfully
 - [ ] Task 8: `README.md` contains your full name and workstation details
 - [ ] Task 8: “New Machine? Do This” checklist contains 10–12 items
-- [ ] All 12 required screenshots are included
+- [ ] Task 9: WhatsApp Status published with the workstation screenshot, caption, and DMI progress link
+- [ ] All 13 required screenshots are included
 - [ ] Assignment questions are answered
 - [ ] No sensitive information is exposed
 
